@@ -1,0 +1,119 @@
+{
+ "v": 1,
+ "capturedAt": "2026-07-06T11:42:14.485Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/28788868134",
+ "record": {
+  "date": "2026-07-06",
+  "lead": "sponsors/sindresorhus trending on GitHub (352 stars today)",
+  "counts": {
+   "accepted": 10,
+   "skipped": 4
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "DeepSeek V4 Flash holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "sponsors/sindresorhus trending on GitHub (352 stars today)",
+    "source": "curated",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "sourcegraph.cody-ai downloads down 50.4% on vscode",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-2",
+    "headline": "Openai Api is degraded",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "GPT-4o-mini moved from rank 25 to 20",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "GPT-5.6 Sol Ultra will be in Codex",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-5",
+    "headline": "@anthropic-ai/sdk on npm -30% vs baseline",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "skip",
+    "gate": "model-dedup",
+    "reason": "same rank move already shipped for \"gpt-4o-mini\"",
+    "headline": "OpenAI: GPT-4o-mini up 5 ranks on OpenRouter weekly",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "ggml-hip: enable -ffast-math for HIP builds by a-huk · Pull Request #23862 · ggml-org/llama.cpp",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-8",
+    "headline": "WorldDirector: Building Controllable World Simulators with Persistent Dynamic Memory",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "Alignment Is All You Need For X-to-4D Generation",
+    "source": "curated",
+    "slot": 7
+   },
+   {
+    "verdict": "skip",
+    "gate": "sdk-dedup",
+    "reason": "same package already covered under wording drift",
+    "headline": "sourcegraph.cody-ai",
+    "source": "supplement"
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-GitHub.copilot",
+    "headline": "GitHub.copilot (vscode) down 48%",
+    "source": "supplement",
+    "slot": 8
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-Codeium.codeium",
+    "headline": "Codeium.codeium (vscode) down 39%",
+    "source": "supplement",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-rotated",
+    "reason": "lead \"DeepSeek V4 Flash holds #1 on OpenRouter\" led 5 consecutive days — promoted \"sponsors/sindresorhus trending on GitHub (352 stars today)\"",
+    "lead": "sponsors/sindresorhus trending on GitHub (352 stars today)"
+   }
+  ]
+ }
+}
