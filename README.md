@@ -27,6 +27,14 @@ snapshots/YYYY/MM/YYYY-MM-DD/
 
 Events append hourly (the live window is ~4h, so hourly capture with drift tolerance loses nothing in normal operation). Snapshots are written once per UTC day (first tick of the day) and never overwritten.
 
+## Licence
+
+The gawk-data dataset (the compilation, envelopes, and layout) is licensed under **[CC BY-SA 4.0](LICENSE)** (Creative Commons Attribution-ShareAlike 4.0 International).
+
+- **Free for everyone**: use, share, and build on it — with attribution to gawk.dev, and derivatives shared under the same licence.
+- **ShareAlike is deliberate**: every public copy of this data stays open. Organisations that need to ingest it into closed commercial products can contact gawk.dev about a separate commercial licence (the [ecosyste.ms](https://ecosyste.ms) model).
+- **Scope caveat**: this licence covers gawk's compilation and capture envelopes. The underlying records are facts captured verbatim from public APIs and remain subject to their upstream terms (GitHub, GitLab, OpenRouter, package registries). gawk-data archives public metadata and telemetry only — event ids, timestamps, public usernames, repo names, declared statuses, download counts. No emails, no private data, no repository content.
+
 ## Provenance
 
 Written by [`data-archive.yml`](https://github.com/Neelagiri65/aipulse/blob/main/.github/workflows/data-archive.yml) in the gawk repo. The archiver is fail-loud: a red workflow run means a capture problem, never silent invention.
