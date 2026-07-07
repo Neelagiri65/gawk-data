@@ -1,0 +1,630 @@
+{
+ "v": 1,
+ "capturedAt": "2026-07-07T00:15:40.223Z",
+ "endpoint": "/api/v1/status",
+ "record": {
+  "data": {
+   "claude-code": {
+    "status": "degraded",
+    "statusSourceId": "anthropic-status",
+    "lastCheckedAt": "2026-07-07T00:15:44.895Z",
+    "openIssues": 9482,
+    "activeIncidents": [
+     {
+      "id": "d23j8s7t8rx2",
+      "name": "Claude Tag seeing elevated GitHub operation failures",
+      "status": "investigating",
+      "createdAt": "2026-07-06T21:49:14.397Z"
+     }
+    ],
+    "history": [
+     {
+      "date": "2026-07-01",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-02",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "lcccgkzvj2yx",
+        "name": "Elevated errors on Claude Opus 4.8",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-02T00:38:30.698Z",
+        "resolvedAt": "2026-07-02T01:19:36.020Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-03",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "c0052w6jxl47",
+        "name": "Elevated errors across many models",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-03T23:42:20.794Z",
+        "resolvedAt": "2026-07-04T00:20:18.266Z"
+       },
+       {
+        "id": "mphfs246cjg1",
+        "name": "Elevated errors on Claude Fable 5 and Claude Mythos 5",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-03T21:54:20.413Z",
+        "resolvedAt": "2026-07-03T22:06:42.392Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-04",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "c0052w6jxl47",
+        "name": "Elevated errors across many models",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-03T23:42:20.794Z",
+        "resolvedAt": "2026-07-04T00:20:18.266Z"
+       }
+      ],
+      "sampleCount": 662
+     },
+     {
+      "date": "2026-07-05",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 824
+     },
+     {
+      "date": "2026-07-06",
+      "worstStatus": "partial_outage",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "d23j8s7t8rx2",
+        "name": "Claude Tag seeing elevated GitHub operation failures",
+        "status": "investigating",
+        "impact": "minor",
+        "createdAt": "2026-07-06T21:49:14.397Z"
+       },
+       {
+        "id": "tl8x3p1msff2",
+        "name": "Elevated errors on several models",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-06T07:36:23.506Z",
+        "resolvedAt": "2026-07-06T09:13:37.323Z"
+       }
+      ],
+      "sampleCount": 610
+     },
+     {
+      "date": "2026-07-07",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "d23j8s7t8rx2",
+        "name": "Claude Tag seeing elevated GitHub operation failures",
+        "status": "investigating",
+        "impact": "minor",
+        "createdAt": "2026-07-06T21:49:14.397Z"
+       }
+      ],
+      "sampleCount": 4
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "claude-code",
+     "host": "api.anthropic.com",
+     "kind": "api-auth",
+     "state": "reachable",
+     "latencyMs": 191,
+     "checkedAt": "2026-07-07T00:14:10.889Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "openai-api": {
+    "status": "degraded",
+    "statusSourceId": "openai-status",
+    "lastCheckedAt": "2026-07-07T00:15:44.895Z",
+    "activeIncidents": [
+     {
+      "id": "01KWDW344V7XWEQERJSEW62W57",
+      "name": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
+      "status": "investigating",
+      "createdAt": "2026-07-01T03:38:18Z"
+     }
+    ],
+    "history": [
+     {
+      "date": "2026-07-01",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01KWDW344V7XWEQERJSEW62W57",
+        "name": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
+        "status": "investigating",
+        "impact": "minor",
+        "createdAt": "2026-07-01T03:38:18Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-02",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01KWDW344V7XWEQERJSEW62W57",
+        "name": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
+        "status": "investigating",
+        "impact": "minor",
+        "createdAt": "2026-07-01T03:38:18Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-03",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01KWDW344V7XWEQERJSEW62W57",
+        "name": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
+        "status": "investigating",
+        "impact": "minor",
+        "createdAt": "2026-07-01T03:38:18Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-04",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01KWDW344V7XWEQERJSEW62W57",
+        "name": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
+        "status": "investigating",
+        "impact": "minor",
+        "createdAt": "2026-07-01T03:38:18Z"
+       }
+      ],
+      "sampleCount": 662
+     },
+     {
+      "date": "2026-07-05",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01KWDW344V7XWEQERJSEW62W57",
+        "name": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
+        "status": "investigating",
+        "impact": "minor",
+        "createdAt": "2026-07-01T03:38:18Z"
+       }
+      ],
+      "sampleCount": 824
+     },
+     {
+      "date": "2026-07-06",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01KWDW344V7XWEQERJSEW62W57",
+        "name": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
+        "status": "investigating",
+        "impact": "minor",
+        "createdAt": "2026-07-01T03:38:18Z"
+       }
+      ],
+      "sampleCount": 610
+     },
+     {
+      "date": "2026-07-07",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01KWDW344V7XWEQERJSEW62W57",
+        "name": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
+        "status": "investigating",
+        "impact": "minor",
+        "createdAt": "2026-07-01T03:38:18Z"
+       }
+      ],
+      "sampleCount": 4
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "openai-api",
+     "host": "api.openai.com",
+     "kind": "api-auth",
+     "state": "reachable",
+     "latencyMs": 112,
+     "checkedAt": "2026-07-07T00:14:10.889Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "codex": {
+    "status": "operational",
+    "statusSourceId": "openai-status",
+    "lastCheckedAt": "2026-07-07T00:15:44.895Z",
+    "activeIncidents": [
+     {
+      "id": "01KWDW344V7XWEQERJSEW62W57",
+      "name": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
+      "status": "investigating",
+      "createdAt": "2026-07-01T03:38:18Z"
+     }
+    ],
+    "history": [
+     {
+      "date": "2026-07-01",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01KWDW344V7XWEQERJSEW62W57",
+        "name": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
+        "status": "investigating",
+        "impact": "minor",
+        "createdAt": "2026-07-01T03:38:18Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-02",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01KWDW344V7XWEQERJSEW62W57",
+        "name": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
+        "status": "investigating",
+        "impact": "minor",
+        "createdAt": "2026-07-01T03:38:18Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-03",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01KWDW344V7XWEQERJSEW62W57",
+        "name": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
+        "status": "investigating",
+        "impact": "minor",
+        "createdAt": "2026-07-01T03:38:18Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-04",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01KWDW344V7XWEQERJSEW62W57",
+        "name": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
+        "status": "investigating",
+        "impact": "minor",
+        "createdAt": "2026-07-01T03:38:18Z"
+       }
+      ],
+      "sampleCount": 662
+     },
+     {
+      "date": "2026-07-05",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01KWDW344V7XWEQERJSEW62W57",
+        "name": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
+        "status": "investigating",
+        "impact": "minor",
+        "createdAt": "2026-07-01T03:38:18Z"
+       }
+      ],
+      "sampleCount": 824
+     },
+     {
+      "date": "2026-07-06",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01KWDW344V7XWEQERJSEW62W57",
+        "name": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
+        "status": "investigating",
+        "impact": "minor",
+        "createdAt": "2026-07-01T03:38:18Z"
+       }
+      ],
+      "sampleCount": 610
+     },
+     {
+      "date": "2026-07-07",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01KWDW344V7XWEQERJSEW62W57",
+        "name": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
+        "status": "investigating",
+        "impact": "minor",
+        "createdAt": "2026-07-01T03:38:18Z"
+       }
+      ],
+      "sampleCount": 4
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "codex",
+     "host": "api.openai.com",
+     "kind": "api-auth",
+     "state": "reachable",
+     "latencyMs": 92,
+     "checkedAt": "2026-07-07T00:14:10.889Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "copilot": {
+    "status": "operational",
+    "statusSourceId": "github-status",
+    "lastCheckedAt": "2026-07-07T00:15:44.895Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-07-01",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "rl7f90w0n0gq",
+        "name": "Delays in copilot budget limits resets for some users",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-01T10:51:33.331Z",
+        "resolvedAt": "2026-07-01T13:26:06.678Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-02",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-03",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-04",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 662
+     },
+     {
+      "date": "2026-07-05",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 824
+     },
+     {
+      "date": "2026-07-06",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 610
+     },
+     {
+      "date": "2026-07-07",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 4
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "copilot",
+     "host": "api.github.com",
+     "kind": "api",
+     "state": "reachable",
+     "latencyMs": 16,
+     "checkedAt": "2026-07-07T00:14:10.889Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "windsurf": {
+    "status": "operational",
+    "statusSourceId": "windsurf-status",
+    "lastCheckedAt": "2026-07-07T00:15:44.895Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-07-01",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-02",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-03",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-04",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 662
+     },
+     {
+      "date": "2026-07-05",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 824
+     },
+     {
+      "date": "2026-07-06",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 610
+     },
+     {
+      "date": "2026-07-07",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 4
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "windsurf",
+     "host": "server.codeium.com",
+     "kind": "healthz",
+     "state": "reachable",
+     "latencyMs": 200,
+     "checkedAt": "2026-07-07T00:14:10.889Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "cursor": {
+    "status": "operational",
+    "statusSourceId": "cursor-status",
+    "lastCheckedAt": "2026-07-07T00:15:44.895Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-07-01",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-02",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-03",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-04",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-05",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 696
+     },
+     {
+      "date": "2026-07-06",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "g1tf5ytnjdw8",
+        "name": "Investigating service degradation",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-06T09:29:15.324Z",
+        "resolvedAt": "2026-07-06T11:02:09.158Z"
+       }
+      ],
+      "sampleCount": 610
+     },
+     {
+      "date": "2026-07-07",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 4
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "cursor",
+     "host": "api2.cursor.sh",
+     "kind": "api",
+     "state": "reachable",
+     "latencyMs": 36,
+     "checkedAt": "2026-07-07T00:14:10.889Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   }
+  },
+  "polledAt": "2026-07-07T00:15:44.895Z",
+  "failures": []
+ }
+}
