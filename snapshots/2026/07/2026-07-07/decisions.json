@@ -1,0 +1,112 @@
+{
+ "v": 1,
+ "capturedAt": "2026-07-07T10:30:13.970Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/28859420493",
+ "record": {
+  "date": "2026-07-07",
+  "lead": "DeepSeek V4 Flash holds #1 on OpenRouter",
+  "counts": {
+   "accepted": 10,
+   "skipped": 3
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "DeepSeek V4 Flash holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "Anthropic: Claude Sonnet 5 up 4 ranks on OpenRouter weekly",
+    "source": "curated",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "sponsors/sindresorhus trending on GitHub (345 stars today)",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-2",
+    "headline": "Openai Api is degraded",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "@langchain/core downloads down 23.7% on npm",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "skip",
+    "gate": "model-dedup",
+    "reason": "same rank move already shipped for \"claude sonnet 5\"",
+    "headline": "Claude Sonnet 5 moved from rank 18 to 14",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-5",
+    "headline": "@anthropic-ai/sdk on npm -34% vs baseline",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Ternlight – 7 MB embedding model that runs in browser (WASM)",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-7",
+    "headline": "Regression to the Mean: on LLMs and the quiet death of the new",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Claude Code has an active incident: Claude Tag seeing elevated GitHub operation failures",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action Model",
+    "source": "curated",
+    "slot": 7
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-sourcegraph.cody-ai",
+    "headline": "sourcegraph.cody-ai (vscode) down 36%",
+    "source": "supplement",
+    "slot": 8
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-GitHub.copilot",
+    "headline": "GitHub.copilot (vscode) down 35%",
+    "source": "supplement",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-kept",
+    "reason": "lead fresh (led 0 prior days, limit 2)",
+    "lead": "DeepSeek V4 Flash holds #1 on OpenRouter"
+   }
+  ]
+ }
+}
