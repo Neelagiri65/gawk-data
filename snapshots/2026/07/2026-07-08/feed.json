@@ -1,0 +1,419 @@
+{
+ "v": 1,
+ "capturedAt": "2026-07-08T00:10:38.471Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-f5v07h-am9c",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "OpenAI API is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "OpenAI Status (summary)",
+    "sourceUrl": "https://status.openai.com",
+    "timestamp": "2026-07-08T00:10:42.300Z",
+    "meta": {
+     "toolId": "openai-api",
+     "status": "degraded",
+     "statusSourceId": "openai-status",
+     "activeIncidents": 1
+    }
+   },
+   {
+    "id": "MODEL_MOVER-3p7dyf-am98",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemini 3.5 Flash down 5 ranks on OpenRouter weekly",
+    "detail": "Now #25, was #20.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemini-3.5-flash",
+    "timestamp": "2026-07-07T20:30:32.102Z",
+    "meta": {
+     "slug": "google/gemini-3.5-flash",
+     "currentRank": 25,
+     "previousRank": 20,
+     "delta": 5
+    }
+   },
+   {
+    "id": "MODEL_MOVER-odshjk-am98",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Anthropic: Claude Fable 5 up 6 ranks on OpenRouter weekly",
+    "detail": "Now #30, was #36.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/anthropic/claude-fable-5",
+    "timestamp": "2026-07-07T20:30:32.102Z",
+    "meta": {
+     "slug": "anthropic/claude-fable-5",
+     "currentRank": 30,
+     "previousRank": 36,
+     "delta": -6
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1qa7hpd-am87",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "AnySearch: Real-time structured search trusted by agents and developers",
+    "detail": "569 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/anysearch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-06T07:01:00.000Z",
+    "meta": {
+     "votes": 569,
+     "tagline": "Real-time structured search trusted by agents and developers"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1b8orut-am98",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "MoonshotAI: Kimi K2.7 Code down 5 ranks on OpenRouter weekly",
+    "detail": "Now #36, was #31.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/moonshotai/kimi-k2.7-code",
+    "timestamp": "2026-07-07T20:30:32.102Z",
+    "meta": {
+     "slug": "moonshotai/kimi-k2.7-code",
+     "currentRank": 36,
+     "previousRank": 31,
+     "delta": 5
+    }
+   },
+   {
+    "id": "MODEL_MOVER-qi7lpg-am98",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: Text Embedding 3 Small up 4 ranks on OpenRouter weekly",
+    "detail": "Now #38, was #42.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/text-embedding-3-small",
+    "timestamp": "2026-07-07T20:30:32.102Z",
+    "meta": {
+     "slug": "openai/text-embedding-3-small",
+     "currentRank": 38,
+     "previousRank": 42,
+     "delta": -4
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1ux19c7-am87",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Typeahead 2.0: Private AI autocomplete for every app on your Mac",
+    "detail": "477 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/typeahead?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-06T07:01:00.000Z",
+    "meta": {
+     "votes": 477,
+     "tagline": "Private AI autocomplete for every app on your Mac"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1vb3vbg-am98",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Cohere: North Mini Code (free) down 5 ranks on OpenRouter weekly",
+    "detail": "Now #44, was #39.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/cohere/north-mini-code",
+    "timestamp": "2026-07-07T20:30:32.102Z",
+    "meta": {
+     "slug": "cohere/north-mini-code",
+     "currentRank": 44,
+     "previousRank": 39,
+     "delta": 5
+    }
+   },
+   {
+    "id": "MODEL_MOVER-hxvpbs-am98",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3 Ultra down 60 ranks on OpenRouter weekly",
+    "detail": "Now #72, was #12.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b",
+    "timestamp": "2026-07-07T20:30:32.102Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3-ultra-550b-a55b",
+     "currentRank": 72,
+     "previousRank": 12,
+     "delta": 60
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1j6akth-am6v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Vida: Clone yourself. Let AI do the work before you ask",
+    "detail": "450 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/vida-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-04T07:01:00.000Z",
+    "meta": {
+     "votes": 450,
+     "tagline": "Clone yourself. Let AI do the work before you ask"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1cclgta-am98",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: gpt-oss-120b (free) down 56 ranks on OpenRouter weekly",
+    "detail": "Now #75, was #19.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-oss-120b",
+    "timestamp": "2026-07-07T20:30:32.102Z",
+    "meta": {
+     "slug": "openai/gpt-oss-120b",
+     "currentRank": 75,
+     "previousRank": 19,
+     "delta": 56
+    }
+   },
+   {
+    "id": "MODEL_MOVER-164jtp5-am98",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemma 4 31B (free) down 65 ranks on OpenRouter weekly",
+    "detail": "Now #91, was #26.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemma-4-31b-it",
+    "timestamp": "2026-07-07T20:30:32.102Z",
+    "meta": {
+     "slug": "google/gemma-4-31b-it",
+     "currentRank": 91,
+     "previousRank": 26,
+     "delta": 65
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-17leacn-am67",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Glaze by Raycast: Create your own Mac apps by chatting with AI",
+    "detail": "629 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/glaze-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-03T07:01:00.000Z",
+    "meta": {
+     "votes": 629,
+     "tagline": "Create your own Mac apps by chatting with AI"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-xl1jmx-am5j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Context.dev: One API to scrape, enrich, and extract the internet",
+    "detail": "1053 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/context-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-02T07:01:00.000Z",
+    "meta": {
+     "votes": 1053,
+     "tagline": "One API to scrape, enrich, and extract the internet"
+    }
+   },
+   {
+    "id": "NEWS-1ocaviu-am9b",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "This is what Hy3 is capable of. Mother of god.",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1uqbug5/this_is_what_hy3_is_capable_of_mother_of_god/",
+    "timestamp": "2026-07-07T23:32:33.000Z",
+    "meta": {
+     "redditId": "9d3dab73f55608f4",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1613d9x-am4v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Acti: Agentic keyboard for mobile commands and search",
+    "detail": "1284 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/acti-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-01T07:01:00.000Z",
+    "meta": {
+     "votes": 1284,
+     "tagline": "Agentic keyboard for mobile commands and search"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1rl4w8g-am4v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Humalike: Give your AI agents the social intelligence they're missing",
+    "detail": "481 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/humalike-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-01T07:01:00.000Z",
+    "meta": {
+     "votes": 481,
+     "tagline": "Give your AI agents the social intelligence they're missing"
+    }
+   },
+   {
+    "id": "NEWS-1cc2r2e-am9a",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Unsloth has uploaded several sizes of Deepseek-V4-Flash GGUF's",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1uq9krm/unsloth_has_uploaded_several_sizes_of/",
+    "timestamp": "2026-07-07T22:02:27.000Z",
+    "meta": {
+     "redditId": "18f7fead717d9409",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-7ooqvs-am4v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Claude Sonnet 5: AI that plans, acts, and gets work done",
+    "detail": "408 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-01T07:01:00.000Z",
+    "meta": {
+     "votes": 408,
+     "tagline": "AI that plans, acts, and gets work done"
+    }
+   },
+   {
+    "id": "NEWS-s4w0c6-am98",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "I built an Android app for Qwen3 TTS on-device",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1uq74ki/i_built_an_android_app_for_qwen3_tts_ondevice/",
+    "timestamp": "2026-07-07T20:31:32.000Z",
+    "meta": {
+     "redditId": "d83b56d683fb755a",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "RESEARCH-169rpi4-am8h",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action Model",
+    "detail": "Wenhao Li, Xueying Jiang, Quanhao Qian et al. · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.05396v1",
+    "timestamp": "2026-07-06T17:59:59Z",
+    "meta": {
+     "arxivId": "2607.05396v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 7,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1i85zb6-am8h",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Weak-to-Strong Generalization via Direct On-Policy Distillation",
+    "detail": "Shiyuan Feng, Huan-ang Gao, Haohan Chi et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.05394v1",
+    "timestamp": "2026-07-06T17:59:58Z",
+    "meta": {
+     "arxivId": "2607.05394v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 10,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-am9c",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (196 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-07-08T00:10:42.314Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 196,
+     "country": "US"
+    }
+   },
+   {
+    "id": "RESEARCH-qsj0jj-am8h",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Interpretable Human-Label-Free Deep Learning for Real-Bogus Classification with Uncertainty Quantification",
+    "detail": "Raphaël Bonnet-Guerrini, Bruno Sanchez, Dominique Fouchez et al. · astro-ph.IM",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.05393v1",
+    "timestamp": "2026-07-06T17:59:58Z",
+    "meta": {
+     "arxivId": "2607.05393v1",
+     "primaryCategory": "astro-ph.IM",
+     "authorCount": 8,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-12ntccl-am8h",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
+    "detail": "Jacky Kwok, Shulu Li, Pranav Atreya et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.05391v1",
+    "timestamp": "2026-07-06T17:59:35Z",
+    "meta": {
+     "arxivId": "2607.05391v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 9,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-11jomdt-am8h",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Search Beyond What Can Be Taught: Evolving the Knowledge Boundary in Agentic Visual Generation",
+    "detail": "Haozhe Wang, Weijia Feng, Jinpeng Yu et al. · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.05382v1",
+    "timestamp": "2026-07-06T17:56:12Z",
+    "meta": {
+     "arxivId": "2607.05382v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 11,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4 Flash",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+   },
+   "toolHealth": {
+    "operational": 5,
+    "degraded": 1,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action Model",
+    "sourceUrl": "https://arxiv.org/abs/2607.05396v1"
+   }
+  },
+  "lastComputed": "2026-07-08T00:10:42.299Z"
+ }
+}
