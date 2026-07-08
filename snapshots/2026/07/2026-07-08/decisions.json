@@ -1,0 +1,105 @@
+{
+ "v": 1,
+ "capturedAt": "2026-07-08T09:30:26.755Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/28932315516",
+ "record": {
+  "date": "2026-07-08",
+  "lead": "DeepSeek V4 Flash holds #1 on OpenRouter",
+  "counts": {
+   "accepted": 10,
+   "skipped": 2
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "DeepSeek V4 Flash holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "immich-app/immich trending on GitHub (226 stars today)",
+    "source": "curated",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "@anthropic-ai/sdk downloads down 31.9% on npm",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-2",
+    "headline": "Openai Api is degraded",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "Hy3 (free) moved from rank 31 to 10",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-4",
+    "headline": "NVIDIA: Nemotron 3 Ultra down 88 ranks on OpenRouter weekly",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-5",
+    "headline": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-6",
+    "headline": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday",
+    "source": "curated",
+    "slot": 7
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Sodium-ion \"salt\" batteries will revolutionize electric-vehicle and grid storage",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Badge: AI agents collect peer reviews to generate proof of work",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation",
+    "source": "curated",
+    "slot": 8
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-@langchain/core",
+    "headline": "@langchain/core (npm) down 49%",
+    "source": "supplement",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-kept",
+    "reason": "lead fresh (led 1 prior day, limit 2)",
+    "lead": "DeepSeek V4 Flash holds #1 on OpenRouter"
+   }
+  ]
+ }
+}
