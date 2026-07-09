@@ -1,0 +1,112 @@
+{
+ "v": 1,
+ "capturedAt": "2026-07-09T10:29:44.469Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/29011661938",
+ "record": {
+  "date": "2026-07-09",
+  "lead": "ggml-org/whisper.cpp trending on GitHub (84 stars today)",
+  "counts": {
+   "accepted": 10,
+   "skipped": 3
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "DeepSeek V4 Flash holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "ggml-org/whisper.cpp trending on GitHub (84 stars today)",
+    "source": "curated",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "I think I have LLM burnout",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-2",
+    "headline": "Openai Api is degraded",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "GLM-5.2 fearmongering in the press",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-4",
+    "headline": "@anthropic-ai/sdk downloads down 31.6% on npm",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-5",
+    "headline": "Hy3 (free) moved from rank 12 to 7",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-6",
+    "headline": "NVIDIA: Nemotron 3 Ultra down 59 ranks on OpenRouter weekly",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "GitHub Copilot has an active incident: Delays starting Actions runs",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Badge: AI agents collect peer reviews to generate proof of work",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
+    "source": "curated",
+    "slot": 7
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-@langchain/core",
+    "headline": "@langchain/core (npm) down 48%",
+    "source": "supplement",
+    "slot": 8
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-ai",
+    "headline": "ai (npm) down 45%",
+    "source": "supplement",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-rotated",
+    "reason": "lead \"DeepSeek V4 Flash holds #1 on OpenRouter\" led 2 consecutive days — promoted \"ggml-org/whisper.cpp trending on GitHub (84 stars today)\"",
+    "lead": "ggml-org/whisper.cpp trending on GitHub (84 stars today)"
+   }
+  ]
+ }
+}
