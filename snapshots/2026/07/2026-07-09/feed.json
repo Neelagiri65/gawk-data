@@ -1,0 +1,403 @@
+{
+ "v": 1,
+ "capturedAt": "2026-07-09T00:17:50.454Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-f5v07h-ama0",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "OpenAI API is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "OpenAI Status (summary)",
+    "sourceUrl": "https://status.openai.com",
+    "timestamp": "2026-07-09T00:17:55.433Z",
+    "meta": {
+     "toolId": "openai-api",
+     "status": "degraded",
+     "statusSourceId": "openai-status",
+     "activeIncidents": 1
+    }
+   },
+   {
+    "id": "MODEL_MOVER-283i8w-am9w",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Tencent: Hy3 (free) up 22 ranks on OpenRouter weekly",
+    "detail": "Now #9, was #31.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/tencent/hy3",
+    "timestamp": "2026-07-08T20:07:15.404Z",
+    "meta": {
+     "slug": "tencent/hy3",
+     "currentRank": 9,
+     "previousRank": 31,
+     "delta": -22
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1ht37we-am9w",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Z.ai: GLM 5 up 4 ranks on OpenRouter weekly",
+    "detail": "Now #32, was #36.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/z-ai/glm-5",
+    "timestamp": "2026-07-08T20:07:15.404Z",
+    "meta": {
+     "slug": "z-ai/glm-5",
+     "currentRank": 32,
+     "previousRank": 36,
+     "delta": -4
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1aumhvt-am8v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Badge: AI agents collect peer reviews to generate proof of work",
+    "detail": "465 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/badge-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-07T07:01:00.000Z",
+    "meta": {
+     "votes": 465,
+     "tagline": "AI agents collect peer reviews to generate proof of work"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1cclgta-am9w",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: gpt-oss-120b (free) down 59 ranks on OpenRouter weekly",
+    "detail": "Now #79, was #20.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-oss-120b",
+    "timestamp": "2026-07-08T20:07:15.404Z",
+    "meta": {
+     "slug": "openai/gpt-oss-120b",
+     "currentRank": 79,
+     "previousRank": 20,
+     "delta": 59
+    }
+   },
+   {
+    "id": "MODEL_MOVER-164jtp5-am9w",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemma 4 31B (free) down 66 ranks on OpenRouter weekly",
+    "detail": "Now #92, was #26.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemma-4-31b-it",
+    "timestamp": "2026-07-08T20:07:15.404Z",
+    "meta": {
+     "slug": "google/gemma-4-31b-it",
+     "currentRank": 92,
+     "previousRank": 26,
+     "delta": 66
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-ugxrey-am8v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Katalyst : The AI agent that works your Salesforce Pipeline",
+    "detail": "430 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/katalyst?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-07T07:01:00.000Z",
+    "meta": {
+     "votes": 430,
+     "tagline": "The AI agent that works your Salesforce Pipeline"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-hxvpbs-am9w",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3 Ultra down 86 ranks on OpenRouter weekly",
+    "detail": "Now #98, was #12.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b",
+    "timestamp": "2026-07-08T20:07:15.404Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3-ultra-550b-a55b",
+     "currentRank": 98,
+     "previousRank": 12,
+     "delta": 86
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1qa7hpd-am87",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "AnySearch: Real-time structured search trusted by agents and developers",
+    "detail": "584 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/anysearch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-06T07:01:00.000Z",
+    "meta": {
+     "votes": 584,
+     "tagline": "Real-time structured search trusted by agents and developers"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1ux19c7-am87",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Typeahead 2.0: Private AI autocomplete for every app on your Mac",
+    "detail": "490 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/typeahead?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-06T07:01:00.000Z",
+    "meta": {
+     "votes": 490,
+     "tagline": "Private AI autocomplete for every app on your Mac"
+    }
+   },
+   {
+    "id": "NEWS-1clab4-am9x",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Grok 4.5 released - GLM-5.2 shows up in xAI's own charts, 2.6 pts behind on SWE Bench Pro",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ur71hq/grok_45_released_glm52_shows_up_in_xais_own/",
+    "timestamp": "2026-07-08T21:57:53.000Z",
+    "meta": {
+     "redditId": "07c90b8abb48eaa6",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-nh237p-am7j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "WorkBuddy: Produce sharpened results faster with a team of AI experts",
+    "detail": "417 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/workbuddy-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-05T07:01:00.000Z",
+    "meta": {
+     "votes": 417,
+     "tagline": "Produce sharpened results faster with a team of AI experts"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1j6akth-am6v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Vida: Clone yourself. Let AI do the work before you ask",
+    "detail": "460 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/vida-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-04T07:01:00.000Z",
+    "meta": {
+     "votes": 460,
+     "tagline": "Clone yourself. Let AI do the work before you ask"
+    }
+   },
+   {
+    "id": "NEWS-kkmwsb-am9x",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Separating signal from noise in coding evaluations",
+    "detail": "126 points · 55 comments on Hacker News.",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=48837396",
+    "timestamp": "2026-07-08T21:03:51Z",
+    "meta": {
+     "hnId": "48837396",
+     "points": 126,
+     "numComments": 55,
+     "author": "sk4rekr0w"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-17leacn-am67",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Glaze by Raycast: Create your own Mac apps by chatting with AI",
+    "detail": "635 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/glaze-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-03T07:01:00.000Z",
+    "meta": {
+     "votes": 635,
+     "tagline": "Create your own Mac apps by chatting with AI"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-xl1jmx-am5j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Context.dev: One API to scrape, enrich, and extract the internet",
+    "detail": "1067 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/context-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-02T07:01:00.000Z",
+    "meta": {
+     "votes": 1067,
+     "tagline": "One API to scrape, enrich, and extract the internet"
+    }
+   },
+   {
+    "id": "NEWS-1a5kptm-am9w",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "The classifiers Anthropic puts in front of Fable are too zealous",
+    "detail": "174 points · 160 comments on Hacker News.",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=48837162",
+    "timestamp": "2026-07-08T20:41:33Z",
+    "meta": {
+     "hnId": "48837162",
+     "points": 174,
+     "numComments": 160,
+     "author": "karrot-kake"
+    }
+   },
+   {
+    "id": "NEWS-173h6eb-am9w",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "What China Said at the UN’s First Global Dialogue on AI Governance",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ur4tz5/what_china_said_at_the_uns_first_global_dialogue/",
+    "timestamp": "2026-07-08T20:36:16.000Z",
+    "meta": {
+     "redditId": "599ae16d511251e4",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "RESEARCH-j6j4vr-am95",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation",
+    "detail": "Tianjiao Yu, Xinzhuo Li, Yifan Shen et al. · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.06565v1",
+    "timestamp": "2026-07-07T17:59:50Z",
+    "meta": {
+     "arxivId": "2607.06565v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 7,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "NEWS-1k0ds70-am9w",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "4-bit GLM-5.2 (753B MoE) on 4× DGX Spark: 70.8% on Terminal-Bench 2.1 vs 81.0% for the full model",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ur41ou/4bit_glm52_753b_moe_on_4_dgx_spark_708_on/",
+    "timestamp": "2026-07-08T20:08:08.000Z",
+    "meta": {
+     "redditId": "cb884aaa97ed5fb3",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "RESEARCH-91fits-am95",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Graph Convolutional Attention: A Spectral Perspective on Graph Denoising and Diffusion",
+    "detail": "Shervin Khalafi, Igor Krawczuk, Sergio Rozada et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.06546v1",
+    "timestamp": "2026-07-07T17:52:17Z",
+    "meta": {
+     "arxivId": "2607.06546v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 6,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-kwpumu-am95",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Rethinking Indic AI from a Lens of Cultural Heritage Preservation",
+    "detail": "Aparna Madva, Sharath Srivatsa, Srinath Srinivasa et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.06544v1",
+    "timestamp": "2026-07-07T17:51:10Z",
+    "meta": {
+     "arxivId": "2607.06544v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-ama0",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (200 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-07-09T00:17:55.438Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 200,
+     "country": "US"
+    }
+   },
+   {
+    "id": "RESEARCH-5fnkan-am95",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "GraphBU: MILP Instance Generation with Graph-Native Block Units",
+    "detail": "Xiaolei Guo, Chenyu Zhou, Jianghao Lin et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.06532v1",
+    "timestamp": "2026-07-07T17:39:06Z",
+    "meta": {
+     "arxivId": "2607.06532v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-9orzfq-am95",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "The Large Cancer Assistant (LCA): A Model-Agnostic Orchestration Framework for Scalable Clinical Decision Support in Oncology",
+    "detail": "Ghassen Marrakchi, Basarab Matei · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.06531v1",
+    "timestamp": "2026-07-07T17:38:47Z",
+    "meta": {
+     "arxivId": "2607.06531v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4 Flash",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+   },
+   "toolHealth": {
+    "operational": 5,
+    "degraded": 1,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation",
+    "sourceUrl": "https://arxiv.org/abs/2607.06565v1"
+   }
+  },
+  "lastComputed": "2026-07-09T00:17:55.433Z"
+ }
+}
