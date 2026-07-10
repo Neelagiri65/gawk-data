@@ -1,0 +1,105 @@
+{
+ "v": 1,
+ "capturedAt": "2026-07-10T10:28:45.655Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/29086313200",
+ "record": {
+  "date": "2026-07-10",
+  "lead": "DeepSeek V4 Flash holds #1 on OpenRouter",
+  "counts": {
+   "accepted": 10,
+   "skipped": 2
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "DeepSeek V4 Flash holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "Openai Api is degraded",
+    "source": "curated",
+    "slot": 1
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Auriko : Trading desk for LLM calls",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-2",
+    "headline": "anthropic downloads up 13.9% on pypi",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "sponsors/binwiederhier trending on GitHub (75 stars today)",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-4",
+    "headline": "NVIDIA: Nemotron 3 Ultra down 57 ranks on OpenRouter weekly",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "skip",
+    "gate": "leaderboard-dedup",
+    "reason": "model already shown in the leaderboard top-5",
+    "headline": "Hy3 (free) moved from rank 8 to 4",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-6",
+    "headline": "GPT-5.6",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-7",
+    "headline": "aquasecurity/trivy trending on GitHub (41 stars today)",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-8",
+    "headline": "oven-sh/bun trending on GitHub (82 stars today)",
+    "source": "curated",
+    "slot": 7
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models",
+    "source": "curated",
+    "slot": 8
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-sourcegraph.cody-ai",
+    "headline": "sourcegraph.cody-ai (vscode) down 18%",
+    "source": "supplement",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-kept",
+    "reason": "lead fresh (led 0 prior days, limit 2)",
+    "lead": "DeepSeek V4 Flash holds #1 on OpenRouter"
+   }
+  ]
+ }
+}
