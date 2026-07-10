@@ -1,0 +1,397 @@
+{
+ "v": 1,
+ "capturedAt": "2026-07-10T00:17:24.738Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-f5v07h-amao",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "OpenAI API is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "OpenAI Status (summary)",
+    "sourceUrl": "https://status.openai.com",
+    "timestamp": "2026-07-10T00:17:28.619Z",
+    "meta": {
+     "toolId": "openai-api",
+     "status": "degraded",
+     "statusSourceId": "openai-status",
+     "activeIncidents": 1
+    }
+   },
+   {
+    "id": "MODEL_MOVER-283i8w-amak",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Tencent: Hy3 (free) up 5 ranks on OpenRouter weekly",
+    "detail": "Now #7, was #12.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/tencent/hy3",
+    "timestamp": "2026-07-09T20:28:00.119Z",
+    "meta": {
+     "slug": "tencent/hy3",
+     "currentRank": 7,
+     "previousRank": 12,
+     "delta": -5
+    }
+   },
+   {
+    "id": "MODEL_MOVER-hxvpbs-amak",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3 Ultra down 59 ranks on OpenRouter weekly",
+    "detail": "Now #72, was #13.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b",
+    "timestamp": "2026-07-09T20:28:00.119Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3-ultra-550b-a55b",
+     "currentRank": 72,
+     "previousRank": 13,
+     "delta": 59
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1aumhvt-am8v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Badge: AI agents collect peer reviews to generate proof of work",
+    "detail": "475 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/badge-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-07T07:01:00.000Z",
+    "meta": {
+     "votes": 475,
+     "tagline": "AI agents collect peer reviews to generate proof of work"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1cclgta-amak",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: gpt-oss-120b (free) down 64 ranks on OpenRouter weekly",
+    "detail": "Now #85, was #21.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-oss-120b",
+    "timestamp": "2026-07-09T20:28:00.119Z",
+    "meta": {
+     "slug": "openai/gpt-oss-120b",
+     "currentRank": 85,
+     "previousRank": 21,
+     "delta": 64
+    }
+   },
+   {
+    "id": "MODEL_MOVER-164jtp5-amak",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemma 4 31B (free) down 69 ranks on OpenRouter weekly",
+    "detail": "Now #96, was #27.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemma-4-31b-it",
+    "timestamp": "2026-07-09T20:28:00.119Z",
+    "meta": {
+     "slug": "google/gemma-4-31b-it",
+     "currentRank": 96,
+     "previousRank": 27,
+     "delta": 69
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-ugxrey-am8v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Katalyst : The AI agent that works your Salesforce Pipeline",
+    "detail": "440 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/katalyst?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-07T07:01:00.000Z",
+    "meta": {
+     "votes": 440,
+     "tagline": "The AI agent that works your Salesforce Pipeline"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1j817x-am8v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Scribble Network: The product that makes AI recommend your brand",
+    "detail": "434 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/scribble-network?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-07T07:01:00.000Z",
+    "meta": {
+     "votes": 434,
+     "tagline": "The product that makes AI recommend your brand"
+    }
+   },
+   {
+    "id": "NEWS-18ki2i0-amam",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Koboldcpp v1.117 released",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1us5p0b/koboldcpp_v1117_released/",
+    "timestamp": "2026-07-09T22:46:19.000Z",
+    "meta": {
+     "redditId": "0dca888b4f2a45da",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1qa7hpd-am87",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "AnySearch: Real-time structured search trusted by agents and developers",
+    "detail": "589 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/anysearch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-06T07:01:00.000Z",
+    "meta": {
+     "votes": 589,
+     "tagline": "Real-time structured search trusted by agents and developers"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1ux19c7-am87",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Typeahead 2.0: Private AI autocomplete for every app on your Mac",
+    "detail": "495 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/typeahead?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-06T07:01:00.000Z",
+    "meta": {
+     "votes": 495,
+     "tagline": "Private AI autocomplete for every app on your Mac"
+    }
+   },
+   {
+    "id": "NEWS-ls7ili-amam",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1us5m0g/glm52_744b_moe_on_a_25gbram_consumer_machine/",
+    "timestamp": "2026-07-09T22:43:02.000Z",
+    "meta": {
+     "redditId": "50f62d6c9bf78c2d",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-p3fssi-am87",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Octolens: Social listening for the agent era",
+    "detail": "421 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/octolens-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-06T07:01:00.000Z",
+    "meta": {
+     "votes": 421,
+     "tagline": "Social listening for the agent era"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1j6akth-am6v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Vida: Clone yourself. Let AI do the work before you ask",
+    "detail": "467 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/vida-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-04T07:01:00.000Z",
+    "meta": {
+     "votes": 467,
+     "tagline": "Clone yourself. Let AI do the work before you ask"
+    }
+   },
+   {
+    "id": "NEWS-lb3gf7-amal",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "MiMo v2.5 is underrated. Feels like the tokens are pouring out of the screen in OpenCode.",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1us4gim/mimo_v25_is_underrated_feels_like_the_tokens_are/",
+    "timestamp": "2026-07-09T21:59:23.000Z",
+    "meta": {
+     "redditId": "fc1177113cb3cd65",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-17leacn-am67",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Glaze by Raycast: Create your own Mac apps by chatting with AI",
+    "detail": "648 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/glaze-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-03T07:01:00.000Z",
+    "meta": {
+     "votes": 648,
+     "tagline": "Create your own Mac apps by chatting with AI"
+    }
+   },
+   {
+    "id": "NEWS-1d2hlbt-amae",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Proofread those Claude replies ;)",
+    "detail": "Discussion on r/ClaudeAI.",
+    "sourceName": "r/ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1ursr4j/proofread_those_claude_replies/",
+    "timestamp": "2026-07-09T14:59:41.000Z",
+    "meta": {
+     "redditId": "aa2161803174ba13",
+     "subreddit": "reddit-claudeai"
+    }
+   },
+   {
+    "id": "NEWS-n41oh9-amae",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "i run a two-person landscaping business and Claude quietly replaced the office manager i couldn't afford",
+    "detail": "Discussion on r/ClaudeAI.",
+    "sourceName": "r/ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1urs6pq/i_run_a_twoperson_landscaping_business_and_claude/",
+    "timestamp": "2026-07-09T14:38:59.000Z",
+    "meta": {
+     "redditId": "06ea4e5502af310d",
+     "subreddit": "reddit-claudeai"
+    }
+   },
+   {
+    "id": "RESEARCH-1r83jnx-am9t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
+    "detail": "Chen Tang, Yizhou Wang, Jianyu Wu et al. · cs.CL",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.07708v1",
+    "timestamp": "2026-07-08T17:59:59Z",
+    "meta": {
+     "arxivId": "2607.07708v1",
+     "primaryCategory": "cs.CL",
+     "authorCount": 29,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "NEWS-1la9i2k-amae",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "My OSS just crossed 50K+ pip installs, all organic, and I finally pulled the retention data: 60%+ come back",
+    "detail": "Discussion on r/ClaudeAI.",
+    "sourceName": "r/ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1urrxtn/my_oss_just_crossed_50k_pip_installs_all_organic/",
+    "timestamp": "2026-07-09T14:29:50.000Z",
+    "meta": {
+     "redditId": "cfd7978a4a7f0a85",
+     "subreddit": "reddit-claudeai"
+    }
+   },
+   {
+    "id": "RESEARCH-kilwd8-am9t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Co-LMLM: Continuous-Query Limited Memory Language Models",
+    "detail": "Yair Feldman, Linxi Zhao, Nathan Godey et al. · cs.CL",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.07707v1",
+    "timestamp": "2026-07-08T17:59:45Z",
+    "meta": {
+     "arxivId": "2607.07707v1",
+     "primaryCategory": "cs.CL",
+     "authorCount": 8,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-s6ao8b-am9t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "The Key to Going Linear: Analysis-Driven Transformer Linearization",
+    "detail": "Anna Kuzina, Paul N. Whatmough, Babak Ehteshami Bejnordi · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.07706v1",
+    "timestamp": "2026-07-08T17:59:09Z",
+    "meta": {
+     "arxivId": "2607.07706v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-amao",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (200 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-07-10T00:17:28.631Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 200,
+     "country": "US"
+    }
+   },
+   {
+    "id": "RESEARCH-1u85mtx-am9t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Breaking Database Lock-in: Agentic Regeneration of High Performance Storage Readers for Database Bypass",
+    "detail": "Victor Giannakouris, Immanuel Trummer · cs.DB",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.07696v1",
+    "timestamp": "2026-07-08T17:55:00Z",
+    "meta": {
+     "arxivId": "2607.07696v1",
+     "primaryCategory": "cs.DB",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-b849kg-am9t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Institutional Red-Teaming: Deployment Rules, Not Just Models, Causally Shape Multi-Agent AI Safety",
+    "detail": "Yujiao Chen · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.07695v1",
+    "timestamp": "2026-07-08T17:53:56Z",
+    "meta": {
+     "arxivId": "2607.07695v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 1,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4 Flash",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+   },
+   "toolHealth": {
+    "operational": 5,
+    "degraded": 1,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
+    "sourceUrl": "https://arxiv.org/abs/2607.07708v1"
+   }
+  },
+  "lastComputed": "2026-07-10T00:17:28.619Z"
+ }
+}
