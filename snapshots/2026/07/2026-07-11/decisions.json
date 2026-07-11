@@ -1,0 +1,98 @@
+{
+ "v": 1,
+ "capturedAt": "2026-07-11T08:52:47.951Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/29146775556",
+ "record": {
+  "date": "2026-07-11",
+  "lead": "DeepSeek V4 Flash holds #1 on OpenRouter",
+  "counts": {
+   "accepted": 10,
+   "skipped": 1
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "DeepSeek V4 Flash holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "oven-sh/bun trending on GitHub (209 stars today)",
+    "source": "curated",
+    "slot": 1
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "ChatCut: Your AI video editor in ChatGPT, desktop, and web",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-2",
+    "headline": "Apple sues OpenAI, accusing it of stealing company secrets",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "ort downloads up 20.1% on crates",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-4",
+    "headline": "Nemotron 3 Ultra (free) moved from rank 12 to 9",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-5",
+    "headline": "NVIDIA: Nemotron 3 Ultra down 59 ranks on OpenRouter weekly",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-6",
+    "headline": "GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-7",
+    "headline": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
+    "source": "curated",
+    "slot": 7
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-8",
+    "headline": "aquasecurity/trivy trending on GitHub (24 stars today)",
+    "source": "curated",
+    "slot": 8
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models",
+    "source": "curated",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-kept",
+    "reason": "lead fresh (led 1 prior day, limit 2)",
+    "lead": "DeepSeek V4 Flash holds #1 on OpenRouter"
+   }
+  ]
+ }
+}
