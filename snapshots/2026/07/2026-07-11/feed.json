@@ -1,0 +1,451 @@
+{
+ "v": 1,
+ "capturedAt": "2026-07-11T00:07:36.711Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-f5v07h-ambc",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "OpenAI API is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "OpenAI Status (summary)",
+    "sourceUrl": "https://status.openai.com",
+    "timestamp": "2026-07-11T00:07:42.144Z",
+    "meta": {
+     "toolId": "openai-api",
+     "status": "degraded",
+     "statusSourceId": "openai-status",
+     "activeIncidents": 1
+    }
+   },
+   {
+    "id": "MODEL_MOVER-283i8w-amb8",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Tencent: Hy3 (free) up 4 ranks on OpenRouter weekly",
+    "detail": "Now #4, was #8.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/tencent/hy3",
+    "timestamp": "2026-07-10T20:04:28.985Z",
+    "meta": {
+     "slug": "tencent/hy3",
+     "currentRank": 4,
+     "previousRank": 8,
+     "delta": -4
+    }
+   },
+   {
+    "id": "MODEL_MOVER-2xru3p-amb8",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: gpt-oss-20b up 6 ranks on OpenRouter weekly",
+    "detail": "Now #42, was #48.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-oss-20b",
+    "timestamp": "2026-07-10T20:04:28.985Z",
+    "meta": {
+     "slug": "openai/gpt-oss-20b",
+     "currentRank": 42,
+     "previousRank": 48,
+     "delta": -6
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1n5lwjj-amav",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "PlugThis: Create your own Chrome Extensions by chatting with AI",
+    "detail": "472 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/plugthis-chrome-extension-generator?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-10T07:01:00.000Z",
+    "meta": {
+     "votes": 472,
+     "tagline": "Create your own Chrome Extensions by chatting with AI"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-gqywgy-amb8",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Qwen: Qwen3.7 Max down 4 ranks on OpenRouter weekly",
+    "detail": "Now #45, was #41.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/qwen/qwen3.7-max",
+    "timestamp": "2026-07-10T20:04:28.985Z",
+    "meta": {
+     "slug": "qwen/qwen3.7-max",
+     "currentRank": 45,
+     "previousRank": 41,
+     "delta": 4
+    }
+   },
+   {
+    "id": "MODEL_MOVER-hxvpbs-amb8",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3 Ultra down 58 ranks on OpenRouter weekly",
+    "detail": "Now #72, was #14.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b",
+    "timestamp": "2026-07-10T20:04:28.985Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3-ultra-550b-a55b",
+     "currentRank": 72,
+     "previousRank": 14,
+     "delta": 58
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1sbzcur-amav",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Sim: Open-source workspace for AI agents and workflows",
+    "detail": "453 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/sim-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-10T07:01:00.000Z",
+    "meta": {
+     "votes": 453,
+     "tagline": "Open-source workspace for AI agents and workflows"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1cclgta-amb8",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: gpt-oss-120b (free) down 72 ranks on OpenRouter weekly",
+    "detail": "Now #93, was #21.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-oss-120b",
+    "timestamp": "2026-07-10T20:04:28.985Z",
+    "meta": {
+     "slug": "openai/gpt-oss-120b",
+     "currentRank": 93,
+     "previousRank": 21,
+     "delta": 72
+    }
+   },
+   {
+    "id": "MODEL_MOVER-164jtp5-amb8",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemma 4 31B (free) down 68 ranks on OpenRouter weekly",
+    "detail": "Now #97, was #29.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemma-4-31b-it",
+    "timestamp": "2026-07-10T20:04:28.985Z",
+    "meta": {
+     "slug": "google/gemma-4-31b-it",
+     "currentRank": 97,
+     "previousRank": 29,
+     "delta": 68
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-57eos7-ama7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Auriko : Trading desk for LLM calls",
+    "detail": "568 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/auriko?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-09T07:01:00.000Z",
+    "meta": {
+     "votes": 568,
+     "tagline": "Trading desk for LLM calls"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-bspi9m-ama7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Timbal AI: Build AI agents, workflows, and apps in one stack",
+    "detail": "507 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/timbal-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-09T07:01:00.000Z",
+    "meta": {
+     "votes": 507,
+     "tagline": "Build AI agents, workflows, and apps in one stack"
+    }
+   },
+   {
+    "id": "NEWS-1637io2-amba",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Nostalgia for Bloom",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ut1tno/nostalgia_for_bloom/",
+    "timestamp": "2026-07-10T22:09:21.000Z",
+    "meta": {
+     "redditId": "3a776fb79a12d957",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1aumhvt-am8v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Badge: AI agents collect peer reviews to generate proof of work",
+    "detail": "483 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/badge-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-07T07:01:00.000Z",
+    "meta": {
+     "votes": 483,
+     "tagline": "AI agents collect peer reviews to generate proof of work"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1qa7hpd-am87",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "AnySearch: Real-time structured search trusted by agents and developers",
+    "detail": "701 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/anysearch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-06T07:01:00.000Z",
+    "meta": {
+     "votes": 701,
+     "tagline": "Real-time structured search trusted by agents and developers"
+    }
+   },
+   {
+    "id": "NEWS-7k4ywy-amba",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "best vlm or llm for 192gb ddr5 (dual channel) + 2x 5090?",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ut1pu1/best_vlm_or_llm_for_192gb_ddr5_dual_channel_2x/",
+    "timestamp": "2026-07-10T22:04:57.000Z",
+    "meta": {
+     "redditId": "3f36573fa22d998c",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1ux19c7-am87",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Typeahead 2.0: Private AI autocomplete for every app on your Mac",
+    "detail": "499 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/typeahead?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-06T07:01:00.000Z",
+    "meta": {
+     "votes": 499,
+     "tagline": "Private AI autocomplete for every app on your Mac"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1j6akth-am6v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Vida: Clone yourself. Let AI do the work before you ask",
+    "detail": "471 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/vida-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-04T07:01:00.000Z",
+    "meta": {
+     "votes": 471,
+     "tagline": "Clone yourself. Let AI do the work before you ask"
+    }
+   },
+   {
+    "id": "NEWS-l9qxvi-amb9",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Setting strix halo vram memory 1gb or 96gb",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ut10p4/setting_strix_halo_vram_memory_1gb_or_96gb/",
+    "timestamp": "2026-07-10T21:37:21.000Z",
+    "meta": {
+     "redditId": "8688c7cf274bdbdc",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "NEWS-otu0ao-amb9",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Apple sues OpenAI, accusing it of stealing company secrets",
+    "detail": "107 points · 13 comments on Hacker News.",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=48865431",
+    "timestamp": "2026-07-10T21:20:29Z",
+    "meta": {
+     "hnId": "48865431",
+     "points": 107,
+     "numComments": 13,
+     "author": "jbegley"
+    }
+   },
+   {
+    "id": "RESEARCH-f1dbk1-amah",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "OpenCoF: Learning to Reason Through Video Generation",
+    "detail": "Xinyan Chen, Ziyu Guo, Renrui Zhang et al. · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.08763v1",
+    "timestamp": "2026-07-09T17:58:29Z",
+    "meta": {
+     "arxivId": "2607.08763v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "NEWS-15uofr0-amb8",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps",
+    "detail": "120 points · 72 comments on Hacker News.",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=48865093",
+    "timestamp": "2026-07-10T20:52:28Z",
+    "meta": {
+     "hnId": "48865093",
+     "points": 120,
+     "numComments": 72,
+     "author": "hershyb_"
+    }
+   },
+   {
+    "id": "NEWS-18lt136-amb8",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
+    "detail": "141 points · 68 comments on Hacker News.",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=48865019",
+    "timestamp": "2026-07-10T20:47:09Z",
+    "meta": {
+     "hnId": "48865019",
+     "points": 141,
+     "numComments": 68,
+     "author": "stock_toaster"
+    }
+   },
+   {
+    "id": "RESEARCH-c6e387-amah",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation",
+    "detail": "Yifan Zhou, Qihao Yang, Yan Li et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.08758v1",
+    "timestamp": "2026-07-09T17:55:53Z",
+    "meta": {
+     "arxivId": "2607.08758v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 17,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "NEWS-fl6tyf-amb6",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
+    "detail": "141 points · 126 comments on Hacker News.",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=48863490",
+    "timestamp": "2026-07-10T18:29:19Z",
+    "meta": {
+     "hnId": "48863490",
+     "points": 141,
+     "numComments": 126,
+     "author": "scrlk"
+    }
+   },
+   {
+    "id": "RESEARCH-s7grxu-amah",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Score Accuracy Along the Forward Diffusion Does Not Certify Numerical Stability in Diffusion Sampling",
+    "detail": "Yiwei Zhou · stat.ML",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.08757v1",
+    "timestamp": "2026-07-09T17:55:52Z",
+    "meta": {
+     "arxivId": "2607.08757v1",
+     "primaryCategory": "stat.ML",
+     "authorCount": 1,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-ztmolt-amah",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "MulTTiPop: A Multitrack Transcription Dataset for Pop Music",
+    "detail": "Nathan Pruyne, Benjamin Stoler, William Chen et al. · cs.SD",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.08756v1",
+    "timestamp": "2026-07-09T17:55:33Z",
+    "meta": {
+     "arxivId": "2607.08756v1",
+     "primaryCategory": "cs.SD",
+     "authorCount": 6,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-ambc",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (200 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-07-11T00:07:42.152Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 200,
+     "country": "US"
+    }
+   },
+   {
+    "id": "RESEARCH-1nfcesb-amah",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "SLORR: Simple and Efficient In-Training Low-Rank Regularization",
+    "detail": "David González-Martínez, Shiwei Liu · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.08754v1",
+    "timestamp": "2026-07-09T17:51:50Z",
+    "meta": {
+     "arxivId": "2607.08754v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4 Flash",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+   },
+   "toolHealth": {
+    "operational": 5,
+    "degraded": 1,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "OpenCoF: Learning to Reason Through Video Generation",
+    "sourceUrl": "https://arxiv.org/abs/2607.08763v1"
+   }
+  },
+  "lastComputed": "2026-07-11T00:07:42.143Z"
+ }
+}
