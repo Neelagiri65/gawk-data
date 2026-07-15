@@ -1,0 +1,403 @@
+{
+ "v": 1,
+ "capturedAt": "2026-07-15T00:03:23.482Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-f5v07h-ame0",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "OpenAI API is reporting a partial outage",
+    "detail": "Upstream status page reports partial_outage.",
+    "sourceName": "OpenAI Status (summary)",
+    "sourceUrl": "https://status.openai.com",
+    "timestamp": "2026-07-15T00:03:55.867Z",
+    "meta": {
+     "toolId": "openai-api",
+     "status": "partial_outage",
+     "statusSourceId": "openai-status",
+     "activeIncidents": 1
+    }
+   },
+   {
+    "id": "TOOL_ALERT-1ef0dl0-ame0",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Cursor has an active incident: Investigating service degradation",
+    "detail": "Status page is green but lists 1 active incident (investigating).",
+    "sourceName": "Cursor Status",
+    "sourceUrl": "https://status.cursor.com",
+    "timestamp": "2026-07-15T00:03:55.867Z",
+    "meta": {
+     "toolId": "cursor",
+     "status": "operational",
+     "statusSourceId": "cursor-status",
+     "activeIncidents": 1
+    }
+   },
+   {
+    "id": "MODEL_MOVER-r39wfr-amdv",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "xAI: Grok 4.5 up 5 ranks on OpenRouter weekly",
+    "detail": "Now #32, was #37.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/x-ai/grok-4.5",
+    "timestamp": "2026-07-14T19:54:17.756Z",
+    "meta": {
+     "slug": "x-ai/grok-4.5",
+     "currentRank": 32,
+     "previousRank": 37,
+     "delta": -5
+    }
+   },
+   {
+    "id": "MODEL_MOVER-ltlwqn-amdv",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-5.6 Sol up 7 ranks on OpenRouter weekly",
+    "detail": "Now #34, was #41.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-5.6-sol",
+    "timestamp": "2026-07-14T19:54:17.756Z",
+    "meta": {
+     "slug": "openai/gpt-5.6-sol",
+     "currentRank": 34,
+     "previousRank": 41,
+     "delta": -7
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-u32hej-amdj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Pazi: Vibe code business operations",
+    "detail": "576 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/pazi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-14T07:01:00.000Z",
+    "meta": {
+     "votes": 576,
+     "tagline": "Vibe code business operations"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-17twnj5-amdv",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Tencent: Hy3 preview down 19 ranks on OpenRouter weekly",
+    "detail": "Now #40, was #21.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/tencent/hy3-preview",
+    "timestamp": "2026-07-14T19:54:17.756Z",
+    "meta": {
+     "slug": "tencent/hy3-preview",
+     "currentRank": 40,
+     "previousRank": 21,
+     "delta": 19
+    }
+   },
+   {
+    "id": "MODEL_MOVER-d1sbdn-amdv",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemini 3.1 Flash Lite Preview down 4 ranks on OpenRouter weekly",
+    "detail": "Now #48, was #44.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemini-3.1-flash-lite-preview",
+    "timestamp": "2026-07-14T19:54:17.756Z",
+    "meta": {
+     "slug": "google/gemini-3.1-flash-lite-preview",
+     "currentRank": 48,
+     "previousRank": 44,
+     "delta": 4
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-z8g6eh-amcv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "AgentKey: One-stop live data marketplace for your agent",
+    "detail": "676 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/agentkey?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-13T07:01:00.000Z",
+    "meta": {
+     "votes": 676,
+     "tagline": "One-stop live data marketplace for your agent"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-hxvpbs-amdv",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3 Ultra down 62 ranks on OpenRouter weekly",
+    "detail": "Now #70, was #8.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b",
+    "timestamp": "2026-07-14T19:54:17.756Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3-ultra-550b-a55b",
+     "currentRank": 70,
+     "previousRank": 8,
+     "delta": 62
+    }
+   },
+   {
+    "id": "MODEL_MOVER-283i8w-amdv",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Tencent: Hy3 down 94 ranks on OpenRouter weekly",
+    "detail": "Now #95, was #1.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/tencent/hy3",
+    "timestamp": "2026-07-14T19:54:17.756Z",
+    "meta": {
+     "slug": "tencent/hy3",
+     "currentRank": 95,
+     "previousRank": 1,
+     "delta": 94
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-87dz3s-amcv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Osaurus: Open source agents that run 100% locally on your Mac",
+    "detail": "635 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/osaurus?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-13T07:01:00.000Z",
+    "meta": {
+     "votes": 635,
+     "tagline": "Open source agents that run 100% locally on your Mac"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1ciudae-amc7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Miora: Scale your creativity on editable canvas with agent memory",
+    "detail": "594 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/miora-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-12T07:01:00.000Z",
+    "meta": {
+     "votes": 594,
+     "tagline": "Scale your creativity on editable canvas with agent memory"
+    }
+   },
+   {
+    "id": "NEWS-1orjqj7-amdz",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "PrismML Bonsai 27B is surprisingly usable on the Jetson Orin Nano 8GB",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1uwoemt/prismml_bonsai_27b_is_surprisingly_usable_on_the/",
+    "timestamp": "2026-07-14T23:04:53.000Z",
+    "meta": {
+     "redditId": "9a44f2f0873f5d70",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-pf6v09-amav",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "ChatCut: Your AI video editor in ChatGPT, desktop, and web",
+    "detail": "756 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/chatcut-ai-video-editor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-10T07:01:00.000Z",
+    "meta": {
+     "votes": 756,
+     "tagline": "Your AI video editor in ChatGPT, desktop, and web"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1sbzcur-amav",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Sim: Open-source workspace for AI agents and workflows",
+    "detail": "678 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/sim-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-10T07:01:00.000Z",
+    "meta": {
+     "votes": 678,
+     "tagline": "Open-source workspace for AI agents and workflows"
+    }
+   },
+   {
+    "id": "NEWS-qrwzkc-amdy",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "So what's the consensus on 1bit models? Is it still a pipe dream?",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1uwnhlv/so_whats_the_consensus_on_1bit_models_is_it_still/",
+    "timestamp": "2026-07-14T22:28:56.000Z",
+    "meta": {
+     "redditId": "9904933ca84221d5",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1n5lwjj-amav",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "PlugThis: Create your own Chrome Extensions by chatting with AI",
+    "detail": "561 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/plugthis-chrome-extension-generator?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-10T07:01:00.000Z",
+    "meta": {
+     "votes": 561,
+     "tagline": "Create your own Chrome Extensions by chatting with AI"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-57eos7-ama7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Auriko : Trading desk for LLM calls",
+    "detail": "751 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/auriko?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-09T07:01:00.000Z",
+    "meta": {
+     "votes": 751,
+     "tagline": "Trading desk for LLM calls"
+    }
+   },
+   {
+    "id": "NEWS-1dslyls-amdx",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Me: one-shot programming is useless and should not be used as benchmark DeepSeek V4: hold my Atlas 500 SuperPod",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1uwm7fx/me_oneshot_programming_is_useless_and_should_not/",
+    "timestamp": "2026-07-14T21:39:44.000Z",
+    "meta": {
+     "redditId": "b46d812abc5e5ef2",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "RESEARCH-1fwplg4-amd5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Requential Coding: Pushing the Limits of Model Compression with Self-Generated Training Data",
+    "detail": "Shikai Qiu, Marc Finzi, Yujia Zheng et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.11883v1",
+    "timestamp": "2026-07-13T17:58:50Z",
+    "meta": {
+     "arxivId": "2607.11883v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-rkpva2-amd5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Metacognition in LLMs: Foundations, Progress, and Opportunities",
+    "detail": "Gabrielle Kaili-May Liu, Areeb Gani, Jacqueline Lu et al. · cs.CL",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.11881v1",
+    "timestamp": "2026-07-13T17:58:37Z",
+    "meta": {
+     "arxivId": "2607.11881v1",
+     "primaryCategory": "cs.CL",
+     "authorCount": 6,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-ame0",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (196 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-07-15T00:03:55.871Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 196,
+     "country": "US"
+    }
+   },
+   {
+    "id": "RESEARCH-16x96sh-amd5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Invariant Learning Dynamics of Transformers in Inductive Reasoning Tasks",
+    "detail": "Tiberiu Musat, Tiago Pimentel, Nicholas Zucchet et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.11875v1",
+    "timestamp": "2026-07-13T17:56:11Z",
+    "meta": {
+     "arxivId": "2607.11875v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-zb3a4i-amd5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation",
+    "detail": "Yunhai Feng, Natalie Leung, Jiaxuan Wang et al. · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.11874v1",
+    "timestamp": "2026-07-13T17:56:08Z",
+    "meta": {
+     "arxivId": "2607.11874v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 6,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-7vgbcv-amd5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "A Durability and Cross-Language Transfer Benchmark for a Validated Teaching-Feedback Classification Protocol",
+    "detail": "Esteban U. Vega Barajas · cs.CL",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.11873v1",
+    "timestamp": "2026-07-13T17:56:05Z",
+    "meta": {
+     "arxivId": "2607.11873v1",
+     "primaryCategory": "cs.CL",
+     "authorCount": 1,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "Tencent: Hy3 (free)",
+    "sourceUrl": "https://openrouter.ai/tencent/hy3"
+   },
+   "toolHealth": {
+    "operational": 5,
+    "degraded": 1,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "Requential Coding: Pushing the Limits of Model Compression with Self-Generated Training Data",
+    "sourceUrl": "https://arxiv.org/abs/2607.11883v1"
+   }
+  },
+  "lastComputed": "2026-07-15T00:03:55.867Z"
+ }
+}
