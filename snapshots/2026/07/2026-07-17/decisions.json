@@ -1,0 +1,98 @@
+{
+ "v": 1,
+ "capturedAt": "2026-07-17T09:14:36.193Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/29569161248",
+ "record": {
+  "date": "2026-07-17",
+  "lead": "Hy3 (free) holds #1 on OpenRouter",
+  "counts": {
+   "accepted": 10,
+   "skipped": 1
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "Hy3 (free) holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "ollama downloads down 158.2% on brew",
+    "source": "curated",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "PostHog/posthog trending on GitHub (77 stars today)",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "LM Studio Bionic: the AI agent for open models",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "vllm/vllm-openai on docker -10% vs baseline",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-4",
+    "headline": "Claude Code is degraded",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-5",
+    "headline": "Google: Gemini 3.5 Flash up 4 ranks on OpenRouter weekly",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-6",
+    "headline": "Claude Sonnet 5 moved from rank 13 to 10",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-7",
+    "headline": "codecrafters-io/build-your-own-x trending on GitHub (435 stars today)",
+    "source": "curated",
+    "slot": 7
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-8",
+    "headline": "ripienaar/free-for-dev trending on GitHub (172 stars today)",
+    "source": "curated",
+    "slot": 8
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "Hierarchical Denoising For Multi-Step Visual Reasoning",
+    "source": "curated",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-kept",
+    "reason": "lead fresh (led 1 prior day, limit 2)",
+    "lead": "Hy3 (free) holds #1 on OpenRouter"
+   }
+  ]
+ }
+}
