@@ -1,0 +1,547 @@
+{
+ "v": 1,
+ "capturedAt": "2026-07-17T00:04:16.154Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-f5v07h-amfc",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "OpenAI API is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "OpenAI Status (summary)",
+    "sourceUrl": "https://status.openai.com",
+    "timestamp": "2026-07-17T00:04:21.265Z",
+    "meta": {
+     "toolId": "openai-api",
+     "status": "degraded",
+     "statusSourceId": "openai-status",
+     "activeIncidents": 1
+    }
+   },
+   {
+    "id": "TOOL_ALERT-qgyjmt-amfc",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "GitHub Copilot has an active incident: Degraded REST API Availability",
+    "detail": "Status page is green but lists 1 active incident (monitoring).",
+    "sourceName": "GitHub Status (covers Copilot)",
+    "sourceUrl": "https://www.githubstatus.com",
+    "timestamp": "2026-07-17T00:04:21.265Z",
+    "meta": {
+     "toolId": "copilot",
+     "status": "operational",
+     "statusSourceId": "github-status",
+     "activeIncidents": 1
+    }
+   },
+   {
+    "id": "MODEL_MOVER-ltlwqn-amf7",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-5.6 Sol up 9 ranks on OpenRouter weekly",
+    "detail": "Now #22, was #31.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-5.6-sol",
+    "timestamp": "2026-07-16T19:44:35.646Z",
+    "meta": {
+     "slug": "openai/gpt-5.6-sol",
+     "currentRank": 22,
+     "previousRank": 31,
+     "delta": -9
+    }
+   },
+   {
+    "id": "TOOL_ALERT-1ef0dl0-amfc",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Cursor is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "Cursor Status",
+    "sourceUrl": "https://status.cursor.com",
+    "timestamp": "2026-07-17T00:04:21.265Z",
+    "meta": {
+     "toolId": "cursor",
+     "status": "degraded",
+     "statusSourceId": "cursor-status",
+     "activeIncidents": 1
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1im7d86-amf7",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-5.4 up 5 ranks on OpenRouter weekly",
+    "detail": "Now #23, was #28.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-5.4",
+    "timestamp": "2026-07-16T19:44:35.646Z",
+    "meta": {
+     "slug": "openai/gpt-5.4",
+     "currentRank": 23,
+     "previousRank": 28,
+     "delta": -5
+    }
+   },
+   {
+    "id": "MODEL_MOVER-r39wfr-amf7",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "xAI: Grok 4.5 up 4 ranks on OpenRouter weekly",
+    "detail": "Now #26, was #30.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/x-ai/grok-4.5",
+    "timestamp": "2026-07-16T19:44:35.646Z",
+    "meta": {
+     "slug": "x-ai/grok-4.5",
+     "currentRank": 26,
+     "previousRank": 30,
+     "delta": -4
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1dav2ar-ame7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "V2Fun: Generate 3D character with 8K textures and AI motion capture",
+    "detail": "676 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/v2fun?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-15T07:01:00.000Z",
+    "meta": {
+     "votes": 676,
+     "tagline": "Generate 3D character with 8K textures and AI motion capture"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1w5wpct-amf7",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3 Super (free) down 7 ranks on OpenRouter weekly",
+    "detail": "Now #31, was #24.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b",
+    "timestamp": "2026-07-16T19:44:35.646Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3-super-120b-a12b",
+     "currentRank": 31,
+     "previousRank": 24,
+     "delta": 7
+    }
+   },
+   {
+    "id": "MODEL_MOVER-ma1lid-amf7",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-5.6 Luna up 5 ranks on OpenRouter weekly",
+    "detail": "Now #36, was #41.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-5.6-luna",
+    "timestamp": "2026-07-16T19:44:35.646Z",
+    "meta": {
+     "slug": "openai/gpt-5.6-luna",
+     "currentRank": 36,
+     "previousRank": 41,
+     "delta": -5
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-ndz9ey-amdj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "ClawTeams: The first goal-driven, proactive AI team for e-commerce",
+    "detail": "802 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/clawteams?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-14T07:01:00.000Z",
+    "meta": {
+     "votes": 802,
+     "tagline": "The first goal-driven, proactive AI team for e-commerce"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-gqywgy-amf7",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Qwen: Qwen3.7 Max up 8 ranks on OpenRouter weekly",
+    "detail": "Now #40, was #48.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/qwen/qwen3.7-max",
+    "timestamp": "2026-07-16T19:44:35.646Z",
+    "meta": {
+     "slug": "qwen/qwen3.7-max",
+     "currentRank": 40,
+     "previousRank": 48,
+     "delta": -8
+    }
+   },
+   {
+    "id": "MODEL_MOVER-qi7lpg-amf7",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: Text Embedding 3 Small up 4 ranks on OpenRouter weekly",
+    "detail": "Now #41, was #45.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/text-embedding-3-small",
+    "timestamp": "2026-07-16T19:44:35.646Z",
+    "meta": {
+     "slug": "openai/text-embedding-3-small",
+     "currentRank": 41,
+     "previousRank": 45,
+     "delta": -4
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-u32hej-amdj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Pazi: Vibe code business operations",
+    "detail": "767 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/pazi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-14T07:01:00.000Z",
+    "meta": {
+     "votes": 767,
+     "tagline": "Vibe code business operations"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-12nrnlw-amf7",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-5 Mini up 4 ranks on OpenRouter weekly",
+    "detail": "Now #43, was #47.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-5-mini",
+    "timestamp": "2026-07-16T19:44:35.646Z",
+    "meta": {
+     "slug": "openai/gpt-5-mini",
+     "currentRank": 43,
+     "previousRank": 47,
+     "delta": -4
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1g6l21g-amf7",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Qwen: Qwen3.7 Plus down 6 ranks on OpenRouter weekly",
+    "detail": "Now #45, was #39.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/qwen/qwen3.7-plus",
+    "timestamp": "2026-07-16T19:44:35.646Z",
+    "meta": {
+     "slug": "qwen/qwen3.7-plus",
+     "currentRank": 45,
+     "previousRank": 39,
+     "delta": 6
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-z8g6eh-amcv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "AgentKey: One-stop live data marketplace for your agent",
+    "detail": "704 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/agentkey?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-13T07:01:00.000Z",
+    "meta": {
+     "votes": 704,
+     "tagline": "One-stop live data marketplace for your agent"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1vb6suv-amf7",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "MoonshotAI: Kimi K2.5 down 6 ranks on OpenRouter weekly",
+    "detail": "Now #46, was #40.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/moonshotai/kimi-k2.5",
+    "timestamp": "2026-07-16T19:44:35.646Z",
+    "meta": {
+     "slug": "moonshotai/kimi-k2.5",
+     "currentRank": 46,
+     "previousRank": 40,
+     "delta": 6
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1b8orut-amf7",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "MoonshotAI: Kimi K2.7 Code down 5 ranks on OpenRouter weekly",
+    "detail": "Now #47, was #42.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/moonshotai/kimi-k2.7-code",
+    "timestamp": "2026-07-16T19:44:35.646Z",
+    "meta": {
+     "slug": "moonshotai/kimi-k2.7-code",
+     "currentRank": 47,
+     "previousRank": 42,
+     "delta": 5
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-87dz3s-amcv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Osaurus: Open source agents that run 100% locally on your Mac",
+    "detail": "681 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/osaurus?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-13T07:01:00.000Z",
+    "meta": {
+     "votes": 681,
+     "tagline": "Open source agents that run 100% locally on your Mac"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-16nsd9j-amf7",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Qwen: Qwen3 Embedding 8B down 4 ranks on OpenRouter weekly",
+    "detail": "Now #48, was #44.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/qwen/qwen3-embedding-8b",
+    "timestamp": "2026-07-16T19:44:35.646Z",
+    "meta": {
+     "slug": "qwen/qwen3-embedding-8b",
+     "currentRank": 48,
+     "previousRank": 44,
+     "delta": 4
+    }
+   },
+   {
+    "id": "MODEL_MOVER-hxvpbs-amf7",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3 Ultra down 62 ranks on OpenRouter weekly",
+    "detail": "Now #68, was #6.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b",
+    "timestamp": "2026-07-16T19:44:35.646Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3-ultra-550b-a55b",
+     "currentRank": 68,
+     "previousRank": 6,
+     "delta": 62
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1ciudae-amc7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Miora: Scale your creativity on editable canvas with agent memory",
+    "detail": "615 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/miora-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-12T07:01:00.000Z",
+    "meta": {
+     "votes": 615,
+     "tagline": "Scale your creativity on editable canvas with agent memory"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-283i8w-amf7",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Tencent: Hy3 down 86 ranks on OpenRouter weekly",
+    "detail": "Now #87, was #1.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/tencent/hy3",
+    "timestamp": "2026-07-16T19:44:35.646Z",
+    "meta": {
+     "slug": "tencent/hy3",
+     "currentRank": 87,
+     "previousRank": 1,
+     "delta": 86
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-pf6v09-amav",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "ChatCut: Your AI video editor in ChatGPT, desktop, and web",
+    "detail": "786 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/chatcut-ai-video-editor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-10T07:01:00.000Z",
+    "meta": {
+     "votes": 786,
+     "tagline": "Your AI video editor in ChatGPT, desktop, and web"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1sbzcur-amav",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Sim: Open-source workspace for AI agents and workflows",
+    "detail": "679 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/sim-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-10T07:01:00.000Z",
+    "meta": {
+     "votes": 679,
+     "tagline": "Open-source workspace for AI agents and workflows"
+    }
+   },
+   {
+    "id": "NEWS-1jqhjoa-amfa",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Will we have a 27B model with Fable capabilities in 5 months? History says yes",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1uyhdaf/will_we_have_a_27b_model_with_fable_capabilities/",
+    "timestamp": "2026-07-16T22:21:47.000Z",
+    "meta": {
+     "redditId": "adb35d0e09fcf7d4",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "NEWS-cdtyvz-amfa",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Anthropic and OpenAI don't have secret sauce",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1uygxt3/anthropic_and_openai_dont_have_secret_sauce/",
+    "timestamp": "2026-07-16T22:04:16.000Z",
+    "meta": {
+     "redditId": "d07920986c432d10",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "RESEARCH-11hawgi-ameh",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Leveraging unlabelled data for generalizable neural population decoding",
+    "detail": "Ximeng Mao, Nanda H. Krishna, Avery Hee-Woon Ryoo et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.14086v1",
+    "timestamp": "2026-07-15T17:58:00Z",
+    "meta": {
+     "arxivId": "2607.14086v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "NEWS-16b29ly-amf9",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "I tested all llama.cpp's speculative decoding methods on Qwen 3.6 27B: MTP ~2.7x, DFlash ~3.7x, n-gram stack ~6x on real coding. Local AI win. My findings on RTX 6000 PRO.",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1uyg3za/i_tested_all_llamacpps_speculative_decoding/",
+    "timestamp": "2026-07-16T21:35:55.000Z",
+    "meta": {
+     "redditId": "5d358f8a988980ed",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "RESEARCH-9cwswf-ameh",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Linear Independent Component Analysis via Optimal Transport",
+    "detail": "Ashutosh Jha, Michel Besserve, Simon Buchholz · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.14081v1",
+    "timestamp": "2026-07-15T17:56:11Z",
+    "meta": {
+     "arxivId": "2607.14081v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-15rz7jp-ameh",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "MetaPerch: Learning from metadata for bioacoustics foundation models",
+    "detail": "Mustafa Chasmai, Vincent Dumoulin, Jenny Hamer · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.14072v1",
+    "timestamp": "2026-07-15T17:42:41Z",
+    "meta": {
+     "arxivId": "2607.14072v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-amfc",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (200 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-07-17T00:04:21.277Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 200,
+     "country": "US"
+    }
+   },
+   {
+    "id": "RESEARCH-twovqn-ameh",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Screening of Biosecurity Features in Metagenomic Data with Evo 2 Probes",
+    "detail": "Jeremy Guntoro, Alexander Dack, Dylan Danno et al. · q-bio.GN",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.14070v1",
+    "timestamp": "2026-07-15T17:38:02Z",
+    "meta": {
+     "arxivId": "2607.14070v1",
+     "primaryCategory": "q-bio.GN",
+     "authorCount": 6,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1yzk1cj-ameh",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Deep Interaction: An Efficient Human-AI Interaction Method for Large Reasoning Models",
+    "detail": "Hefeng Zhou, Jinxuan Zhang, Jiong Lou et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.14049v1",
+    "timestamp": "2026-07-15T17:16:43Z",
+    "meta": {
+     "arxivId": "2607.14049v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 7,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "Tencent: Hy3 (free)",
+    "sourceUrl": "https://openrouter.ai/tencent/hy3"
+   },
+   "toolHealth": {
+    "operational": 4,
+    "degraded": 2,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "Leveraging unlabelled data for generalizable neural population decoding",
+    "sourceUrl": "https://arxiv.org/abs/2607.14086v1"
+   }
+  },
+  "lastComputed": "2026-07-17T00:04:21.265Z"
+ }
+}
