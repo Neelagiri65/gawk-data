@@ -1,0 +1,119 @@
+{
+ "v": 1,
+ "capturedAt": "2026-07-19T09:09:28.887Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/29681028363",
+ "record": {
+  "date": "2026-07-19",
+  "lead": "Hy3 (free) holds #1 on OpenRouter",
+  "counts": {
+   "accepted": 9,
+   "skipped": 5
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "Hy3 (free) holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "ollama downloads down 140.4% on brew",
+    "source": "curated",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "PostHog/posthog trending on GitHub (338 stars today)",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Osaurus: Open source agents that run 100% locally on your Mac",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity Generators",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-4",
+    "headline": "codecrafters-io/build-your-own-x trending on GitHub (1126 stars today)",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-5",
+    "headline": "OpenAI: GPT-5.4 up 4 ranks on OpenRouter weekly",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Unabyss for Claude: Shared memory across all apps and LLMs. In Claude",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Anthropic leads 7-day GitHub activity (198 events)",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-8",
+    "headline": "Hierarchical Denoising For Multi-Step Visual Reasoning",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "skip",
+    "gate": "sdk-dedup",
+    "reason": "same package already covered under wording drift",
+    "headline": "ollama",
+    "source": "supplement"
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-ai",
+    "headline": "ai (npm) up 50%",
+    "source": "supplement",
+    "slot": 7
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-@langchain/core",
+    "headline": "@langchain/core (npm) up 48%",
+    "source": "supplement",
+    "slot": 8
+   },
+   {
+    "verdict": "lead-kept",
+    "reason": "lead fresh (led 0 prior days, limit 2)",
+    "lead": "Hy3 (free) holds #1 on OpenRouter"
+   }
+  ]
+ }
+}
