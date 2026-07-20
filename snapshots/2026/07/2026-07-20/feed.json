@@ -1,0 +1,362 @@
+{
+ "v": 1,
+ "capturedAt": "2026-07-20T00:07:20.077Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-qgyjmt-amhc",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "GitHub Copilot has an active incident: Incident with GitHub Actions",
+    "detail": "Status page is green but lists 1 active incident (investigating).",
+    "sourceName": "GitHub Status (covers Copilot)",
+    "sourceUrl": "https://www.githubstatus.com",
+    "timestamp": "2026-07-20T00:08:11.609Z",
+    "meta": {
+     "toolId": "copilot",
+     "status": "operational",
+     "statusSourceId": "github-status",
+     "activeIncidents": 1
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1im7d86-amfq",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-5.4 up 4 ranks on OpenRouter weekly",
+    "detail": "Now #22, was #26.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-5.4",
+    "timestamp": "2026-07-17T14:15:14.823Z",
+    "meta": {
+     "slug": "openai/gpt-5.4",
+     "currentRank": 22,
+     "previousRank": 26,
+     "delta": -4
+    }
+   },
+   {
+    "id": "MODEL_MOVER-3p7dyf-amfq",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemini 3.5 Flash up 4 ranks on OpenRouter weekly",
+    "detail": "Now #27, was #31.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemini-3.5-flash",
+    "timestamp": "2026-07-17T14:15:14.823Z",
+    "meta": {
+     "slug": "google/gemini-3.5-flash",
+     "currentRank": 27,
+     "previousRank": 31,
+     "delta": -4
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-6718tf-amg7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "ZooData: The data layer for AI agents",
+    "detail": "621 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/zoodata?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-18T07:01:00.000Z",
+    "meta": {
+     "votes": 621,
+     "tagline": "The data layer for AI agents"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1ht37we-amfq",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Z.ai: GLM 5 down 5 ranks on OpenRouter weekly",
+    "detail": "Now #30, was #25.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/z-ai/glm-5",
+    "timestamp": "2026-07-17T14:15:14.823Z",
+    "meta": {
+     "slug": "z-ai/glm-5",
+     "currentRank": 30,
+     "previousRank": 25,
+     "delta": 5
+    }
+   },
+   {
+    "id": "MODEL_MOVER-ma1lid-amfq",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-5.6 Luna up 4 ranks on OpenRouter weekly",
+    "detail": "Now #33, was #37.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-5.6-luna",
+    "timestamp": "2026-07-17T14:15:14.823Z",
+    "meta": {
+     "slug": "openai/gpt-5.6-luna",
+     "currentRank": 33,
+     "previousRank": 37,
+     "delta": -4
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-14y2zc2-amfj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Unabyss for Claude: Shared memory across all apps and LLMs. In Claude",
+    "detail": "603 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/unabyss?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-17T07:01:00.000Z",
+    "meta": {
+     "votes": 603,
+     "tagline": "Shared memory across all apps and LLMs. In Claude"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-hxvpbs-amfq",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3 Ultra down 71 ranks on OpenRouter weekly",
+    "detail": "Now #77, was #6.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b",
+    "timestamp": "2026-07-17T14:15:14.823Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3-ultra-550b-a55b",
+     "currentRank": 77,
+     "previousRank": 6,
+     "delta": 71
+    }
+   },
+   {
+    "id": "MODEL_MOVER-283i8w-amfq",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Tencent: Hy3 down 83 ranks on OpenRouter weekly",
+    "detail": "Now #84, was #1.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/tencent/hy3",
+    "timestamp": "2026-07-17T14:15:14.823Z",
+    "meta": {
+     "slug": "tencent/hy3",
+     "currentRank": 84,
+     "previousRank": 1,
+     "delta": 83
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1dav2ar-ame7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "V2Fun: Generate 3D character with 8K textures and AI motion capture",
+    "detail": "775 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/v2fun?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-15T07:01:00.000Z",
+    "meta": {
+     "votes": 775,
+     "tagline": "Generate 3D character with 8K textures and AI motion capture"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1w5wpct-amfq",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3 Super down 66 ranks on OpenRouter weekly",
+    "detail": "Now #96, was #30.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b",
+    "timestamp": "2026-07-17T14:15:14.823Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3-super-120b-a12b",
+     "currentRank": 96,
+     "previousRank": 30,
+     "delta": 66
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-ndz9ey-amdj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "ClawTeams: The first goal-driven, proactive AI team for e-commerce",
+    "detail": "967 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/clawteams?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-14T07:01:00.000Z",
+    "meta": {
+     "votes": 967,
+     "tagline": "The first goal-driven, proactive AI team for e-commerce"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-u32hej-amdj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Pazi: Vibe code business operations",
+    "detail": "878 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/pazi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-14T07:01:00.000Z",
+    "meta": {
+     "votes": 878,
+     "tagline": "Vibe code business operations"
+    }
+   },
+   {
+    "id": "RESEARCH-ip429v-amf5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "RoboTTT: Context Scaling for Robot Policies",
+    "detail": "Yunfan Jiang, Yevgen Chebotar, Ruijie Zheng et al. · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.15275v1",
+    "timestamp": "2026-07-16T17:59:06Z",
+    "meta": {
+     "arxivId": "2607.15275v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 11,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-p52cdt-amdj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Goose Ads Remixer: Remix the ads already winning in your niche",
+    "detail": "578 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/gooseworks?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-14T07:01:00.000Z",
+    "meta": {
+     "votes": 578,
+     "tagline": "Remix the ads already winning in your niche"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-z8g6eh-amcv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "AgentKey: One-stop live data marketplace for your agent",
+    "detail": "728 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/agentkey?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-13T07:01:00.000Z",
+    "meta": {
+     "votes": 728,
+     "tagline": "One-stop live data marketplace for your agent"
+    }
+   },
+   {
+    "id": "RESEARCH-1f7zxul-amf5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity Generators",
+    "detail": "Yushi Huang, Xiangxin Zhou, Jun Zhang et al. · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.15273v1",
+    "timestamp": "2026-07-16T17:59:02Z",
+    "meta": {
+     "arxivId": "2607.15273v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-87dz3s-amcv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Osaurus: Open source agents that run 100% locally on your Mac",
+    "detail": "697 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/osaurus?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-07-13T07:01:00.000Z",
+    "meta": {
+     "votes": 697,
+     "tagline": "Open source agents that run 100% locally on your Mac"
+    }
+   },
+   {
+    "id": "RESEARCH-18al5z2-amf5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "SciDiagramEdit: Learning to Edit Scientific Diagrams from Paper Revisions",
+    "detail": "Yasheng Sun, Zezi Zeng, Yifan Yang et al. · cs.CL",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.15272v1",
+    "timestamp": "2026-07-16T17:58:36Z",
+    "meta": {
+     "arxivId": "2607.15272v1",
+     "primaryCategory": "cs.CL",
+     "authorCount": 7,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-13ycstz-amf5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Online Neural Space Time Memory for Dynamic Novel View Synthesis",
+    "detail": "Baback Elmieh, Lynn Tsai, Zeman Li et al. · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.15271v1",
+    "timestamp": "2026-07-16T17:58:18Z",
+    "meta": {
+     "arxivId": "2607.15271v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 11,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-amhc",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (199 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-07-20T00:08:11.614Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 199,
+     "country": "US"
+    }
+   },
+   {
+    "id": "RESEARCH-vwtazo-amf5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Pretraining Data Can Be Poisoned through Computational Propaganda",
+    "detail": "Victoria Graf, Hannaneh Hajishirzi, Noah A. Smith et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2607.15267v1",
+    "timestamp": "2026-07-16T17:56:05Z",
+    "meta": {
+     "arxivId": "2607.15267v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "Tencent: Hy3 (free)",
+    "sourceUrl": "https://openrouter.ai/tencent/hy3"
+   },
+   "toolHealth": {
+    "operational": 6,
+    "degraded": 0,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "RoboTTT: Context Scaling for Robot Policies",
+    "sourceUrl": "https://arxiv.org/abs/2607.15275v1"
+   }
+  },
+  "lastComputed": "2026-07-20T00:08:11.609Z",
+  "monitoringImpaired": true
+ }
+}
