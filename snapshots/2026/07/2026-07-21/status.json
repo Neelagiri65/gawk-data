@@ -1,0 +1,690 @@
+{
+ "v": 1,
+ "capturedAt": "2026-07-21T09:25:11.918Z",
+ "endpoint": "/api/v1/status",
+ "record": {
+  "data": {
+   "claude-code": {
+    "status": "operational",
+    "statusSourceId": "anthropic-status",
+    "lastCheckedAt": "2026-07-21T09:25:26.389Z",
+    "openIssues": 11880,
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-07-15",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "09g0fh2l7qbb",
+        "name": "Elevated errors on multiple models",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-15T14:04:00.459Z",
+        "resolvedAt": "2026-07-15T15:11:10.047Z"
+       }
+      ],
+      "sampleCount": 352
+     },
+     {
+      "date": "2026-07-16",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "vjfp60ngq2zj",
+        "name": "Elevated errors for Claude Opus 4.7",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-16T08:58:05.865Z",
+        "resolvedAt": "2026-07-16T13:30:55.394Z"
+       },
+       {
+        "id": "30x7lsq713tl",
+        "name": "Elevated errors on Claude Sonnet 5",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-16T08:39:14.307Z",
+        "resolvedAt": "2026-07-16T08:53:52.263Z"
+       }
+      ],
+      "sampleCount": 356
+     },
+     {
+      "date": "2026-07-17",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "g613ntyj2pwf",
+        "name": "Elevated errors across Fable 5",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-07-17T18:32:32.629Z",
+        "resolvedAt": "2026-07-17T19:43:35.467Z"
+       },
+       {
+        "id": "lj0khk5vd7v7",
+        "name": "Elevated error rates for Sonnet 5",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-07-17T18:12:57.891Z",
+        "resolvedAt": "2026-07-17T18:27:33.486Z"
+       },
+       {
+        "id": "bwz7ld34gcxt",
+        "name": "Elevated errors for Claude Opus 4.8",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-17T14:57:42.454Z",
+        "resolvedAt": "2026-07-17T15:33:15.604Z"
+       },
+       {
+        "id": "7gpjd8n56rlq",
+        "name": "Elevated errors on Sonnet 5 and Haiku 4.5",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-17T06:47:54.909Z",
+        "resolvedAt": "2026-07-17T12:21:30.321Z"
+       }
+      ],
+      "sampleCount": 325
+     },
+     {
+      "date": "2026-07-18",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-19",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-20",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "4n0mmv2v41rf",
+        "name": "Elevated errors for Claude Opus 4.8",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-20T14:41:12.517Z",
+        "resolvedAt": "2026-07-20T16:16:00.095Z"
+       },
+       {
+        "id": "s39rkbp2xhpd",
+        "name": "Elevated errors on Haiku 4.5",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-20T13:20:48.492Z",
+        "resolvedAt": "2026-07-20T15:41:03.604Z"
+       },
+       {
+        "id": "tnypgb2jbqnq",
+        "name": "Fable 5 requiring usage credits on Max plans",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-20T07:35:29.166Z",
+        "resolvedAt": "2026-07-20T15:35:33.021Z"
+       },
+       {
+        "id": "hlt0yqp4lkww",
+        "name": "Elevated error rates for Opus 4.5",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-20T07:03:46.113Z",
+        "resolvedAt": "2026-07-20T12:48:06.788Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-21",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "v35b71rthzhp",
+        "name": "Elevated errors on Haiku 4.5",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-21T07:11:52.679Z",
+        "resolvedAt": "2026-07-21T08:53:13.684Z"
+       }
+      ],
+      "sampleCount": 0
+     }
+    ],
+    "historyHasSamples": true
+   },
+   "openai-api": {
+    "status": "operational",
+    "statusSourceId": "openai-status",
+    "lastCheckedAt": "2026-07-21T09:25:26.389Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-07-15",
+      "worstStatus": "major_outage",
+      "worstImpact": "critical",
+      "incidents": [
+       {
+        "id": "01KXHH1BJ9BS0FVE2MGEJ9FZ5M",
+        "name": "Elevated errors affecting ChatGPT",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-07-14T23:57:45Z",
+        "resolvedAt": "2026-07-15T00:39:32Z"
+       },
+       {
+        "id": "01KXHK8YFSP8B9WP110W4XEM45",
+        "name": "Issue affecting voice mode in ChatGPT",
+        "status": "resolved",
+        "impact": "critical",
+        "createdAt": "2026-07-15T00:36:51Z",
+        "resolvedAt": "2026-07-15T00:38:18Z"
+       }
+      ],
+      "sampleCount": 352
+     },
+     {
+      "date": "2026-07-16",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01KXPJ62Z704GE0SRNKQA64X4X",
+        "name": "Elevated errors for Github connector",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-16T22:54:01Z",
+        "resolvedAt": "2026-07-17T00:17:49Z"
+       },
+       {
+        "id": "01KXN14DD3EYYJ6PJ9M736WDSV",
+        "name": "Elevated Error Rates For SSO Login",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-16T08:36:46Z",
+        "resolvedAt": "2026-07-16T15:23:13Z"
+       }
+      ],
+      "sampleCount": 356
+     },
+     {
+      "date": "2026-07-17",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "01KXRBA8B98QHMMVP3M86NHFZ1",
+        "name": "New ChatGPT App Not Available For Enterprise Users Without Codex Permissions",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-07-17T15:32:26Z",
+        "resolvedAt": "2026-07-18T05:45:25Z"
+       },
+       {
+        "id": "01KXRHE25717D2WQ1WFMT2B7WZ",
+        "name": "Codex 5.6-sol Experiencing Increased Server-Overload Errors",
+        "status": "resolved",
+        "impact": "none",
+        "createdAt": "2026-07-17T17:19:22Z",
+        "resolvedAt": "2026-07-17T20:42:53Z"
+       },
+       {
+        "id": "01KXPJ62Z704GE0SRNKQA64X4X",
+        "name": "Elevated errors for Github connector",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-16T22:54:01Z",
+        "resolvedAt": "2026-07-17T00:17:49Z"
+       }
+      ],
+      "sampleCount": 325
+     },
+     {
+      "date": "2026-07-18",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "01KXT44TAQQ2R0AZDDVSJGAC4H",
+        "name": "Some users are unable to access Codex",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-18T08:05:37Z",
+        "resolvedAt": "2026-07-18T12:58:14Z"
+       },
+       {
+        "id": "01KXRBA8B98QHMMVP3M86NHFZ1",
+        "name": "New ChatGPT App Not Available For Enterprise Users Without Codex Permissions",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-07-17T15:32:26Z",
+        "resolvedAt": "2026-07-18T05:45:25Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-19",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "01KXXDNEAKEPRGFM661SBJJAM6",
+        "name": "Elevated errors affecting ChatGPT",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-07-19T14:49:42Z",
+        "resolvedAt": "2026-07-19T17:05:02Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-20",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01KXYF4BTCV9DTZ5NDSFN716FH",
+        "name": "Elevated errors for GitHub-dependent ChatGPT and Codex workflows",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-20T00:34:34Z",
+        "resolvedAt": "2026-07-20T03:34:06Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-21",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     }
+    ],
+    "historyHasSamples": true
+   },
+   "codex": {
+    "status": "operational",
+    "statusSourceId": "openai-status",
+    "lastCheckedAt": "2026-07-21T09:25:26.389Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-07-15",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 352
+     },
+     {
+      "date": "2026-07-16",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 356
+     },
+     {
+      "date": "2026-07-17",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "01KXRBA8B98QHMMVP3M86NHFZ1",
+        "name": "New ChatGPT App Not Available For Enterprise Users Without Codex Permissions",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-07-17T15:32:26Z",
+        "resolvedAt": "2026-07-18T05:45:25Z"
+       },
+       {
+        "id": "01KXRHE25717D2WQ1WFMT2B7WZ",
+        "name": "Codex 5.6-sol Experiencing Increased Server-Overload Errors",
+        "status": "resolved",
+        "impact": "none",
+        "createdAt": "2026-07-17T17:19:22Z",
+        "resolvedAt": "2026-07-17T20:42:53Z"
+       }
+      ],
+      "sampleCount": 325
+     },
+     {
+      "date": "2026-07-18",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "01KXT44TAQQ2R0AZDDVSJGAC4H",
+        "name": "Some users are unable to access Codex",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-18T08:05:37Z",
+        "resolvedAt": "2026-07-18T12:58:14Z"
+       },
+       {
+        "id": "01KXRBA8B98QHMMVP3M86NHFZ1",
+        "name": "New ChatGPT App Not Available For Enterprise Users Without Codex Permissions",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-07-17T15:32:26Z",
+        "resolvedAt": "2026-07-18T05:45:25Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-19",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-20",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01KXYF4BTCV9DTZ5NDSFN716FH",
+        "name": "Elevated errors for GitHub-dependent ChatGPT and Codex workflows",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-20T00:34:34Z",
+        "resolvedAt": "2026-07-20T03:34:06Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-21",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     }
+    ],
+    "historyHasSamples": true
+   },
+   "copilot": {
+    "status": "operational",
+    "statusSourceId": "github-status",
+    "lastCheckedAt": "2026-07-21T09:25:26.389Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-07-15",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-16",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-17",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-18",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-19",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-20",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-21",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     }
+    ],
+    "historyHasSamples": true
+   },
+   "windsurf": {
+    "status": "operational",
+    "statusSourceId": "windsurf-status",
+    "lastCheckedAt": "2026-07-21T09:25:26.389Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-07-15",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-16",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-17",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-18",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-19",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-20",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-21",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     }
+    ],
+    "historyHasSamples": true
+   },
+   "cursor": {
+    "status": "operational",
+    "statusSourceId": "cursor-status",
+    "lastCheckedAt": "2026-07-21T09:25:26.389Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-07-15",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "m4dvkx7rxwgj",
+        "name": "Investigating service degradation",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-07-15T08:52:00.000Z",
+        "resolvedAt": "2026-07-15T11:32:24.004Z"
+       },
+       {
+        "id": "j10ddhwm6g2f",
+        "name": "Investigating service degradation — Cloud Agents",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-15T10:21:47.584Z",
+        "resolvedAt": "2026-07-15T11:31:24.748Z"
+       },
+       {
+        "id": "h71m65my586h",
+        "name": "Investigating service degradation",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-14T19:52:29.207Z",
+        "resolvedAt": "2026-07-15T09:11:48.302Z"
+       }
+      ],
+      "sampleCount": 352
+     },
+     {
+      "date": "2026-07-16",
+      "worstStatus": "major_outage",
+      "worstImpact": "critical",
+      "incidents": [
+       {
+        "id": "178b853sq35c",
+        "name": "Investigating service degradation — Cloud Agents",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-16T22:33:26.190Z",
+        "resolvedAt": "2026-07-17T00:15:58.531Z"
+       },
+       {
+        "id": "cg09dhswq6cy",
+        "name": "Authentication System degradation",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-07-16T08:32:00.000Z",
+        "resolvedAt": "2026-07-16T10:46:43.833Z"
+       },
+       {
+        "id": "kktsh6d4fm6v",
+        "name": "Investigating Grok 4.5 degradation",
+        "status": "resolved",
+        "impact": "critical",
+        "createdAt": "2026-07-16T07:01:00.000Z",
+        "resolvedAt": "2026-07-16T09:36:45.604Z"
+       },
+       {
+        "id": "34y2yzdrtr5g",
+        "name": "Investigating GPT-5.6 Sol degradation",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-16T05:31:26.532Z",
+        "resolvedAt": "2026-07-16T06:15:26.474Z"
+       }
+      ],
+      "sampleCount": 356
+     },
+     {
+      "date": "2026-07-17",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "htxx9vp5s24f",
+        "name": "Investigating Anthropic degradation",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-17T07:17:15.075Z",
+        "resolvedAt": "2026-07-17T12:27:52.470Z"
+       },
+       {
+        "id": "178b853sq35c",
+        "name": "Investigating service degradation — Cloud Agents",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-16T22:33:26.190Z",
+        "resolvedAt": "2026-07-17T00:15:58.531Z"
+       }
+      ],
+      "sampleCount": 325
+     },
+     {
+      "date": "2026-07-18",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-19",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-20",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "q3q7y4xympz1",
+        "name": "Investigating service degradation",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-20T02:54:19.577Z",
+        "resolvedAt": "2026-07-20T12:23:21.302Z"
+       },
+       {
+        "id": "kdn6bp1p66zp",
+        "name": "Investigating service degradation",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-20T02:00:42.419Z",
+        "resolvedAt": "2026-07-20T02:19:28.189Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-21",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     }
+    ],
+    "historyHasSamples": true
+   }
+  },
+  "polledAt": "2026-07-21T09:25:26.389Z",
+  "failures": []
+ }
+}
