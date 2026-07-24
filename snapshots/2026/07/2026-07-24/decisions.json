@@ -1,0 +1,119 @@
+{
+ "v": 1,
+ "capturedAt": "2026-07-24T09:26:32.643Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/30082426896",
+ "record": {
+  "date": "2026-07-24",
+  "lead": "Hy3 (free) holds #1 on OpenRouter",
+  "counts": {
+   "accepted": 10,
+   "skipped": 4
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "Hy3 (free) holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "jellyfin/jellyfin trending on GitHub (66 stars today)",
+    "source": "curated",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "ai downloads up 50.9% on npm",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-2",
+    "headline": "Claude Code is degraded",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "Google: Gemini 3.5 Flash up 4 ranks on OpenRouter weekly",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-4",
+    "headline": "Claude Sonnet 5 moved from rank 13 to 10",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "CartAI: The AI agent that handles checkout.",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "OpenAI API is reporting degraded performance",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Anthropic leads 7-day GitHub activity (199 events)",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-8",
+    "headline": "3D-Aware VLMs with Implicit and Explicit Geometries",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers",
+    "source": "curated",
+    "slot": 7
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-ollama",
+    "headline": "ollama (brew) down 126%",
+    "source": "supplement",
+    "slot": 8
+   },
+   {
+    "verdict": "skip",
+    "gate": "sdk-dedup",
+    "reason": "same package already covered under wording drift",
+    "headline": "ai",
+    "source": "supplement"
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-@langchain/core",
+    "headline": "@langchain/core (npm) up 49%",
+    "source": "supplement",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-kept",
+    "reason": "lead fresh (led 0 prior days, limit 2)",
+    "lead": "Hy3 (free) holds #1 on OpenRouter"
+   }
+  ]
+ }
+}
