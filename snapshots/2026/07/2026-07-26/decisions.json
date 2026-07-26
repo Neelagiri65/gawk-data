@@ -1,0 +1,112 @@
+{
+ "v": 1,
+ "capturedAt": "2026-07-26T09:20:19.487Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/30196220647",
+ "record": {
+  "date": "2026-07-26",
+  "lead": "jellyfin/jellyfin trending on GitHub (62 stars today)",
+  "counts": {
+   "accepted": 10,
+   "skipped": 3
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "Hy3 (free) holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "jellyfin/jellyfin trending on GitHub (62 stars today)",
+    "source": "curated",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "@langchain/core downloads up 56.8% on npm",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "OpenAI API has an active incident: Elevated errors affecting ChatGPT conversations",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "OpenAI: GPT-5.4 up 4 ranks on OpenRouter weekly",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "CartAI: The AI agent that handles checkout.",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Anthropic leads 7-day GitHub activity (200 events)",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-6",
+    "headline": "3D-Aware VLMs with Implicit and Explicit Geometries",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-7",
+    "headline": "Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-8",
+    "headline": "Unified Video Dense Prediction from Disjoint Data",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "Inference-Time Scaling of Diffusion Models via Progressive Seed Pruning",
+    "source": "curated",
+    "slot": 7
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-ollama",
+    "headline": "ollama (brew) down 123%",
+    "source": "supplement",
+    "slot": 8
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-ai",
+    "headline": "ai (npm) up 58%",
+    "source": "supplement",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-rotated",
+    "reason": "lead \"Hy3 (free) holds #1 on OpenRouter\" led 2 consecutive days — promoted \"jellyfin/jellyfin trending on GitHub (62 stars today)\"",
+    "lead": "jellyfin/jellyfin trending on GitHub (62 stars today)"
+   }
+  ]
+ }
+}
