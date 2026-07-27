@@ -1,0 +1,669 @@
+{
+ "v": 1,
+ "capturedAt": "2026-07-27T07:35:47.746Z",
+ "endpoint": "/api/v1/status",
+ "record": {
+  "data": {
+   "claude-code": {
+    "status": "operational",
+    "statusSourceId": "anthropic-status",
+    "lastCheckedAt": "2026-07-27T07:36:00.611Z",
+    "openIssues": 12713,
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-07-21",
+      "worstStatus": "major_outage",
+      "worstImpact": "critical",
+      "incidents": [
+       {
+        "id": "vcynh9cf33xp",
+        "name": "Elevated errors on several models",
+        "status": "resolved",
+        "impact": "critical",
+        "createdAt": "2026-07-21T15:35:03.996Z",
+        "resolvedAt": "2026-07-21T18:18:55.036Z"
+       },
+       {
+        "id": "4qsb0fp16tpb",
+        "name": "Service disruption on Claude services",
+        "status": "resolved",
+        "impact": "critical",
+        "createdAt": "2026-07-21T17:40:25.000Z",
+        "resolvedAt": "2026-07-21T18:03:47.003Z"
+       },
+       {
+        "id": "j0y67nj6w93z",
+        "name": "Elevated errors on Haiku 4.5",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-07-21T13:04:35.885Z",
+        "resolvedAt": "2026-07-21T16:38:26.703Z"
+       },
+       {
+        "id": "lw0sb1srtznh",
+        "name": "Elevated errors across Fable 5",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-21T11:19:33.003Z",
+        "resolvedAt": "2026-07-21T12:07:32.039Z"
+       },
+       {
+        "id": "y65gwqbztbsp",
+        "name": "Elevated errors across models",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-21T10:11:10.777Z",
+        "resolvedAt": "2026-07-21T11:18:50.485Z"
+       },
+       {
+        "id": "v35b71rthzhp",
+        "name": "Elevated errors on Haiku 4.5",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-21T07:11:52.679Z",
+        "resolvedAt": "2026-07-21T08:53:13.684Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-22",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "db1mh1r2zrn5",
+        "name": "Elevated errors on Haiku 4.5",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-22T23:52:59.578Z",
+        "resolvedAt": "2026-07-23T00:10:17.291Z"
+       },
+       {
+        "id": "6h7589wl6l45",
+        "name": "Elevated error rates for Sonnet 5",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-22T15:24:05.453Z",
+        "resolvedAt": "2026-07-22T16:12:32.364Z"
+       },
+       {
+        "id": "f7w8qkd8z57f",
+        "name": "Elevated errors on Opus 4.8 and Haiku 4.5",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-22T13:37:28.237Z",
+        "resolvedAt": "2026-07-22T15:23:37.914Z"
+       },
+       {
+        "id": "xvbzmkjbzh0x",
+        "name": "Elevated errors for Claude Opus 4.1",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-22T08:34:31.885Z",
+        "resolvedAt": "2026-07-22T09:00:25.206Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-23",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "db1mh1r2zrn5",
+        "name": "Elevated errors on Haiku 4.5",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-22T23:52:59.578Z",
+        "resolvedAt": "2026-07-23T00:10:17.291Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-24",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "0lbk5m7mbqk5",
+        "name": "Elevated error rate on Opus 4.8",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-24T09:09:56.943Z",
+        "resolvedAt": "2026-07-24T10:22:06.541Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-25",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "j6gv862066n7",
+        "name": "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-07-25T21:34:51.173Z",
+        "resolvedAt": "2026-07-25T22:08:41.677Z"
+       },
+       {
+        "id": "f1q2wvw4qj4j",
+        "name": "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-07-25T18:40:31.869Z",
+        "resolvedAt": "2026-07-25T19:44:32.851Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-26",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "zftg3gqkmv18",
+        "name": "Elevated errors for Opus 5",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-07-26T09:17:12.697Z",
+        "resolvedAt": "2026-07-26T10:44:14.944Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-27",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     }
+    ],
+    "historyHasSamples": true
+   },
+   "openai-api": {
+    "status": "operational",
+    "statusSourceId": "openai-status",
+    "lastCheckedAt": "2026-07-27T07:36:00.611Z",
+    "activeIncidents": [
+     {
+      "id": "01KYDN6YPS6ARY1EC9089N089G",
+      "name": "Elevated errors affecting ChatGPT conversations",
+      "status": "monitoring",
+      "createdAt": "2026-07-25T22:09:27Z"
+     }
+    ],
+    "history": [
+     {
+      "date": "2026-07-21",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "01KY23YCPJ9M5BFFT6ZHKQE9MP",
+        "name": "Image generation unavailable in ChatGPT",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-07-21T10:36:02Z",
+        "resolvedAt": "2026-07-22T02:50:19Z"
+       },
+       {
+        "id": "01KY32PEQHPV5F2W4HCNFJ60RD",
+        "name": "Elevated errors for API image generation",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-07-21T19:33:27Z",
+        "resolvedAt": "2026-07-21T22:19:31Z"
+       },
+       {
+        "id": "01KY2ZF047ZNVDX0Z6F3QFXB1K",
+        "name": "Issues with logins and signups",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-07-21T18:36:57Z",
+        "resolvedAt": "2026-07-21T19:00:27Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-22",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "01KY54SWGRK806N6TJ495MYPDD",
+        "name": "Elevated errors for Workspace Agent",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-22T14:48:46Z",
+        "resolvedAt": "2026-07-22T16:09:35Z"
+       },
+       {
+        "id": "01KY4BT971GFN59WBT0CKSGCPJ",
+        "name": "Elevated Errors Affecting File Uploads and Image Generation",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-22T07:32:04Z",
+        "resolvedAt": "2026-07-22T14:39:42Z"
+       },
+       {
+        "id": "01KY23YCPJ9M5BFFT6ZHKQE9MP",
+        "name": "Image generation unavailable in ChatGPT",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-07-21T10:36:02Z",
+        "resolvedAt": "2026-07-22T02:50:19Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-23",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01KY7SX5MYJ2BP51X5MXAPYX71",
+        "name": "Elevated Error Rates",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-23T15:36:02Z",
+        "resolvedAt": "2026-07-24T19:33:22Z"
+       },
+       {
+        "id": "01KY8PGR54KXGBSFXHEJ3FM83F",
+        "name": "Elevated API error rates and latency on gpt-image-2 model",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-23T23:56:04Z",
+        "resolvedAt": "2026-07-24T00:09:22Z"
+       },
+       {
+        "id": "01KY81XMFAV8KXNJGVNEMKAK15",
+        "name": "Some users may experience elevated error rates in ChatGPT",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-23T17:56:06Z",
+        "resolvedAt": "2026-07-23T20:41:01Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-24",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01KY7SX5MYJ2BP51X5MXAPYX71",
+        "name": "Elevated Error Rates",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-23T15:36:02Z",
+        "resolvedAt": "2026-07-24T19:33:22Z"
+       },
+       {
+        "id": "01KY9HYHCMK8AND23B4X17XQEK",
+        "name": "Elevated Errors in Codex Review",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-24T07:55:28Z",
+        "resolvedAt": "2026-07-24T09:35:02Z"
+       },
+       {
+        "id": "01KY8PGR54KXGBSFXHEJ3FM83F",
+        "name": "Elevated API error rates and latency on gpt-image-2 model",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-23T23:56:04Z",
+        "resolvedAt": "2026-07-24T00:09:22Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-25",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01KYDN6YPS6ARY1EC9089N089G",
+        "name": "Elevated errors affecting ChatGPT conversations",
+        "status": "monitoring",
+        "impact": "minor",
+        "createdAt": "2026-07-25T22:09:27Z"
+       },
+       {
+        "id": "01KYCGY017EG43XZS6GFVXA8VH",
+        "name": "Elevated error rates",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-25T11:35:24Z",
+        "resolvedAt": "2026-07-25T11:57:02Z"
+       },
+       {
+        "id": "01KYC921K145JTR1JK7DYKGWH1",
+        "name": "Elevated error rates",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-25T09:17:49Z",
+        "resolvedAt": "2026-07-25T11:08:36Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-26",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01KYDN6YPS6ARY1EC9089N089G",
+        "name": "Elevated errors affecting ChatGPT conversations",
+        "status": "monitoring",
+        "impact": "minor",
+        "createdAt": "2026-07-25T22:09:27Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-27",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01KYDN6YPS6ARY1EC9089N089G",
+        "name": "Elevated errors affecting ChatGPT conversations",
+        "status": "monitoring",
+        "impact": "minor",
+        "createdAt": "2026-07-25T22:09:27Z"
+       }
+      ],
+      "sampleCount": 0
+     }
+    ],
+    "historyHasSamples": true
+   },
+   "codex": {
+    "status": "operational",
+    "statusSourceId": "openai-status",
+    "lastCheckedAt": "2026-07-27T07:36:00.611Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-07-21",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-22",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-23",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-24",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01KY9HYHCMK8AND23B4X17XQEK",
+        "name": "Elevated Errors in Codex Review",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-24T07:55:28Z",
+        "resolvedAt": "2026-07-24T09:35:02Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-25",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-26",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-27",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     }
+    ],
+    "historyHasSamples": true
+   },
+   "copilot": {
+    "status": "operational",
+    "statusSourceId": "github-status",
+    "lastCheckedAt": "2026-07-27T07:36:00.611Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-07-21",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-22",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-23",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-24",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "yjysg0xrl67m",
+        "name": "Disruption with some GitHub services",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-07-24T16:17:31.499Z",
+        "resolvedAt": "2026-07-24T17:36:50.993Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-25",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-26",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-27",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     }
+    ],
+    "historyHasSamples": true
+   },
+   "windsurf": {
+    "status": "operational",
+    "statusSourceId": "windsurf-status",
+    "lastCheckedAt": "2026-07-27T07:36:00.611Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-07-21",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-22",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-23",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-24",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-25",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-26",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-27",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     }
+    ],
+    "historyHasSamples": true
+   },
+   "cursor": {
+    "status": "operational",
+    "statusSourceId": "cursor-status",
+    "lastCheckedAt": "2026-07-27T07:36:00.611Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-07-21",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "wc6nnyw1pqq9",
+        "name": "Anthropic elevated errors",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-21T15:52:36.448Z",
+        "resolvedAt": "2026-07-21T18:53:17.464Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-22",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-23",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "d8whvf5gt6jm",
+        "name": "We're Investigating an issue with requests to Fable causing degraded behaviour",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-07-23T15:56:35.951Z",
+        "resolvedAt": "2026-07-23T16:36:56.385Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-24",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-25",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-26",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-07-27",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     }
+    ],
+    "historyHasSamples": true
+   }
+  },
+  "polledAt": "2026-07-27T07:36:00.611Z",
+  "failures": []
+ }
+}
