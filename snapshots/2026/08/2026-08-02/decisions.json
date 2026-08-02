@@ -1,0 +1,119 @@
+{
+ "v": 1,
+ "capturedAt": "2026-08-02T09:14:18.616Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/30741303545",
+ "record": {
+  "date": "2026-08-02",
+  "lead": "DeepSeek V4 Flash takes #1 on OpenRouter",
+  "counts": {
+   "accepted": 10,
+   "skipped": 4
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "DeepSeek V4 Flash takes #1 on OpenRouter",
+    "source": "hook",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "ollama downloads down 72.9% on brew",
+    "source": "curated",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "paperswithbacktest/awesome-systematic-trading trending on GitHub (523 stars today)",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "skip",
+    "gate": "sdk-dedup",
+    "reason": "same package already covered under wording drift",
+    "headline": "ollama on brew -16% vs baseline",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "GPT-5.6 Luna moved from rank 15 to 9",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-4",
+    "headline": "Cursor removed cost information from the usage page and CSV export",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-5",
+    "headline": "@anthropic-ai/sdk on npm +25% vs baseline",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "skip",
+    "gate": "model-dedup",
+    "reason": "same rank move already shipped for \"gpt-5.6 luna\"",
+    "headline": "OpenAI: GPT-5.6 Luna up 6 ranks on OpenRouter weekly",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "OpenAI's claimed disproof of Connes' Rigidity Conjecture is invalid [pdf]",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-8",
+    "headline": "Learning to Trace Seiberg Dualities",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "ReToken: One Token to Improve Vision-Language Models for Visual Retrieval",
+    "source": "curated",
+    "slot": 7
+   },
+   {
+    "verdict": "skip",
+    "gate": "sdk-dedup",
+    "reason": "same package already covered under wording drift",
+    "headline": "ollama",
+    "source": "supplement"
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-ai",
+    "headline": "ai (npm) up 41%",
+    "source": "supplement",
+    "slot": 8
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-openai",
+    "headline": "openai (npm) up 32%",
+    "source": "supplement",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-kept",
+    "reason": "lead fresh (led 0 prior days, limit 2)",
+    "lead": "DeepSeek V4 Flash takes #1 on OpenRouter"
+   }
+  ]
+ }
+}
