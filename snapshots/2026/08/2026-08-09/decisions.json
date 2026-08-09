@@ -1,0 +1,119 @@
+{
+ "v": 1,
+ "capturedAt": "2026-08-09T07:56:59.647Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/31302273956",
+ "record": {
+  "date": "2026-08-09",
+  "lead": "sponsors/goauthentik trending on GitHub (467 stars today)",
+  "counts": {
+   "accepted": 8,
+   "skipped": 6
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "DeepSeek V4 Flash 0731 holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "sponsors/goauthentik trending on GitHub (467 stars today)",
+    "source": "curated",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "ollama downloads down 201% on brew",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Updated benchmark: Deepseek V4 Flash on SlopCodeBench (local)",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Investigating Artificial Intelligence Digital Sovereignty in Mobile Shopping Apps: A Case Study of Nigeria",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "sdk-dedup",
+    "reason": "same package already covered under wording drift",
+    "headline": "ollama on brew -332% vs baseline",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-6",
+    "headline": "NVIDIA: Nemotron 3 Ultra down 70 ranks on OpenRouter weekly",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Coldtea.ai: Make your software self-driving",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "AdAnt AI: Claude for viral, high-converting social ads",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "Learning When to Trust via Selective Context Preference Optimization",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "skip",
+    "gate": "sdk-dedup",
+    "reason": "same package already covered under wording drift",
+    "headline": "ollama",
+    "source": "supplement"
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-tch",
+    "headline": "tch (crates) up 49%",
+    "source": "supplement",
+    "slot": 6
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-huggingface-hub",
+    "headline": "huggingface-hub (pypi) up 32%",
+    "source": "supplement",
+    "slot": 7
+   },
+   {
+    "verdict": "lead-rotated",
+    "reason": "lead \"DeepSeek V4 Flash 0731 holds #1 on OpenRouter\" led 4 consecutive days — promoted \"sponsors/goauthentik trending on GitHub (467 stars today)\"",
+    "lead": "sponsors/goauthentik trending on GitHub (467 stars today)"
+   }
+  ]
+ }
+}
