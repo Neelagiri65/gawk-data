@@ -1,0 +1,112 @@
+{
+ "v": 1,
+ "capturedAt": "2026-08-11T08:13:27.907Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/31472108483",
+ "record": {
+  "date": "2026-08-11",
+  "lead": "DeepSeek V4 Flash 0731 holds #1 on OpenRouter",
+  "counts": {
+   "accepted": 10,
+   "skipped": 3
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "DeepSeek V4 Flash 0731 holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "sponsors/aldinokemal trending on GitHub (28 stars today)",
+    "source": "curated",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "ollama downloads down 337.7% on brew",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-2",
+    "headline": "How Claude marks AI-generated content",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "DeepSeek costs OpenCode Go user $1.14/day; dual DGX breaks even in 24 years",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-4",
+    "headline": "H3-metal – Native MiniMax-H3 inference for Apple Silicon",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "OpenAI's New Device Will Be Hockey Puck-Sized and Cost over $300",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-6",
+    "headline": "vllm/vllm-openai on docker +12% vs baseline",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-7",
+    "headline": "@anthropic-ai/sdk on npm -28% vs baseline",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-8",
+    "headline": "Mistral Patent for \"Code implemented tool calls\"",
+    "source": "curated",
+    "slot": 7
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "Perception Before Supervision: Self-Contained Visual Distillation from Counterfactual Blind Spots",
+    "source": "curated",
+    "slot": 8
+   },
+   {
+    "verdict": "skip",
+    "gate": "sdk-dedup",
+    "reason": "same package already covered under wording drift",
+    "headline": "ollama",
+    "source": "supplement"
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-llamaindex",
+    "headline": "llamaindex (npm) down 34%",
+    "source": "supplement",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-kept",
+    "reason": "lead fresh (led 1 prior day, limit 2)",
+    "lead": "DeepSeek V4 Flash 0731 holds #1 on OpenRouter"
+   }
+  ]
+ }
+}
