@@ -1,0 +1,98 @@
+{
+ "v": 1,
+ "capturedAt": "2026-08-12T08:24:53.814Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/31577982443",
+ "record": {
+  "date": "2026-08-12",
+  "lead": "ollama downloads down 411.3% on brew",
+  "counts": {
+   "accepted": 10,
+   "skipped": 1
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "DeepSeek V4 Flash 0731 holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "ollama downloads down 411.3% on brew",
+    "source": "curated",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "huggingface/transformers trending on GitHub (80 stars today)",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "BetterClaw: Deploy AI Agent, 60 seconds & $0 forever ",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "Google: Gemini 3.5 Flash down 6 ranks on OpenRouter weekly",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-4",
+    "headline": "n8n-io/n8n trending on GitHub (160 stars today)",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-5",
+    "headline": "Gemini 3.6 Flash moved from rank 9 to 8",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-6",
+    "headline": "vllm/vllm-openai on docker +33% vs baseline",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-7",
+    "headline": "llama.cpp",
+    "source": "curated",
+    "slot": 7
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-8",
+    "headline": "aquasecurity/trivy trending on GitHub (20 stars today)",
+    "source": "curated",
+    "slot": 8
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "@anthropic-ai/sdk on npm -28% vs baseline",
+    "source": "curated",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-rotated",
+    "reason": "lead \"DeepSeek V4 Flash 0731 holds #1 on OpenRouter\" led 2 consecutive days — promoted \"ollama downloads down 411.3% on brew\"",
+    "lead": "ollama downloads down 411.3% on brew"
+   }
+  ]
+ }
+}
