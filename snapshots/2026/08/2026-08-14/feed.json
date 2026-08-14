@@ -1,0 +1,339 @@
+{
+ "v": 1,
+ "capturedAt": "2026-08-14T00:50:38.729Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-nnnbm6-amy0",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Claude Code is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "Anthropic Status (Claude Code + API)",
+    "sourceUrl": "https://status.claude.com",
+    "timestamp": "2026-08-14T00:50:42.615Z",
+    "meta": {
+     "toolId": "claude-code",
+     "status": "degraded",
+     "statusSourceId": "anthropic-status",
+     "activeIncidents": 1
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1vl6eju-amxv",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "MoonshotAI: Kimi K2.6 down 7 ranks on OpenRouter weekly",
+    "detail": "Now #50, was #43.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/moonshotai/kimi-k2.6",
+    "timestamp": "2026-08-13T19:42:16.337Z",
+    "meta": {
+     "slug": "moonshotai/kimi-k2.6",
+     "currentRank": 50,
+     "previousRank": 43,
+     "delta": 7
+    }
+   },
+   {
+    "id": "MODEL_MOVER-hxvpbs-amxv",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3 Ultra down 66 ranks on OpenRouter weekly",
+    "detail": "Now #75, was #9.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b",
+    "timestamp": "2026-08-13T19:42:16.337Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3-ultra-550b-a55b",
+     "currentRank": 75,
+     "previousRank": 9,
+     "delta": 66
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-a9udud-amxj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Kane CLI: Natural language browser & mobile app tests from terminal",
+    "detail": "373 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/lambdatest?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-13T07:01:00.000Z",
+    "meta": {
+     "votes": 373,
+     "tagline": "Natural language browser & mobile app tests from terminal"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-11igfjw-amxv",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Poolside: Laguna S 2.1 down 71 ranks on OpenRouter weekly",
+    "detail": "Now #81, was #10.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/poolside/laguna-s-2.1",
+    "timestamp": "2026-08-13T19:42:16.337Z",
+    "meta": {
+     "slug": "poolside/laguna-s-2.1",
+     "currentRank": 81,
+     "previousRank": 10,
+     "delta": 71
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1jtbi5z-amxj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Ito: AI code review that runs your code",
+    "detail": "341 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/ito-ai-code-review-that-runs-code?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-13T07:01:00.000Z",
+    "meta": {
+     "votes": 341,
+     "tagline": "AI code review that runs your code"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1lb3czb-amwv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Grok Bot: AI teammates that you can give real work to",
+    "detail": "497 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/grok?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-12T07:01:00.000Z",
+    "meta": {
+     "votes": 497,
+     "tagline": "AI teammates that you can give real work to"
+    }
+   },
+   {
+    "id": "NEWS-1nlebha-amxz",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Qwen/Qwen3.8-27B · Upcoming release · Hugging Face",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1vnqpcz/qwenqwen3827b_upcoming_release_hugging_face/",
+    "timestamp": "2026-08-13T23:22:35.000Z",
+    "meta": {
+     "redditId": "0bd2f1c2a0cc48fb",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-yefhxl-amw7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Tines 3B: The secure environment for agents, apps, and automations",
+    "detail": "422 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/tines?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-11T07:01:00.000Z",
+    "meta": {
+     "votes": 422,
+     "tagline": "The secure environment for agents, apps, and automations"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1xc9bll-amvj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "oqoqo: Build evals and custom benchmarks for real-world tasks",
+    "detail": "362 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/oqoqo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-10T07:01:00.000Z",
+    "meta": {
+     "votes": 362,
+     "tagline": "Build evals and custom benchmarks for real-world tasks"
+    }
+   },
+   {
+    "id": "NEWS-y9mk3r-amxy",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "DS4 cloud (30 min) vs Qwen3.6 36B (2 min) vs Muse Glimmer 30B (3 min) on Llama.cpp (RTX 5080)",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1vnpqb5/ds4_cloud_30_min_vs_qwen36_36b_2_min_vs_muse/",
+    "timestamp": "2026-08-13T22:40:49.000Z",
+    "meta": {
+     "redditId": "78fd6fd118ce88f9",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1j7kits-amuv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Omniwork: The Creative Agent OS, create better with desktop AI agents",
+    "detail": "434 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/omniwork-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-09T07:01:00.000Z",
+    "meta": {
+     "votes": 434,
+     "tagline": "The Creative Agent OS, create better with desktop AI agents"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1soc1oh-amtj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Coldtea.ai: Make your software self-driving",
+    "detail": "522 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/coldtea?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-07T07:01:00.000Z",
+    "meta": {
+     "votes": 522,
+     "tagline": "Make your software self-driving"
+    }
+   },
+   {
+    "id": "NEWS-42kymu-amxy",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Is waiting for Qwen 3.8 27B like waiting for Star War Episode one?",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1vnp2ni/is_waiting_for_qwen_38_27b_like_waiting_for_star/",
+    "timestamp": "2026-08-13T22:14:18.000Z",
+    "meta": {
+     "redditId": "4f1e7f02fd57875f",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-j1745u-amtj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Soloop: Approval-first Agent OS for solo founders",
+    "detail": "490 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/soloop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-07T07:01:00.000Z",
+    "meta": {
+     "votes": 490,
+     "tagline": "Approval-first Agent OS for solo founders"
+    }
+   },
+   {
+    "id": "RESEARCH-tjkcw6-amx5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "DreamFly: Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision-Language Navigation",
+    "detail": "Yan Deng, Fei Xu · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.12308v1",
+    "timestamp": "2026-08-12T17:54:33Z",
+    "meta": {
+     "arxivId": "2608.12308v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-ffp9n7-amx5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+    "detail": "Cheng Qian, Wenting Zhao, Liangwei Yang et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.12307v1",
+    "timestamp": "2026-08-12T17:53:18Z",
+    "meta": {
+     "arxivId": "2608.12307v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 9,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-amy0",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (199 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-08-14T00:50:42.624Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 199,
+     "country": "US"
+    }
+   },
+   {
+    "id": "RESEARCH-1g9an5w-amx5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Redistribution-based Cost Inference Improves Sparse Safe Offline RL",
+    "detail": "Ebenezer Gelo, Geraud Nangue Tasse, Steven James et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.12306v1",
+    "timestamp": "2026-08-12T17:53:15Z",
+    "meta": {
+     "arxivId": "2608.12306v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1s4kyyy-amx5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Constructing Dynamic Master Logic Models as Knowledge Graphs for Complex System Diagnostics Using Retrieval-Augmented Large Language Models",
+    "detail": "Saman Marandi, Yu-Shu Hu, Mohammad Modarres · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.12304v1",
+    "timestamp": "2026-08-12T17:50:39Z",
+    "meta": {
+     "arxivId": "2608.12304v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1sld8bs-amx5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "A Framework for Designing Reward Functions: From Objectives to Features to Human-Aligned Reward Functions",
+    "detail": "Di Yang Shi, W. Bradley Knox · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.12302v1",
+    "timestamp": "2026-08-12T17:46:00Z",
+    "meta": {
+     "arxivId": "2608.12302v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4-flash-0731"
+   },
+   "toolHealth": {
+    "operational": 5,
+    "degraded": 1,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "DreamFly: Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision-Language Navigation",
+    "sourceUrl": "https://arxiv.org/abs/2608.12308v1"
+   }
+  },
+  "lastComputed": "2026-08-14T00:50:42.615Z"
+ }
+}
