@@ -1,0 +1,119 @@
+{
+ "v": 1,
+ "capturedAt": "2026-08-16T07:36:48.984Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/31934234164",
+ "record": {
+  "date": "2026-08-16",
+  "lead": "DeepSeek V4 Flash 0731 holds #1 on OpenRouter",
+  "counts": {
+   "accepted": 10,
+   "skipped": 4
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "DeepSeek V4 Flash 0731 holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "StarRocks/starrocks trending on GitHub (8 stars today)",
+    "source": "curated",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "@anthropic-ai/sdk downloads down 23.7% on npm",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "ChatGPT lost 22 points of web share in a year",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "NVIDIA: Nemotron 3.5 Lightning (free) up 7 ranks on OpenRouter weekly",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-4",
+    "headline": "Nemotron 3 Ultra (free) moved from rank 8 to 9",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-5",
+    "headline": "ollama on brew +249% vs baseline",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Auto-research with codex: How I achieved a 232x Faster Kernel",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Kane CLI: Natural language browser & mobile app tests from terminal",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Users of Qwen 3.8 27b on the strict halo, REPORT!",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-llamaindex",
+    "headline": "llamaindex (npm) down 41%",
+    "source": "supplement",
+    "slot": 7
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-@langchain/core",
+    "headline": "@langchain/core (npm) down 32%",
+    "source": "supplement",
+    "slot": 8
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-ai",
+    "headline": "ai (npm) down 31%",
+    "source": "supplement",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-kept",
+    "reason": "lead fresh (led 1 prior day, limit 2)",
+    "lead": "DeepSeek V4 Flash 0731 holds #1 on OpenRouter"
+   }
+  ]
+ }
+}
