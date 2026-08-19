@@ -1,0 +1,419 @@
+{
+ "v": 1,
+ "capturedAt": "2026-08-19T00:29:24.038Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-1ef0dl0-an1c",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Cursor is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "Cursor Status",
+    "sourceUrl": "https://status.cursor.com",
+    "timestamp": "2026-08-19T00:29:31.133Z",
+    "meta": {
+     "toolId": "cursor",
+     "status": "degraded",
+     "statusSourceId": "cursor-status",
+     "activeIncidents": 1
+    }
+   },
+   {
+    "id": "MODEL_MOVER-19srwli-an17",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Anthropic: Claude Sonnet 4.6 down 4 ranks on OpenRouter weekly",
+    "detail": "Now #22, was #18.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/anthropic/claude-sonnet-4.6",
+    "timestamp": "2026-08-18T19:14:54.855Z",
+    "meta": {
+     "slug": "anthropic/claude-sonnet-4.6",
+     "currentRank": 22,
+     "previousRank": 18,
+     "delta": 4
+    }
+   },
+   {
+    "id": "MODEL_MOVER-16usir1-an17",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemini 3.7 Flash up 8 ranks on OpenRouter weekly",
+    "detail": "Now #23, was #31.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemini-3.7-flash",
+    "timestamp": "2026-08-18T19:14:54.855Z",
+    "meta": {
+     "slug": "google/gemini-3.7-flash",
+     "currentRank": 23,
+     "previousRank": 31,
+     "delta": -8
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-l7ez7h-an0v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Clara AI SDR: Turn website visitors into qualified pipeline",
+    "detail": "338 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/clara-ai-sdr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-18T07:01:00.000Z",
+    "meta": {
+     "votes": 338,
+     "tagline": "Turn website visitors into qualified pipeline"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-rd9i4q-an17",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "SpaceXAI: Grok 4.6 up 5 ranks on OpenRouter weekly",
+    "detail": "Now #34, was #39.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/x-ai/grok-4.6",
+    "timestamp": "2026-08-18T19:14:54.855Z",
+    "meta": {
+     "slug": "x-ai/grok-4.6",
+     "currentRank": 34,
+     "previousRank": 39,
+     "delta": -5
+    }
+   },
+   {
+    "id": "MODEL_MOVER-6yuq9n-an17",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "inclusionAI: Ling-2.6-flash down 7 ranks on OpenRouter weekly",
+    "detail": "Now #55, was #48.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/inclusionai/ling-2.6-flash",
+    "timestamp": "2026-08-18T19:14:54.855Z",
+    "meta": {
+     "slug": "inclusionai/ling-2.6-flash",
+     "currentRank": 55,
+     "previousRank": 48,
+     "delta": 7
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-esz63a-an07",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Omni by xpander: Stop babysitting your AI agents",
+    "detail": "380 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/omni-by-xpander?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-17T07:01:00.000Z",
+    "meta": {
+     "votes": 380,
+     "tagline": "Stop babysitting your AI agents"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-e7tqcy-an17",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3.5 Lightning down 53 ranks on OpenRouter weekly",
+    "detail": "Now #76, was #23.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3.5-lightning",
+    "timestamp": "2026-08-18T19:14:54.855Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3.5-lightning",
+     "currentRank": 76,
+     "previousRank": 23,
+     "delta": 53
+    }
+   },
+   {
+    "id": "MODEL_MOVER-hxvpbs-an17",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3 Ultra down 74 ranks on OpenRouter weekly",
+    "detail": "Now #84, was #10.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b",
+    "timestamp": "2026-08-18T19:14:54.855Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3-ultra-550b-a55b",
+     "currentRank": 84,
+     "previousRank": 10,
+     "delta": 74
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-rkl5xn-an07",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Clears: Move beyond AI coding to Agentic Software Delivery",
+    "detail": "367 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/clears?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-17T07:01:00.000Z",
+    "meta": {
+     "votes": 367,
+     "tagline": "Move beyond AI coding to Agentic Software Delivery"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-11igfjw-an17",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Poolside: Laguna S 2.1 down 75 ranks on OpenRouter weekly",
+    "detail": "Now #86, was #11.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/poolside/laguna-s-2.1",
+    "timestamp": "2026-08-18T19:14:54.855Z",
+    "meta": {
+     "slug": "poolside/laguna-s-2.1",
+     "currentRank": 86,
+     "previousRank": 11,
+     "delta": 75
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-119gdhi-amzj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "HarnessRouter Community Edition: Open-source unified interface for agent harnesses",
+    "detail": "383 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/epsilla?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-16T07:01:00.000Z",
+    "meta": {
+     "votes": 383,
+     "tagline": "Open-source unified interface for agent harnesses"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-70j29h-amy7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Outcome : Turn your content into a personal outcome for every lead",
+    "detail": "388 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/contentblocks?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-14T07:01:00.000Z",
+    "meta": {
+     "votes": 388,
+     "tagline": "Turn your content into a personal outcome for every lead"
+    }
+   },
+   {
+    "id": "NEWS-fqimlb-an1a",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "I tested DFlash2 for Qwen3.8 27B on a 5090",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1vs43av/i_tested_dflash2_for_qwen38_27b_on_a_5090/",
+    "timestamp": "2026-08-18T22:26:53.000Z",
+    "meta": {
+     "redditId": "28f91edcce524b45",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-a9udud-amxj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Kane CLI: Natural language browser & mobile app tests from terminal",
+    "detail": "459 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/lambdatest?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-13T07:01:00.000Z",
+    "meta": {
+     "votes": 459,
+     "tagline": "Natural language browser & mobile app tests from terminal"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1jtbi5z-amxj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Ito: AI code review that runs your code",
+    "detail": "448 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/ito-ai-code-review-that-runs-code?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-13T07:01:00.000Z",
+    "meta": {
+     "votes": 448,
+     "tagline": "AI code review that runs your code"
+    }
+   },
+   {
+    "id": "NEWS-twjhl0-an1a",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "GLM5.3 Artificial Analysis Benchmarks",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1vs3joh/glm53_artificial_analysis_benchmarks/",
+    "timestamp": "2026-08-18T22:05:13.000Z",
+    "meta": {
+     "redditId": "eac332441dad615d",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1lb3czb-amwv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Grok Bot: AI teammates that you can give real work to",
+    "detail": "514 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/grok?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-12T07:01:00.000Z",
+    "meta": {
+     "votes": 514,
+     "tagline": "AI teammates that you can give real work to"
+    }
+   },
+   {
+    "id": "NEWS-8rdxnx-an19",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "DFlash 2: Keep Drafting Parallel",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1vs2tz1/dflash_2_keep_drafting_parallel/",
+    "timestamp": "2026-08-18T21:37:01.000Z",
+    "meta": {
+     "redditId": "47469a2930217f78",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "NEWS-1wrhjob-an17",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Norway Should Buy OpenAI",
+    "detail": "143 points · 156 comments on Hacker News.",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49351330",
+    "timestamp": "2026-08-18T19:30:29Z",
+    "meta": {
+     "hnId": "49351330",
+     "points": 143,
+     "numComments": 156,
+     "author": "alexeigannon"
+    }
+   },
+   {
+    "id": "RESEARCH-dylpj8-an0h",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
+    "detail": "Bingxin Xu, Yuzhang Shang, Emilio Ferrara · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.16889v1",
+    "timestamp": "2026-08-17T17:59:57Z",
+    "meta": {
+     "arxivId": "2608.16889v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1c64dzn-an0h",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Q-based Variational Inverse Reinforcement Learning",
+    "detail": "Ondrej Bajgar, Peter Tisnikar, Alessandro Abate et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.16888v1",
+    "timestamp": "2026-08-17T17:59:55Z",
+    "meta": {
+     "arxivId": "2608.16888v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-an1c",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (199 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-08-19T00:29:31.138Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 199,
+     "country": "US"
+    }
+   },
+   {
+    "id": "RESEARCH-mi9xb3-an0h",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve",
+    "detail": "Emilien Dupont, Marvin Eisenberger, Borislav Kozlovskii et al. · cs.DS",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.16884v1",
+    "timestamp": "2026-08-17T17:59:05Z",
+    "meta": {
+     "arxivId": "2608.16884v1",
+     "primaryCategory": "cs.DS",
+     "authorCount": 10,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1rxhk0c-an0h",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Spectral Gaps of Hit-and-Run and Coordinate Hit-and-Run",
+    "detail": "Yunbum Kook, Santosh S. Vempala · cs.DS",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.16878v1",
+    "timestamp": "2026-08-17T17:57:11Z",
+    "meta": {
+     "arxivId": "2608.16878v1",
+     "primaryCategory": "cs.DS",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1riadge-an0h",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "AutoSR: Automatic Symbolic Regression by Searching Research States",
+    "detail": "Kejia Zhang, Youran Sun, Xinyu Ren et al. · cs.SC",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.16876v1",
+    "timestamp": "2026-08-17T17:55:26Z",
+    "meta": {
+     "arxivId": "2608.16876v1",
+     "primaryCategory": "cs.SC",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4-flash-0731"
+   },
+   "toolHealth": {
+    "operational": 5,
+    "degraded": 1,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
+    "sourceUrl": "https://arxiv.org/abs/2608.16889v1"
+   }
+  },
+  "lastComputed": "2026-08-19T00:29:31.133Z"
+ }
+}
