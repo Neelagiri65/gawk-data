@@ -1,0 +1,451 @@
+{
+ "v": 1,
+ "capturedAt": "2026-08-20T00:29:38.800Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-f5v07h-an20",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "OpenAI API has an active incident: Chatgpt.com is down - all signups and logins are down as of right now",
+    "detail": "Status page is green but lists 1 active incident (monitoring).",
+    "sourceName": "OpenAI Status (summary)",
+    "sourceUrl": "https://status.openai.com",
+    "timestamp": "2026-08-20T00:29:41.327Z",
+    "meta": {
+     "toolId": "openai-api",
+     "status": "operational",
+     "statusSourceId": "openai-status",
+     "activeIncidents": 1
+    }
+   },
+   {
+    "id": "TOOL_ALERT-1ef0dl0-an20",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Cursor is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "Cursor Status",
+    "sourceUrl": "https://status.cursor.com",
+    "timestamp": "2026-08-20T00:29:41.327Z",
+    "meta": {
+     "toolId": "cursor",
+     "status": "degraded",
+     "statusSourceId": "cursor-status",
+     "activeIncidents": 1
+    }
+   },
+   {
+    "id": "MODEL_MOVER-16usir1-an1v",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemini 3.7 Flash up 8 ranks on OpenRouter weekly",
+    "detail": "Now #16, was #24.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemini-3.7-flash",
+    "timestamp": "2026-08-19T19:05:46.568Z",
+    "meta": {
+     "slug": "google/gemini-3.7-flash",
+     "currentRank": 16,
+     "previousRank": 24,
+     "delta": -8
+    }
+   },
+   {
+    "id": "MODEL_MOVER-18d6na4-an1v",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "StepFun: Step 3.7 Flash down 5 ranks on OpenRouter weekly",
+    "detail": "Now #21, was #16.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/stepfun/step-3.7-flash",
+    "timestamp": "2026-08-19T19:05:46.568Z",
+    "meta": {
+     "slug": "stepfun/step-3.7-flash",
+     "currentRank": 21,
+     "previousRank": 16,
+     "delta": 5
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-190z50b-an1j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Astute: Automate your B2B brand going viral, with new media creators",
+    "detail": "440 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/astute-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-19T07:01:00.000Z",
+    "meta": {
+     "votes": 440,
+     "tagline": "Automate your B2B brand going viral, with new media creators"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1h2uq4x-an1v",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Upstage: Solar Pro 4 up 4 ranks on OpenRouter weekly",
+    "detail": "Now #29, was #33.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/upstage/solar-pro4",
+    "timestamp": "2026-08-19T19:05:46.568Z",
+    "meta": {
+     "slug": "upstage/solar-pro4",
+     "currentRank": 29,
+     "previousRank": 33,
+     "delta": -4
+    }
+   },
+   {
+    "id": "MODEL_MOVER-rd9i4q-an1v",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "SpaceXAI: Grok 4.6 up 5 ranks on OpenRouter weekly",
+    "detail": "Now #30, was #35.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/x-ai/grok-4.6",
+    "timestamp": "2026-08-19T19:05:46.568Z",
+    "meta": {
+     "slug": "x-ai/grok-4.6",
+     "currentRank": 30,
+     "previousRank": 35,
+     "delta": -5
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-l7ez7h-an0v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Clara AI SDR: Turn website visitors into qualified pipeline",
+    "detail": "439 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/clara-ai-sdr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-18T07:01:00.000Z",
+    "meta": {
+     "votes": 439,
+     "tagline": "Turn website visitors into qualified pipeline"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-164jtp5-an1v",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemma 4 31B down 5 ranks on OpenRouter weekly",
+    "detail": "Now #33, was #28.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemma-4-31b-it",
+    "timestamp": "2026-08-19T19:05:46.568Z",
+    "meta": {
+     "slug": "google/gemma-4-31b-it",
+     "currentRank": 33,
+     "previousRank": 28,
+     "delta": 5
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1rsg12v-an1v",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemini 3.1 Pro Preview up 7 ranks on OpenRouter weekly",
+    "detail": "Now #41, was #48.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemini-3.1-pro-preview",
+    "timestamp": "2026-08-19T19:05:46.568Z",
+    "meta": {
+     "slug": "google/gemini-3.1-pro-preview",
+     "currentRank": 41,
+     "previousRank": 48,
+     "delta": -7
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-e3o8gf-an0v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Taku AI: Borrow the best AI setups and make them yours.",
+    "detail": "402 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/taku-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-18T07:01:00.000Z",
+    "meta": {
+     "votes": 402,
+     "tagline": "Borrow the best AI setups and make them yours."
+    }
+   },
+   {
+    "id": "MODEL_MOVER-e7tqcy-an1v",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3.5 Lightning down 53 ranks on OpenRouter weekly",
+    "detail": "Now #73, was #20.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3.5-lightning",
+    "timestamp": "2026-08-19T19:05:46.568Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3.5-lightning",
+     "currentRank": 73,
+     "previousRank": 20,
+     "delta": 53
+    }
+   },
+   {
+    "id": "MODEL_MOVER-11igfjw-an1v",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Poolside: Laguna S 2.1 down 77 ranks on OpenRouter weekly",
+    "detail": "Now #88, was #11.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/poolside/laguna-s-2.1",
+    "timestamp": "2026-08-19T19:05:46.568Z",
+    "meta": {
+     "slug": "poolside/laguna-s-2.1",
+     "currentRank": 88,
+     "previousRank": 11,
+     "delta": 77
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-esz63a-an07",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Omni by xpander: Stop babysitting your AI agents",
+    "detail": "383 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/omni-by-xpander?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-17T07:01:00.000Z",
+    "meta": {
+     "votes": 383,
+     "tagline": "Stop babysitting your AI agents"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-hxvpbs-an1v",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3 Ultra down 82 ranks on OpenRouter weekly",
+    "detail": "Now #92, was #10.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b",
+    "timestamp": "2026-08-19T19:05:46.568Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3-ultra-550b-a55b",
+     "currentRank": 92,
+     "previousRank": 10,
+     "delta": 82
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-119gdhi-amzj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "HarnessRouter Community Edition: Open-source unified interface for agent harnesses",
+    "detail": "389 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/epsilla?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-16T07:01:00.000Z",
+    "meta": {
+     "votes": 389,
+     "tagline": "Open-source unified interface for agent harnesses"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-70j29h-amy7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Outcome : Turn your content into a personal outcome for every lead",
+    "detail": "390 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/contentblocks?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-14T07:01:00.000Z",
+    "meta": {
+     "votes": 390,
+     "tagline": "Turn your content into a personal outcome for every lead"
+    }
+   },
+   {
+    "id": "NEWS-1tqdx2d-an1z",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Qwen3.8-23B-Mini-Me: A Depth-Pruned Qwen3.8-27B (to ~22.7BB)",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1vt2jef/qwen3823bminime_a_depthpruned_qwen3827b_to_227bb/",
+    "timestamp": "2026-08-19T23:19:16.000Z",
+    "meta": {
+     "redditId": "0f42b676b452511a",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-a9udud-amxj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Kane CLI: Natural language browser & mobile app tests from terminal",
+    "detail": "460 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/lambdatest?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-13T07:01:00.000Z",
+    "meta": {
+     "votes": 460,
+     "tagline": "Natural language browser & mobile app tests from terminal"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1jtbi5z-amxj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Ito: AI code review that runs your code",
+    "detail": "447 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/ito-ai-code-review-that-runs-code?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-13T07:01:00.000Z",
+    "meta": {
+     "votes": 447,
+     "tagline": "AI code review that runs your code"
+    }
+   },
+   {
+    "id": "NEWS-1aio3t5-an1y",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Anyone NOT on full auto when coding with local LLMs?",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1vt0y1g/anyone_not_on_full_auto_when_coding_with_local/",
+    "timestamp": "2026-08-19T22:14:52.000Z",
+    "meta": {
+     "redditId": "0d400f11900264b5",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "NEWS-126l018-an1w",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Fluid Simulation Qwen3.8 27B IQ3_XXS",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1vsyj2o/fluid_simulation_qwen38_27b_iq3_xxs/",
+    "timestamp": "2026-08-19T20:42:36.000Z",
+    "meta": {
+     "redditId": "8b7a624c21689343",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "RESEARCH-12fqv38-an15",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation",
+    "detail": "Xingjian Wang, Zhao Wang, Taihang Hu et al. · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.18076v1",
+    "timestamp": "2026-08-18T17:59:01Z",
+    "meta": {
+     "arxivId": "2608.18076v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 17,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-9ugb5p-an15",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
+    "detail": "Qinyuan Ye, Yu Li, Yada Pruksachatkun et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.18066v1",
+    "timestamp": "2026-08-18T17:55:07Z",
+    "meta": {
+     "arxivId": "2608.18066v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-an20",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (200 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-08-20T00:29:41.330Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 200,
+     "country": "US"
+    }
+   },
+   {
+    "id": "RESEARCH-oqyrdl-an15",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "TokEval: A Tokenizer Evaluation Suite",
+    "detail": "Clara Meister · cs.CL",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.18062v1",
+    "timestamp": "2026-08-18T17:52:52Z",
+    "meta": {
+     "arxivId": "2608.18062v1",
+     "primaryCategory": "cs.CL",
+     "authorCount": 1,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1dnoqac-an15",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "The concentration game: Bayesian updating, regret, and information",
+    "detail": "Akshay Balsubramani · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.18061v1",
+    "timestamp": "2026-08-18T17:52:26Z",
+    "meta": {
+     "arxivId": "2608.18061v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 1,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1qphva0-an15",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Delegation Asymmetry in Agentic Recommender Systems: Measuring Two-Sided Receptivity in Online Dating",
+    "detail": "Daria Leshchikova, Valentina V. Kuskova, Dmitry Zaytsev et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.18058v1",
+    "timestamp": "2026-08-18T17:51:16Z",
+    "meta": {
+     "arxivId": "2608.18058v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4-flash-0731"
+   },
+   "toolHealth": {
+    "operational": 5,
+    "degraded": 1,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation",
+    "sourceUrl": "https://arxiv.org/abs/2608.18076v1"
+   }
+  },
+  "lastComputed": "2026-08-20T00:29:41.327Z"
+ }
+}
