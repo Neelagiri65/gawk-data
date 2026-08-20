@@ -1,0 +1,112 @@
+{
+ "v": 1,
+ "capturedAt": "2026-08-20T07:46:58.430Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/32345425566",
+ "record": {
+  "date": "2026-08-20",
+  "lead": "nautechsystems/nautilus_trader trending on GitHub (80 stars today)",
+  "counts": {
+   "accepted": 10,
+   "skipped": 3
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "DeepSeek V4 Flash 0731 holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "nautechsystems/nautilus_trader trending on GitHub (80 stars today)",
+    "source": "curated",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "Google: Gemini 3.7 Flash up 4 ranks on OpenRouter weekly",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-2",
+    "headline": "llamaindex downloads up 31.9% on npm",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "skip",
+    "gate": "model-dedup",
+    "reason": "same rank move already shipped for \"gemini 3.7 flash\"",
+    "headline": "Gemini 3.7 Flash moved from rank 18 to 14",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-4",
+    "headline": "ollama on brew -124% vs baseline",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Zuckerberg encouraged growth over child safety, ex-Meta executive testifies",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-6",
+    "headline": "PostHog/posthog trending on GitHub (41 stars today)",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-7",
+    "headline": "codecrafters-io/build-your-own-x trending on GitHub (456 stars today)",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-8",
+    "headline": "@anthropic-ai/sdk on npm +56% vs baseline",
+    "source": "curated",
+    "slot": 7
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+    "source": "curated",
+    "slot": 8
+   },
+   {
+    "verdict": "skip",
+    "gate": "sdk-dedup",
+    "reason": "same package already covered under wording drift",
+    "headline": "llamaindex",
+    "source": "supplement"
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-sourcegraph.cody-ai",
+    "headline": "sourcegraph.cody-ai (vscode) up 22%",
+    "source": "supplement",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-rotated",
+    "reason": "lead \"DeepSeek V4 Flash 0731 holds #1 on OpenRouter\" led 2 consecutive days — promoted \"nautechsystems/nautilus_trader trending on GitHub (80 stars \"",
+    "lead": "nautechsystems/nautilus_trader trending on GitHub (80 stars today)"
+   }
+  ]
+ }
+}
