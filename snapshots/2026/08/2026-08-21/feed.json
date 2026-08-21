@@ -1,0 +1,403 @@
+{
+ "v": 1,
+ "capturedAt": "2026-08-21T00:31:59.503Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-qgyjmt-an2o",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "GitHub Copilot has an active incident: Intermittent failures creating agent tasks",
+    "detail": "Status page is green but lists 1 active incident (investigating).",
+    "sourceName": "GitHub Status (covers Copilot)",
+    "sourceUrl": "https://www.githubstatus.com",
+    "timestamp": "2026-08-21T00:32:02.748Z",
+    "meta": {
+     "toolId": "copilot",
+     "status": "operational",
+     "statusSourceId": "github-status",
+     "activeIncidents": 1
+    }
+   },
+   {
+    "id": "MODEL_MOVER-16usir1-an2j",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemini 3.7 Flash up 4 ranks on OpenRouter weekly",
+    "detail": "Now #14, was #18.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemini-3.7-flash",
+    "timestamp": "2026-08-20T19:17:35.541Z",
+    "meta": {
+     "slug": "google/gemini-3.7-flash",
+     "currentRank": 14,
+     "previousRank": 18,
+     "delta": -4
+    }
+   },
+   {
+    "id": "MODEL_MOVER-18d6na4-an2j",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "StepFun: Step 3.7 Flash down 4 ranks on OpenRouter weekly",
+    "detail": "Now #21, was #17.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/stepfun/step-3.7-flash",
+    "timestamp": "2026-08-20T19:17:35.541Z",
+    "meta": {
+     "slug": "stepfun/step-3.7-flash",
+     "currentRank": 21,
+     "previousRank": 17,
+     "delta": 4
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-190z50b-an1j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Astute: Automate your B2B brand going viral, with new media creators",
+    "detail": "519 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/astute-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-19T07:01:00.000Z",
+    "meta": {
+     "votes": 519,
+     "tagline": "Automate your B2B brand going viral, with new media creators"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1rsg12v-an2j",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemini 3.1 Pro Preview up 6 ranks on OpenRouter weekly",
+    "detail": "Now #40, was #46.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemini-3.1-pro-preview",
+    "timestamp": "2026-08-20T19:17:35.541Z",
+    "meta": {
+     "slug": "google/gemini-3.1-pro-preview",
+     "currentRank": 40,
+     "previousRank": 46,
+     "delta": -6
+    }
+   },
+   {
+    "id": "MODEL_MOVER-r39wfr-an2j",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "SpaceXAI: Grok 4.5 down 7 ranks on OpenRouter weekly",
+    "detail": "Now #48, was #41.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/x-ai/grok-4.5",
+    "timestamp": "2026-08-20T19:17:35.541Z",
+    "meta": {
+     "slug": "x-ai/grok-4.5",
+     "currentRank": 48,
+     "previousRank": 41,
+     "delta": 7
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-73ehjy-an1j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Origin by Cursor: The Git forge built for the age of coding agents",
+    "detail": "337 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/cursor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-19T07:01:00.000Z",
+    "meta": {
+     "votes": 337,
+     "tagline": "The Git forge built for the age of coding agents"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-e7tqcy-an2j",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3.5 Lightning down 57 ranks on OpenRouter weekly",
+    "detail": "Now #76, was #19.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3.5-lightning",
+    "timestamp": "2026-08-20T19:17:35.541Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3.5-lightning",
+     "currentRank": 76,
+     "previousRank": 19,
+     "delta": 57
+    }
+   },
+   {
+    "id": "MODEL_MOVER-11igfjw-an2j",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Poolside: Laguna S 2.1 down 77 ranks on OpenRouter weekly",
+    "detail": "Now #89, was #12.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/poolside/laguna-s-2.1",
+    "timestamp": "2026-08-20T19:17:35.541Z",
+    "meta": {
+     "slug": "poolside/laguna-s-2.1",
+     "currentRank": 89,
+     "previousRank": 12,
+     "delta": 77
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-l7ez7h-an0v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Clara AI SDR: Turn website visitors into qualified pipeline",
+    "detail": "450 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/clara-ai-sdr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-18T07:01:00.000Z",
+    "meta": {
+     "votes": 450,
+     "tagline": "Turn website visitors into qualified pipeline"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-hxvpbs-an2j",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3 Ultra down 89 ranks on OpenRouter weekly",
+    "detail": "Now #97, was #8.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b",
+    "timestamp": "2026-08-20T19:17:35.541Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3-ultra-550b-a55b",
+     "currentRank": 97,
+     "previousRank": 8,
+     "delta": 89
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-e3o8gf-an0v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Taku AI: Borrow the best AI setups and make them yours.",
+    "detail": "408 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/taku-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-18T07:01:00.000Z",
+    "meta": {
+     "votes": 408,
+     "tagline": "Borrow the best AI setups and make them yours."
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-esz63a-an07",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Omni by xpander: Stop babysitting your AI agents",
+    "detail": "384 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/omni-by-xpander?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-17T07:01:00.000Z",
+    "meta": {
+     "votes": 384,
+     "tagline": "Stop babysitting your AI agents"
+    }
+   },
+   {
+    "id": "NEWS-15dbm86-an2n",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Gonna be huge for US open source",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1vtz1o1/gonna_be_huge_for_us_open_source/",
+    "timestamp": "2026-08-20T23:03:37.000Z",
+    "meta": {
+     "redditId": "60abd44fe0654563",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-rkl5xn-an07",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Clears: Move beyond AI coding to Agentic Software Delivery",
+    "detail": "371 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/clears?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-17T07:01:00.000Z",
+    "meta": {
+     "votes": 371,
+     "tagline": "Move beyond AI coding to Agentic Software Delivery"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-119gdhi-amzj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "HarnessRouter Community Edition: Open-source unified interface for agent harnesses",
+    "detail": "391 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/epsilla?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-16T07:01:00.000Z",
+    "meta": {
+     "votes": 391,
+     "tagline": "Open-source unified interface for agent harnesses"
+    }
+   },
+   {
+    "id": "NEWS-ogiw3x-an2m",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Been tweaking my Qwen 3.8 setup, up to 45+ steady T/ps at 8bit quant. Realised I'm now top T/ps for this model+ctx across all benchmarked M-series chips. Full args linked below, happy to discuss as this was a pain of trial and error.",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1vty1g4/been_tweaking_my_qwen_38_setup_up_to_45_steady/",
+    "timestamp": "2026-08-20T22:23:20.000Z",
+    "meta": {
+     "redditId": "bb30d86067073633",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-70j29h-amy7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Outcome : Turn your content into a personal outcome for every lead",
+    "detail": "394 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/contentblocks?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-14T07:01:00.000Z",
+    "meta": {
+     "votes": 394,
+     "tagline": "Turn your content into a personal outcome for every lead"
+    }
+   },
+   {
+    "id": "NEWS-19pxvz1-an2k",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Fine-tuning Cactus Needle 2 can match DeepSeek v4 on the specific task",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1vtupep/finetuning_cactus_needle_2_can_match_deepseek_v4/",
+    "timestamp": "2026-08-20T20:15:19.000Z",
+    "meta": {
+     "redditId": "2c6c3c3f42f1740a",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "RESEARCH-k3l36z-an1t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+    "detail": "Bo Liu, Simon Yu, Yiding Jiang et al. · cs.CL",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.19197v1",
+    "timestamp": "2026-08-19T17:58:56Z",
+    "meta": {
+     "arxivId": "2608.19197v1",
+     "primaryCategory": "cs.CL",
+     "authorCount": 18,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-7pt87l-an1t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
+    "detail": "Jayjun Lee, Jessica Yin, Asif Rana et al. · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.19182v1",
+    "timestamp": "2026-08-19T17:55:06Z",
+    "meta": {
+     "arxivId": "2608.19182v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 10,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-an2o",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (200 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-08-21T00:32:02.761Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 200,
+     "country": "US"
+    }
+   },
+   {
+    "id": "RESEARCH-1nv48i4-an1t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning",
+    "detail": "Zhu Zhang, Jixun Wang, Xiaoang Xu et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.19181v1",
+    "timestamp": "2026-08-19T17:54:58Z",
+    "meta": {
+     "arxivId": "2608.19181v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 9,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-15fahmw-an1t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Finetuning Strategies for Querying Sounds by Vocal Imitation",
+    "detail": "Aditya Bhattacharjee, Christos Plachouras, Sungkyun Chang et al. · cs.SD",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.19174v1",
+    "timestamp": "2026-08-19T17:51:50Z",
+    "meta": {
+     "arxivId": "2608.19174v1",
+     "primaryCategory": "cs.SD",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-rs7nqr-an1t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Lévy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Attention",
+    "detail": "Sotirios P. Chatzis, Loukas Papadoulas · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.19171v1",
+    "timestamp": "2026-08-19T17:50:16Z",
+    "meta": {
+     "arxivId": "2608.19171v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4-flash-0731"
+   },
+   "toolHealth": {
+    "operational": 6,
+    "degraded": 0,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+    "sourceUrl": "https://arxiv.org/abs/2608.19197v1"
+   }
+  },
+  "lastComputed": "2026-08-21T00:32:02.747Z"
+ }
+}
