@@ -1,0 +1,126 @@
+{
+ "v": 1,
+ "capturedAt": "2026-08-23T07:39:02.800Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/32626048922",
+ "record": {
+  "date": "2026-08-23",
+  "lead": "makeplane/plane trending on GitHub (263 stars today)",
+  "counts": {
+   "accepted": 8,
+   "skipped": 7
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "DeepSeek V4 Flash 0731 holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 1
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "NanoGPT Speedrun Frontier",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "makeplane/plane trending on GitHub (263 stars today)",
+    "source": "curated",
+    "slot": 0
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Supernova: All your data in Claude and Codex",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "n8n-io/n8n trending on GitHub (149 stars today)",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-4",
+    "headline": "ai downloads up 55.9% on npm",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-5",
+    "headline": "ollama on brew +79% vs baseline",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "skip",
+    "gate": "leaderboard-dedup",
+    "reason": "model already shown in the leaderboard top-5",
+    "headline": "Ox Alpha moved from rank 9 to 4",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-7",
+    "headline": "Anthropic: Claude Opus 4.7 down 6 ranks on OpenRouter weekly",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Best harness for Qwen 3.8 27b ?",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "skip",
+    "gate": "sdk-dedup",
+    "reason": "same package already covered under wording drift",
+    "headline": "ollama",
+    "source": "supplement"
+   },
+   {
+    "verdict": "skip",
+    "gate": "sdk-dedup",
+    "reason": "same package already covered under wording drift",
+    "headline": "ai",
+    "source": "supplement"
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-@langchain/core",
+    "headline": "@langchain/core (npm) up 48%",
+    "source": "supplement",
+    "slot": 7
+   },
+   {
+    "verdict": "skip",
+    "gate": "leaderboard-dedup",
+    "reason": "model already shown in the leaderboard top-5",
+    "headline": "Ox Alpha",
+    "source": "supplement"
+   },
+   {
+    "verdict": "lead-rotated",
+    "reason": "lead \"DeepSeek V4 Flash 0731 holds #1 on OpenRouter\" led 2 consecutive days — promoted \"makeplane/plane trending on GitHub (263 stars today)\"",
+    "lead": "makeplane/plane trending on GitHub (263 stars today)"
+   }
+  ]
+ }
+}
