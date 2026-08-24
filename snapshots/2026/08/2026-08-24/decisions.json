@@ -1,0 +1,119 @@
+{
+ "v": 1,
+ "capturedAt": "2026-08-24T08:01:32.067Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/32704068530",
+ "record": {
+  "date": "2026-08-24",
+  "lead": "Ox Alpha takes #1 on OpenRouter",
+  "counts": {
+   "accepted": 10,
+   "skipped": 4
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "Ox Alpha takes #1 on OpenRouter",
+    "source": "hook",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "PostHog/posthog trending on GitHub (293 stars today)",
+    "source": "curated",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "ripienaar/free-for-dev trending on GitHub (615 stars today)",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-2",
+    "headline": "Codeium.codeium downloads down 67.1% on vscode",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "Claude Code is degraded",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Cursor is reporting degraded performance",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "leaderboard-dedup",
+    "reason": "model already shown in the leaderboard top-5",
+    "headline": "Ox Alpha moved from rank 4 to 1",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Construct Computer: Your AI coworker gets a computer. You get your day back.",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-7",
+    "headline": "vllm/vllm-openai on docker -16% vs baseline",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-8",
+    "headline": "nautechsystems/nautilus_trader trending on GitHub (174 stars today)",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs",
+    "source": "curated",
+    "slot": 7
+   },
+   {
+    "verdict": "skip",
+    "gate": "sdk-dedup",
+    "reason": "same package already covered under wording drift",
+    "headline": "Codeium.codeium",
+    "source": "supplement"
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-GitHub.copilot",
+    "headline": "GitHub.copilot (vscode) down 31%",
+    "source": "supplement",
+    "slot": 8
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-ai",
+    "headline": "ai (npm) up 25%",
+    "source": "supplement",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-kept",
+    "reason": "lead fresh (led 0 prior days, limit 2)",
+    "lead": "Ox Alpha takes #1 on OpenRouter"
+   }
+  ]
+ }
+}
