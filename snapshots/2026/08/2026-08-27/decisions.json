@@ -1,0 +1,119 @@
+{
+ "v": 1,
+ "capturedAt": "2026-08-27T16:30:53.791Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/33093437409",
+ "record": {
+  "date": "2026-08-27",
+  "lead": "DeepSeek V4 Flash 0731 takes #1 on OpenRouter",
+  "counts": {
+   "accepted": 9,
+   "skipped": 5
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "DeepSeek V4 Flash 0731 takes #1 on OpenRouter",
+    "source": "hook",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "ollama downloads down 129.3% on brew",
+    "source": "curated",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "sponsors/GyulyVGC trending on GitHub (144 stars today)",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-2",
+    "headline": "ollama/ollama on docker +45% vs baseline",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "GPT-5.6 Sol moved from rank 14 to 10",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-4",
+    "headline": "@anthropic-ai/sdk on npm +69% vs baseline",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "GitHub Copilot has an active incident: Disruption with GitHub Billing",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "model-dedup",
+    "reason": "same rank move already shipped for \"gpt-5.6 sol\"",
+    "headline": "OpenAI: GPT-5.6 Sol up 4 ranks on OpenRouter weekly",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "akta.pro: Private company data and signals API for the agent economy",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Moderation !== Censorship",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "skip",
+    "gate": "sdk-dedup",
+    "reason": "same package already covered under wording drift",
+    "headline": "ollama",
+    "source": "supplement"
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-Codeium.codeium",
+    "headline": "Codeium.codeium (vscode) down 100%",
+    "source": "supplement",
+    "slot": 7
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-tch",
+    "headline": "tch (crates) up 43%",
+    "source": "supplement",
+    "slot": 8
+   },
+   {
+    "verdict": "lead-kept",
+    "reason": "lead fresh (led 0 prior days, limit 2)",
+    "lead": "DeepSeek V4 Flash 0731 takes #1 on OpenRouter"
+   }
+  ]
+ }
+}
