@@ -1,0 +1,355 @@
+{
+ "v": 1,
+ "capturedAt": "2026-08-27T00:23:14.187Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-qgyjmt-an6o",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "GitHub Copilot has an active incident: Incident with Actions and Pull Requests",
+    "detail": "Status page is green but lists 2 active incidents (investigating).",
+    "sourceName": "GitHub Status (covers Copilot)",
+    "sourceUrl": "https://www.githubstatus.com",
+    "timestamp": "2026-08-27T00:23:18.501Z",
+    "meta": {
+     "toolId": "copilot",
+     "status": "operational",
+     "statusSourceId": "github-status",
+     "activeIncidents": 2
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1qjlkqh-an6l",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Z.ai: GLM 5.3 up 5 ranks on OpenRouter weekly",
+    "detail": "Now #18, was #23.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/z-ai/glm-5.3",
+    "timestamp": "2026-08-26T21:12:58.186Z",
+    "meta": {
+     "slug": "z-ai/glm-5.3",
+     "currentRank": 18,
+     "previousRank": 23,
+     "delta": -5
+    }
+   },
+   {
+    "id": "MODEL_MOVER-qe9c4s-an6l",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "MiniMax: MiniMax M3 (free) down 49 ranks on OpenRouter weekly",
+    "detail": "Now #60, was #11.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/minimax/minimax-m3",
+    "timestamp": "2026-08-26T21:12:58.186Z",
+    "meta": {
+     "slug": "minimax/minimax-m3",
+     "currentRank": 60,
+     "previousRank": 11,
+     "delta": 49
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1kecm5h-an67",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Expertise AI: Turn your GTM skills into recurring revenue",
+    "detail": "303 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/expertise-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-26T07:01:00.000Z",
+    "meta": {
+     "votes": 303,
+     "tagline": "Turn your GTM skills into recurring revenue"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-11igfjw-an6l",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Poolside: Laguna S 2.1 down 73 ranks on OpenRouter weekly",
+    "detail": "Now #85, was #12.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/poolside/laguna-s-2.1",
+    "timestamp": "2026-08-26T21:12:58.186Z",
+    "meta": {
+     "slug": "poolside/laguna-s-2.1",
+     "currentRank": 85,
+     "previousRank": 12,
+     "delta": 73
+    }
+   },
+   {
+    "id": "MODEL_MOVER-hxvpbs-an6l",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3 Ultra down 93 ranks on OpenRouter weekly",
+    "detail": "Now #99, was #6.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b",
+    "timestamp": "2026-08-26T21:12:58.186Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3-ultra-550b-a55b",
+     "currentRank": 99,
+     "previousRank": 6,
+     "delta": 93
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-nu7l6w-an5j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "akta.pro: Private company data and signals API for the agent economy",
+    "detail": "416 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/akta-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-25T07:01:00.000Z",
+    "meta": {
+     "votes": 416,
+     "tagline": "Private company data and signals API for the agent economy"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-wpnso4-an5j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Diet Claude: Never get blindsided by Claude's usage limits again",
+    "detail": "402 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/diet-claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-25T07:01:00.000Z",
+    "meta": {
+     "votes": 402,
+     "tagline": "Never get blindsided by Claude's usage limits again"
+    }
+   },
+   {
+    "id": "NEWS-17lykbd-an6j",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "2x Strix Halo speed-up with an R9700",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1vz7nk4/2x_strix_halo_speedup_with_an_r9700/",
+    "timestamp": "2026-08-26T19:47:42.000Z",
+    "meta": {
+     "redditId": "612dcaf14289cc7b",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-683nx8-an4v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Decawork: Control your company's internal AI agents and tools",
+    "detail": "336 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/decawork?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-24T07:01:00.000Z",
+    "meta": {
+     "votes": 336,
+     "tagline": "Control your company's internal AI agents and tools"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-vbps79-an4v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Offloop: A shared workspace where people and AI agents get work done",
+    "detail": "310 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/offloop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-24T07:01:00.000Z",
+    "meta": {
+     "votes": 310,
+     "tagline": "A shared workspace where people and AI agents get work done"
+    }
+   },
+   {
+    "id": "NEWS-1bcwm6z-an6j",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Lemonade end-of-summer project update, now serving 15 engines!",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1vz7095/lemonade_endofsummer_project_update_now_serving/",
+    "timestamp": "2026-08-26T19:25:21.000Z",
+    "meta": {
+     "redditId": "d87b4f1ebeead273",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1qk899t-an47",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Construct Computer: Your AI coworker gets a computer. You get your day back.",
+    "detail": "365 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/construct-computer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-23T07:01:00.000Z",
+    "meta": {
+     "votes": 365,
+     "tagline": "Your AI coworker gets a computer. You get your day back."
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-68iyj5-an2v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Supernova: All your data in Claude and Codex",
+    "detail": "333 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/supernova-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-21T07:01:00.000Z",
+    "meta": {
+     "votes": 333,
+     "tagline": "All your data in Claude and Codex"
+    }
+   },
+   {
+    "id": "NEWS-kg9620-an6j",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Mac mini with m5 pro or m6",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1vz6opw/mac_mini_with_m5_pro_or_m6/",
+    "timestamp": "2026-08-26T19:13:53.000Z",
+    "meta": {
+     "redditId": "1324312fe4a6b485",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-klqtf1-an2v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Wizstar: Digital avatars that move and act like professional actors",
+    "detail": "331 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/wizstar?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-21T07:01:00.000Z",
+    "meta": {
+     "votes": 331,
+     "tagline": "Digital avatars that move and act like professional actors"
+    }
+   },
+   {
+    "id": "RESEARCH-o8ba5j-an5t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "What FID Hides: Detecting, Ranking, and Diagnosing Deviations in Generative Evaluation",
+    "detail": "Hao Chen · stat.ML",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.24881v1",
+    "timestamp": "2026-08-25T17:58:46Z",
+    "meta": {
+     "arxivId": "2608.24881v1",
+     "primaryCategory": "stat.ML",
+     "authorCount": 1,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-hpa0rd-an5t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
+    "detail": "Zhaochen Yu, Yingcheng Wu, Zhenfei Yin et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.24876v1",
+    "timestamp": "2026-08-25T17:56:35Z",
+    "meta": {
+     "arxivId": "2608.24876v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 8,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-an6o",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (197 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-08-27T00:23:18.507Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 197,
+     "country": "US"
+    }
+   },
+   {
+    "id": "RESEARCH-1qk8hhz-an5t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "SPO++: Stream-Aligned Policy Optimization for Asynchronous Agentic RL",
+    "detail": "Kai Ruan, Jinghao Lin, Qianshan Wei et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.24870v1",
+    "timestamp": "2026-08-25T17:52:19Z",
+    "meta": {
+     "arxivId": "2608.24870v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-gahqv9-an5t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Parameterized Complexity of $L_p$-Lipschitz Constants for Input Convex Neural Networks and $L_p$-Norm Maximization over Zonotopes",
+    "detail": "Aritra Das, Vincent Froese, Moritz Grillo et al. · cs.CC",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.24865v1",
+    "timestamp": "2026-08-25T17:47:37Z",
+    "meta": {
+     "arxivId": "2608.24865v1",
+     "primaryCategory": "cs.CC",
+     "authorCount": 9,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1xpqt5e-an5t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Improving Cross-Problem Vehicle Routing with Locally Augmented Preferences and Representation Disentanglement",
+    "detail": "Arthur Corrêa, Paulo Nascimento, Samuel Moniz · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.24859v1",
+    "timestamp": "2026-08-25T17:44:23Z",
+    "meta": {
+     "arxivId": "2608.24859v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4-flash-0731"
+   },
+   "toolHealth": {
+    "operational": 6,
+    "degraded": 0,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "What FID Hides: Detecting, Ranking, and Diagnosing Deviations in Generative Evaluation",
+    "sourceUrl": "https://arxiv.org/abs/2608.24881v1"
+   }
+  },
+  "lastComputed": "2026-08-27T00:23:18.501Z"
+ }
+}
