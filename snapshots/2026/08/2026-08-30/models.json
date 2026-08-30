@@ -1,0 +1,806 @@
+{
+ "v": 1,
+ "capturedAt": "2026-08-30T00:17:08.808Z",
+ "endpoint": "/api/v1/models",
+ "record": {
+  "ordering": "top-weekly",
+  "generatedAt": "2026-08-29T21:12:28.725Z",
+  "fetchedAt": "2026-08-29T21:12:28.667Z",
+  "rows": [
+   {
+    "rank": 1,
+    "previousRank": 1,
+    "slug": "deepseek/deepseek-v4-flash-0731",
+    "permaslug": "deepseek/deepseek-v4-flash-20260731",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "shortName": "DeepSeek V4 Flash 0731",
+    "author": "deepseek",
+    "authorDisplay": "DeepSeek",
+    "pricing": {
+     "promptPerMTok": 0.03,
+     "completionPerMTok": 0.1,
+     "webSearchPerCall": null
+    },
+    "contextLength": 1310720,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/deepseek/deepseek-v4-flash-0731"
+   },
+   {
+    "rank": 2,
+    "previousRank": 2,
+    "slug": "xiaomi/mimo-v2.5",
+    "permaslug": "xiaomi/mimo-v2.5-20260422",
+    "name": "Xiaomi: MiMo-V2.5",
+    "shortName": "MiMo-V2.5",
+    "author": "xiaomi",
+    "authorDisplay": "Xiaomi",
+    "pricing": {
+     "promptPerMTok": 0.119,
+     "completionPerMTok": 0.238,
+     "webSearchPerCall": null
+    },
+    "contextLength": 1050000,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text",
+     "audio",
+     "image",
+     "video"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/xiaomi/mimo-v2.5"
+   },
+   {
+    "rank": 3,
+    "previousRank": 3,
+    "slug": "tencent/hy3",
+    "permaslug": "tencent/hy3-20260706",
+    "name": "Tencent: Hy3",
+    "shortName": "Hy3",
+    "author": "tencent",
+    "authorDisplay": "tencent",
+    "pricing": {
+     "promptPerMTok": 0.0825,
+     "completionPerMTok": 0.33,
+     "webSearchPerCall": null
+    },
+    "contextLength": 262144,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/tencent/hy3"
+   },
+   {
+    "rank": 4,
+    "previousRank": 6,
+    "slug": "openai/gpt-5.6-luna",
+    "permaslug": "openai/gpt-5.6-luna-20260709",
+    "name": "OpenAI: GPT-5.6 Luna",
+    "shortName": "GPT-5.6 Luna",
+    "author": "openai",
+    "authorDisplay": "OpenAI",
+    "pricing": {
+     "promptPerMTok": 0.2,
+     "completionPerMTok": 1.2,
+     "webSearchPerCall": 0.01
+    },
+    "contextLength": 1050000,
+    "knowledgeCutoff": "2026-02-16T00:00:00.000Z",
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "file",
+     "image",
+     "text"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/openai/gpt-5.6-luna"
+   },
+   {
+    "rank": 5,
+    "previousRank": 4,
+    "slug": "nvidia/nemotron-3-ultra-550b-a55b",
+    "permaslug": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
+    "name": "NVIDIA: Nemotron 3 Ultra (free)",
+    "shortName": "Nemotron 3 Ultra (free)",
+    "author": "nvidia",
+    "authorDisplay": "Nvidia",
+    "pricing": {
+     "promptPerMTok": 0,
+     "completionPerMTok": 0,
+     "webSearchPerCall": null
+    },
+    "contextLength": 1000000,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b"
+   },
+   {
+    "rank": 6,
+    "previousRank": 5,
+    "slug": "deepseek/deepseek-v4-flash",
+    "permaslug": "deepseek/deepseek-v4-flash-20260423",
+    "name": "DeepSeek: DeepSeek V4 Flash 0423",
+    "shortName": "DeepSeek V4 Flash 0423",
+    "author": "deepseek",
+    "authorDisplay": "DeepSeek",
+    "pricing": {
+     "promptPerMTok": 0.0679,
+     "completionPerMTok": 0.168,
+     "webSearchPerCall": null
+    },
+    "contextLength": 1048576,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+   },
+   {
+    "rank": 7,
+    "previousRank": 9,
+    "slug": "z-ai/glm-5.3-flash",
+    "permaslug": "z-ai/glm-5.3-flash-20260826",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "shortName": "GLM 5.3 Flash",
+    "author": "z-ai",
+    "authorDisplay": "Z.ai",
+    "pricing": {
+     "promptPerMTok": 0.075,
+     "completionPerMTok": 0.25,
+     "webSearchPerCall": null
+    },
+    "contextLength": 1310720,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text",
+     "image",
+     "video"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/z-ai/glm-5.3-flash"
+   },
+   {
+    "rank": 8,
+    "previousRank": 7,
+    "slug": "google/gemini-3.7-flash",
+    "permaslug": "google/gemini-3.7-flash-20260813",
+    "name": "Google: Gemini 3.7 Flash",
+    "shortName": "Gemini 3.7 Flash",
+    "author": "google",
+    "authorDisplay": "Google",
+    "pricing": {
+     "promptPerMTok": 0.75,
+     "completionPerMTok": 3.75,
+     "webSearchPerCall": 0.014
+    },
+    "contextLength": 1048576,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text",
+     "image",
+     "video",
+     "file",
+     "audio"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/google/gemini-3.7-flash"
+   },
+   {
+    "rank": 9,
+    "previousRank": 8,
+    "slug": "z-ai/glm-5.2",
+    "permaslug": "z-ai/glm-5.2-20260616",
+    "name": "Z.ai: GLM 5.2",
+    "shortName": "GLM 5.2",
+    "author": "z-ai",
+    "authorDisplay": "Z.ai",
+    "pricing": {
+     "promptPerMTok": 0.3276,
+     "completionPerMTok": 1.0296,
+     "webSearchPerCall": null
+    },
+    "contextLength": 1048576,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/z-ai/glm-5.2"
+   },
+   {
+    "rank": 10,
+    "previousRank": 10,
+    "slug": "deepseek/deepseek-v4-pro",
+    "permaslug": "deepseek/deepseek-v4-pro-20260423",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "shortName": "DeepSeek V4 Pro 0423",
+    "author": "deepseek",
+    "authorDisplay": "DeepSeek",
+    "pricing": {
+     "promptPerMTok": 0.5389,
+     "completionPerMTok": 1.0778,
+     "webSearchPerCall": null
+    },
+    "contextLength": 1048576,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+   },
+   {
+    "rank": 11,
+    "previousRank": null,
+    "slug": "tencent/hy4-preview",
+    "permaslug": "tencent/hy4-preview-20260827",
+    "name": "Tencent: Hy4 preview",
+    "shortName": "Hy4 preview",
+    "author": "tencent",
+    "authorDisplay": "tencent",
+    "pricing": {
+     "promptPerMTok": 0.834,
+     "completionPerMTok": 2.501,
+     "webSearchPerCall": null
+    },
+    "contextLength": 1048576,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/tencent/hy4-preview"
+   },
+   {
+    "rank": 12,
+    "previousRank": 11,
+    "slug": "openai/gpt-5.6-sol",
+    "permaslug": "openai/gpt-5.6-sol-20260709",
+    "name": "OpenAI: GPT-5.6 Sol",
+    "shortName": "GPT-5.6 Sol",
+    "author": "openai",
+    "authorDisplay": "OpenAI",
+    "pricing": {
+     "promptPerMTok": 2,
+     "completionPerMTok": 10,
+     "webSearchPerCall": 0.01
+    },
+    "contextLength": 1050000,
+    "knowledgeCutoff": "2026-02-16T00:00:00.000Z",
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "file",
+     "image",
+     "text"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/openai/gpt-5.6-sol"
+   },
+   {
+    "rank": 13,
+    "previousRank": 13,
+    "slug": "minimax/minimax-m3",
+    "permaslug": "minimax/minimax-m3-20260531",
+    "name": "MiniMax: MiniMax M3 (free)",
+    "shortName": "MiniMax M3 (free)",
+    "author": "minimax",
+    "authorDisplay": "MiniMax",
+    "pricing": {
+     "promptPerMTok": 0,
+     "completionPerMTok": 0,
+     "webSearchPerCall": null
+    },
+    "contextLength": 1048576,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text",
+     "image",
+     "video"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/minimax/minimax-m3"
+   },
+   {
+    "rank": 14,
+    "previousRank": 14,
+    "slug": "moonshotai/kimi-k3",
+    "permaslug": "moonshotai/kimi-k3-20260715",
+    "name": "MoonshotAI: Kimi K3",
+    "shortName": "Kimi K3",
+    "author": "moonshotai",
+    "authorDisplay": "moonshotai",
+    "pricing": {
+     "promptPerMTok": 2.55,
+     "completionPerMTok": 12.75,
+     "webSearchPerCall": null
+    },
+    "contextLength": 1048576,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text",
+     "image",
+     "video"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/moonshotai/kimi-k3"
+   },
+   {
+    "rank": 15,
+    "previousRank": 13,
+    "slug": "minimax/minimax-m3",
+    "permaslug": "minimax/minimax-m3-20260531",
+    "name": "MiniMax: MiniMax M3",
+    "shortName": "MiniMax M3",
+    "author": "minimax",
+    "authorDisplay": "MiniMax",
+    "pricing": {
+     "promptPerMTok": 0.23,
+     "completionPerMTok": 0.96,
+     "webSearchPerCall": null
+    },
+    "contextLength": 1048576,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text",
+     "image",
+     "video"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/minimax/minimax-m3"
+   },
+   {
+    "rank": 16,
+    "previousRank": 12,
+    "slug": "anthropic/claude-opus-5",
+    "permaslug": "anthropic/claude-opus-5-20260723",
+    "name": "Claude Opus 5",
+    "shortName": "Claude Opus 5",
+    "author": "anthropic",
+    "authorDisplay": "Anthropic",
+    "pricing": {
+     "promptPerMTok": 5,
+     "completionPerMTok": 25,
+     "webSearchPerCall": 0.01
+    },
+    "contextLength": 1000000,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text",
+     "image",
+     "file"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/anthropic/claude-opus-5"
+   },
+   {
+    "rank": 17,
+    "previousRank": 15,
+    "slug": "poolside/laguna-s-2.1",
+    "permaslug": "poolside/laguna-s-2.1-20260720",
+    "name": "Poolside: Laguna S 2.1 (free)",
+    "shortName": "Laguna S 2.1 (free)",
+    "author": "poolside",
+    "authorDisplay": "poolside",
+    "pricing": {
+     "promptPerMTok": 0,
+     "completionPerMTok": 0,
+     "webSearchPerCall": null
+    },
+    "contextLength": 262144,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/poolside/laguna-s-2.1"
+   },
+   {
+    "rank": 18,
+    "previousRank": 17,
+    "slug": "z-ai/glm-5.3",
+    "permaslug": "z-ai/glm-5.3-20260816",
+    "name": "Z.ai: GLM 5.3",
+    "shortName": "GLM 5.3",
+    "author": "z-ai",
+    "authorDisplay": "Z.ai",
+    "pricing": {
+     "promptPerMTok": 1.1875,
+     "completionPerMTok": 4.18,
+     "webSearchPerCall": null
+    },
+    "contextLength": 1310720,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/z-ai/glm-5.3"
+   },
+   {
+    "rank": 19,
+    "previousRank": 16,
+    "slug": "anthropic/claude-sonnet-5",
+    "permaslug": "anthropic/claude-sonnet-5-20260630",
+    "name": "Anthropic: Claude Sonnet 5",
+    "shortName": "Claude Sonnet 5",
+    "author": "anthropic",
+    "authorDisplay": "Anthropic",
+    "pricing": {
+     "promptPerMTok": 2,
+     "completionPerMTok": 10,
+     "webSearchPerCall": 0.01
+    },
+    "contextLength": 1000000,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text",
+     "image",
+     "file"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/anthropic/claude-sonnet-5"
+   },
+   {
+    "rank": 20,
+    "previousRank": 18,
+    "slug": "deepseek/deepseek-v4-pro-0813",
+    "permaslug": "deepseek/deepseek-v4-pro-20260813",
+    "name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "shortName": "DeepSeek V4 Pro 0813",
+    "author": "deepseek",
+    "authorDisplay": "DeepSeek",
+    "pricing": {
+     "promptPerMTok": 0.5795,
+     "completionPerMTok": 1.7384,
+     "webSearchPerCall": null
+    },
+    "contextLength": 1048576,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813"
+   },
+   {
+    "rank": 21,
+    "previousRank": 19,
+    "slug": "nvidia/nemotron-3.5-lightning",
+    "permaslug": "nvidia/nemotron-3.5-lightning-20260807",
+    "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+    "shortName": "Nemotron 3.5 Lightning (free)",
+    "author": "nvidia",
+    "authorDisplay": "Nvidia",
+    "pricing": {
+     "promptPerMTok": 0,
+     "completionPerMTok": 0,
+     "webSearchPerCall": null
+    },
+    "contextLength": 1000000,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/nvidia/nemotron-3.5-lightning"
+   },
+   {
+    "rank": 22,
+    "previousRank": 20,
+    "slug": "google/gemini-2.5-flash-lite",
+    "permaslug": "google/gemini-2.5-flash-lite",
+    "name": "Google: Gemini 2.5 Flash Lite",
+    "shortName": "Gemini 2.5 Flash Lite",
+    "author": "google",
+    "authorDisplay": "Google",
+    "pricing": {
+     "promptPerMTok": 0.1,
+     "completionPerMTok": 0.4,
+     "webSearchPerCall": 0.014
+    },
+    "contextLength": 1048576,
+    "knowledgeCutoff": "2025-01-31T23:59:59.000Z",
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text",
+     "image",
+     "file",
+     "audio",
+     "video"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/google/gemini-2.5-flash-lite"
+   },
+   {
+    "rank": 23,
+    "previousRank": 21,
+    "slug": "google/gemini-3-flash-preview",
+    "permaslug": "google/gemini-3-flash-preview-20251217",
+    "name": "Google: Gemini 3 Flash Preview",
+    "shortName": "Gemini 3 Flash Preview",
+    "author": "google",
+    "authorDisplay": "Google",
+    "pricing": {
+     "promptPerMTok": 0.5,
+     "completionPerMTok": 3,
+     "webSearchPerCall": 0.014
+    },
+    "contextLength": 1048576,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text",
+     "image",
+     "file",
+     "audio",
+     "video"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/google/gemini-3-flash-preview"
+   },
+   {
+    "rank": 24,
+    "previousRank": 23,
+    "slug": "anthropic/claude-sonnet-4.6",
+    "permaslug": "anthropic/claude-4.6-sonnet-20260217",
+    "name": "Anthropic: Claude Sonnet 4.6",
+    "shortName": "Claude Sonnet 4.6",
+    "author": "anthropic",
+    "authorDisplay": "Anthropic",
+    "pricing": {
+     "promptPerMTok": 3,
+     "completionPerMTok": 15,
+     "webSearchPerCall": 0.01
+    },
+    "contextLength": 1000000,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text",
+     "image",
+     "file"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/anthropic/claude-sonnet-4.6"
+   },
+   {
+    "rank": 25,
+    "previousRank": 25,
+    "slug": "upstage/solar-pro4",
+    "permaslug": "upstage/solar-pro4-20260810",
+    "name": "Upstage: Solar Pro 4",
+    "shortName": "Solar Pro 4",
+    "author": "upstage",
+    "authorDisplay": "upstage",
+    "pricing": {
+     "promptPerMTok": 0.03,
+     "completionPerMTok": 0.12,
+     "webSearchPerCall": null
+    },
+    "contextLength": 524288,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/upstage/solar-pro4"
+   },
+   {
+    "rank": 26,
+    "previousRank": 24,
+    "slug": "openai/gpt-5.6-terra",
+    "permaslug": "openai/gpt-5.6-terra-20260709",
+    "name": "OpenAI: GPT-5.6 Terra",
+    "shortName": "GPT-5.6 Terra",
+    "author": "openai",
+    "authorDisplay": "OpenAI",
+    "pricing": {
+     "promptPerMTok": 2,
+     "completionPerMTok": 12,
+     "webSearchPerCall": 0.01
+    },
+    "contextLength": 1050000,
+    "knowledgeCutoff": "2026-02-16T00:00:00.000Z",
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "file",
+     "image",
+     "text"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/openai/gpt-5.6-terra"
+   },
+   {
+    "rank": 27,
+    "previousRank": 26,
+    "slug": "openai/gpt-oss-120b",
+    "permaslug": "openai/gpt-oss-120b",
+    "name": "OpenAI: gpt-oss-120b",
+    "shortName": "gpt-oss-120b",
+    "author": "openai",
+    "authorDisplay": "OpenAI",
+    "pricing": {
+     "promptPerMTok": 0.03,
+     "completionPerMTok": 0.17,
+     "webSearchPerCall": null
+    },
+    "contextLength": 131072,
+    "knowledgeCutoff": "2024-06-30T23:59:59.000Z",
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/openai/gpt-oss-120b"
+   },
+   {
+    "rank": 28,
+    "previousRank": 27,
+    "slug": "x-ai/grok-4.6",
+    "permaslug": "x-ai/grok-4.6-20260810",
+    "name": "SpaceXAI: Grok 4.6",
+    "shortName": "Grok 4.6",
+    "author": "x-ai",
+    "authorDisplay": "SpaceXAI",
+    "pricing": {
+     "promptPerMTok": 2,
+     "completionPerMTok": 6,
+     "webSearchPerCall": 0.005
+    },
+    "contextLength": 500000,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text",
+     "image",
+     "file"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/x-ai/grok-4.6"
+   },
+   {
+    "rank": 29,
+    "previousRank": 29,
+    "slug": "xiaomi/mimo-v2.5-pro",
+    "permaslug": "xiaomi/mimo-v2.5-pro-20260422",
+    "name": "Xiaomi: MiMo-V2.5-Pro",
+    "shortName": "MiMo-V2.5-Pro",
+    "author": "xiaomi",
+    "authorDisplay": "Xiaomi",
+    "pricing": {
+     "promptPerMTok": 0.3045,
+     "completionPerMTok": 0.609,
+     "webSearchPerCall": null
+    },
+    "contextLength": 1050000,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/xiaomi/mimo-v2.5-pro"
+   },
+   {
+    "rank": 30,
+    "previousRank": 30,
+    "slug": "google/gemini-3.1-flash-lite",
+    "permaslug": "google/gemini-3.1-flash-lite-20260507",
+    "name": "Google: Gemini 3.1 Flash Lite",
+    "shortName": "Gemini 3.1 Flash Lite",
+    "author": "google",
+    "authorDisplay": "Google",
+    "pricing": {
+     "promptPerMTok": 0.25,
+     "completionPerMTok": 1.5,
+     "webSearchPerCall": 0.014
+    },
+    "contextLength": 1048576,
+    "knowledgeCutoff": null,
+    "supportsReasoning": true,
+    "modalitiesIn": [
+     "text",
+     "image",
+     "video",
+     "file",
+     "audio"
+    ],
+    "modalitiesOut": [
+     "text"
+    ],
+    "hubUrl": "https://openrouter.ai/google/gemini-3.1-flash-lite"
+   }
+  ],
+  "trendingDiffersFromTopWeekly": true,
+  "sanityWarnings": [],
+  "sourceCaveat": "OpenRouter request volume reflects developer API spending, not end-user adoption. Biased toward API-first workflows that route through OpenRouter — direct OpenAI / Anthropic / Google customers who never use OpenRouter are invisible."
+ }
+}
