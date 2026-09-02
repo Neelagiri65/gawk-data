@@ -1,0 +1,451 @@
+{
+ "v": 1,
+ "capturedAt": "2026-09-02T00:07:05.743Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-nnnbm6-anao",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Claude Code is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "Anthropic Status (Claude Code + API)",
+    "sourceUrl": "https://status.claude.com",
+    "timestamp": "2026-09-02T00:07:10.113Z",
+    "meta": {
+     "toolId": "claude-code",
+     "status": "degraded",
+     "statusSourceId": "anthropic-status",
+     "activeIncidents": 1
+    }
+   },
+   {
+    "id": "MODEL_MOVER-qe9c4s-anal",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "MiniMax: MiniMax M3 down 5 ranks on OpenRouter weekly",
+    "detail": "Now #16, was #11.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/minimax/minimax-m3",
+    "timestamp": "2026-09-01T21:19:08.464Z",
+    "meta": {
+     "slug": "minimax/minimax-m3",
+     "currentRank": 16,
+     "previousRank": 11,
+     "delta": 5
+    }
+   },
+   {
+    "id": "MODEL_MOVER-i41l3g-anal",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemini 2.5 Flash up 5 ranks on OpenRouter weekly",
+    "detail": "Now #29, was #34.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemini-2.5-flash",
+    "timestamp": "2026-09-01T21:19:08.464Z",
+    "meta": {
+     "slug": "google/gemini-2.5-flash",
+     "currentRank": 29,
+     "previousRank": 34,
+     "delta": -5
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-nntol8-an9j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Video Agent by Fotor: Create and edit precision motion graphics & video with chat",
+    "detail": "377 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/fotor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-31T07:01:00.000Z",
+    "meta": {
+     "votes": 377,
+     "tagline": "Create and edit precision motion graphics & video with chat"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-18d6na4-anal",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "StepFun: Step 3.7 Flash up 7 ranks on OpenRouter weekly",
+    "detail": "Now #30, was #37.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/stepfun/step-3.7-flash",
+    "timestamp": "2026-09-01T21:19:08.464Z",
+    "meta": {
+     "slug": "stepfun/step-3.7-flash",
+     "currentRank": 30,
+     "previousRank": 37,
+     "delta": -7
+    }
+   },
+   {
+    "id": "MODEL_MOVER-2xru3p-anal",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: gpt-oss-20b up 7 ranks on OpenRouter weekly",
+    "detail": "Now #31, was #38.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-oss-20b",
+    "timestamp": "2026-09-01T21:19:08.464Z",
+    "meta": {
+     "slug": "openai/gpt-oss-20b",
+     "currentRank": 31,
+     "previousRank": 38,
+     "delta": -7
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1rxhhtr-an8v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Topview Motion Studio: Create launch videos without touching After Effects",
+    "detail": "327 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/topview-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-30T07:01:00.000Z",
+    "meta": {
+     "votes": 327,
+     "tagline": "Create launch videos without touching After Effects"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1873goe-anal",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemini 3.6 Flash down 4 ranks on OpenRouter weekly",
+    "detail": "Now #35, was #31.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemini-3.6-flash",
+    "timestamp": "2026-09-01T21:19:08.464Z",
+    "meta": {
+     "slug": "google/gemini-3.6-flash",
+     "currentRank": 35,
+     "previousRank": 31,
+     "delta": 4
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1w5wpct-anal",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3 Super (free) down 7 ranks on OpenRouter weekly",
+    "detail": "Now #36, was #29.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b",
+    "timestamp": "2026-09-01T21:19:08.464Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3-super-120b-a12b",
+     "currentRank": 36,
+     "previousRank": 29,
+     "delta": 7
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1rzpdfp-an87",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "1752vc Pitch Deck Analyzer: Know what investors will say before you ever hit send.",
+    "detail": "373 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/1752vc-pitch-deck-analysis?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-29T07:01:00.000Z",
+    "meta": {
+     "votes": 373,
+     "tagline": "Know what investors will say before you ever hit send."
+    }
+   },
+   {
+    "id": "MODEL_MOVER-33qn96-anal",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Ling 3.0 Flash Fin (free) up 6 ranks on OpenRouter weekly",
+    "detail": "Now #39, was #45.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/inclusionai/ling-3.0-flash-fin",
+    "timestamp": "2026-09-01T21:19:08.464Z",
+    "meta": {
+     "slug": "inclusionai/ling-3.0-flash-fin",
+     "currentRank": 39,
+     "previousRank": 45,
+     "delta": -6
+    }
+   },
+   {
+    "id": "MODEL_MOVER-18nynmk-anal",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "MiniMax: MiniMax M2.7 (free) up 5 ranks on OpenRouter weekly",
+    "detail": "Now #44, was #49.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/minimax/minimax-m2.7",
+    "timestamp": "2026-09-01T21:19:08.464Z",
+    "meta": {
+     "slug": "minimax/minimax-m2.7",
+     "currentRank": 44,
+     "previousRank": 49,
+     "delta": -5
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-qq87g4-an7j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "PageIndex: Accurate, trustworthy answers across professional documents",
+    "detail": "370 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/pageindexai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-28T07:01:00.000Z",
+    "meta": {
+     "votes": 370,
+     "tagline": "Accurate, trustworthy answers across professional documents"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-11igfjw-anal",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Poolside: Laguna S 2.1 down 76 ranks on OpenRouter weekly",
+    "detail": "Now #93, was #17.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/poolside/laguna-s-2.1",
+    "timestamp": "2026-09-01T21:19:08.464Z",
+    "meta": {
+     "slug": "poolside/laguna-s-2.1",
+     "currentRank": 93,
+     "previousRank": 17,
+     "delta": 76
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1uopgn1-an6v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Skydive: Build cloud agents that work across your tools",
+    "detail": "435 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/skydive?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-27T07:01:00.000Z",
+    "meta": {
+     "votes": 435,
+     "tagline": "Build cloud agents that work across your tools"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-icnqo1-an6v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Enter Pro: The AI-native platform to build and scale your apps",
+    "detail": "389 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/enter-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-27T07:01:00.000Z",
+    "meta": {
+     "votes": 389,
+     "tagline": "The AI-native platform to build and scale your apps"
+    }
+   },
+   {
+    "id": "NEWS-j3bazx-anan",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Gave a try to Exllamav3 and it's great!",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1w4tejh/gave_a_try_to_exllamav3_and_its_great/",
+    "timestamp": "2026-09-01T23:24:47.000Z",
+    "meta": {
+     "redditId": "394f8837cb59a143",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1kecm5h-an67",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Expertise AI: Turn your GTM skills into recurring revenue",
+    "detail": "368 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/expertise-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-26T07:01:00.000Z",
+    "meta": {
+     "votes": 368,
+     "tagline": "Turn your GTM skills into recurring revenue"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-dlaknm-an67",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "PostHog Desktop: The product editor for product builders",
+    "detail": "351 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/posthog?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-08-26T07:01:00.000Z",
+    "meta": {
+     "votes": 351,
+     "tagline": "The product editor for product builders"
+    }
+   },
+   {
+    "id": "NEWS-1htkld8-anam",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "How I got 280 tok/s on Qwen3.8 27B on 2xr9700's and 940k tokens kv cache",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1w4s68k/how_i_got_280_toks_on_qwen38_27b_on_2xr9700s_and/",
+    "timestamp": "2026-09-01T22:35:13.000Z",
+    "meta": {
+     "redditId": "b30e818edf77a9eb",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "NEWS-bwkwaa-anam",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Given how common RTX 3090 use is for LLMs, why don't we see more INT8 W8A8 models ?",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1w4rzbd/given_how_common_rtx_3090_use_is_for_llms_why/",
+    "timestamp": "2026-09-01T22:27:47.000Z",
+    "meta": {
+     "redditId": "7a5958671e06f4cb",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "RESEARCH-1hilq3d-an9t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Constant Individual Regret in General Games",
+    "detail": "Mingyang Liu, Gabriele Farina, Asuman Ozdaglar · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.31166v1",
+    "timestamp": "2026-08-31T17:59:16Z",
+    "meta": {
+     "arxivId": "2608.31166v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "NEWS-12kf50e-anak",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
+    "detail": "129 points · 71 comments on Hacker News.",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49527396",
+    "timestamp": "2026-09-01T20:07:57Z",
+    "meta": {
+     "hnId": "49527396",
+     "points": 129,
+     "numComments": 71,
+     "author": "timpera"
+    }
+   },
+   {
+    "id": "RESEARCH-1is33mi-an9t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies",
+    "detail": "Weiqi Wang, Zhi Li, Yudong Lei et al. · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.31167v1",
+    "timestamp": "2026-08-31T17:59:16Z",
+    "meta": {
+     "arxivId": "2608.31167v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 10,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-iil1m5-an9t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Sharp Approximation Rates for Neural Networks with Affine Latent Parameterizations",
+    "detail": "Shijun Zhang · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.31157v1",
+    "timestamp": "2026-08-31T17:55:51Z",
+    "meta": {
+     "arxivId": "2608.31157v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 1,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-anao",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (199 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-09-02T00:07:10.118Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 199,
+     "country": "US"
+    }
+   },
+   {
+    "id": "RESEARCH-wq5yf7-an9t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Auditing Anonymous AI Models: A Four-Stage Protocol for Black-Box Identity Verification",
+    "detail": "Yisen Xi · cs.SE",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.31142v1",
+    "timestamp": "2026-08-31T17:48:24Z",
+    "meta": {
+     "arxivId": "2608.31142v1",
+     "primaryCategory": "cs.SE",
+     "authorCount": 1,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-u5b62r-an9t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "OntoAligner-Ensemble: Voting-Based Fusion across Heterogeneous Ontology Alignment Techniques",
+    "detail": "Hamed Babaei Giglou, Sören Auer, Peio Popov et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2608.31137v1",
+    "timestamp": "2026-08-31T17:44:25Z",
+    "meta": {
+     "arxivId": "2608.31137v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4-flash-0731"
+   },
+   "toolHealth": {
+    "operational": 5,
+    "degraded": 1,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "Constant Individual Regret in General Games",
+    "sourceUrl": "https://arxiv.org/abs/2608.31166v1"
+   }
+  },
+  "lastComputed": "2026-09-02T00:07:10.112Z"
+ }
+}
