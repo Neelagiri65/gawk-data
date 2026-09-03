@@ -1,0 +1,105 @@
+{
+ "v": 1,
+ "capturedAt": "2026-09-03T12:02:27.773Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/33752803771",
+ "record": {
+  "date": "2026-09-03",
+  "lead": "GLM 5.3 Flash takes #1 on OpenRouter",
+  "counts": {
+   "accepted": 10,
+   "skipped": 2
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "GLM 5.3 Flash takes #1 on OpenRouter",
+    "source": "hook",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "anthropic downloads down 50.7% on pypi",
+    "source": "curated",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "sponsors/f trending on GitHub (198 stars today)",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-2",
+    "headline": "METR Report on OpenAI / Hugging Face Hacking Incident",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "How to handle naughty model",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-4",
+    "headline": "vllm/vllm-openai on docker +25% vs baseline",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-5",
+    "headline": "MiniMax M3 moved from rank 9 to 16",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-6",
+    "headline": "Saving money on Google Photos with Immich: Your own personal photo storage",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "US gov sides with OpenAI on issue of training LLMs on copyrighted material",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-8",
+    "headline": "@anthropic-ai/sdk on npm -11% vs baseline",
+    "source": "curated",
+    "slot": 7
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models",
+    "source": "curated",
+    "slot": 8
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-Codeium.codeium",
+    "headline": "Codeium.codeium (vscode) down 100%",
+    "source": "supplement",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-kept",
+    "reason": "lead fresh (led 0 prior days, limit 2)",
+    "lead": "GLM 5.3 Flash takes #1 on OpenRouter"
+   }
+  ]
+ }
+}
