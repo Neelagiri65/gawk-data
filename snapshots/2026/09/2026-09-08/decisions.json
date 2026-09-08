@@ -1,0 +1,105 @@
+{
+ "v": 1,
+ "capturedAt": "2026-09-08T12:05:23.054Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/34223945809",
+ "record": {
+  "date": "2026-09-08",
+  "lead": "Hy4 preview holds #1 on OpenRouter",
+  "counts": {
+   "accepted": 10,
+   "skipped": 2
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "Hy4 preview holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "Mistral raises €3B",
+    "source": "curated",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "PostHog/posthog trending on GitHub (23 stars today)",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-2",
+    "headline": "anthropic downloads down 50.1% on pypi",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "Google: Gemini 3.8 Flash up 6 ranks on OpenRouter weekly",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "skip",
+    "gate": "model-dedup",
+    "reason": "same rank move already shipped for \"gemini 3.8 flash\"",
+    "headline": "Gemini 3.8 Flash moved from rank 22 to 16",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "GPT-6 Astra: OpenAI's most capable model for end-to-end work",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-6",
+    "headline": "donnemartin/system-design-primer trending on GitHub (259 stars today)",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-7",
+    "headline": "Mbed-TLS/mbedtls trending on GitHub (4 stars today)",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-8",
+    "headline": "nautechsystems/nautilus_trader trending on GitHub (130 stars today)",
+    "source": "curated",
+    "slot": 7
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "WorldSculpt: Generating Compositional Worlds from Grounded Videos",
+    "source": "curated",
+    "slot": 8
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-Codeium.codeium",
+    "headline": "Codeium.codeium (vscode) down 100%",
+    "source": "supplement",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-kept",
+    "reason": "lead fresh (led 1 prior day, limit 2)",
+    "lead": "Hy4 preview holds #1 on OpenRouter"
+   }
+  ]
+ }
+}
