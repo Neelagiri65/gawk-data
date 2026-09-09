@@ -1,0 +1,105 @@
+{
+ "v": 1,
+ "capturedAt": "2026-09-09T12:15:36.004Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/34349831413",
+ "record": {
+  "date": "2026-09-09",
+  "lead": "I resigned from Anthropic today",
+  "counts": {
+   "accepted": 10,
+   "skipped": 2
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "Hy4 preview holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "I resigned from Anthropic today",
+    "source": "curated",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "jellyfin/jellyfin trending on GitHub (124 stars today)",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-2",
+    "headline": "Google: Gemini 3.8 Flash up 5 ranks on OpenRouter weekly",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "ollama downloads down 95.9% on brew",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "skip",
+    "gate": "model-dedup",
+    "reason": "same rank move already shipped for \"gemini 3.8 flash\"",
+    "headline": "Gemini 3.8 Flash moved from rank 16 to 11",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Is anyone working on conversation compaction?",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-6",
+    "headline": "OpenAI fought dirty on career-making math problem",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-7",
+    "headline": "Muse: Meta's personal AI agent, features and capabilities",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-8",
+    "headline": "vllm/vllm-openai on docker +11% vs baseline",
+    "source": "curated",
+    "slot": 7
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
+    "source": "curated",
+    "slot": 8
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-Codeium.codeium",
+    "headline": "Codeium.codeium (vscode) down 100%",
+    "source": "supplement",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-rotated",
+    "reason": "lead \"Hy4 preview holds #1 on OpenRouter\" led 2 consecutive days — promoted \"I resigned from Anthropic today\"",
+    "lead": "I resigned from Anthropic today"
+   }
+  ]
+ }
+}
