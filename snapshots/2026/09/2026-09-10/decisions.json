@@ -1,0 +1,105 @@
+{
+ "v": 1,
+ "capturedAt": "2026-09-10T12:10:34.157Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/34475032574",
+ "record": {
+  "date": "2026-09-10",
+  "lead": "Hy4 preview holds #1 on OpenRouter",
+  "counts": {
+   "accepted": 10,
+   "skipped": 2
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "Hy4 preview holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "DeepSeek v4.1 Flash",
+    "source": "curated",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "ollama downloads down 94.6% on brew",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-2",
+    "headline": "armory3d/armorpaint trending on GitHub (73 stars today)",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "Openai Api is degraded",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-4",
+    "headline": "Google: Gemini 3.7 Flash down 5 ranks on OpenRouter weekly",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "skip",
+    "gate": "model-dedup",
+    "reason": "same rank move already shipped for \"gemini 3.7 flash\"",
+    "headline": "Gemini 3.7 Flash moved from rank 15 to 20",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Harden: A security layer for AI coding agents",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-7",
+    "headline": "vllm/vllm-openai on docker +16% vs baseline",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-8",
+    "headline": "Programmable World Model",
+    "source": "curated",
+    "slot": 7
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
+    "source": "curated",
+    "slot": 8
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-Codeium.codeium",
+    "headline": "Codeium.codeium (vscode) down 100%",
+    "source": "supplement",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-kept",
+    "reason": "lead fresh (led 0 prior days, limit 2)",
+    "lead": "Hy4 preview holds #1 on OpenRouter"
+   }
+  ]
+ }
+}
