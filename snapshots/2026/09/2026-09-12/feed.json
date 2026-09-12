@@ -1,0 +1,442 @@
+{
+ "v": 1,
+ "capturedAt": "2026-09-12T00:22:46.006Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-nnnbm6-anhc",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Claude Code is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "Anthropic Status (Claude Code + API)",
+    "sourceUrl": "https://status.claude.com",
+    "timestamp": "2026-09-12T00:23:05.216Z",
+    "meta": {
+     "toolId": "claude-code",
+     "status": "degraded",
+     "statusSourceId": "anthropic-status",
+     "activeIncidents": 1
+    }
+   },
+   {
+    "id": "TOOL_ALERT-f5v07h-anhc",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "OpenAI API is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "OpenAI Status (summary)",
+    "sourceUrl": "https://status.openai.com",
+    "timestamp": "2026-09-12T00:23:05.216Z",
+    "meta": {
+     "toolId": "openai-api",
+     "status": "degraded",
+     "statusSourceId": "openai-status",
+     "activeIncidents": 1
+    }
+   },
+   {
+    "id": "MODEL_MOVER-19srwli-anh9",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Anthropic: Claude Sonnet 4.6 down 4 ranks on OpenRouter weekly",
+    "detail": "Now #23, was #19.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/anthropic/claude-sonnet-4.6",
+    "timestamp": "2026-09-11T21:17:15.868Z",
+    "meta": {
+     "slug": "anthropic/claude-sonnet-4.6",
+     "name": "Anthropic: Claude Sonnet 4.6",
+     "currentRank": 23,
+     "previousRank": 19,
+     "delta": 4
+    }
+   },
+   {
+    "id": "MODEL_MOVER-16usir1-anh9",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemini 3.7 Flash down 5 ranks on OpenRouter weekly",
+    "detail": "Now #25, was #20.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemini-3.7-flash",
+    "timestamp": "2026-09-11T21:17:15.868Z",
+    "meta": {
+     "slug": "google/gemini-3.7-flash",
+     "name": "Google: Gemini 3.7 Flash",
+     "currentRank": 25,
+     "previousRank": 20,
+     "delta": 5
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1bqeumq-angv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Loqua: Speak naturally and move from thoughts to being done",
+    "detail": "361 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/loqua?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-11T07:01:00.000Z",
+    "meta": {
+     "votes": 361,
+     "tagline": "Speak naturally and move from thoughts to being done"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1b2jita-anh9",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Dots Studio: Dots3-Note Preview (free) up 4 ranks on OpenRouter weekly",
+    "detail": "Now #37, was #41.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/dots-studio/dots-3-note-preview",
+    "timestamp": "2026-09-11T21:17:15.868Z",
+    "meta": {
+     "slug": "dots-studio/dots-3-note-preview",
+     "name": "Dots Studio: Dots3-Note Preview (free)",
+     "currentRank": 37,
+     "previousRank": 41,
+     "delta": -4
+    }
+   },
+   {
+    "id": "MODEL_MOVER-a0ssxr-anh9",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Qwen: Qwen3.8 Max (0902) up 5 ranks on OpenRouter weekly",
+    "detail": "Now #43, was #48.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/qwen/qwen3.8-max-0902",
+    "timestamp": "2026-09-11T21:17:15.868Z",
+    "meta": {
+     "slug": "qwen/qwen3.8-max-0902",
+     "name": "Qwen: Qwen3.8 Max (0902)",
+     "currentRank": 43,
+     "previousRank": 48,
+     "delta": -5
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1etxqxv-ang7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Typewise Nova: AI customer experience that builds and improves itself",
+    "detail": "340 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/typewise?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-10T07:01:00.000Z",
+    "meta": {
+     "votes": 340,
+     "tagline": "AI customer experience that builds and improves itself"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-2xru3p-anh9",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: gpt-oss-20b down 4 ranks on OpenRouter weekly",
+    "detail": "Now #49, was #45.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-oss-20b",
+    "timestamp": "2026-09-11T21:17:15.868Z",
+    "meta": {
+     "slug": "openai/gpt-oss-20b",
+     "name": "OpenAI: gpt-oss-20b",
+     "currentRank": 49,
+     "previousRank": 45,
+     "delta": 4
+    }
+   },
+   {
+    "id": "MODEL_MOVER-18d6na4-anh9",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "StepFun: Step 3.7 Flash down 7 ranks on OpenRouter weekly",
+    "detail": "Now #53, was #46.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/stepfun/step-3.7-flash",
+    "timestamp": "2026-09-11T21:17:15.868Z",
+    "meta": {
+     "slug": "stepfun/step-3.7-flash",
+     "name": "StepFun: Step 3.7 Flash",
+     "currentRank": 53,
+     "previousRank": 46,
+     "delta": 7
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-friscw-anfj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Mastra Factory: From issue to production, run by agents.",
+    "detail": "499 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/mastra?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-09T07:01:00.000Z",
+    "meta": {
+     "votes": 499,
+     "tagline": "From issue to production, run by agents."
+    }
+   },
+   {
+    "id": "MODEL_MOVER-11igfjw-anh9",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Poolside: Laguna S 2.1 down 73 ranks on OpenRouter weekly",
+    "detail": "Now #94, was #21.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/poolside/laguna-s-2.1",
+    "timestamp": "2026-09-11T21:17:15.868Z",
+    "meta": {
+     "slug": "poolside/laguna-s-2.1",
+     "name": "Poolside: Laguna S 2.1",
+     "currentRank": 94,
+     "previousRank": 21,
+     "delta": 73
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-11bni7x-anfj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Harden: A security layer for AI coding agents",
+    "detail": "408 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/agent-integrity-foundation-aif?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-09T07:01:00.000Z",
+    "meta": {
+     "votes": 408,
+     "tagline": "A security layer for AI coding agents"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-146q03x-anev",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Switch: Bring any AI agent into Slack, Teams & Discord",
+    "detail": "519 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/switch-11?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-08T07:01:00.000Z",
+    "meta": {
+     "votes": 519,
+     "tagline": "Bring any AI agent into Slack, Teams & Discord"
+    }
+   },
+   {
+    "id": "NEWS-1ouc0sj-anhb",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "OpenAI agents carried out an undisclosed attack on RubyGems",
+    "detail": "131 points · 58 comments on Hacker News.",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49666735",
+    "timestamp": "2026-09-11T23:17:42Z",
+    "meta": {
+     "hnId": "49666735",
+     "points": 131,
+     "numComments": 58,
+     "author": "chao-"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-bop4a-andj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "AI Toolbox 3.0: Search, organize and export every AI chat in one place",
+    "detail": "437 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/chatgpt-toolbox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-06T07:01:00.000Z",
+    "meta": {
+     "votes": 437,
+     "tagline": "Search, organize and export every AI chat in one place"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-12yukfc-andj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Tadata: The AI employee in Slack that reads the room",
+    "detail": "394 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/tadata?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-06T07:01:00.000Z",
+    "meta": {
+     "votes": 394,
+     "tagline": "The AI employee in Slack that reads the room"
+    }
+   },
+   {
+    "id": "NEWS-1qlhv7g-anh8",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "nvidia rtx 5090 with 96gb of vram.",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wdrvru/nvidia_rtx_5090_with_96gb_of_vram/",
+    "timestamp": "2026-09-11T20:32:04.000Z",
+    "meta": {
+     "redditId": "87117bcea163b7b9",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-16871la-ancv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "dif.sh: Markdown feature flags your coding agent installs for you",
+    "detail": "374 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/dif-sh?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-05T07:01:00.000Z",
+    "meta": {
+     "votes": 374,
+     "tagline": "Markdown feature flags your coding agent installs for you"
+    }
+   },
+   {
+    "id": "NEWS-1nzg5cj-anh8",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Is anyone using K2-Horizon-MoVA-36B-A4B? If yes, what is the usecase?",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wdrvd4/is_anyone_using_k2horizonmova36ba4b_if_yes_what/",
+    "timestamp": "2026-09-11T20:31:38.000Z",
+    "meta": {
+     "redditId": "31d600301056ed0d",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "NEWS-16mtski-anh7",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Is a ZIMA Board 2 + RTX 2000 ADA the cheapest path to a decent Qwen-3.8 27b self-contained endpoint?",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wdqnpq/is_a_zima_board_2_rtx_2000_ada_the_cheapest_path/",
+    "timestamp": "2026-09-11T19:46:27.000Z",
+    "meta": {
+     "redditId": "60a1d4239a4f8d3e",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "RESEARCH-12j44wr-angh",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
+    "detail": "Boning Li, Longbo Huang · cs.DC",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.11923v1",
+    "timestamp": "2026-09-10T17:58:14Z",
+    "meta": {
+     "arxivId": "2609.11923v1",
+     "primaryCategory": "cs.DC",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-h9rwv5-angh",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "General Quantification of Covariate and Concept Shifts",
+    "detail": "Hongbo Chen, Li Charlie Xia · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.11918v1",
+    "timestamp": "2026-09-10T17:57:52Z",
+    "meta": {
+     "arxivId": "2609.11918v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-anhc",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (200 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-09-12T00:23:05.220Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 200,
+     "country": "US"
+    }
+   },
+   {
+    "id": "RESEARCH-liwc08-angh",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data",
+    "detail": "Atindra Jha, Margaret Li, Jure Leskovec et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.11917v1",
+    "timestamp": "2026-09-10T17:57:33Z",
+    "meta": {
+     "arxivId": "2609.11917v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-t528o7-angh",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Can Edge-Deployable Vision-Language Models Identify Species?",
+    "detail": "William Zhou, Mayukha Siripuram, Xiao Yan et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.11916v1",
+    "timestamp": "2026-09-10T17:57:32Z",
+    "meta": {
+     "arxivId": "2609.11916v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-wsjh0u-angh",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Generative Marketing Mix Modeling: A Causal Inference Framework Linking GEO and GEM to Business Impact",
+    "detail": "Masahiro Kato, Daiki Honma, Taka Kato · stat.ML",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.11915v1",
+    "timestamp": "2026-09-10T17:57:28Z",
+    "meta": {
+     "arxivId": "2609.11915v1",
+     "primaryCategory": "stat.ML",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "Tencent: Hy4 preview",
+    "sourceUrl": "https://openrouter.ai/tencent/hy4-preview"
+   },
+   "toolHealth": {
+    "operational": 4,
+    "degraded": 2,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
+    "sourceUrl": "https://arxiv.org/abs/2609.11923v1"
+   }
+  },
+  "lastComputed": "2026-09-12T00:23:05.216Z"
+ }
+}
