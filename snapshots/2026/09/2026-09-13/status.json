@@ -1,0 +1,573 @@
+{
+ "v": 1,
+ "capturedAt": "2026-09-13T00:05:28.172Z",
+ "endpoint": "/api/v1/status",
+ "record": {
+  "data": {
+   "claude-code": {
+    "status": "degraded",
+    "statusSourceId": "anthropic-status",
+    "lastCheckedAt": "2026-09-13T00:06:02.098Z",
+    "openIssues": 11792,
+    "activeIncidents": [
+     {
+      "id": "r1pqn1kb4hvk",
+      "name": "Degraded functionality for Claude Cowork on Windows",
+      "status": "identified",
+      "createdAt": "2026-09-10T15:54:10.108Z"
+     }
+    ],
+    "history": [
+     {
+      "date": "2026-09-07",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-09-08",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 306
+     },
+     {
+      "date": "2026-09-09",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 803
+     },
+     {
+      "date": "2026-09-10",
+      "worstStatus": "degraded",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 444
+     },
+     {
+      "date": "2026-09-11",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "t33dncr5ydvl",
+        "name": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-09-11T14:19:51.478Z",
+        "resolvedAt": "2026-09-11T14:37:11.146Z"
+       }
+      ],
+      "sampleCount": 295
+     },
+     {
+      "date": "2026-09-12",
+      "worstStatus": "degraded",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 251
+     },
+     {
+      "date": "2026-09-13",
+      "worstStatus": "degraded",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 1
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "claude-code",
+     "host": "api.anthropic.com",
+     "kind": "api-auth",
+     "state": "reachable",
+     "latencyMs": 75,
+     "checkedAt": "2026-09-13T00:03:27.225Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "openai-api": {
+    "status": "operational",
+    "statusSourceId": "openai-status",
+    "lastCheckedAt": "2026-09-13T00:06:02.098Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-09-07",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-09-08",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01M20PYYYGRT9303VHAPA7YNT2",
+        "name": "Elevated errors for image generation",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-09-08T14:32:42Z",
+        "resolvedAt": "2026-09-08T21:59:24Z"
+       },
+       {
+        "id": "01M20QBACYZMK2PRCJQCBSWTYJ",
+        "name": "File uploads are delayed or failing",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-09-08T14:39:27Z",
+        "resolvedAt": "2026-09-08T19:16:08Z"
+       }
+      ],
+      "sampleCount": 306
+     },
+     {
+      "date": "2026-09-09",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01M23KG62KKK448RN434CQ64Z8",
+        "name": "Investigating unexpected usage limit resets",
+        "status": "resolved",
+        "impact": "none",
+        "createdAt": "2026-09-09T17:29:55Z",
+        "resolvedAt": "2026-09-09T17:54:12Z"
+       },
+       {
+        "id": "01M23BNX5V1XT9P3NP0PX56FTN",
+        "name": "Increased Error Rate For Pro and Plus Plan Conversations",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-09-09T15:13:14Z",
+        "resolvedAt": "2026-09-09T16:21:45Z"
+       }
+      ],
+      "sampleCount": 803
+     },
+     {
+      "date": "2026-09-10",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01M26E3PPAYJMMRHX2MZJCTHMF",
+        "name": "Delays in customer support responses",
+        "status": "resolved",
+        "impact": "none",
+        "createdAt": "2026-09-10T19:53:26Z",
+        "resolvedAt": "2026-09-10T21:48:32Z"
+       },
+       {
+        "id": "01M26DX2PP1AFHGJK5E4M6S2J6",
+        "name": "Elevated errors affecting ChatGPT Work",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-09-10T19:49:49Z",
+        "resolvedAt": "2026-09-10T21:30:02Z"
+       },
+       {
+        "id": "01M24HYC9SX2Q4471EVMY6EXQE",
+        "name": "Unable to open shared ChatGPT Project using direct link",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-09-10T02:21:57Z",
+        "resolvedAt": "2026-09-10T14:28:15Z"
+       }
+      ],
+      "sampleCount": 444
+     },
+     {
+      "date": "2026-09-11",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01M28MEQWTQJDRCRPFD9FWQ0H3",
+        "name": "1% of ChatGPT Work (mobile/web) turns are failing for existing threads",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-09-11T16:22:49Z",
+        "resolvedAt": "2026-09-12T01:57:37Z"
+       },
+       {
+        "id": "01M27VK1VN54RQJGJEHB5JTQJJ",
+        "name": "Elevated errors for GPT-5.6 Sol on the API",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-09-11T09:08:15Z",
+        "resolvedAt": "2026-09-11T11:21:43Z"
+       },
+       {
+        "id": "01M27Q9GH7WVKNA61ZR3RDMSY5",
+        "name": "Elevated errors for ChatGPT users in Europe",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-09-11T07:53:08Z",
+        "resolvedAt": "2026-09-11T10:16:31Z"
+       }
+      ],
+      "sampleCount": 295
+     },
+     {
+      "date": "2026-09-12",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01M28MEQWTQJDRCRPFD9FWQ0H3",
+        "name": "1% of ChatGPT Work (mobile/web) turns are failing for existing threads",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-09-11T16:22:49Z",
+        "resolvedAt": "2026-09-12T01:57:37Z"
+       }
+      ],
+      "sampleCount": 251
+     },
+     {
+      "date": "2026-09-13",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 1
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "openai-api",
+     "host": "api.openai.com",
+     "kind": "api-auth",
+     "state": "reachable",
+     "latencyMs": 92,
+     "checkedAt": "2026-09-13T00:03:27.225Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "codex": {
+    "status": "operational",
+    "statusSourceId": "openai-status",
+    "lastCheckedAt": "2026-09-13T00:06:02.098Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-09-07",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-09-08",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 306
+     },
+     {
+      "date": "2026-09-09",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 803
+     },
+     {
+      "date": "2026-09-10",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 444
+     },
+     {
+      "date": "2026-09-11",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 295
+     },
+     {
+      "date": "2026-09-12",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 251
+     },
+     {
+      "date": "2026-09-13",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 1
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "codex",
+     "host": "api.openai.com",
+     "kind": "api-auth",
+     "state": "reachable",
+     "latencyMs": 98,
+     "checkedAt": "2026-09-13T00:03:27.225Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "copilot": {
+    "status": "operational",
+    "statusSourceId": "github-status",
+    "lastCheckedAt": "2026-09-13T00:06:02.098Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-09-07",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-09-08",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 306
+     },
+     {
+      "date": "2026-09-09",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 803
+     },
+     {
+      "date": "2026-09-10",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 444
+     },
+     {
+      "date": "2026-09-11",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 295
+     },
+     {
+      "date": "2026-09-12",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 251
+     },
+     {
+      "date": "2026-09-13",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 1
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "copilot",
+     "host": "api.github.com",
+     "kind": "api",
+     "state": "reachable",
+     "latencyMs": 18,
+     "checkedAt": "2026-09-13T00:03:27.225Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "windsurf": {
+    "status": "operational",
+    "statusSourceId": "windsurf-status",
+    "lastCheckedAt": "2026-09-13T00:06:02.098Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-09-07",
+      "worstStatus": "unknown",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-09-08",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 306
+     },
+     {
+      "date": "2026-09-09",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 803
+     },
+     {
+      "date": "2026-09-10",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 444
+     },
+     {
+      "date": "2026-09-11",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [
+       {
+        "id": "550t8qt2ms4h",
+        "name": "GPT 5.6 Sol Partial Degradation",
+        "status": "resolved",
+        "impact": "none",
+        "createdAt": "2026-09-11T08:00:00.000Z",
+        "resolvedAt": "2026-09-11T08:00:00.000Z"
+       }
+      ],
+      "sampleCount": 295
+     },
+     {
+      "date": "2026-09-12",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 251
+     },
+     {
+      "date": "2026-09-13",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 1
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "windsurf",
+     "host": "server.codeium.com",
+     "kind": "healthz",
+     "state": "reachable",
+     "latencyMs": 194,
+     "checkedAt": "2026-09-13T00:03:27.225Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "cursor": {
+    "status": "operational",
+    "statusSourceId": "cursor-status",
+    "lastCheckedAt": "2026-09-13T00:06:02.098Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-09-07",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "jw6mzctqkq56",
+        "name": "Grok Bot computers unreachable for some users",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-09-07T20:32:42.825Z",
+        "resolvedAt": "2026-09-07T21:37:45.304Z"
+       },
+       {
+        "id": "nk7ln2sb6n6q",
+        "name": "Investigating service degradation — CLI, Cloud Agents, and IDE",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-09-07T13:08:00.000Z",
+        "resolvedAt": "2026-09-07T13:08:00.000Z"
+       }
+      ],
+      "sampleCount": 0
+     },
+     {
+      "date": "2026-09-08",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 306
+     },
+     {
+      "date": "2026-09-09",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 803
+     },
+     {
+      "date": "2026-09-10",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "8mwzyv0n0jyk",
+        "name": "Investigating service degradation — Review Agents and Cloud Agents",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-09-10T17:07:24.485Z",
+        "resolvedAt": "2026-09-10T17:32:05.087Z"
+       }
+      ],
+      "sampleCount": 444
+     },
+     {
+      "date": "2026-09-11",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "vgsv8kjxxylh",
+        "name": "Investigating service degradation",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-09-11T11:08:41.900Z",
+        "resolvedAt": "2026-09-11T11:36:00.241Z"
+       }
+      ],
+      "sampleCount": 295
+     },
+     {
+      "date": "2026-09-12",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 251
+     },
+     {
+      "date": "2026-09-13",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 1
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "cursor",
+     "host": "api2.cursor.sh",
+     "kind": "api",
+     "state": "reachable",
+     "latencyMs": 44,
+     "checkedAt": "2026-09-13T00:03:27.225Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   }
+  },
+  "polledAt": "2026-09-13T00:06:02.098Z",
+  "failures": []
+ }
+}
