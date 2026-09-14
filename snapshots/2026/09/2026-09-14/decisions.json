@@ -1,0 +1,98 @@
+{
+ "v": 1,
+ "capturedAt": "2026-09-14T13:49:47.547Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/34851432299",
+ "record": {
+  "date": "2026-09-14",
+  "lead": "GPT-5.6 Luna takes #1 on OpenRouter",
+  "counts": {
+   "accepted": 10,
+   "skipped": 1
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "GPT-5.6 Luna takes #1 on OpenRouter",
+    "source": "hook",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "huggingface/transformers trending on GitHub (152 stars today)",
+    "source": "curated",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "vllm/vllm-openai downloads down 26.5% on docker",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-2",
+    "headline": "Claude Code is degraded",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Harden: A security layer for AI coding agents",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-4",
+    "headline": "ollama on brew +426% vs baseline",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-5",
+    "headline": "Claude Sonnet 5 moved from rank 19 to 18",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-6",
+    "headline": "Claude Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-7",
+    "headline": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
+    "source": "curated",
+    "slot": 7
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-8",
+    "headline": "Astra and Fable still hack on simple variants of alignment evals from 2025",
+    "source": "curated",
+    "slot": 8
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "dgtlmoon/changedetection.io trending on GitHub (135 stars today)",
+    "source": "curated",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-kept",
+    "reason": "lead fresh (led 1 prior day, limit 2)",
+    "lead": "GPT-5.6 Luna takes #1 on OpenRouter"
+   }
+  ]
+ }
+}
