@@ -1,0 +1,409 @@
+{
+ "v": 1,
+ "capturedAt": "2026-09-14T00:15:23.931Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-nnnbm6-anio",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Claude Code is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "Anthropic Status (Claude Code + API)",
+    "sourceUrl": "https://status.claude.com",
+    "timestamp": "2026-09-14T00:15:27.854Z",
+    "meta": {
+     "toolId": "claude-code",
+     "status": "degraded",
+     "statusSourceId": "anthropic-status",
+     "activeIncidents": 1
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1pxhc5u-anil",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "DeepSeek: DeepSeek V4.1 Flash up 4 ranks on OpenRouter weekly",
+    "detail": "Now #7, was #11.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash",
+    "timestamp": "2026-09-13T21:07:24.685Z",
+    "meta": {
+     "slug": "deepseek/deepseek-v4.1-flash",
+     "name": "DeepSeek: DeepSeek V4.1 Flash",
+     "currentRank": 7,
+     "previousRank": 11,
+     "delta": -4
+    }
+   },
+   {
+    "id": "MODEL_MOVER-19srwli-anil",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Anthropic: Claude Sonnet 4.6 down 4 ranks on OpenRouter weekly",
+    "detail": "Now #27, was #23.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/anthropic/claude-sonnet-4.6",
+    "timestamp": "2026-09-13T21:07:24.685Z",
+    "meta": {
+     "slug": "anthropic/claude-sonnet-4.6",
+     "name": "Anthropic: Claude Sonnet 4.6",
+     "currentRank": 27,
+     "previousRank": 23,
+     "delta": 4
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-2bcf6n-anhj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Youkti : Finds who's ready to buy, then tells you what to do next ",
+    "detail": "332 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/youkti?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-12T07:01:00.000Z",
+    "meta": {
+     "votes": 332,
+     "tagline": "Finds who's ready to buy, then tells you what to do next "
+    }
+   },
+   {
+    "id": "MODEL_MOVER-d5egn7-anil",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-5.6 Luna Pro down 4 ranks on OpenRouter weekly",
+    "detail": "Now #44, was #40.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-5.6-luna-pro",
+    "timestamp": "2026-09-13T21:07:24.685Z",
+    "meta": {
+     "slug": "openai/gpt-5.6-luna-pro",
+     "name": "OpenAI: GPT-5.6 Luna Pro",
+     "currentRank": 44,
+     "previousRank": 40,
+     "delta": 4
+    }
+   },
+   {
+    "id": "MODEL_MOVER-2xru3p-anil",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: gpt-oss-20b down 4 ranks on OpenRouter weekly",
+    "detail": "Now #53, was #49.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-oss-20b",
+    "timestamp": "2026-09-13T21:07:24.685Z",
+    "meta": {
+     "slug": "openai/gpt-oss-20b",
+     "name": "OpenAI: gpt-oss-20b",
+     "currentRank": 53,
+     "previousRank": 49,
+     "delta": 4
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1bqeumq-angv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Loqua: Speak naturally and move from thoughts to being done",
+    "detail": "406 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/loqua?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-11T07:01:00.000Z",
+    "meta": {
+     "votes": 406,
+     "tagline": "Speak naturally and move from thoughts to being done"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-18zywve-anil",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Qwen: Qwen3.8 27B down 4 ranks on OpenRouter weekly",
+    "detail": "Now #54, was #50.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/qwen/qwen3.8-27b",
+    "timestamp": "2026-09-13T21:07:24.685Z",
+    "meta": {
+     "slug": "qwen/qwen3.8-27b",
+     "name": "Qwen: Qwen3.8 27B",
+     "currentRank": 54,
+     "previousRank": 50,
+     "delta": 4
+    }
+   },
+   {
+    "id": "MODEL_MOVER-11igfjw-anil",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Poolside: Laguna S 2.1 down 69 ranks on OpenRouter weekly",
+    "detail": "Now #90, was #21.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/poolside/laguna-s-2.1",
+    "timestamp": "2026-09-13T21:07:24.685Z",
+    "meta": {
+     "slug": "poolside/laguna-s-2.1",
+     "name": "Poolside: Laguna S 2.1",
+     "currentRank": 90,
+     "previousRank": 21,
+     "delta": 69
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-r4isf0-angv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Wisry : Clone the ads already winning in your market, at scale",
+    "detail": "319 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/wisry?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-11T07:01:00.000Z",
+    "meta": {
+     "votes": 319,
+     "tagline": "Clone the ads already winning in your market, at scale"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1etxqxv-ang7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Typewise Nova: AI customer experience that builds and improves itself",
+    "detail": "349 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/typewise?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-10T07:01:00.000Z",
+    "meta": {
+     "votes": 349,
+     "tagline": "AI customer experience that builds and improves itself"
+    }
+   },
+   {
+    "id": "NEWS-cc3f83-anim",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Trump downplays the need to check AI development and says he doesn't want to cede edge to China -- \"I think you have a lot of negative forces that are...bringing up things that won’t happen...whoever wins with AI wins\"",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wfm3v4/trump_downplays_the_need_to_check_ai_development/",
+    "timestamp": "2026-09-13T22:43:56.000Z",
+    "meta": {
+     "redditId": "18f8d74c41c8afa9",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-friscw-anfj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Mastra Factory: From issue to production, run by agents.",
+    "detail": "528 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/mastra?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-09T07:01:00.000Z",
+    "meta": {
+     "votes": 528,
+     "tagline": "From issue to production, run by agents."
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-11bni7x-anfj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Harden: A security layer for AI coding agents",
+    "detail": "417 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/agent-integrity-foundation-aif?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-09T07:01:00.000Z",
+    "meta": {
+     "votes": 417,
+     "tagline": "A security layer for AI coding agents"
+    }
+   },
+   {
+    "id": "NEWS-1s2k3i7-anim",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Discovered pi-vcc, why pi-blackhole?",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wflenb/discovered_pivcc_why_piblackhole/",
+    "timestamp": "2026-09-13T22:14:23.000Z",
+    "meta": {
+     "redditId": "d717d2e40d364b6c",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-r2ydw4-anfj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "ChatGPT Images 2.5: Sharper visuals, faster flow, better creative control",
+    "detail": "321 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-09T07:01:00.000Z",
+    "meta": {
+     "votes": 321,
+     "tagline": "Sharper visuals, faster flow, better creative control"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-146q03x-anev",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Switch: Bring any AI agent into Slack, Teams & Discord",
+    "detail": "521 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/switch-11?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-08T07:01:00.000Z",
+    "meta": {
+     "votes": 521,
+     "tagline": "Bring any AI agent into Slack, Teams & Discord"
+    }
+   },
+   {
+    "id": "NEWS-1h06lsz-anil",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Are there any experimental small models (9B or less) which are out or currently being trained using engram/n-grams?",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wfkb2t/are_there_any_experimental_small_models_9b_or/",
+    "timestamp": "2026-09-13T21:29:20.000Z",
+    "meta": {
+     "redditId": "4f5a8ca92fefd8bd",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "NEWS-12p5ty2-anil",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Claude Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+    "detail": "179 points · 47 comments on Hacker News.",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49688695",
+    "timestamp": "2026-09-13T21:06:13Z",
+    "meta": {
+     "hnId": "49688695",
+     "points": 179,
+     "numComments": 47,
+     "author": "u1hcw9nx"
+    }
+   },
+   {
+    "id": "RESEARCH-12j44wr-angh",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
+    "detail": "Boning Li, Longbo Huang · cs.DC",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.11923v1",
+    "timestamp": "2026-09-10T17:58:14Z",
+    "meta": {
+     "arxivId": "2609.11923v1",
+     "primaryCategory": "cs.DC",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-h9rwv5-angh",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "General Quantification of Covariate and Concept Shifts",
+    "detail": "Hongbo Chen, Li Charlie Xia · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.11918v1",
+    "timestamp": "2026-09-10T17:57:52Z",
+    "meta": {
+     "arxivId": "2609.11918v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-anio",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (200 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-09-14T00:15:27.862Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 200,
+     "country": "US"
+    }
+   },
+   {
+    "id": "RESEARCH-liwc08-angh",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data",
+    "detail": "Atindra Jha, Margaret Li, Jure Leskovec et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.11917v1",
+    "timestamp": "2026-09-10T17:57:33Z",
+    "meta": {
+     "arxivId": "2609.11917v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-t528o7-angh",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Can Edge-Deployable Vision-Language Models Identify Species?",
+    "detail": "William Zhou, Mayukha Siripuram, Xiao Yan et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.11916v1",
+    "timestamp": "2026-09-10T17:57:32Z",
+    "meta": {
+     "arxivId": "2609.11916v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-wsjh0u-angh",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Generative Marketing Mix Modeling: A Causal Inference Framework Linking GEO and GEM to Business Impact",
+    "detail": "Masahiro Kato, Daiki Honma, Taka Kato · stat.ML",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.11915v1",
+    "timestamp": "2026-09-10T17:57:28Z",
+    "meta": {
+     "arxivId": "2609.11915v1",
+     "primaryCategory": "stat.ML",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "OpenAI: GPT-5.6 Luna",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-5.6-luna"
+   },
+   "toolHealth": {
+    "operational": 5,
+    "degraded": 1,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
+    "sourceUrl": "https://arxiv.org/abs/2609.11923v1"
+   }
+  },
+  "lastComputed": "2026-09-14T00:15:27.854Z"
+ }
+}
