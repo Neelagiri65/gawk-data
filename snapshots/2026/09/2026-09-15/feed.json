@@ -1,0 +1,342 @@
+{
+ "v": 1,
+ "capturedAt": "2026-09-15T00:03:26.606Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-f5v07h-anjc",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "OpenAI API has an active incident: Elevated errors affecting Work Mode in ChatGPT",
+    "detail": "Status page is green but lists 1 active incident (monitoring).",
+    "sourceName": "OpenAI Status (summary)",
+    "sourceUrl": "https://status.openai.com",
+    "timestamp": "2026-09-15T00:04:29.465Z",
+    "meta": {
+     "toolId": "openai-api",
+     "status": "operational",
+     "statusSourceId": "openai-status",
+     "activeIncidents": 1
+    }
+   },
+   {
+    "id": "MODEL_MOVER-19srwli-anja",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Anthropic: Claude Sonnet 4.6 down 5 ranks on OpenRouter weekly",
+    "detail": "Now #29, was #24.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/anthropic/claude-sonnet-4.6",
+    "timestamp": "2026-09-14T22:02:34.290Z",
+    "meta": {
+     "slug": "anthropic/claude-sonnet-4.6",
+     "name": "Anthropic: Claude Sonnet 4.6",
+     "currentRank": 29,
+     "previousRank": 24,
+     "delta": 5
+    }
+   },
+   {
+    "id": "MODEL_MOVER-106vtkd-anja",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Nex AGI: Nex-N2.5-Pro (free) up 6 ranks on OpenRouter weekly",
+    "detail": "Now #43, was #49.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nex-agi/nex-n2.5-pro",
+    "timestamp": "2026-09-14T22:02:34.290Z",
+    "meta": {
+     "slug": "nex-agi/nex-n2.5-pro",
+     "name": "Nex AGI: Nex-N2.5-Pro (free)",
+     "currentRank": 43,
+     "previousRank": 49,
+     "delta": -6
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-2bcf6n-anhj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Youkti : Finds who's ready to buy, then tells you what to do next ",
+    "detail": "347 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/youkti?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-12T07:01:00.000Z",
+    "meta": {
+     "votes": 347,
+     "tagline": "Finds who's ready to buy, then tells you what to do next "
+    }
+   },
+   {
+    "id": "MODEL_MOVER-11igfjw-anja",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Poolside: Laguna S 2.1 down 71 ranks on OpenRouter weekly",
+    "detail": "Now #92, was #21.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/poolside/laguna-s-2.1",
+    "timestamp": "2026-09-14T22:02:34.290Z",
+    "meta": {
+     "slug": "poolside/laguna-s-2.1",
+     "name": "Poolside: Laguna S 2.1",
+     "currentRank": 92,
+     "previousRank": 21,
+     "delta": 71
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1bqeumq-angv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Loqua: Speak naturally and move from thoughts to being done",
+    "detail": "412 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/loqua?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-11T07:01:00.000Z",
+    "meta": {
+     "votes": 412,
+     "tagline": "Speak naturally and move from thoughts to being done"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-r4isf0-angv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Wisry : Clone the ads already winning in your market, at scale",
+    "detail": "321 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/wisry?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-11T07:01:00.000Z",
+    "meta": {
+     "votes": 321,
+     "tagline": "Clone the ads already winning in your market, at scale"
+    }
+   },
+   {
+    "id": "NEWS-1fsp0qz-anja",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "DeepSeek engineer relections on RSI - burying my talent to yesterday",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wgii3h/deepseek_engineer_relections_on_rsi_burying_my/",
+    "timestamp": "2026-09-14T22:38:42.000Z",
+    "meta": {
+     "redditId": "7e9c86eb0d3720f3",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1etxqxv-ang7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Typewise Nova: AI customer experience that builds and improves itself",
+    "detail": "352 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/typewise?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-10T07:01:00.000Z",
+    "meta": {
+     "votes": 352,
+     "tagline": "AI customer experience that builds and improves itself"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-friscw-anfj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Mastra Factory: From issue to production, run by agents.",
+    "detail": "534 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/mastra?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-09T07:01:00.000Z",
+    "meta": {
+     "votes": 534,
+     "tagline": "From issue to production, run by agents."
+    }
+   },
+   {
+    "id": "NEWS-1vaqkb9-anja",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Running Qwen3.8-Flash-Next locally on a 12GB VRAM card",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wgiefk/running_qwen38flashnext_locally_on_a_12gb_vram/",
+    "timestamp": "2026-09-14T22:34:29.000Z",
+    "meta": {
+     "redditId": "850c37b6181e8ebf",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-11bni7x-anfj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Harden: A security layer for AI coding agents",
+    "detail": "417 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/agent-integrity-foundation-aif?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-09T07:01:00.000Z",
+    "meta": {
+     "votes": 417,
+     "tagline": "A security layer for AI coding agents"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-r2ydw4-anfj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "ChatGPT Images 2.5: Sharper visuals, faster flow, better creative control",
+    "detail": "321 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-09T07:01:00.000Z",
+    "meta": {
+     "votes": 321,
+     "tagline": "Sharper visuals, faster flow, better creative control"
+    }
+   },
+   {
+    "id": "NEWS-lxry6g-anj9",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "How would you improve my Qwen3.8 Flash Next setup?",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wggdpk/how_would_you_improve_my_qwen38_flash_next_setup/",
+    "timestamp": "2026-09-14T21:15:37.000Z",
+    "meta": {
+     "redditId": "d64ae1d1ad72ab37",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-146q03x-anev",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Switch: Bring any AI agent into Slack, Teams & Discord",
+    "detail": "521 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/switch-11?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-08T07:01:00.000Z",
+    "meta": {
+     "votes": 521,
+     "tagline": "Bring any AI agent into Slack, Teams & Discord"
+    }
+   },
+   {
+    "id": "RESEARCH-1n1wwep-anh5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Rethinking Heterogeneous System Disaggregation for Subquadratic Attention",
+    "detail": "Arya Tschand, Yaosheng Fu, Vikram Sharma Mailthody et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.13134v1",
+    "timestamp": "2026-09-11T17:55:45Z",
+    "meta": {
+     "arxivId": "2609.13134v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 9,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-ekpez-anh5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "A Hybrid LSTM-XGBoost Framework for Multi-Horizon Stock Return Prediction Across Diversified Equity Portfolios",
+    "detail": "Seif ElDein Mostafa, Yahia Ahmed, Farah Datwish et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.13125v1",
+    "timestamp": "2026-09-11T17:51:47Z",
+    "meta": {
+     "arxivId": "2609.13125v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-anjc",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (198 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-09-15T00:04:29.471Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 198,
+     "country": "US"
+    }
+   },
+   {
+    "id": "RESEARCH-120zuiz-anh5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "CMA-OT: Hierarchical Expert Supervision for Dance-to-Music Generation",
+    "detail": "Jinting Wang, Chenxing Li, Dong Yu et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.13118v1",
+    "timestamp": "2026-09-11T17:46:15Z",
+    "meta": {
+     "arxivId": "2609.13118v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-f7s4da-anh5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "A Ranking Approach for Measuring Calibration",
+    "detail": "Anirban Chatterjee, Rina Foygel Barber · stat.ME",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.13100v1",
+    "timestamp": "2026-09-11T17:34:25Z",
+    "meta": {
+     "arxivId": "2609.13100v1",
+     "primaryCategory": "stat.ME",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1lfpdc8-anh5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "ASTRIL-MPC: Autonomous Traversal Framework of Articulated Tracked Robots with Language-Guided Neural-Kinematic MPC",
+    "detail": "Zhenfeng Gan, Yanbo Chen, Lirong Che et al. · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.13083v1",
+    "timestamp": "2026-09-11T17:17:52Z",
+    "meta": {
+     "arxivId": "2609.13083v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "OpenAI: GPT-5.6 Luna",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-5.6-luna"
+   },
+   "toolHealth": {
+    "operational": 6,
+    "degraded": 0,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "Rethinking Heterogeneous System Disaggregation for Subquadratic Attention",
+    "sourceUrl": "https://arxiv.org/abs/2609.13134v1"
+   }
+  },
+  "lastComputed": "2026-09-15T00:04:29.465Z"
+ }
+}
