@@ -1,0 +1,376 @@
+{
+ "v": 1,
+ "capturedAt": "2026-09-16T00:02:11.870Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-f5v07h-ank0",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "OpenAI API is reporting a partial outage",
+    "detail": "Upstream status page reports partial_outage.",
+    "sourceName": "OpenAI Status (summary)",
+    "sourceUrl": "https://status.openai.com",
+    "timestamp": "2026-09-16T00:02:17.131Z",
+    "meta": {
+     "toolId": "openai-api",
+     "status": "partial_outage",
+     "statusSourceId": "openai-status",
+     "activeIncidents": 1
+    }
+   },
+   {
+    "id": "MODEL_MOVER-106vtkd-anjx",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Nex AGI: Nex-N2.5-Pro (free) up 10 ranks on OpenRouter weekly",
+    "detail": "Now #36, was #46.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nex-agi/nex-n2.5-pro",
+    "timestamp": "2026-09-15T21:44:39.198Z",
+    "meta": {
+     "slug": "nex-agi/nex-n2.5-pro",
+     "name": "Nex AGI: Nex-N2.5-Pro (free)",
+     "currentRank": 36,
+     "previousRank": 46,
+     "delta": -10
+    }
+   },
+   {
+    "id": "MODEL_MOVER-fzbths-anjx",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "DeepSeek: DeepSeek V4 Flash Vision Exp down 6 ranks on OpenRouter weekly",
+    "detail": "Now #40, was #34.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4-flash-vision-exp",
+    "timestamp": "2026-09-15T21:44:39.198Z",
+    "meta": {
+     "slug": "deepseek/deepseek-v4-flash-vision-exp",
+     "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+     "currentRank": 40,
+     "previousRank": 34,
+     "delta": 6
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-rokljs-anjj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "tiun.: Auth, billing, and payments for AI builders",
+    "detail": "447 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/tiun-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-15T07:01:00.000Z",
+    "meta": {
+     "votes": 447,
+     "tagline": "Auth, billing, and payments for AI builders"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-a0ssxr-anjx",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Qwen: Qwen3.8 Max (0902) down 4 ranks on OpenRouter weekly",
+    "detail": "Now #41, was #37.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/qwen/qwen3.8-max-0902",
+    "timestamp": "2026-09-15T21:44:39.198Z",
+    "meta": {
+     "slug": "qwen/qwen3.8-max-0902",
+     "name": "Qwen: Qwen3.8 Max (0902)",
+     "currentRank": 41,
+     "previousRank": 37,
+     "delta": 4
+    }
+   },
+   {
+    "id": "MODEL_MOVER-k0l2sr-anjx",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Qwen: Qwen3.8 Flash up 6 ranks on OpenRouter weekly",
+    "detail": "Now #44, was #50.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/qwen/qwen3.8-flash",
+    "timestamp": "2026-09-15T21:44:39.198Z",
+    "meta": {
+     "slug": "qwen/qwen3.8-flash",
+     "name": "Qwen: Qwen3.8 Flash",
+     "currentRank": 44,
+     "previousRank": 50,
+     "delta": -6
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-7j9jgi-anjj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Voiskey: AI voice typing that sounds right in every app",
+    "detail": "351 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/voiskey?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-15T07:01:00.000Z",
+    "meta": {
+     "votes": 351,
+     "tagline": "AI voice typing that sounds right in every app"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-11igfjw-anjx",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Poolside: Laguna S 2.1 down 74 ranks on OpenRouter weekly",
+    "detail": "Now #95, was #21.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/poolside/laguna-s-2.1",
+    "timestamp": "2026-09-15T21:44:39.198Z",
+    "meta": {
+     "slug": "poolside/laguna-s-2.1",
+     "name": "Poolside: Laguna S 2.1",
+     "currentRank": 95,
+     "previousRank": 21,
+     "delta": 74
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-ldvnd-aniv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Web Search Agents by Nimble: Self-learning agents automate web research + retrieval",
+    "detail": "364 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/nimbleway?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-14T07:01:00.000Z",
+    "meta": {
+     "votes": 364,
+     "tagline": "Self-learning agents automate web research + retrieval"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-2bcf6n-anhj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Youkti : Finds who's ready to buy, then tells you what to do next ",
+    "detail": "357 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/youkti?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-12T07:01:00.000Z",
+    "meta": {
+     "votes": 357,
+     "tagline": "Finds who's ready to buy, then tells you what to do next "
+    }
+   },
+   {
+    "id": "NEWS-1prye3e-anjy",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Don’t buy a $9K RTX 5090.... instead.",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1whf7ov/dont_buy_a_9k_rtx_5090_instead/",
+    "timestamp": "2026-09-15T22:36:44.000Z",
+    "meta": {
+     "redditId": "abe643cabdd18478",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1bqeumq-angv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Loqua: Speak naturally and move from thoughts to being done",
+    "detail": "414 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/loqua?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-11T07:01:00.000Z",
+    "meta": {
+     "votes": 414,
+     "tagline": "Speak naturally and move from thoughts to being done"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1etxqxv-ang7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Typewise Nova: AI customer experience that builds and improves itself",
+    "detail": "353 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/typewise?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-10T07:01:00.000Z",
+    "meta": {
+     "votes": 353,
+     "tagline": "AI customer experience that builds and improves itself"
+    }
+   },
+   {
+    "id": "NEWS-1cyh8ke-anjx",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Voice Acting Arena",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1whdgee/voice_acting_arena/",
+    "timestamp": "2026-09-15T21:26:47.000Z",
+    "meta": {
+     "redditId": "6851371ff760eeba",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-friscw-anfj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Mastra Factory: From issue to production, run by agents.",
+    "detail": "535 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/mastra?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-09T07:01:00.000Z",
+    "meta": {
+     "votes": 535,
+     "tagline": "From issue to production, run by agents."
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-11bni7x-anfj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Harden: A security layer for AI coding agents",
+    "detail": "417 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/agent-integrity-foundation-aif?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-09T07:01:00.000Z",
+    "meta": {
+     "votes": 417,
+     "tagline": "A security layer for AI coding agents"
+    }
+   },
+   {
+    "id": "NEWS-175vcl0-anjw",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "censorship has begun on HuggingFace",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1whbvpx/censorship_has_begun_on_huggingface/",
+    "timestamp": "2026-09-15T20:27:22.000Z",
+    "meta": {
+     "redditId": "0406edece0d9e0e8",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "RESEARCH-ozb5lz-anj6",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection",
+    "detail": "Keertana Chidambaram, Andrew Ilyas, Vasilis Syrgkanis · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.15989v1",
+    "timestamp": "2026-09-14T18:33:27Z",
+    "meta": {
+     "arxivId": "2609.15989v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-d40tsx-anj5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Bellman Policy Optimization",
+    "detail": "Zhuoqing Song, Haotian Xu, Xikun Zhang et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.15987v1",
+    "timestamp": "2026-09-14T17:59:47Z",
+    "meta": {
+     "arxivId": "2609.15987v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-ank0",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (200 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-09-16T00:02:17.140Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 200,
+     "country": "US"
+    }
+   },
+   {
+    "id": "RESEARCH-1oymc5h-anj5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research in Mathematics and Theoretical Computer Science",
+    "detail": "Honghao Lin, David P. Woodruff, Yuan Deng et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.15983v1",
+    "timestamp": "2026-09-14T17:58:55Z",
+    "meta": {
+     "arxivId": "2609.15983v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 6,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1hcgfhi-anj5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "The Router Within: Eliciting Native Skill Routing from a Frozen LLM",
+    "detail": "Ruishuo Chen, Xun Wang, Yu Chen et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.15982v1",
+    "timestamp": "2026-09-14T17:58:27Z",
+    "meta": {
+     "arxivId": "2609.15982v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-15h63og-anj5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "A Chosen Future Can Still Be Rewritten: Causal Writability in Video Models",
+    "detail": "Xingyun Wang, Haomin Zheng, Man Yuan et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.15980v1",
+    "timestamp": "2026-09-14T17:58:11Z",
+    "meta": {
+     "arxivId": "2609.15980v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "OpenAI: GPT-5.6 Luna",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-5.6-luna"
+   },
+   "toolHealth": {
+    "operational": 5,
+    "degraded": 1,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection",
+    "sourceUrl": "https://arxiv.org/abs/2609.15989v1"
+   }
+  },
+  "lastComputed": "2026-09-16T00:02:17.131Z"
+ }
+}
