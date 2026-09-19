@@ -1,0 +1,119 @@
+{
+ "v": 1,
+ "capturedAt": "2026-09-19T11:53:18.028Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/35441258363",
+ "record": {
+  "date": "2026-09-19",
+  "lead": "GPT-5.6 Luna holds #1 on OpenRouter",
+  "counts": {
+   "accepted": 10,
+   "skipped": 4
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "GPT-5.6 Luna holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "vllm/vllm-openai downloads down 20.3% on docker",
+    "source": "curated",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "coder/coder trending on GitHub (478 stars today)",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "skip",
+    "gate": "leaderboard-dedup",
+    "reason": "model already shown in the leaderboard top-5",
+    "headline": "DeepSeek: DeepSeek V4 Flash 0731 (free) down 21 ranks on OpenRouter weekly",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "GPT-6 Astra moved from rank 17 to 14",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-4",
+    "headline": "ollama on brew +30% vs baseline",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "4x RTX 3090 PCIe 4.0 x16 - advice? Qwen 3.8 Next Flash?",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Google's Gemini AI hacked three companies in security test",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-7",
+    "headline": "GPT-6 Astra Solves a WWI German Radio Cipher",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-8",
+    "headline": "Claude Code now reads AGENTS.md if there is no Claude.md",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
+    "source": "curated",
+    "slot": 7
+   },
+   {
+    "verdict": "skip",
+    "gate": "sdk-dedup",
+    "reason": "same package already covered under wording drift",
+    "headline": "ollama",
+    "source": "supplement"
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-Codeium.codeium",
+    "headline": "Codeium.codeium (vscode) down 98%",
+    "source": "supplement",
+    "slot": 8
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-candle-core",
+    "headline": "candle-core (crates) up 59%",
+    "source": "supplement",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-kept",
+    "reason": "lead fresh (led 0 prior days, limit 2)",
+    "lead": "GPT-5.6 Luna holds #1 on OpenRouter"
+   }
+  ]
+ }
+}
