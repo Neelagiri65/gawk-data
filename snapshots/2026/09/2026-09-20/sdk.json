@@ -1,0 +1,4135 @@
+{
+ "v": 1,
+ "capturedAt": "2026-09-20T00:49:22.143Z",
+ "endpoint": "/api/v1/sdk",
+ "record": {
+  "packages": [
+   {
+    "id": "pypi:anthropic",
+    "label": "anthropic",
+    "registry": "pypi",
+    "latest": {
+     "count": 5325079,
+     "fetchedAt": "2026-09-19T20:38:40.843Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": 8054114,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-08-24",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-08-25",
+      "count": 7146834,
+      "delta": -0.11264802062647734
+     },
+     {
+      "date": "2026-08-26",
+      "count": 5022205,
+      "delta": -0.33922476413971026
+     },
+     {
+      "date": "2026-08-27",
+      "count": 4951747,
+      "delta": -0.26543398054695033
+     },
+     {
+      "date": "2026-08-28",
+      "count": 4924882,
+      "delta": -0.2174932968949231
+     },
+     {
+      "date": "2026-08-29",
+      "count": 4514629,
+      "delta": -0.25005619642029303
+     },
+     {
+      "date": "2026-08-30",
+      "count": 2753033,
+      "delta": -0.5227941911246157
+     },
+     {
+      "date": "2026-08-31",
+      "count": 2660279,
+      "delta": -0.5016530164599965
+     },
+     {
+      "date": "2026-09-01",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-02",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-03",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-04",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-05",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-06",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-07",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-08",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-09",
+      "count": 5570746,
+      "delta": 0.11337754585740488
+     },
+     {
+      "date": "2026-09-10",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-11",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-12",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-13",
+      "count": 3068998,
+      "delta": -0.39425637294971466
+     },
+     {
+      "date": "2026-09-14",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-15",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-16",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-17",
+      "count": 5544029,
+      "delta": 0.13916530728833695
+     },
+     {
+      "date": "2026-09-18",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-19",
+      "count": 5325079,
+      "delta": 0.08050641140764678
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": false,
+    "caveat": "Counts via pypistats — third-party aggregator over the public PyPI BigQuery downloads dataset; values can lag the underlying day by 24-48h.",
+    "counterName": "lastDay",
+    "counterUnits": "downloads/day"
+   },
+   {
+    "id": "pypi:diffusers",
+    "label": "diffusers",
+    "registry": "pypi",
+    "latest": {
+     "count": 173547,
+     "fetchedAt": "2026-09-19T20:38:40.843Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": 219704,
+      "delta": null
+     },
+     {
+      "date": "2026-08-24",
+      "count": 219704,
+      "delta": 0
+     },
+     {
+      "date": "2026-08-25",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-08-26",
+      "count": 167917,
+      "delta": -0.2357125951279904
+     },
+     {
+      "date": "2026-08-27",
+      "count": 170339,
+      "delta": -0.1585773679660807
+     },
+     {
+      "date": "2026-08-28",
+      "count": 159040,
+      "delta": -0.1819603324829232
+     },
+     {
+      "date": "2026-08-29",
+      "count": 157725,
+      "delta": -0.15808515817163155
+     },
+     {
+      "date": "2026-08-30",
+      "count": 131369,
+      "delta": -0.2797943036962654
+     },
+     {
+      "date": "2026-08-31",
+      "count": 121850,
+      "delta": -0.30416757083956736
+     },
+     {
+      "date": "2026-09-01",
+      "count": 163118,
+      "delta": -0.03168779978154533
+     },
+     {
+      "date": "2026-09-02",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-03",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-04",
+      "count": 187918,
+      "delta": 0.11947316791614329
+     },
+     {
+      "date": "2026-09-05",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-06",
+      "count": 135880,
+      "delta": -0.20008665531670397
+     },
+     {
+      "date": "2026-09-07",
+      "count": 129636,
+      "delta": -0.22270577641336028
+     },
+     {
+      "date": "2026-09-08",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-09",
+      "count": 197476,
+      "delta": 0.20645148151919349
+     },
+     {
+      "date": "2026-09-10",
+      "count": 194484,
+      "delta": 0.1695980341179715
+     },
+     {
+      "date": "2026-09-11",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-12",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-13",
+      "count": 130018,
+      "delta": -0.22744974874371865
+     },
+     {
+      "date": "2026-09-14",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-15",
+      "count": 177393,
+      "delta": 0.07027533829033955
+     },
+     {
+      "date": "2026-09-16",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-17",
+      "count": 189355,
+      "delta": 0.13745043777695432
+     },
+     {
+      "date": "2026-09-18",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-19",
+      "count": 173547,
+      "delta": 0.03413092383048148
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": false,
+    "caveat": "Counts via pypistats — third-party aggregator over the public PyPI BigQuery downloads dataset; values can lag the underlying day by 24-48h.",
+    "counterName": "lastDay",
+    "counterUnits": "downloads/day"
+   },
+   {
+    "id": "pypi:huggingface-hub",
+    "label": "huggingface-hub",
+    "registry": "pypi",
+    "latest": {
+     "count": 8578519,
+     "fetchedAt": "2026-09-19T20:38:40.843Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": 19441966,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": 13955188,
+      "delta": -0.28221312597707454
+     },
+     {
+      "date": "2026-08-24",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-08-25",
+      "count": 14934291,
+      "delta": -0.10565487107075051
+     },
+     {
+      "date": "2026-08-26",
+      "count": 7649012,
+      "delta": -0.5252151885796089
+     },
+     {
+      "date": "2026-08-27",
+      "count": 7862782,
+      "delta": -0.4381766479684151
+     },
+     {
+      "date": "2026-08-28",
+      "count": 7975517,
+      "delta": -0.37538280286813147
+     },
+     {
+      "date": "2026-08-29",
+      "count": 7982616,
+      "delta": -0.3331032355948911
+     },
+     {
+      "date": "2026-08-30",
+      "count": 5701376,
+      "delta": -0.4998878966642328
+     },
+     {
+      "date": "2026-08-31",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-01",
+      "count": 7547625,
+      "delta": -0.29381217080882593
+     },
+     {
+      "date": "2026-09-02",
+      "count": 8545727,
+      "delta": -0.1734418625060214
+     },
+     {
+      "date": "2026-09-03",
+      "count": 8208074,
+      "delta": -0.19208768840536203
+     },
+     {
+      "date": "2026-09-04",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-05",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-06",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-07",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-08",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-09",
+      "count": 8313592,
+      "delta": -0.1671581446439368
+     },
+     {
+      "date": "2026-09-10",
+      "count": 8388330,
+      "delta": -0.14780000156792666
+     },
+     {
+      "date": "2026-09-11",
+      "count": 8905204,
+      "delta": -0.08488479480071855
+     },
+     {
+      "date": "2026-09-12",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-13",
+      "count": 5876789,
+      "delta": -0.3924063501347377
+     },
+     {
+      "date": "2026-09-14",
+      "count": 5199355,
+      "delta": -0.4480049553221716
+     },
+     {
+      "date": "2026-09-15",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-16",
+      "count": 8268585,
+      "delta": -0.09686894393488087
+     },
+     {
+      "date": "2026-09-17",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-18",
+      "count": 8313975,
+      "delta": -0.08670714857900619
+     },
+     {
+      "date": "2026-09-19",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": false,
+    "caveat": "Counts via pypistats — third-party aggregator over the public PyPI BigQuery downloads dataset; values can lag the underlying day by 24-48h.",
+    "counterName": "lastDay",
+    "counterUnits": "downloads/day"
+   },
+   {
+    "id": "pypi:langchain",
+    "label": "langchain",
+    "registry": "pypi",
+    "latest": {
+     "count": 5757715,
+     "fetchedAt": "2026-09-19T20:38:40.843Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": 7405914,
+      "delta": null
+     },
+     {
+      "date": "2026-08-24",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-08-25",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-08-26",
+      "count": 6897369,
+      "delta": -0.06866741903835233
+     },
+     {
+      "date": "2026-08-27",
+      "count": 6974774,
+      "delta": -0.024731035525200753
+     },
+     {
+      "date": "2026-08-28",
+      "count": 6798971,
+      "delta": -0.041410923939154826
+     },
+     {
+      "date": "2026-08-29",
+      "count": 5708360,
+      "delta": -0.18675723085790988
+     },
+     {
+      "date": "2026-08-30",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-08-31",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-01",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-02",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-03",
+      "count": 5749172,
+      "delta": -0.14916294582734993
+     },
+     {
+      "date": "2026-09-04",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-05",
+      "count": 5540035,
+      "delta": -0.15921133307162136
+     },
+     {
+      "date": "2026-09-06",
+      "count": 5109859,
+      "delta": -0.20644848833361676
+     },
+     {
+      "date": "2026-09-07",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-08",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-09",
+      "count": 6183010,
+      "delta": -0.01435452500888024
+     },
+     {
+      "date": "2026-09-10",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-11",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-12",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-13",
+      "count": 5295256,
+      "delta": -0.15452460305824656
+     },
+     {
+      "date": "2026-09-14",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-15",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-16",
+      "count": 5816174,
+      "delta": -0.05677628233071781
+     },
+     {
+      "date": "2026-09-17",
+      "count": 5762093,
+      "delta": -0.06069854968280898
+     },
+     {
+      "date": "2026-09-18",
+      "count": 5845598,
+      "delta": -0.042241525226851415
+     },
+     {
+      "date": "2026-09-19",
+      "count": 5757715,
+      "delta": -0.05356521589597029
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": false,
+    "caveat": "Counts via pypistats — third-party aggregator over the public PyPI BigQuery downloads dataset; values can lag the underlying day by 24-48h.",
+    "counterName": "lastDay",
+    "counterUnits": "downloads/day"
+   },
+   {
+    "id": "pypi:openai",
+    "label": "openai",
+    "registry": "pypi",
+    "latest": {
+     "count": 11054416,
+     "fetchedAt": "2026-09-19T20:38:40.843Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": 15928922,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-08-24",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-08-25",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-08-26",
+      "count": 9914925,
+      "delta": -0.3775520402447824
+     },
+     {
+      "date": "2026-08-27",
+      "count": 9965266,
+      "delta": -0.22880939513378173
+     },
+     {
+      "date": "2026-08-28",
+      "count": 9995824,
+      "delta": -0.16257428660687573
+     },
+     {
+      "date": "2026-08-29",
+      "count": 9127738,
+      "delta": -0.20290356474019383
+     },
+     {
+      "date": "2026-08-30",
+      "count": 6368769,
+      "delta": -0.4203114084649983
+     },
+     {
+      "date": "2026-08-31",
+      "count": 6141634,
+      "delta": -0.39887543268964437
+     },
+     {
+      "date": "2026-09-01",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-02",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-03",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-04",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-05",
+      "count": 9213718,
+      "delta": -0.04369687872193501
+     },
+     {
+      "date": "2026-09-06",
+      "count": 6786043,
+      "delta": -0.2917999860051547
+     },
+     {
+      "date": "2026-09-07",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-08",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-09",
+      "count": 10929652,
+      "delta": 0.17885332257211425
+     },
+     {
+      "date": "2026-09-10",
+      "count": 11131089,
+      "delta": 0.17948449617590367
+     },
+     {
+      "date": "2026-09-11",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-12",
+      "count": 10154550,
+      "delta": 0.058732319794266755
+     },
+     {
+      "date": "2026-09-13",
+      "count": 6657480,
+      "delta": -0.309259452837427
+     },
+     {
+      "date": "2026-09-14",
+      "count": 6253543,
+      "delta": -0.3353582670274055
+     },
+     {
+      "date": "2026-09-15",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-16",
+      "count": 11078446,
+      "delta": 0.20634102645134475
+     },
+     {
+      "date": "2026-09-17",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-18",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-19",
+      "count": 11054416,
+      "delta": 0.18739055441977198
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": false,
+    "caveat": "Counts via pypistats — third-party aggregator over the public PyPI BigQuery downloads dataset; values can lag the underlying day by 24-48h.",
+    "counterName": "lastDay",
+    "counterUnits": "downloads/day"
+   },
+   {
+    "id": "pypi:torch",
+    "label": "torch",
+    "registry": "pypi",
+    "latest": {
+     "count": 1994386,
+     "fetchedAt": "2026-09-19T20:38:40.843Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": 2544891,
+      "delta": null
+     },
+     {
+      "date": "2026-08-24",
+      "count": 2544891,
+      "delta": 0
+     },
+     {
+      "date": "2026-08-25",
+      "count": 3016606,
+      "delta": 0.18535764400125584
+     },
+     {
+      "date": "2026-08-26",
+      "count": 2157337,
+      "delta": -0.20161593548199278
+     },
+     {
+      "date": "2026-08-27",
+      "count": 2143711,
+      "delta": -0.1645485435356072
+     },
+     {
+      "date": "2026-08-28",
+      "count": 2123147,
+      "delta": -0.14440541945974986
+     },
+     {
+      "date": "2026-08-29",
+      "count": 2024439,
+      "delta": -0.16406423610119433
+     },
+     {
+      "date": "2026-08-30",
+      "count": 1620311,
+      "delta": -0.3148799802259399
+     },
+     {
+      "date": "2026-08-31",
+      "count": 1617257,
+      "delta": -0.2881530148581047
+     },
+     {
+      "date": "2026-09-01",
+      "count": 1982944,
+      "delta": -0.09832437290925537
+     },
+     {
+      "date": "2026-09-02",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-03",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-04",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-05",
+      "count": 2080499,
+      "delta": -0.04457038803273431
+     },
+     {
+      "date": "2026-09-06",
+      "count": 1671877,
+      "delta": -0.229098693818876
+     },
+     {
+      "date": "2026-09-07",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-08",
+      "count": 1984830,
+      "delta": -0.06698354859446001
+     },
+     {
+      "date": "2026-09-09",
+      "count": 2289105,
+      "delta": 0.08162127799702969
+     },
+     {
+      "date": "2026-09-10",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-11",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-12",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-13",
+      "count": 1687907,
+      "delta": -0.20707264936113848
+     },
+     {
+      "date": "2026-09-14",
+      "count": 1662132,
+      "delta": -0.20825098908368658
+     },
+     {
+      "date": "2026-09-15",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-16",
+      "count": 2218408,
+      "delta": 0.07066397795069505
+     },
+     {
+      "date": "2026-09-17",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-18",
+      "count": 2058624,
+      "delta": -0.010564911366861161
+     },
+     {
+      "date": "2026-09-19",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": false,
+    "caveat": "Counts via pypistats — third-party aggregator over the public PyPI BigQuery downloads dataset; values can lag the underlying day by 24-48h.",
+    "counterName": "lastDay",
+    "counterUnits": "downloads/day"
+   },
+   {
+    "id": "pypi:transformers",
+    "label": "transformers",
+    "registry": "pypi",
+    "latest": {
+     "count": 3462170,
+     "fetchedAt": "2026-09-19T20:38:40.843Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": 5939856,
+      "delta": null
+     },
+     {
+      "date": "2026-08-24",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-08-25",
+      "count": 6013010,
+      "delta": 0.012315786780016215
+     },
+     {
+      "date": "2026-08-26",
+      "count": 3218489,
+      "delta": -0.46146991022906136
+     },
+     {
+      "date": "2026-08-27",
+      "count": 3161225,
+      "delta": -0.3748959799569649
+     },
+     {
+      "date": "2026-08-28",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-08-29",
+      "count": 3169101,
+      "delta": -0.30853136874351567
+     },
+     {
+      "date": "2026-08-30",
+      "count": 2292013,
+      "delta": -0.4670153928895141
+     },
+     {
+      "date": "2026-08-31",
+      "count": 2144479,
+      "delta": -0.4592317611548673
+     },
+     {
+      "date": "2026-09-01",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-02",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-03",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-04",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-05",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-06",
+      "count": 2199015,
+      "delta": -0.40654628990253094
+     },
+     {
+      "date": "2026-09-07",
+      "count": 2128582,
+      "delta": -0.39479894010730565
+     },
+     {
+      "date": "2026-09-08",
+      "count": 2754828,
+      "delta": -0.1808088147104799
+     },
+     {
+      "date": "2026-09-09",
+      "count": 3340971,
+      "delta": 0.011783917420272095
+     },
+     {
+      "date": "2026-09-10",
+      "count": 3488031,
+      "delta": 0.05518936765352458
+     },
+     {
+      "date": "2026-09-11",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-12",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-13",
+      "count": 2246001,
+      "delta": -0.3236566490002409
+     },
+     {
+      "date": "2026-09-14",
+      "count": 2069569,
+      "delta": -0.36087390699089916
+     },
+     {
+      "date": "2026-09-15",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-16",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-17",
+      "count": 3490426,
+      "delta": 0.10643667849574676
+     },
+     {
+      "date": "2026-09-18",
+      "count": null,
+      "delta": null
+     },
+     {
+      "date": "2026-09-19",
+      "count": 3462170,
+      "delta": 0.08974715162517323
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": false,
+    "caveat": "Counts via pypistats — third-party aggregator over the public PyPI BigQuery downloads dataset; values can lag the underlying day by 24-48h.",
+    "counterName": "lastDay",
+    "counterUnits": "downloads/day"
+   },
+   {
+    "id": "npm:@anthropic-ai/sdk",
+    "label": "@anthropic-ai/sdk",
+    "registry": "npm",
+    "latest": {
+     "count": 6372244,
+     "fetchedAt": "2026-09-19T20:52:44.452Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": 5585084,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": 5287300,
+      "delta": -0.053317729867625986
+     },
+     {
+      "date": "2026-08-24",
+      "count": 3403810,
+      "delta": -0.37386133528764254
+     },
+     {
+      "date": "2026-08-25",
+      "count": 3278864,
+      "delta": -0.31097938288033905
+     },
+     {
+      "date": "2026-08-26",
+      "count": 5986018,
+      "delta": 0.3639414919620317
+     },
+     {
+      "date": "2026-08-27",
+      "count": 6708107,
+      "delta": 0.42476643803367353
+     },
+     {
+      "date": "2026-08-28",
+      "count": 6197458,
+      "delta": 0.22928106851679267
+     },
+     {
+      "date": "2026-08-29",
+      "count": 6197458,
+      "delta": 0.1902936679404832
+     },
+     {
+      "date": "2026-08-30",
+      "count": 5901006,
+      "delta": 0.10702416294456121
+     },
+     {
+      "date": "2026-08-31",
+      "count": 3827120,
+      "delta": -0.29047264394628464
+     },
+     {
+      "date": "2026-09-01",
+      "count": 3827120,
+      "delta": -0.2692462464598363
+     },
+     {
+      "date": "2026-09-02",
+      "count": 3827120,
+      "delta": -0.2509108424662244
+     },
+     {
+      "date": "2026-09-03",
+      "count": 3827120,
+      "delta": -0.23491346691830017
+     },
+     {
+      "date": "2026-09-04",
+      "count": 3827120,
+      "delta": -0.22083372452776148
+     },
+     {
+      "date": "2026-09-05",
+      "count": 3827120,
+      "delta": -0.20834630785834757
+     },
+     {
+      "date": "2026-09-06",
+      "count": 3827120,
+      "delta": -0.19719555167563824
+     },
+     {
+      "date": "2026-09-07",
+      "count": 3827120,
+      "delta": -0.18717774334341122
+     },
+     {
+      "date": "2026-09-08",
+      "count": 4252157,
+      "delta": -0.08685215576425405
+     },
+     {
+      "date": "2026-09-09",
+      "count": 4252157,
+      "delta": -0.08242474526706
+     },
+     {
+      "date": "2026-09-10",
+      "count": 4252157,
+      "delta": -0.07842682768955238
+     },
+     {
+      "date": "2026-09-11",
+      "count": 7089212,
+      "delta": 0.5424988927151756
+     },
+     {
+      "date": "2026-09-12",
+      "count": 7276476,
+      "delta": 0.5433741205789268
+     },
+     {
+      "date": "2026-09-13",
+      "count": 6646832,
+      "delta": 0.37584204406478994
+     },
+     {
+      "date": "2026-09-14",
+      "count": 6646832,
+      "delta": 0.35372094634446694
+     },
+     {
+      "date": "2026-09-15",
+      "count": 6646832,
+      "delta": 0.334059086241764
+     },
+     {
+      "date": "2026-09-16",
+      "count": 6646832,
+      "delta": 0.31646796285228446
+     },
+     {
+      "date": "2026-09-17",
+      "count": 6646832,
+      "delta": 0.30063681351445337
+     },
+     {
+      "date": "2026-09-18",
+      "count": 7171555,
+      "delta": 0.38786000416977295
+     },
+     {
+      "date": "2026-09-19",
+      "count": 7171555,
+      "delta": 0.36889783559048317
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": true,
+    "caveat": null,
+    "counterName": "lastDay",
+    "counterUnits": "downloads/day"
+   },
+   {
+    "id": "npm:@langchain/core",
+    "label": "@langchain/core",
+    "registry": "npm",
+    "latest": {
+     "count": 948614,
+     "fetchedAt": "2026-09-19T20:52:44.452Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": 990196,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": 829143,
+      "delta": -0.16264759704139384
+     },
+     {
+      "date": "2026-08-24",
+      "count": 434307,
+      "delta": -0.5225661627657078
+     },
+     {
+      "date": "2026-08-25",
+      "count": 437308,
+      "delta": -0.4178659825012447
+     },
+     {
+      "date": "2026-08-26",
+      "count": 955781,
+      "delta": 0.42073182967824796
+     },
+     {
+      "date": "2026-08-27",
+      "count": 1011633,
+      "delta": 0.38703936535010086
+     },
+     {
+      "date": "2026-08-28",
+      "count": 988204,
+      "delta": 0.2728114223693792
+     },
+     {
+      "date": "2026-08-29",
+      "count": 1022970,
+      "delta": 0.2681658889676781
+     },
+     {
+      "date": "2026-08-30",
+      "count": 861344,
+      "delta": 0.03316719498880133
+     },
+     {
+      "date": "2026-08-31",
+      "count": 408979,
+      "delta": -0.5112379871372372
+     },
+     {
+      "date": "2026-09-01",
+      "count": 408979,
+      "delta": -0.484904340313091
+     },
+     {
+      "date": "2026-09-02",
+      "count": 408979,
+      "delta": -0.46115066948190675
+     },
+     {
+      "date": "2026-09-03",
+      "count": 408979,
+      "delta": -0.43961553002384274
+     },
+     {
+      "date": "2026-09-04",
+      "count": 408979,
+      "delta": -0.4200019810616614
+     },
+     {
+      "date": "2026-09-05",
+      "count": 408979,
+      "delta": -0.40206381077428566
+     },
+     {
+      "date": "2026-09-06",
+      "count": 408979,
+      "delta": -0.38559514700403413
+     },
+     {
+      "date": "2026-09-07",
+      "count": 408979,
+      "delta": -0.3704225207117477
+     },
+     {
+      "date": "2026-09-08",
+      "count": 489948,
+      "delta": -0.22897959569064008
+     },
+     {
+      "date": "2026-09-09",
+      "count": 489948,
+      "delta": -0.21904499787738346
+     },
+     {
+      "date": "2026-09-10",
+      "count": 489948,
+      "delta": -0.2099366065968044
+     },
+     {
+      "date": "2026-09-11",
+      "count": 1114815,
+      "delta": 0.8167600212571752
+     },
+     {
+      "date": "2026-09-12",
+      "count": 1076433,
+      "delta": 0.688537866678439
+     },
+     {
+      "date": "2026-09-13",
+      "count": 936916,
+      "delta": 0.4250845385828493
+     },
+     {
+      "date": "2026-09-14",
+      "count": 936916,
+      "delta": 0.39922416644514025
+     },
+     {
+      "date": "2026-09-15",
+      "count": 936916,
+      "delta": 0.3763298277682911
+     },
+     {
+      "date": "2026-09-16",
+      "count": 936916,
+      "delta": 0.35591891844642287
+     },
+     {
+      "date": "2026-09-17",
+      "count": 936916,
+      "delta": 0.3376081474788915
+     },
+     {
+      "date": "2026-09-18",
+      "count": 1082744,
+      "delta": 0.5267125852356255
+     },
+     {
+      "date": "2026-09-19",
+      "count": 1082744,
+      "delta": 0.4985236121712209
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": true,
+    "caveat": null,
+    "counterName": "lastDay",
+    "counterUnits": "downloads/day"
+   },
+   {
+    "id": "npm:ai",
+    "label": "ai",
+    "registry": "npm",
+    "latest": {
+     "count": 4343069,
+     "fetchedAt": "2026-09-19T20:52:44.452Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": 3953394,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": 3580262,
+      "delta": -0.09438270002939246
+     },
+     {
+      "date": "2026-08-24",
+      "count": 1892355,
+      "delta": -0.49762638485218863
+     },
+     {
+      "date": "2026-08-25",
+      "count": 1830496,
+      "delta": -0.4174112463904402
+     },
+     {
+      "date": "2026-08-26",
+      "count": 3850806,
+      "delta": 0.3683839933649044
+     },
+     {
+      "date": "2026-08-27",
+      "count": 4144729,
+      "delta": 0.3717624702685381
+     },
+     {
+      "date": "2026-08-28",
+      "count": 4059642,
+      "delta": 0.265208750323732
+     },
+     {
+      "date": "2026-08-29",
+      "count": 4139126,
+      "delta": 0.24289098977148113
+     },
+     {
+      "date": "2026-08-30",
+      "count": 3681179,
+      "delta": 0.07280739621162363
+     },
+     {
+      "date": "2026-08-31",
+      "count": 1854926,
+      "delta": -0.4637562669060432
+     },
+     {
+      "date": "2026-09-01",
+      "count": 1854926,
+      "delta": -0.4376782430245447
+     },
+     {
+      "date": "2026-09-02",
+      "count": 1854926,
+      "delta": -0.4143769268679
+     },
+     {
+      "date": "2026-09-03",
+      "count": 1854926,
+      "delta": -0.393431252404333
+     },
+     {
+      "date": "2026-09-04",
+      "count": 1854926,
+      "delta": -0.3745011924638433
+     },
+     {
+      "date": "2026-09-05",
+      "count": 1854926,
+      "delta": -0.3573091576902289
+     },
+     {
+      "date": "2026-09-06",
+      "count": 1854926,
+      "delta": -0.3416262940694667
+     },
+     {
+      "date": "2026-09-07",
+      "count": 1854926,
+      "delta": -0.3272622372718797
+     },
+     {
+      "date": "2026-09-08",
+      "count": 2197627,
+      "delta": -0.18732817712718186
+     },
+     {
+      "date": "2026-09-09",
+      "count": 2197627,
+      "delta": -0.178781658519799
+     },
+     {
+      "date": "2026-09-10",
+      "count": 2197627,
+      "delta": -0.17098095325019722
+     },
+     {
+      "date": "2026-09-11",
+      "count": 4836025,
+      "delta": 0.8400423953316738
+     },
+     {
+      "date": "2026-09-12",
+      "count": 4693338,
+      "delta": 0.7170658140950927
+     },
+     {
+      "date": "2026-09-13",
+      "count": 4303165,
+      "delta": 0.5246268132351911
+     },
+     {
+      "date": "2026-09-14",
+      "count": 4303165,
+      "delta": 0.4906258442612435
+     },
+     {
+      "date": "2026-09-15",
+      "count": 4303165,
+      "delta": 0.46076382407568456
+     },
+     {
+      "date": "2026-09-16",
+      "count": 4303165,
+      "delta": 0.4343283592835372
+     },
+     {
+      "date": "2026-09-17",
+      "count": 4303165,
+      "delta": 0.41076167453579765
+     },
+     {
+      "date": "2026-09-18",
+      "count": 4739321,
+      "delta": 0.5304686553075222
+     },
+     {
+      "date": "2026-09-19",
+      "count": 4739321,
+      "delta": 0.5020125630021384
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": true,
+    "caveat": null,
+    "counterName": "lastDay",
+    "counterUnits": "downloads/day"
+   },
+   {
+    "id": "npm:llamaindex",
+    "label": "llamaindex",
+    "registry": "npm",
+    "latest": {
+     "count": 19671,
+     "fetchedAt": "2026-09-19T20:52:44.452Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": 20048,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": 20306,
+      "delta": 0.012869114126097366
+     },
+     {
+      "date": "2026-08-24",
+      "count": 10508,
+      "delta": -0.47920900034692965
+     },
+     {
+      "date": "2026-08-25",
+      "count": 9181,
+      "delta": -0.45847587589949274
+     },
+     {
+      "date": "2026-08-26",
+      "count": 19657,
+      "delta": 0.3095281714771081
+     },
+     {
+      "date": "2026-08-27",
+      "count": 23203,
+      "delta": 0.4556461731493099
+     },
+     {
+      "date": "2026-08-28",
+      "count": 23012,
+      "delta": 0.3417684615608874
+     },
+     {
+      "date": "2026-08-29",
+      "count": 23811,
+      "delta": 0.32372632331334644
+     },
+     {
+      "date": "2026-08-30",
+      "count": 18655,
+      "delta": -0.00324592923072813
+     },
+     {
+      "date": "2026-08-31",
+      "count": 7811,
+      "delta": -0.5825004008765835
+     },
+     {
+      "date": "2026-09-01",
+      "count": 7811,
+      "delta": -0.556676807119506
+     },
+     {
+      "date": "2026-09-02",
+      "count": 7811,
+      "delta": -0.5330456568642903
+     },
+     {
+      "date": "2026-09-03",
+      "count": 7811,
+      "delta": -0.5113391097625825
+     },
+     {
+      "date": "2026-09-04",
+      "count": 7811,
+      "delta": -0.491331246086412
+     },
+     {
+      "date": "2026-09-05",
+      "count": 7811,
+      "delta": -0.4728301741259955
+     },
+     {
+      "date": "2026-09-06",
+      "count": 7811,
+      "delta": -0.4556718560537429
+     },
+     {
+      "date": "2026-09-07",
+      "count": 7811,
+      "delta": -0.4397152310161483
+     },
+     {
+      "date": "2026-09-08",
+      "count": 8149,
+      "delta": -0.3999497550558975
+     },
+     {
+      "date": "2026-09-09",
+      "count": 8149,
+      "delta": -0.3863140014559573
+     },
+     {
+      "date": "2026-09-10",
+      "count": 8149,
+      "delta": -0.3735773788572099
+     },
+     {
+      "date": "2026-09-11",
+      "count": 24916,
+      "delta": 0.9517774052546649
+     },
+     {
+      "date": "2026-09-12",
+      "count": 21846,
+      "delta": 0.637093551057695
+     },
+     {
+      "date": "2026-09-13",
+      "count": 19266,
+      "delta": 0.40312104820609246
+     },
+     {
+      "date": "2026-09-14",
+      "count": 19266,
+      "delta": 0.378952150965943
+     },
+     {
+      "date": "2026-09-15",
+      "count": 19266,
+      "delta": 0.35751739526144266
+     },
+     {
+      "date": "2026-09-16",
+      "count": 19266,
+      "delta": 0.3383776634173992
+     },
+     {
+      "date": "2026-09-17",
+      "count": 19266,
+      "delta": 0.32118309235062326
+     },
+     {
+      "date": "2026-09-18",
+      "count": 21126,
+      "delta": 0.4317031786510311
+     },
+     {
+      "date": "2026-09-19",
+      "count": 21126,
+      "delta": 0.409964389060243
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": true,
+    "caveat": null,
+    "counterName": "lastDay",
+    "counterUnits": "downloads/day"
+   },
+   {
+    "id": "npm:openai",
+    "label": "openai",
+    "registry": "npm",
+    "latest": {
+     "count": 6455871,
+     "fetchedAt": "2026-09-19T20:52:44.452Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": 5708801,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": 5378076,
+      "delta": -0.05793248004265694
+     },
+     {
+      "date": "2026-08-24",
+      "count": 3325335,
+      "delta": -0.4001313444714864
+     },
+     {
+      "date": "2026-08-25",
+      "count": 3221163,
+      "delta": -0.3294930021845363
+     },
+     {
+      "date": "2026-08-26",
+      "count": 6127853,
+      "delta": 0.39005788738684455
+     },
+     {
+      "date": "2026-08-27",
+      "count": 6931228,
+      "delta": 0.4585163696085069
+     },
+     {
+      "date": "2026-08-28",
+      "count": 6505440,
+      "delta": 0.27173400525523284
+     },
+     {
+      "date": "2026-08-29",
+      "count": 6505440,
+      "delta": 0.2242111758148902
+     },
+     {
+      "date": "2026-08-30",
+      "count": 6073666,
+      "delta": 0.11179906266194416
+     },
+     {
+      "date": "2026-08-31",
+      "count": 3738379,
+      "delta": -0.32407719131015567
+     },
+     {
+      "date": "2026-09-01",
+      "count": 3738379,
+      "delta": -0.30143840328820604
+     },
+     {
+      "date": "2026-09-02",
+      "count": 3738379,
+      "delta": -0.2817560104349478
+     },
+     {
+      "date": "2026-09-03",
+      "count": 3738379,
+      "delta": -0.2644863955336933
+     },
+     {
+      "date": "2026-09-04",
+      "count": 3738379,
+      "delta": -0.2492115233806718
+     },
+     {
+      "date": "2026-09-05",
+      "count": 3738379,
+      "delta": -0.23560465710437836
+     },
+     {
+      "date": "2026-09-06",
+      "count": 3738379,
+      "delta": -0.22340672427526562
+     },
+     {
+      "date": "2026-09-07",
+      "count": 3738379,
+      "delta": -0.2124096631992969
+     },
+     {
+      "date": "2026-09-08",
+      "count": 4086034,
+      "delta": -0.1282748310659072
+     },
+     {
+      "date": "2026-09-09",
+      "count": 4086034,
+      "delta": -0.1220179981231483
+     },
+     {
+      "date": "2026-09-10",
+      "count": 4086034,
+      "delta": -0.11634315394507258
+     },
+     {
+      "date": "2026-09-11",
+      "count": 7185660,
+      "delta": 0.5630831113168832
+     },
+     {
+      "date": "2026-09-12",
+      "count": 7333591,
+      "delta": 0.5536047124461438
+     },
+     {
+      "date": "2026-09-13",
+      "count": 6639901,
+      "delta": 0.37212022232999853
+     },
+     {
+      "date": "2026-09-14",
+      "count": 6639901,
+      "delta": 0.3502739509031939
+     },
+     {
+      "date": "2026-09-15",
+      "count": 6639901,
+      "delta": 0.330850522955806
+     },
+     {
+      "date": "2026-09-16",
+      "count": 6639901,
+      "delta": 0.3134680591851203
+     },
+     {
+      "date": "2026-09-17",
+      "count": 6639901,
+      "delta": 0.29782092812705013
+     },
+     {
+      "date": "2026-09-18",
+      "count": 7233868,
+      "delta": 0.39849053806702023
+     },
+     {
+      "date": "2026-09-19",
+      "count": 7233868,
+      "delta": 0.3788667750980363
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": true,
+    "caveat": null,
+    "counterName": "lastDay",
+    "counterUnits": "downloads/day"
+   },
+   {
+    "id": "crates:burn",
+    "label": "burn",
+    "registry": "crates",
+    "latest": {
+     "count": 1417725,
+     "fetchedAt": "2026-09-19T20:55:51.748Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": 3822,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": 2695,
+      "delta": -0.2948717948717949
+     },
+     {
+      "date": "2026-08-24",
+      "count": 3265,
+      "delta": 0.0019947828755562374
+     },
+     {
+      "date": "2026-08-25",
+      "count": 5542,
+      "delta": 0.6996524228174198
+     },
+     {
+      "date": "2026-08-26",
+      "count": 3417,
+      "delta": -0.10806577916992952
+     },
+     {
+      "date": "2026-08-27",
+      "count": 4774,
+      "delta": 0.2736780321220853
+     },
+     {
+      "date": "2026-08-28",
+      "count": 5366,
+      "delta": 0.3691686157771636
+     },
+     {
+      "date": "2026-08-29",
+      "count": 5028,
+      "delta": 0.21865586371663023
+     },
+     {
+      "date": "2026-08-30",
+      "count": 2063,
+      "delta": -0.5132855584063228
+     },
+     {
+      "date": "2026-08-31",
+      "count": 3649,
+      "delta": -0.0870399199377293
+     },
+     {
+      "date": "2026-09-01",
+      "count": 3699,
+      "delta": -0.06640417960172633
+     },
+     {
+      "date": "2026-09-02",
+      "count": 5393,
+      "delta": 0.3694136657433057
+     },
+     {
+      "date": "2026-09-03",
+      "count": 7766,
+      "delta": 0.9130827499846038
+     },
+     {
+      "date": "2026-09-04",
+      "count": 5915,
+      "delta": 0.3614794879512738
+     },
+     {
+      "date": "2026-09-05",
+      "count": 5930,
+      "delta": 0.33057665801198843
+     },
+     {
+      "date": "2026-09-06",
+      "count": 4836,
+      "delta": 0.06170598911070779
+     },
+     {
+      "date": "2026-09-07",
+      "count": 3429,
+      "delta": -0.25008201202843083
+     },
+     {
+      "date": "2026-09-08",
+      "count": 6038,
+      "delta": 0.34021856924623645
+     },
+     {
+      "date": "2026-09-09",
+      "count": 6557,
+      "delta": 0.428419281832815
+     },
+     {
+      "date": "2026-09-10",
+      "count": 6417,
+      "delta": 0.36709499461786876
+     },
+     {
+      "date": "2026-09-11",
+      "count": 5908,
+      "delta": 0.23597033503833637
+     },
+     {
+      "date": "2026-09-12",
+      "count": 7517,
+      "delta": 0.555103488360638
+     },
+     {
+      "date": "2026-09-13",
+      "count": 6409,
+      "delta": 0.293251151101572
+     },
+     {
+      "date": "2026-09-14",
+      "count": 4677,
+      "delta": -0.0681249187854637
+     },
+     {
+      "date": "2026-09-15",
+      "count": 7667,
+      "delta": 0.5319701611828959
+     },
+     {
+      "date": "2026-09-16",
+      "count": 7999,
+      "delta": 0.5650067695004657
+     },
+     {
+      "date": "2026-09-17",
+      "count": 7708,
+      "delta": 0.475997584292006
+     },
+     {
+      "date": "2026-09-18",
+      "count": 7201,
+      "delta": 0.3550241835440391
+     },
+     {
+      "date": "2026-09-19",
+      "count": 5206,
+      "delta": -0.03264382461658938
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": true,
+    "caveat": null,
+    "counterName": "allTime diff",
+    "counterUnits": "downloads/day"
+   },
+   {
+    "id": "crates:candle-core",
+    "label": "candle-core",
+    "registry": "crates",
+    "latest": {
+     "count": 8222494,
+     "fetchedAt": "2026-09-19T20:55:51.748Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": 36651,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": 27371,
+      "delta": -0.25319909415841313
+     },
+     {
+      "date": "2026-08-24",
+      "count": 25568,
+      "delta": -0.2012745618693574
+     },
+     {
+      "date": "2026-08-25",
+      "count": 34950,
+      "delta": 0.17033151021319348
+     },
+     {
+      "date": "2026-08-26",
+      "count": 32789,
+      "delta": 0.05312349445961137
+     },
+     {
+      "date": "2026-08-27",
+      "count": 47564,
+      "delta": 0.5116094299207393
+     },
+     {
+      "date": "2026-08-28",
+      "count": 39122,
+      "delta": 0.14563211041860866
+     },
+     {
+      "date": "2026-08-29",
+      "count": 28819,
+      "delta": -0.17327623301846207
+     },
+     {
+      "date": "2026-08-30",
+      "count": 16490,
+      "delta": -0.5164825498288337
+     },
+     {
+      "date": "2026-08-31",
+      "count": 22556,
+      "delta": -0.29835063803901507
+     },
+     {
+      "date": "2026-09-01",
+      "count": 33565,
+      "delta": 0.0762152109785815
+     },
+     {
+      "date": "2026-09-02",
+      "count": 37558,
+      "delta": 0.19595883570467082
+     },
+     {
+      "date": "2026-09-03",
+      "count": 41996,
+      "delta": 0.3157912601206779
+     },
+     {
+      "date": "2026-09-04",
+      "count": 39309,
+      "delta": 0.20239577034298903
+     },
+     {
+      "date": "2026-09-05",
+      "count": 37728,
+      "delta": 0.13758970338654505
+     },
+     {
+      "date": "2026-09-06",
+      "count": 28743,
+      "delta": -0.1412070050753332
+     },
+     {
+      "date": "2026-09-07",
+      "count": 22265,
+      "delta": -0.32883554172263785
+     },
+     {
+      "date": "2026-09-08",
+      "count": 31984,
+      "delta": -0.016844952661994345
+     },
+     {
+      "date": "2026-09-09",
+      "count": 37212,
+      "delta": 0.14492981532507848
+     },
+     {
+      "date": "2026-09-10",
+      "count": 35482,
+      "delta": 0.08343725893545897
+     },
+     {
+      "date": "2026-09-11",
+      "count": 33175,
+      "delta": 0.00878486655456261
+     },
+     {
+      "date": "2026-09-12",
+      "count": 32081,
+      "delta": -0.024889382932622436
+     },
+     {
+      "date": "2026-09-13",
+      "count": 28223,
+      "delta": -0.1411827192528679
+     },
+     {
+      "date": "2026-09-14",
+      "count": 23886,
+      "delta": -0.26866710773814195
+     },
+     {
+      "date": "2026-09-15",
+      "count": 35263,
+      "delta": 0.09189291008622254
+     },
+     {
+      "date": "2026-09-16",
+      "count": 41160,
+      "delta": 0.2698216819892639
+     },
+     {
+      "date": "2026-09-17",
+      "count": 39819,
+      "delta": 0.2158330495237871
+     },
+     {
+      "date": "2026-09-18",
+      "count": 54886,
+      "delta": 0.6625982100885308
+     },
+     {
+      "date": "2026-09-19",
+      "count": 65127,
+      "delta": 0.9272110461153121
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": true,
+    "caveat": null,
+    "counterName": "allTime diff",
+    "counterUnits": "downloads/day"
+   },
+   {
+    "id": "crates:ort",
+    "label": "ort",
+    "registry": "crates",
+    "latest": {
+     "count": 18896962,
+     "fetchedAt": "2026-09-19T20:55:51.748Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": 97336,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": 70839,
+      "delta": -0.27222199391797486
+     },
+     {
+      "date": "2026-08-24",
+      "count": 62750,
+      "delta": -0.2537535305485358
+     },
+     {
+      "date": "2026-08-25",
+      "count": 107793,
+      "delta": 0.40036375446573563
+     },
+     {
+      "date": "2026-08-26",
+      "count": 110112,
+      "delta": 0.3003383345437798
+     },
+     {
+      "date": "2026-08-27",
+      "count": 121534,
+      "delta": 0.3538979123498875
+     },
+     {
+      "date": "2026-08-28",
+      "count": 111960,
+      "delta": 0.17777419332215913
+     },
+     {
+      "date": "2026-08-29",
+      "count": 66340,
+      "delta": -0.3194142372245444
+     },
+     {
+      "date": "2026-08-30",
+      "count": 35211,
+      "delta": -0.6237457657907953
+     },
+     {
+      "date": "2026-08-31",
+      "count": 52649,
+      "delta": -0.39551459097432623
+     },
+     {
+      "date": "2026-09-01",
+      "count": 86456,
+      "delta": 0.0335148782342169
+     },
+     {
+      "date": "2026-09-02",
+      "count": 102718,
+      "delta": 0.22418470606080315
+     },
+     {
+      "date": "2026-09-03",
+      "count": 100626,
+      "delta": 0.17725880327347823
+     },
+     {
+      "date": "2026-09-04",
+      "count": 105916,
+      "delta": 0.22247949968215192
+     },
+     {
+      "date": "2026-09-05",
+      "count": 95086,
+      "delta": 0.08031227682918915
+     },
+     {
+      "date": "2026-09-06",
+      "count": 64566,
+      "delta": -0.27034503957580874
+     },
+     {
+      "date": "2026-09-07",
+      "count": 62111,
+      "delta": -0.2860250651631017
+     },
+     {
+      "date": "2026-09-08",
+      "count": 77557,
+      "delta": -0.09321438814087722
+     },
+     {
+      "date": "2026-09-09",
+      "count": 96371,
+      "delta": 0.13262164068009083
+     },
+     {
+      "date": "2026-09-10",
+      "count": 94944,
+      "delta": 0.1081157616631171
+     },
+     {
+      "date": "2026-09-11",
+      "count": 105130,
+      "delta": 0.22040194442429079
+     },
+     {
+      "date": "2026-09-12",
+      "count": 109291,
+      "delta": 0.2555277474623975
+     },
+     {
+      "date": "2026-09-13",
+      "count": 75358,
+      "delta": -0.14423196042318776
+     },
+     {
+      "date": "2026-09-14",
+      "count": 59740,
+      "delta": -0.31730938353040317
+     },
+     {
+      "date": "2026-09-15",
+      "count": 106828,
+      "delta": 0.23715471092852036
+     },
+     {
+      "date": "2026-09-16",
+      "count": 114738,
+      "delta": 0.31627250459108797
+     },
+     {
+      "date": "2026-09-17",
+      "count": 115936,
+      "delta": 0.3140316308915588
+     },
+     {
+      "date": "2026-09-18",
+      "count": 143948,
+      "delta": 0.6127650321839616
+     },
+     {
+      "date": "2026-09-19",
+      "count": 117339,
+      "delta": 0.28648891631595347
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": true,
+    "caveat": null,
+    "counterName": "allTime diff",
+    "counterUnits": "downloads/day"
+   },
+   {
+    "id": "crates:tch",
+    "label": "tch",
+    "registry": "crates",
+    "latest": {
+     "count": 7314416,
+     "fetchedAt": "2026-09-19T20:55:51.748Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": 31134,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": 20626,
+      "delta": -0.3375088327873065
+     },
+     {
+      "date": "2026-08-24",
+      "count": 18811,
+      "delta": -0.273145285935085
+     },
+     {
+      "date": "2026-08-25",
+      "count": 33862,
+      "delta": 0.43948647461421825
+     },
+     {
+      "date": "2026-08-26",
+      "count": 40077,
+      "delta": 0.5350320301054264
+     },
+     {
+      "date": "2026-08-27",
+      "count": 30072,
+      "delta": 0.04048162756902637
+     },
+     {
+      "date": "2026-08-28",
+      "count": 33136,
+      "delta": 0.13881156132934666
+     },
+     {
+      "date": "2026-08-29",
+      "count": 25089,
+      "delta": -0.15451236772932533
+     },
+     {
+      "date": "2026-08-30",
+      "count": 7984,
+      "delta": -0.7256439883680473
+     },
+     {
+      "date": "2026-08-31",
+      "count": 10339,
+      "delta": -0.6135611380824034
+     },
+     {
+      "date": "2026-09-01",
+      "count": 25498,
+      "delta": 0.015330705212439772
+     },
+     {
+      "date": "2026-09-02",
+      "count": 31487,
+      "delta": 0.2520677588675044
+     },
+     {
+      "date": "2026-09-03",
+      "count": 35355,
+      "delta": 0.3769534102526654
+     },
+     {
+      "date": "2026-09-04",
+      "count": 34323,
+      "delta": 0.2990916237225959
+     },
+     {
+      "date": "2026-09-05",
+      "count": 36195,
+      "delta": 0.34129007154711705
+     },
+     {
+      "date": "2026-09-06",
+      "count": 24855,
+      "delta": -0.09943041827299344
+     },
+     {
+      "date": "2026-09-07",
+      "count": 16075,
+      "delta": -0.4139134041103538
+     },
+     {
+      "date": "2026-09-08",
+      "count": 17103,
+      "delta": -0.3608716296123697
+     },
+     {
+      "date": "2026-09-09",
+      "count": 26932,
+      "delta": 0.02702210283017063
+     },
+     {
+      "date": "2026-09-10",
+      "count": 27264,
+      "delta": 0.03820600337105896
+     },
+     {
+      "date": "2026-09-11",
+      "count": 28181,
+      "delta": 0.07107904153609639
+     },
+     {
+      "date": "2026-09-12",
+      "count": 25748,
+      "delta": -0.0246934512750768
+     },
+     {
+      "date": "2026-09-13",
+      "count": 16866,
+      "delta": -0.36041617110175717
+     },
+     {
+      "date": "2026-09-14",
+      "count": 12064,
+      "delta": -0.5352321226374009
+     },
+     {
+      "date": "2026-09-15",
+      "count": 27325,
+      "delta": 0.07671292252526773
+     },
+     {
+      "date": "2026-09-16",
+      "count": 30643,
+      "delta": 0.20376146486256302
+     },
+     {
+      "date": "2026-09-17",
+      "count": 36317,
+      "delta": 0.4155617920257135
+     },
+     {
+      "date": "2026-09-18",
+      "count": 34571,
+      "delta": 0.327080972644204
+     },
+     {
+      "date": "2026-09-19",
+      "count": 27950,
+      "delta": 0.06053132266929742
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": true,
+    "caveat": null,
+    "counterName": "allTime diff",
+    "counterUnits": "downloads/day"
+   },
+   {
+    "id": "docker:ollama/ollama",
+    "label": "ollama/ollama",
+    "registry": "docker",
+    "latest": {
+     "count": 176852643,
+     "fetchedAt": "2026-09-19T21:01:46.825Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": 377638,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": 354932,
+      "delta": -0.060126364401887525
+     },
+     {
+      "date": "2026-08-24",
+      "count": 346403,
+      "delta": -0.05428013705174932
+     },
+     {
+      "date": "2026-08-25",
+      "count": 323845,
+      "delta": -0.0995743174296299
+     },
+     {
+      "date": "2026-08-26",
+      "count": 333946,
+      "delta": -0.04778524370231919
+     },
+     {
+      "date": "2026-08-27",
+      "count": 504435,
+      "delta": 0.4522266698296372
+     },
+     {
+      "date": "2026-08-28",
+      "count": 378649,
+      "delta": 0.013695794081649993
+     },
+     {
+      "date": "2026-08-29",
+      "count": 306062,
+      "delta": -0.18222965607164995
+     },
+     {
+      "date": "2026-08-30",
+      "count": 351050,
+      "delta": -0.040161864172172074
+     },
+     {
+      "date": "2026-08-31",
+      "count": 375750,
+      "delta": 0.03197780870074698
+     },
+     {
+      "date": "2026-09-01",
+      "count": 355083,
+      "delta": -0.027891620194321478
+     },
+     {
+      "date": "2026-09-02",
+      "count": 368603,
+      "delta": 0.01168723035346388
+     },
+     {
+      "date": "2026-09-03",
+      "count": 345698,
+      "delta": -0.05210223206492288
+     },
+     {
+      "date": "2026-09-04",
+      "count": 358324,
+      "delta": -0.01352832027486111
+     },
+     {
+      "date": "2026-09-05",
+      "count": 355022,
+      "delta": -0.021673413486843013
+     },
+     {
+      "date": "2026-09-06",
+      "count": 365325,
+      "delta": 0.008175051145813348
+     },
+     {
+      "date": "2026-09-07",
+      "count": 366058,
+      "delta": 0.009681998839808198
+     },
+     {
+      "date": "2026-09-08",
+      "count": 351509,
+      "delta": -0.030999754654868452
+     },
+     {
+      "date": "2026-09-09",
+      "count": 350607,
+      "delta": -0.03181887636284867
+     },
+     {
+      "date": "2026-09-10",
+      "count": 355967,
+      "delta": -0.01536860350630578
+     },
+     {
+      "date": "2026-09-11",
+      "count": 382440,
+      "delta": 0.05867121316180449
+     },
+     {
+      "date": "2026-09-12",
+      "count": 356978,
+      "delta": -0.014565920887521065
+     },
+     {
+      "date": "2026-09-13",
+      "count": 364590,
+      "delta": 0.007113723650619881
+     },
+     {
+      "date": "2026-09-14",
+      "count": 366853,
+      "delta": 0.013051521482872861
+     },
+     {
+      "date": "2026-09-15",
+      "count": 363656,
+      "delta": 0.003677306441168444
+     },
+     {
+      "date": "2026-09-16",
+      "count": 370288,
+      "delta": 0.021831081295133302
+     },
+     {
+      "date": "2026-09-17",
+      "count": 368455,
+      "delta": 0.015919787997744562
+     },
+     {
+      "date": "2026-09-18",
+      "count": 368829,
+      "delta": 0.01635173357952911
+     },
+     {
+      "date": "2026-09-19",
+      "count": 366464,
+      "delta": 0.009245307979398112
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": true,
+    "caveat": null,
+    "counterName": "allTime diff",
+    "counterUnits": "pulls/day"
+   },
+   {
+    "id": "docker:vllm/vllm-openai",
+    "label": "vllm/vllm-openai",
+    "registry": "docker",
+    "latest": {
+     "count": 35824868,
+     "fetchedAt": "2026-09-19T21:01:46.825Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": 130484,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": 98454,
+      "delta": -0.2454707090524509
+     },
+     {
+      "date": "2026-08-24",
+      "count": 105466,
+      "delta": -0.07865011487826398
+     },
+     {
+      "date": "2026-08-25",
+      "count": 143933,
+      "delta": 0.29124950658484944
+     },
+     {
+      "date": "2026-08-26",
+      "count": 149364,
+      "delta": 0.2490273593721581
+     },
+     {
+      "date": "2026-08-27",
+      "count": 226860,
+      "delta": 0.8070705638512604
+     },
+     {
+      "date": "2026-08-28",
+      "count": 188302,
+      "delta": 0.3220963746297806
+     },
+     {
+      "date": "2026-08-29",
+      "count": 98511,
+      "delta": -0.33876549460475636
+     },
+     {
+      "date": "2026-08-30",
+      "count": 114154,
+      "delta": -0.19988364900549688
+     },
+     {
+      "date": "2026-08-31",
+      "count": 129619,
+      "delta": -0.07085226295231975
+     },
+     {
+      "date": "2026-09-01",
+      "count": 151756,
+      "delta": 0.09559490797727596
+     },
+     {
+      "date": "2026-09-02",
+      "count": 155127,
+      "delta": 0.11028282201284001
+     },
+     {
+      "date": "2026-09-03",
+      "count": 166607,
+      "delta": 0.1815889789188135
+     },
+     {
+      "date": "2026-09-04",
+      "count": 156338,
+      "delta": 0.09348624825611446
+     },
+     {
+      "date": "2026-09-05",
+      "count": 125958,
+      "delta": -0.12484671025695106
+     },
+     {
+      "date": "2026-09-06",
+      "count": 119012,
+      "delta": -0.16616727380072147
+     },
+     {
+      "date": "2026-09-07",
+      "count": 121614,
+      "delta": -0.13899497554144016
+     },
+     {
+      "date": "2026-09-08",
+      "count": 144164,
+      "delta": 0.029068773857796434
+     },
+     {
+      "date": "2026-09-09",
+      "count": 154106,
+      "delta": 0.09826295282578498
+     },
+     {
+      "date": "2026-09-10",
+      "count": 161986,
+      "delta": 0.14848148893082364
+     },
+     {
+      "date": "2026-09-11",
+      "count": 179725,
+      "delta": 0.26486066123234625
+     },
+     {
+      "date": "2026-09-12",
+      "count": 113515,
+      "delta": -0.2110595921285172
+     },
+     {
+      "date": "2026-09-13",
+      "count": 94690,
+      "delta": -0.33552042946614974
+     },
+     {
+      "date": "2026-09-14",
+      "count": 102158,
+      "delta": -0.2725016990505443
+     },
+     {
+      "date": "2026-09-15",
+      "count": 110832,
+      "delta": -0.20166703532485783
+     },
+     {
+      "date": "2026-09-16",
+      "count": 111761,
+      "delta": -0.18842867661902524
+     },
+     {
+      "date": "2026-09-17",
+      "count": 126601,
+      "delta": -0.07395422585930614
+     },
+     {
+      "date": "2026-09-18",
+      "count": 104353,
+      "delta": -0.2345947417305222
+     },
+     {
+      "date": "2026-09-19",
+      "count": 95252,
+      "delta": -0.29544545562614755
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": true,
+    "caveat": null,
+    "counterName": "allTime diff",
+    "counterUnits": "pulls/day"
+   },
+   {
+    "id": "brew:ollama",
+    "label": "ollama",
+    "registry": "brew",
+    "latest": {
+     "count": 28807,
+     "fetchedAt": "2026-09-19T21:06:16.678Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": 1515,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": 824,
+      "delta": -0.4561056105610561
+     },
+     {
+      "date": "2026-08-24",
+      "count": -1215,
+      "delta": -2.0389055151774262
+     },
+     {
+      "date": "2026-08-25",
+      "count": -254,
+      "delta": -1.6779359430604983
+     },
+     {
+      "date": "2026-08-26",
+      "count": -1865,
+      "delta": null
+     },
+     {
+      "date": "2026-08-27",
+      "count": 658,
+      "delta": -4.306532663316583
+     },
+     {
+      "date": "2026-08-28",
+      "count": -760,
+      "delta": null
+     },
+     {
+      "date": "2026-08-29",
+      "count": -358,
+      "delta": 1.284412032816773
+     },
+     {
+      "date": "2026-08-30",
+      "count": -25,
+      "delta": -0.8625429553264605
+     },
+     {
+      "date": "2026-08-31",
+      "count": 96,
+      "delta": -1.5837837837837838
+     },
+     {
+      "date": "2026-09-01",
+      "count": 44,
+      "delta": -1.3179190751445087
+     },
+     {
+      "date": "2026-09-02",
+      "count": -217,
+      "delta": 0.7813432835820896
+     },
+     {
+      "date": "2026-09-03",
+      "count": 781,
+      "delta": null
+     },
+     {
+      "date": "2026-09-04",
+      "count": 150,
+      "delta": -3.512886597938144
+     },
+     {
+      "date": "2026-09-05",
+      "count": 15,
+      "delta": -1.3354632587859425
+     },
+     {
+      "date": "2026-09-06",
+      "count": -119,
+      "delta": 1.9214402618657938
+     },
+     {
+      "date": "2026-09-07",
+      "count": -1442,
+      "delta": null
+     },
+     {
+      "date": "2026-09-08",
+      "count": -2183,
+      "delta": null
+     },
+     {
+      "date": "2026-09-09",
+      "count": -1619,
+      "delta": null
+     },
+     {
+      "date": "2026-09-10",
+      "count": -2643,
+      "delta": null
+     },
+     {
+      "date": "2026-09-11",
+      "count": -3696,
+      "delta": null
+     },
+     {
+      "date": "2026-09-12",
+      "count": -2495,
+      "delta": 3.255258669698692
+     },
+     {
+      "date": "2026-09-13",
+      "count": -1341,
+      "delta": 0.9923014586709885
+     },
+     {
+      "date": "2026-09-14",
+      "count": -2470,
+      "delta": 2.517864883274506
+     },
+     {
+      "date": "2026-09-15",
+      "count": -2947,
+      "delta": 2.7987002524303133
+     },
+     {
+      "date": "2026-09-16",
+      "count": -2389,
+      "delta": 1.7694055457664846
+     },
+     {
+      "date": "2026-09-17",
+      "count": -2873,
+      "delta": 2.1182634105614695
+     },
+     {
+      "date": "2026-09-18",
+      "count": -1740,
+      "delta": 0.7511555091695243
+     },
+     {
+      "date": "2026-09-19",
+      "count": -1273,
+      "delta": 0.24768972276673196
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": true,
+    "caveat": "Daily values are derived as day-over-day diffs of a 30-day cumulative counter — noisier than a direct daily counter but the most honest signal Homebrew exposes.",
+    "counterName": "lastMonth diff",
+    "counterUnits": "30d-cumulative installs Δ"
+   },
+   {
+    "id": "vscode:Codeium.codeium",
+    "label": "Codeium.codeium",
+    "registry": "vscode",
+    "latest": {
+     "count": 3977337,
+     "fetchedAt": "2026-09-19T20:34:51.185Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": 1705,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": 14,
+      "delta": -0.9917888563049854
+     },
+     {
+      "date": "2026-08-24",
+      "count": 13,
+      "delta": -0.9848749272833043
+     },
+     {
+      "date": "2026-08-25",
+      "count": 2,
+      "delta": -0.9965357967667436
+     },
+     {
+      "date": "2026-08-26",
+      "count": 0,
+      "delta": -1
+     },
+     {
+      "date": "2026-08-27",
+      "count": 9,
+      "delta": -0.9740484429065744
+     },
+     {
+      "date": "2026-08-28",
+      "count": 0,
+      "delta": -1
+     },
+     {
+      "date": "2026-08-29",
+      "count": 1,
+      "delta": -0.9959839357429718
+     },
+     {
+      "date": "2026-08-30",
+      "count": 9,
+      "delta": -0.9587155963302753
+     },
+     {
+      "date": "2026-08-31",
+      "count": 0,
+      "delta": -1
+     },
+     {
+      "date": "2026-09-01",
+      "count": 1,
+      "delta": -0.9942954934398175
+     },
+     {
+      "date": "2026-09-02",
+      "count": 10,
+      "delta": -0.9372862029646523
+     },
+     {
+      "date": "2026-09-03",
+      "count": 0,
+      "delta": -1
+     },
+     {
+      "date": "2026-09-04",
+      "count": 1,
+      "delta": -0.9926303854875284
+     },
+     {
+      "date": "2026-09-05",
+      "count": 9,
+      "delta": -0.9286118980169972
+     },
+     {
+      "date": "2026-09-06",
+      "count": 7,
+      "delta": -0.9408117249154453
+     },
+     {
+      "date": "2026-09-07",
+      "count": 1,
+      "delta": -0.9910162829870859
+     },
+     {
+      "date": "2026-09-08",
+      "count": 0,
+      "delta": -1
+     },
+     {
+      "date": "2026-09-09",
+      "count": 8,
+      "delta": -0.9191919191919192
+     },
+     {
+      "date": "2026-09-10",
+      "count": 1,
+      "delta": -0.9893854748603352
+     },
+     {
+      "date": "2026-09-11",
+      "count": 0,
+      "delta": -1
+     },
+     {
+      "date": "2026-09-12",
+      "count": 10,
+      "delta": -0.8827470686767169
+     },
+     {
+      "date": "2026-09-13",
+      "count": 1,
+      "delta": -0.9877845641310383
+     },
+     {
+      "date": "2026-09-14",
+      "count": 6,
+      "delta": -0.9234184239733629
+     },
+     {
+      "date": "2026-09-15",
+      "count": 0,
+      "delta": -1
+     },
+     {
+      "date": "2026-09-16",
+      "count": 3,
+      "delta": -0.9585176991150443
+     },
+     {
+      "date": "2026-09-17",
+      "count": 0,
+      "delta": -1
+     },
+     {
+      "date": "2026-09-18",
+      "count": 6,
+      "delta": -0.9105466593042518
+     },
+     {
+      "date": "2026-09-19",
+      "count": 3,
+      "delta": -0.9537699504678041
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": true,
+    "caveat": "Daily values are derived from day-over-day diffs of the cumulative install counter exposed by Microsoft's marketplace catalogue. install ≠ active use — auto-installed bundle extensions, CI runners, and codespace pre-warms inflate the absolute number, but the WoW Δ signal is consistent.",
+    "counterName": "install diff",
+    "counterUnits": "installs/day"
+   },
+   {
+    "id": "vscode:Continue.continue",
+    "label": "Continue.continue",
+    "registry": "vscode",
+    "latest": {
+     "count": 4178874,
+     "fetchedAt": "2026-09-19T20:34:51.185Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": 6005,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": 5595,
+      "delta": -0.06827643630308076
+     },
+     {
+      "date": "2026-08-24",
+      "count": 9524,
+      "delta": 0.6420689655172414
+     },
+     {
+      "date": "2026-08-25",
+      "count": 7416,
+      "delta": 0.05320961939026704
+     },
+     {
+      "date": "2026-08-26",
+      "count": 3599,
+      "delta": -0.4955851436580238
+     },
+     {
+      "date": "2026-08-27",
+      "count": 15174,
+      "delta": 1.3606832819938393
+     },
+     {
+      "date": "2026-08-28",
+      "count": 7497,
+      "delta": -0.0492676431424767
+     },
+     {
+      "date": "2026-08-29",
+      "count": 6245,
+      "delta": -0.20242656449553
+     },
+     {
+      "date": "2026-08-30",
+      "count": 8177,
+      "delta": 0.07142740152321678
+     },
+     {
+      "date": "2026-08-31",
+      "count": 5062,
+      "delta": -0.3419516986364687
+     },
+     {
+      "date": "2026-09-01",
+      "count": 6634,
+      "delta": -0.1070611354887339
+     },
+     {
+      "date": "2026-09-02",
+      "count": 8448,
+      "delta": 0.1482799525504152
+     },
+     {
+      "date": "2026-09-03",
+      "count": 8131,
+      "delta": 0.09170247046186895
+     },
+     {
+      "date": "2026-09-04",
+      "count": 7070,
+      "delta": -0.057401007107182093
+     },
+     {
+      "date": "2026-09-05",
+      "count": 5600,
+      "delta": -0.2503131663750156
+     },
+     {
+      "date": "2026-09-06",
+      "count": 9802,
+      "delta": 0.3344890494386306
+     },
+     {
+      "date": "2026-09-07",
+      "count": 5291,
+      "delta": -0.29440985505796846
+     },
+     {
+      "date": "2026-09-08",
+      "count": 3944,
+      "delta": -0.46477209228067373
+     },
+     {
+      "date": "2026-09-09",
+      "count": 9929,
+      "delta": 0.38314733697586945
+     },
+     {
+      "date": "2026-09-10",
+      "count": 9457,
+      "delta": 0.29135493700725157
+     },
+     {
+      "date": "2026-09-11",
+      "count": 5788,
+      "delta": -0.22099596231493943
+     },
+     {
+      "date": "2026-09-12",
+      "count": 11199,
+      "delta": 0.5232984428841619
+     },
+     {
+      "date": "2026-09-13",
+      "count": 5362,
+      "delta": -0.2876010797949114
+     },
+     {
+      "date": "2026-09-14",
+      "count": 5752,
+      "delta": -0.22610837150261184
+     },
+     {
+      "date": "2026-09-15",
+      "count": 3700,
+      "delta": -0.497456154747285
+     },
+     {
+      "date": "2026-09-16",
+      "count": 12888,
+      "delta": 0.7860211417896796
+     },
+     {
+      "date": "2026-09-17",
+      "count": 2134,
+      "delta": -0.7129479691032599
+     },
+     {
+      "date": "2026-09-18",
+      "count": 6777,
+      "delta": -0.06367725395680138
+     },
+     {
+      "date": "2026-09-19",
+      "count": 10902,
+      "delta": 0.509673590504451
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": true,
+    "caveat": "Daily values are derived from day-over-day diffs of the cumulative install counter exposed by Microsoft's marketplace catalogue. install ≠ active use — auto-installed bundle extensions, CI runners, and codespace pre-warms inflate the absolute number, but the WoW Δ signal is consistent.",
+    "counterName": "install diff",
+    "counterUnits": "installs/day"
+   },
+   {
+    "id": "vscode:GitHub.copilot",
+    "label": "GitHub.copilot",
+    "registry": "vscode",
+    "latest": {
+     "count": 74606299,
+     "fetchedAt": "2026-09-19T20:34:51.185Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": 5717,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": 3969,
+      "delta": -0.3057547664859192
+     },
+     {
+      "date": "2026-08-24",
+      "count": 4627,
+      "delta": -0.04460045426388602
+     },
+     {
+      "date": "2026-08-25",
+      "count": 7185,
+      "delta": 0.5059735904422553
+     },
+     {
+      "date": "2026-08-26",
+      "count": 3451,
+      "delta": -0.3578937575588427
+     },
+     {
+      "date": "2026-08-27",
+      "count": 14851,
+      "delta": 1.9762715940518658
+     },
+     {
+      "date": "2026-08-28",
+      "count": 7238,
+      "delta": 0.0911557788944724
+     },
+     {
+      "date": "2026-08-29",
+      "count": 5442,
+      "delta": -0.19014413878141073
+     },
+     {
+      "date": "2026-08-30",
+      "count": 4408,
+      "delta": -0.3280487804878049
+     },
+     {
+      "date": "2026-08-31",
+      "count": 2458,
+      "delta": -0.6111306426662917
+     },
+     {
+      "date": "2026-09-01",
+      "count": 6808,
+      "delta": 0.14717082869949105
+     },
+     {
+      "date": "2026-09-02",
+      "count": 9100,
+      "delta": 0.5131360159627536
+     },
+     {
+      "date": "2026-09-03",
+      "count": 8735,
+      "delta": 0.3928827703510776
+     },
+     {
+      "date": "2026-09-04",
+      "count": 7829,
+      "delta": 0.2117896391194085
+     },
+     {
+      "date": "2026-09-05",
+      "count": 5644,
+      "delta": -0.13942799886732452
+     },
+     {
+      "date": "2026-09-06",
+      "count": 5886,
+      "delta": -0.09410847304590501
+     },
+     {
+      "date": "2026-09-07",
+      "count": 2624,
+      "delta": -0.5937608855517281
+     },
+     {
+      "date": "2026-09-08",
+      "count": 4546,
+      "delta": -0.27073189144302273
+     },
+     {
+      "date": "2026-09-09",
+      "count": 9449,
+      "delta": 0.5389529307443132
+     },
+     {
+      "date": "2026-09-10",
+      "count": 10057,
+      "delta": 0.5927963523302241
+     },
+     {
+      "date": "2026-09-11",
+      "count": 6369,
+      "delta": -0.020334707438626688
+     },
+     {
+      "date": "2026-09-12",
+      "count": 10821,
+      "delta": 0.6660752384653172
+     },
+     {
+      "date": "2026-09-13",
+      "count": 3069,
+      "delta": -0.5413615552868614
+     },
+     {
+      "date": "2026-09-14",
+      "count": 2938,
+      "delta": -0.5503549969058377
+     },
+     {
+      "date": "2026-09-15",
+      "count": 3775,
+      "delta": -0.4086972412397778
+     },
+     {
+      "date": "2026-09-16",
+      "count": 13035,
+      "delta": 1.0756898264923946
+     },
+     {
+      "date": "2026-09-17",
+      "count": 2672,
+      "delta": -0.5914156830225077
+     },
+     {
+      "date": "2026-09-18",
+      "count": 6727,
+      "delta": 0.051684105082135154
+     },
+     {
+      "date": "2026-09-19",
+      "count": 10983,
+      "delta": 0.7138939976592544
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": true,
+    "caveat": "Daily values are derived from day-over-day diffs of the cumulative install counter exposed by Microsoft's marketplace catalogue. install ≠ active use — auto-installed bundle extensions, CI runners, and codespace pre-warms inflate the absolute number, but the WoW Δ signal is consistent.",
+    "counterName": "install diff",
+    "counterUnits": "installs/day"
+   },
+   {
+    "id": "vscode:TabNine.tabnine-vscode",
+    "label": "TabNine.tabnine-vscode",
+    "registry": "vscode",
+    "latest": {
+     "count": 9634432,
+     "fetchedAt": "2026-09-19T20:34:51.185Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": 431,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": 407,
+      "delta": -0.05568445475638051
+     },
+     {
+      "date": "2026-08-24",
+      "count": 640,
+      "delta": 0.5274463007159904
+     },
+     {
+      "date": "2026-08-25",
+      "count": 543,
+      "delta": 0.1021650879566982
+     },
+     {
+      "date": "2026-08-26",
+      "count": 297,
+      "delta": -0.41217219198416627
+     },
+     {
+      "date": "2026-08-27",
+      "count": 1098,
+      "delta": 1.3684210526315788
+     },
+     {
+      "date": "2026-08-28",
+      "count": 554,
+      "delta": -0.026932084309133554
+     },
+     {
+      "date": "2026-08-29",
+      "count": 425,
+      "delta": -0.2506297229219143
+     },
+     {
+      "date": "2026-08-30",
+      "count": 622,
+      "delta": 0.13219567690557452
+     },
+     {
+      "date": "2026-08-31",
+      "count": 336,
+      "delta": -0.39724935220251145
+     },
+     {
+      "date": "2026-09-01",
+      "count": 451,
+      "delta": -0.15748178591444043
+     },
+     {
+      "date": "2026-09-02",
+      "count": 647,
+      "delta": 0.22622329427980706
+     },
+     {
+      "date": "2026-09-03",
+      "count": 655,
+      "delta": 0.21841574949620204
+     },
+     {
+      "date": "2026-09-04",
+      "count": 568,
+      "delta": 0.039121868843231024
+     },
+     {
+      "date": "2026-09-05",
+      "count": 431,
+      "delta": -0.21370862653114409
+     },
+     {
+      "date": "2026-09-06",
+      "count": 617,
+      "delta": 0.1418877236273904
+     },
+     {
+      "date": "2026-09-07",
+      "count": 357,
+      "delta": -0.3451043338683788
+     },
+     {
+      "date": "2026-09-08",
+      "count": 365,
+      "delta": -0.31655468663949765
+     },
+     {
+      "date": "2026-09-09",
+      "count": 758,
+      "delta": 0.44472681067344355
+     },
+     {
+      "date": "2026-09-10",
+      "count": 703,
+      "delta": 0.3092530876298766
+     },
+     {
+      "date": "2026-09-11",
+      "count": 455,
+      "delta": -0.16552040348464006
+     },
+     {
+      "date": "2026-09-12",
+      "count": 858,
+      "delta": 0.5860915492957746
+     },
+     {
+      "date": "2026-09-13",
+      "count": 362,
+      "delta": -0.3481748240301195
+     },
+     {
+      "date": "2026-09-14",
+      "count": 436,
+      "delta": -0.2028616852146263
+     },
+     {
+      "date": "2026-09-15",
+      "count": 277,
+      "delta": -0.48924400737553786
+     },
+     {
+      "date": "2026-09-16",
+      "count": 988,
+      "delta": 0.858120815466787
+     },
+     {
+      "date": "2026-09-17",
+      "count": 181,
+      "delta": -0.6704712555143197
+     },
+     {
+      "date": "2026-09-18",
+      "count": 512,
+      "delta": -0.0441156133314895
+     },
+     {
+      "date": "2026-09-19",
+      "count": 825,
+      "delta": 0.5426739682115665
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": true,
+    "caveat": "Daily values are derived from day-over-day diffs of the cumulative install counter exposed by Microsoft's marketplace catalogue. install ≠ active use — auto-installed bundle extensions, CI runners, and codespace pre-warms inflate the absolute number, but the WoW Δ signal is consistent.",
+    "counterName": "install diff",
+    "counterUnits": "installs/day"
+   },
+   {
+    "id": "vscode:saoudrizwan.claude-dev",
+    "label": "saoudrizwan.claude-dev",
+    "registry": "vscode",
+    "latest": {
+     "count": 5381446,
+     "fetchedAt": "2026-09-19T20:34:51.185Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": 13124,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": 8566,
+      "delta": -0.3473026516306004
+     },
+     {
+      "date": "2026-08-24",
+      "count": 8413,
+      "delta": -0.22425080682342094
+     },
+     {
+      "date": "2026-08-25",
+      "count": 11278,
+      "delta": 0.12394113543500641
+     },
+     {
+      "date": "2026-08-26",
+      "count": 5299,
+      "delta": -0.4877842488098403
+     },
+     {
+      "date": "2026-08-27",
+      "count": 22768,
+      "delta": 1.4387317909168809
+     },
+     {
+      "date": "2026-08-28",
+      "count": 12161,
+      "delta": 0.05065660638175331
+     },
+     {
+      "date": "2026-08-29",
+      "count": 9994,
+      "delta": -0.14276611648225068
+     },
+     {
+      "date": "2026-08-30",
+      "count": 11765,
+      "delta": 0.027477266028405185
+     },
+     {
+      "date": "2026-08-31",
+      "count": 7223,
+      "delta": -0.3711109821221268
+     },
+     {
+      "date": "2026-09-01",
+      "count": 10241,
+      "delta": -0.07397527827761756
+     },
+     {
+      "date": "2026-09-02",
+      "count": 12446,
+      "delta": 0.13302767478813565
+     },
+     {
+      "date": "2026-09-03",
+      "count": 12013,
+      "delta": 0.0816188718318102
+     },
+     {
+      "date": "2026-09-04",
+      "count": 11273,
+      "delta": 0.008658485384504177
+     },
+     {
+      "date": "2026-09-05",
+      "count": 8049,
+      "delta": -0.2802559975473289
+     },
+     {
+      "date": "2026-09-06",
+      "count": 13294,
+      "delta": 0.2113867070036995
+     },
+     {
+      "date": "2026-09-07",
+      "count": 7467,
+      "delta": -0.32845812699893767
+     },
+     {
+      "date": "2026-09-08",
+      "count": 6593,
+      "delta": -0.3953790714986999
+     },
+     {
+      "date": "2026-09-09",
+      "count": 14995,
+      "delta": 0.40602291018768844
+     },
+     {
+      "date": "2026-09-10",
+      "count": 14916,
+      "delta": 0.36935282805539177
+     },
+     {
+      "date": "2026-09-11",
+      "count": 9896,
+      "delta": -0.10797825832214096
+     },
+     {
+      "date": "2026-09-12",
+      "count": 18774,
+      "delta": 0.701027725284113
+     },
+     {
+      "date": "2026-09-13",
+      "count": 8723,
+      "delta": -0.23405495154621067
+     },
+     {
+      "date": "2026-09-14",
+      "count": 8798,
+      "delta": -0.2195270585603481
+     },
+     {
+      "date": "2026-09-15",
+      "count": 5833,
+      "delta": -0.4777762441759397
+     },
+     {
+      "date": "2026-09-16",
+      "count": 19789,
+      "delta": 0.8062117107578624
+     },
+     {
+      "date": "2026-09-17",
+      "count": 3708,
+      "delta": -0.6717366211426294
+     },
+     {
+      "date": "2026-09-18",
+      "count": 11544,
+      "delta": 0.0480465637073427
+     },
+     {
+      "date": "2026-09-19",
+      "count": 16760,
+      "delta": 0.5189857028642825
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": true,
+    "caveat": "Daily values are derived from day-over-day diffs of the cumulative install counter exposed by Microsoft's marketplace catalogue. install ≠ active use — auto-installed bundle extensions, CI runners, and codespace pre-warms inflate the absolute number, but the WoW Δ signal is consistent.",
+    "counterName": "install diff",
+    "counterUnits": "installs/day"
+   },
+   {
+    "id": "vscode:sourcegraph.cody-ai",
+    "label": "sourcegraph.cody-ai",
+    "registry": "vscode",
+    "latest": {
+     "count": 888271,
+     "fetchedAt": "2026-09-19T20:34:51.185Z"
+    },
+    "days": [
+     {
+      "date": "2026-08-22",
+      "count": 284,
+      "delta": null
+     },
+     {
+      "date": "2026-08-23",
+      "count": 253,
+      "delta": -0.10915492957746478
+     },
+     {
+      "date": "2026-08-24",
+      "count": 253,
+      "delta": -0.05772811918063315
+     },
+     {
+      "date": "2026-08-25",
+      "count": 301,
+      "delta": 0.14303797468354437
+     },
+     {
+      "date": "2026-08-26",
+      "count": 202,
+      "delta": -0.25939505041246563
+     },
+     {
+      "date": "2026-08-27",
+      "count": 770,
+      "delta": 1.9775715390564577
+     },
+     {
+      "date": "2026-08-28",
+      "count": 412,
+      "delta": 0.19825496849248675
+     },
+     {
+      "date": "2026-08-29",
+      "count": 265,
+      "delta": -0.25050505050505045
+     },
+     {
+      "date": "2026-08-30",
+      "count": 305,
+      "delta": -0.10948905109489052
+     },
+     {
+      "date": "2026-08-31",
+      "count": 152,
+      "delta": -0.5507389162561576
+     },
+     {
+      "date": "2026-09-01",
+      "count": 310,
+      "delta": -0.030340944635595838
+     },
+     {
+      "date": "2026-09-02",
+      "count": 441,
+      "delta": 0.38323353293413176
+     },
+     {
+      "date": "2026-09-03",
+      "count": 427,
+      "delta": 0.2978723404255319
+     },
+     {
+      "date": "2026-09-04",
+      "count": 364,
+      "delta": 0.08159999999999998
+     },
+     {
+      "date": "2026-09-05",
+      "count": 245,
+      "delta": -0.276218611521418
+     },
+     {
+      "date": "2026-09-06",
+      "count": 336,
+      "delta": 0.011235955056179822
+     },
+     {
+      "date": "2026-09-07",
+      "count": 145,
+      "delta": -0.5639097744360902
+     },
+     {
+      "date": "2026-09-08",
+      "count": 161,
+      "delta": -0.49917657822506867
+     },
+     {
+      "date": "2026-09-09",
+      "count": 465,
+      "delta": 0.4877355136864558
+     },
+     {
+      "date": "2026-09-10",
+      "count": 481,
+      "delta": 0.5004104416351995
+     },
+     {
+      "date": "2026-09-11",
+      "count": 266,
+      "delta": -0.19050517346317716
+     },
+     {
+      "date": "2026-09-12",
+      "count": 615,
+      "delta": 0.8887101491664231
+     },
+     {
+      "date": "2026-09-13",
+      "count": 147,
+      "delta": -0.5660807728431504
+     },
+     {
+      "date": "2026-09-14",
+      "count": 171,
+      "delta": -0.4825
+     },
+     {
+      "date": "2026-09-15",
+      "count": 136,
+      "delta": -0.5799768369579205
+     },
+     {
+      "date": "2026-09-16",
+      "count": 667,
+      "delta": 1.1088908562033644
+     },
+     {
+      "date": "2026-09-17",
+      "count": 94,
+      "delta": -0.7149521810123629
+     },
+     {
+      "date": "2026-09-18",
+      "count": 328,
+      "delta": 0.021688970927549695
+     },
+     {
+      "date": "2026-09-19",
+      "count": 545,
+      "delta": 0.6963094708759449
+     },
+     {
+      "date": "2026-09-20",
+      "count": null,
+      "delta": null
+     }
+    ],
+    "firstParty": true,
+    "caveat": "Daily values are derived from day-over-day diffs of the cumulative install counter exposed by Microsoft's marketplace catalogue. install ≠ active use — auto-installed bundle extensions, CI runners, and codespace pre-warms inflate the absolute number, but the WoW Δ signal is consistent.",
+    "counterName": "install diff",
+    "counterUnits": "installs/day"
+   }
+  ],
+  "generatedAt": "2026-09-20T00:49:39.978Z"
+ }
+}
