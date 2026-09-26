@@ -1,0 +1,639 @@
+{
+ "v": 1,
+ "capturedAt": "2026-09-26T00:07:06.699Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-1ef0dl0-anqo",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Cursor is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "Cursor Status",
+    "sourceUrl": "https://status.cursor.com",
+    "timestamp": "2026-09-26T00:07:10.065Z",
+    "meta": {
+     "toolId": "cursor",
+     "status": "degraded",
+     "statusSourceId": "cursor-status",
+     "activeIncidents": 1,
+     "incidentName": "Investigating service degradation — Grok Bot"
+    },
+    "summary": "We are investigating a service degradation affecting Grok Bot."
+   },
+   {
+    "id": "MODEL_MOVER-1si8m2w-anql",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Space Bunny Alpha up 25 ranks on OpenRouter weekly",
+    "detail": "Now #6, was #31.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/stealth/space-bunny-alpha",
+    "timestamp": "2026-09-25T21:49:00.893Z",
+    "meta": {
+     "slug": "stealth/space-bunny-alpha",
+     "name": "Space Bunny Alpha",
+     "currentRank": 6,
+     "previousRank": 31,
+     "delta": -25
+    },
+    "summary": "Space Bunny Alpha is an anonymous large model with blazing-fast inference, strong coding capabilities and native multimodal input support. It delivers adjustable reasoning effort, and a 1M-token context window. Space Bunny Alpha is a stealth model."
+   },
+   {
+    "id": "MODEL_MOVER-36rc12-anql",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Xiaomi: MiMo-V2.6-Flash up 13 ranks on OpenRouter weekly",
+    "detail": "Now #12, was #25.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/xiaomi/mimo-v2.6-flash",
+    "timestamp": "2026-09-25T21:49:00.893Z",
+    "meta": {
+     "slug": "xiaomi/mimo-v2.6-flash",
+     "name": "Xiaomi: MiMo-V2.6-Flash",
+     "currentRank": 12,
+     "previousRank": 25,
+     "delta": -13
+    },
+    "summary": "MiMo-V2.6-Flash is an open-source foundation model developed by Xiaomi. Built on a Mixture-of-Experts architecture with 309B total parameters and 15B activated per token, it employs a hybrid attention mechanism for greater computational efficiency."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-45ffpv-anpj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Scholé Learn by Building: Learning should be more than \"click next\"",
+    "detail": "404 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/schole-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-24T07:01:00.000Z",
+    "summary": "Learn by building, on any website, with Scholé by your side. You can read about a tool, watch someone walk through it on YouTube, or ask ChatGPT to explain it. But you won’t properly learn until you build with it yourself.",
+    "meta": {
+     "votes": 404,
+     "tagline": "Learning should be more than \"click next\""
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1bi7f5r-anql",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "TypeSafe: Jev 1.13 up 5 ranks on OpenRouter weekly",
+    "detail": "Now #14, was #19.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/typesafe/jev-1.13",
+    "timestamp": "2026-09-25T21:49:00.893Z",
+    "meta": {
+     "slug": "typesafe/jev-1.13",
+     "name": "TypeSafe: Jev 1.13",
+     "currentRank": 14,
+     "previousRank": 19,
+     "delta": -5
+    },
+    "summary": "Jev is a structured decision model from TypeSafe, and the first of its System One models. System One models make fast, structured decisions for software, returning a typed choice rather than free-form text."
+   },
+   {
+    "id": "MODEL_MOVER-cgrvh6-anql",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-6 Luna up 15 ranks on OpenRouter weekly",
+    "detail": "Now #21, was #36.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-6-luna",
+    "timestamp": "2026-09-25T21:49:00.893Z",
+    "meta": {
+     "slug": "openai/gpt-6-luna",
+     "name": "OpenAI: GPT-6 Luna",
+     "currentRank": 21,
+     "previousRank": 36,
+     "delta": -15
+    },
+    "summary": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol."
+   },
+   {
+    "id": "PRESS-17p3m5m-anqf",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Aikido Security Releases Altar-1: An Open-Weight Security Model Pruned From GLM-5.3 to 328 GB",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/09/25/aikido-security-releases-altar-1-an-open-weight-security-model-pruned-from-glm-5-3-to-328-gb/",
+    "timestamp": "2026-09-25T15:14:45.000Z",
+    "summary": "Aikido Security has released Altar-1, its first open-weight security model. It is a compressed version of Z.AI’s GLM-5.3, built to run inside infrastructure the customer controls. Altar-1 powers Aikido Machine, the company’s autonomous pentesting appliance for on-prem and air-gapped networks.",
+    "meta": {
+     "rssId": "298e2f945c8ac6e3",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    },
+    "story": {
+     "sources": [],
+     "discussion": [
+      {
+       "site": "r/LocalLLaMA",
+       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wq2hfc/jev_vs_kev_opensource_jev_alternative_tested_side/",
+       "points": null,
+       "timestamp": "2026-09-25T17:30:26.000Z"
+      },
+      {
+       "site": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=49848269",
+       "points": 132,
+       "timestamp": "2026-09-25T18:33:50Z"
+      },
+      {
+       "site": "r/LocalLLaMA",
+       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqag1i/mica_v01_4b_open_jevstyle_decision_model_yesno/",
+       "points": null,
+       "timestamp": "2026-09-25T22:53:41.000Z"
+      }
+     ]
+    }
+   },
+   {
+    "id": "MODEL_MOVER-csgnqx-anql",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-6 Astra down 11 ranks on OpenRouter weekly",
+    "detail": "Now #25, was #14.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-6-astra",
+    "timestamp": "2026-09-25T21:49:00.893Z",
+    "meta": {
+     "slug": "openai/gpt-6-astra",
+     "name": "OpenAI: GPT-6 Astra",
+     "currentRank": 25,
+     "previousRank": 14,
+     "delta": 11
+    },
+    "summary": "GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work. It is suited for advanced analysis, software engineering, deep research, scientific work, and document creation, with particular strengths in long-horizon agentic tasks that involve computer and browser use."
+   },
+   {
+    "id": "MODEL_MOVER-1r0hmrz-anql",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Xiaomi: MiMo-V2.6-Pro up 13 ranks on OpenRouter weekly",
+    "detail": "Now #32, was #45.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/xiaomi/mimo-v2.6-pro",
+    "timestamp": "2026-09-25T21:49:00.893Z",
+    "meta": {
+     "slug": "xiaomi/mimo-v2.6-pro",
+     "name": "Xiaomi: MiMo-V2.6-Pro",
+     "currentRank": 32,
+     "previousRank": 45,
+     "delta": -13
+    },
+    "summary": "MiMo-V2.6-Pro is the flagship foundation model developed by Xiaomi. Built at a scale of over 1T parameters, it is designed to push the ceiling of capability for the most demanding workloads. The model features a 1M-token context window and native multimodal capabilities."
+   },
+   {
+    "id": "NEWS-yh688o-anqm",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Mica v0.1 4B got an iron pickaxe in real Minecraft without generating a single token",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wqahbz/mica_v01_4b_got_an_iron_pickaxe_in_real_minecraft/",
+    "timestamp": "2026-09-25T22:55:19.000Z",
+    "meta": {
+     "redditId": "1133c482420735f7",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "Mica v0.1 4B playing a real Minecraft 1.20.4 server. Video attached. How it works - Each step the bot's live game state (inventory, nearby blocks, entities, last result) is written out as text. - Mica scores the candidate commands and picks the next one. It never generates text."
+   },
+   {
+    "id": "MODEL_MOVER-1b2jita-anql",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Dots Studio: Dots3-Note Preview (free) down 4 ranks on OpenRouter weekly",
+    "detail": "Now #33, was #29.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/dots-studio/dots-3-note-preview",
+    "timestamp": "2026-09-25T21:49:00.893Z",
+    "meta": {
+     "slug": "dots-studio/dots-3-note-preview",
+     "name": "Dots Studio: Dots3-Note Preview (free)",
+     "currentRank": 33,
+     "previousRank": 29,
+     "delta": 4
+    },
+    "summary": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is suited for reasoning, coding, multimodal understanding, long-context processing, and multi-step agent workflows."
+   },
+   {
+    "id": "MODEL_MOVER-18b8zxt-anql",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Anthropic: Claude Fable 5.1 up 7 ranks on OpenRouter weekly",
+    "detail": "Now #35, was #42.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/anthropic/claude-fable-5.1",
+    "timestamp": "2026-09-25T21:49:00.893Z",
+    "meta": {
+     "slug": "anthropic/claude-fable-5.1",
+     "name": "Anthropic: Claude Fable 5.1",
+     "currentRank": 35,
+     "previousRank": 42,
+     "delta": -7
+    },
+    "summary": "Claude Fable 5.1 improves on Claude Fable 5 across the board, with the biggest gains in agentic coding, long-running agentic workflows, and knowledge work: long code refactors, front-end and visual code generation, and finance and analysis tasks in particular."
+   },
+   {
+    "id": "RESEARCH-16jb6xy-anpt",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "LLM Agents Can Easily Tamper With Their Own Traces",
+    "detail": "Jeremy Qin, David Schmotz, Derck Prinzhorn et al. · cs.CR",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.30266v1",
+    "timestamp": "2026-09-24T17:59:54Z",
+    "summary": "Asynchronous monitoring, incident investigations, and compliance audits primarily rely on agent traces to reconstruct what happened. These analyses assume that LLM agents cannot tamper with their own execution traces. We show that local LLM agents such as Claude Code, Codex, Antigravity, Open Code and Grok Build fail to enforce this boundary.",
+    "meta": {
+     "arxivId": "2609.30266v1",
+     "primaryCategory": "cs.CR",
+     "authorCount": 6,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1uxur8q-anql",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "DeepSeek: DeepSeek Flash Latest down 4 ranks on OpenRouter weekly",
+    "detail": "Now #37, was #33.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/~deepseek/deepseek-flash-latest",
+    "timestamp": "2026-09-25T21:49:00.893Z",
+    "meta": {
+     "slug": "~deepseek/deepseek-flash-latest",
+     "name": "DeepSeek: DeepSeek Flash Latest",
+     "currentRank": 37,
+     "previousRank": 33,
+     "delta": 4
+    },
+    "summary": "This model always redirects to the latest model in the DeepSeek Flash family."
+   },
+   {
+    "id": "MODEL_MOVER-11ltjs3-anql",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-5.6 Terra down 6 ranks on OpenRouter weekly",
+    "detail": "Now #38, was #32.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-5.6-terra",
+    "timestamp": "2026-09-25T21:49:00.893Z",
+    "meta": {
+     "slug": "openai/gpt-5.6-terra",
+     "name": "OpenAI: GPT-5.6 Terra",
+     "currentRank": 38,
+     "previousRank": 32,
+     "delta": 6
+    },
+    "summary": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier."
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-anqo",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (195 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-09-26T00:07:10.069Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 195,
+     "country": "US"
+    },
+    "summary": "anthropics/claude-code — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+   },
+   {
+    "id": "MODEL_MOVER-e7tqcy-anql",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3.5 Lightning (free) down 8 ranks on OpenRouter weekly",
+    "detail": "Now #42, was #34.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3.5-lightning",
+    "timestamp": "2026-09-25T21:49:00.893Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3.5-lightning",
+     "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+     "currentRank": 42,
+     "previousRank": 34,
+     "delta": 8
+    },
+    "summary": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that benefit from domain-specific customization."
+   },
+   {
+    "id": "MODEL_MOVER-i41l3g-anql",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemini 2.5 Flash down 4 ranks on OpenRouter weekly",
+    "detail": "Now #44, was #40.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemini-2.5-flash",
+    "timestamp": "2026-09-25T21:49:00.893Z",
+    "meta": {
+     "slug": "google/gemini-2.5-flash",
+     "name": "Google: Gemini 2.5 Flash",
+     "currentRank": 44,
+     "previousRank": 40,
+     "delta": 4
+    },
+    "summary": "Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide responses with greater accuracy and nuanced context handling."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-rgana9-anpj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Floot MCP: Build and ship web and mobile apps inside Claude or ChatGPT",
+    "detail": "376 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/floot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-24T07:01:00.000Z",
+    "summary": "Connect Floot to Claude or ChatGPT and build a full-stack app without leaving the chat. Floot gives your AI a ready-to-use workspace with a database, user logins, hosting, and a live URL - nothing to install or configure.",
+    "meta": {
+     "votes": 376,
+     "tagline": "Build and ship web and mobile apps inside Claude or ChatGPT"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-fv2id8-anql",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Anthropic: Claude Opus 4.8 down 6 ranks on OpenRouter weekly",
+    "detail": "Now #55, was #49.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/anthropic/claude-opus-4.8",
+    "timestamp": "2026-09-25T21:49:00.893Z",
+    "meta": {
+     "slug": "anthropic/claude-opus-4.8",
+     "name": "Anthropic: Claude Opus 4.8",
+     "currentRank": 55,
+     "previousRank": 49,
+     "delta": 6
+    },
+    "summary": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family. It supports text, image, and file inputs with text output, with reasoning support and a 1M-token context window."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1g4d0ct-anov",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Solid: Agents with their own computers, accounts, and budgets.",
+    "detail": "461 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/solid-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-23T07:01:00.000Z",
+    "summary": "Solid’s AI agents build apps, automate workflows and tackle work you lack the time or expertise for. They pick and set up their own real machines, create accounts and pay for services. They use your apps through APIs or log in like a person. They build what’s missing and fix problems along the way.",
+    "meta": {
+     "votes": 461,
+     "tagline": "Agents with their own computers, accounts, and budgets."
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-zju8ul-anov",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Naise AI: Autonomous marketing agents that actually execute",
+    "detail": "416 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/naise-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-23T07:01:00.000Z",
+    "summary": "Stop babysitting AI's empty text boxes. Naise AI gives founders and lean teams the output of a full marketing department without the overhead. Lock in your brand guidelines with Persistent Memory, select an Prompt Playbook, and let the platform handle the execution.",
+    "meta": {
+     "votes": 416,
+     "tagline": "Autonomous marketing agents that actually execute"
+    }
+   },
+   {
+    "id": "PRESS-3zczd2-anqn",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
+    "detail": "Reported by latent.space (San Francisco, US).",
+    "sourceName": "latent.space",
+    "sourceUrl": "https://www.latent.space/p/openrouter",
+    "timestamp": "2026-09-25T23:14:41.000Z",
+    "summary": "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs.",
+    "meta": {
+     "rssId": "4f685a5d69ed4f8d",
+     "publisher": "latent-space",
+     "country": "US",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1wlgfcv-ano7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Clueso MCP: Create and edit videos by chatting",
+    "detail": "541 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/clueso?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-22T07:01:00.000Z",
+    "summary": "Make videos with Claude, ChatGPT, or any AI agent. Give Clueso an idea, deck, reference video, or recording, and it handles the whole video production: storyboard, scenes, voiceover, music, and editing, on-brand. Everything stays editable, by hand or by chat.",
+    "meta": {
+     "votes": 541,
+     "tagline": "Create and edit videos by chatting"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-di8eav-annj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Jev: Fast, structured AI decisions for software automation",
+    "detail": "538 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/jev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-21T07:01:00.000Z",
+    "summary": "Jev is TypeSafe AI's System One frontier model: unstructured state in, typed probabilistic decisions out. Instead of generating text, Jev returns Choice, Score, and Noul answers with calibrated probabilities your code can act on.",
+    "meta": {
+     "votes": 538,
+     "tagline": "Fast, structured AI decisions for software automation"
+    }
+   },
+   {
+    "id": "NEWS-r7kaad-anqm",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "What IDE to use for local models",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wq9ivr/what_ide_to_use_for_local_models/",
+    "timestamp": "2026-09-25T22:13:19.000Z",
+    "meta": {
+     "redditId": "0bad8bfa1434aba4",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "Hi people, I am looking for a lightweight IDE or plugin that won't inject large context at initiation. I tried Cline and native VS Code but they inject such heavy initial context that it fills up my gpu and either goes oom or spend most of my time compacting."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-khta47-annj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Superset Mobile: Your coding agents, now in your pocket",
+    "detail": "503 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/superset-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-21T07:01:00.000Z",
+    "summary": "Orchestrate coding agents from your iPhone. Pick up the same workspaces from your computer, review diffs, and merge PRs away from your desk. Works with Claude Code, Codex, and other terminal agents. Included with Superset Pro. First month free with code MOBILELAUNCH.",
+    "meta": {
+     "votes": 503,
+     "tagline": "Your coding agents, now in your pocket"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1qadp4k-annj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Sai: The autonomous computer fleet at your command",
+    "detail": "420 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/simular?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-21T07:01:00.000Z",
+    "summary": "Sai is the world's first robosecretary that works with a fleet of autonomous computers, doing your endless screen work. Each computer navigates software the way you do: reads the screen, clicks the button, types in the form.",
+    "meta": {
+     "votes": 420,
+     "tagline": "The autonomous computer fleet at your command"
+    }
+   },
+   {
+    "id": "PRESS-8mx2hx-anqn",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Liquid AI Releases LFM2.5-VL-3B-DSpark: Speculative Decoding for Vision-Language Models With Up to 3.13x Faster Decoding",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/09/25/liquid-ai-releases-lfm2-5-vl-3b-dspark-speculative-decoding-for-vision-language-models-with-up-to-3-13x-faster-decoding/",
+    "timestamp": "2026-09-25T23:11:59.000Z",
+    "summary": "Liquid AI has released LFM2.5-VL-3B-DSpark, a 279.5M-parameter draft model that brings speculative decoding to its LFM2.5-VL-3B vision-language model. It delivers up to 3.13x faster decoding on Apple M5 Max and 2.66x on H100, with identical output under greedy decoding.",
+    "meta": {
+     "rssId": "19e07070d3411cde",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "PRESS-13q4n28-anqg",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "KI-Rechenzentren: Abwärme heizt angrenzende Wohngebiete auf",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/KI-Rechenzentren-Abwaerme-heizt-angrenzende-Wohngebiete-auf-11466676.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-09-25T16:01:00.000Z",
+    "summary": "KI-Rechenzentren geben enorme Mengen Abwärme ab. Erste Studien belegen, dass dies die Temperaturen in angrenzenden Wohngebieten messbar ansteigen lässt.",
+    "meta": {
+     "rssId": "6fe01e7f2b66200a",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/6fe01e7f2b66200a"
+    }
+   },
+   {
+    "id": "RESEARCH-uo0v4w-anpt",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "AD-WM: Action-Discriminative World Models for Counterfactual Model Predictive Control",
+    "detail": "Jiabin Qiu, Zixuan Chen, Hongye Cao et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.30264v1",
+    "timestamp": "2026-09-24T17:59:41Z",
+    "summary": "Latent world models are typically trained to predict factual transitions, whereas model predictive control (MPC) must compare alternative actions from the same state. A model can therefore achieve low factual prediction error yet poorly distinguish candidate actions. We introduce AD-WM, an action-discriminative joint-embedding world model for counterfactual MPC.",
+    "meta": {
+     "arxivId": "2609.30264v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 6,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRESS-1iaquam-anqe",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Wasserzeichen für KI-Texte: Anthropic weitet Anwendung aus",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Wasserzeichen-fuer-KI-Texte-Anthropic-weitet-Anwendung-aus-11466692.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-09-25T14:40:00.000Z",
+    "summary": "Anthropic versieht weitere Claude-Modelle mit unsichtbaren Text-Wasserzeichen. Das Verfahren soll mit Claude erzeugte Texte erkennbar machen, hat aber Grenzen.",
+    "meta": {
+     "rssId": "72b45eb1b65706e2",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/72b45eb1b65706e2"
+    }
+   },
+   {
+    "id": "RESEARCH-2y81vb-anpt",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Temporal Gradient Inversion for Private Trajectory Reconstruction in Embodied Reinforcement Learning",
+    "detail": "Sudip Bhujel, Shanghao Shi, Ruiquan Huang et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.30258v1",
+    "timestamp": "2026-09-24T17:59:18Z",
+    "summary": "Distributed learning in embodied reinforcement-learning agents offers a degree of privacy by retaining raw sensor data on-device and transmitting only policy gradients to the server. Yet temporal structure can amplify this leakage beyond single-frame attacks.",
+    "meta": {
+     "arxivId": "2609.30258v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-r28wlr-anpt",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Agentic Detection of Online Conspiracies",
+    "detail": "Lior Biton, Oren Tsur · cs.CL",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.30250v1",
+    "timestamp": "2026-09-24T17:58:43Z",
+    "summary": "Conspiratorial discourse on social media is not always expressed through explicit claims or stable lexical markers. The same surface content may express endorsement, legitimate concerns, criticism, satire, or mockery. The main challenge is therefore not only recognizing conspiracy-related claims, but inferring the speaker's intent -- the utterance's illocutionary force.",
+    "meta": {
+     "arxivId": "2609.30250v1",
+     "primaryCategory": "cs.CL",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-p6yymp-anpt",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "RAPID: Robot Agentic Programming from Demonstrations",
+    "detail": "Yuyao Liu, Jiayuan Mao, David Hsu et al. · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.30249v1",
+    "timestamp": "2026-09-24T17:58:21Z",
+    "summary": "Coding agents have demonstrated enormous success in solving complex programming problems. To leverage their potential for robot systems, this work introduces Robot Agentic Programming from Demonstrations (RAPID), which automatically generates, verifies, and refines robot programs, given a single visual human demonstration.",
+    "meta": {
+     "arxivId": "2609.30249v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+   },
+   "toolHealth": {
+    "operational": 5,
+    "degraded": 1,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "LLM Agents Can Easily Tamper With Their Own Traces",
+    "sourceUrl": "https://arxiv.org/abs/2609.30266v1"
+   }
+  },
+  "lastComputed": "2026-09-26T00:07:10.065Z"
+ }
+}
