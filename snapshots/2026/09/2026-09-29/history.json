@@ -1,0 +1,523 @@
+{
+ "v": 1,
+ "capturedAt": "2026-09-29T11:10:10.569Z",
+ "endpoint": "/api/history?limit=1",
+ "record": {
+  "snapshots": [
+   {
+    "date": "2026-09-29",
+    "capturedAt": "2026-09-29T10:24:02.119Z",
+    "sources": {
+     "total": 46,
+     "verified": 46,
+     "pending": 0
+    },
+    "registry": {
+     "total": 37452,
+     "withLocation": 27743,
+     "geocodeRate": 0.7407615080636548,
+     "byConfigKind": {
+      "claude-md": 27945,
+      "agents-md": 19759,
+      "copilot-instructions": 5038,
+      "cursorrules": 825,
+      "windsurfrules": 139,
+      "continue-config": 37
+     }
+    },
+    "events24h": {
+     "windowSize": 3227,
+     "withAiConfig": 844,
+     "aiConfigShare": 0.26154322900526805
+    },
+    "tools": [
+     {
+      "id": "claude-code",
+      "status": "operational",
+      "activeIncidents": 0
+     },
+     {
+      "id": "openai-api",
+      "status": "operational",
+      "activeIncidents": 0
+     },
+     {
+      "id": "codex",
+      "status": "operational",
+      "activeIncidents": 0
+     },
+     {
+      "id": "copilot",
+      "status": "operational",
+      "activeIncidents": 0
+     },
+     {
+      "id": "windsurf",
+      "status": "operational",
+      "activeIncidents": 0
+     },
+     {
+      "id": "cursor",
+      "status": "operational",
+      "activeIncidents": 0
+     }
+    ],
+    "benchmarks": {
+     "publishDate": "2026-09-25",
+     "top3": [
+      {
+       "rank": 1,
+       "modelName": "claude-opus-5.5-high",
+       "organization": "anthropic",
+       "rating": 1518
+      },
+      {
+       "rank": 2,
+       "modelName": "claude-fable-5.1-max",
+       "organization": "anthropic",
+       "rating": 1511
+      },
+      {
+       "rank": 3,
+       "modelName": "claude-opus-5-max",
+       "organization": "anthropic",
+       "rating": 1506
+      }
+     ],
+     "rows": [
+      {
+       "rank": 1,
+       "modelName": "claude-opus-5.5-high",
+       "organization": "anthropic",
+       "rating": 1518
+      },
+      {
+       "rank": 2,
+       "modelName": "claude-fable-5.1-max",
+       "organization": "anthropic",
+       "rating": 1511
+      },
+      {
+       "rank": 3,
+       "modelName": "claude-opus-5-max",
+       "organization": "anthropic",
+       "rating": 1506
+      },
+      {
+       "rank": 4,
+       "modelName": "claude-opus-4-6-high",
+       "organization": "anthropic",
+       "rating": 1504
+      },
+      {
+       "rank": 5,
+       "modelName": "claude-opus-5-high",
+       "organization": "anthropic",
+       "rating": 1504
+      },
+      {
+       "rank": 6,
+       "modelName": "claude-opus-4-6",
+       "organization": "anthropic",
+       "rating": 1498
+      },
+      {
+       "rank": 7,
+       "modelName": "gemini-3.8-flash-high",
+       "organization": "google",
+       "rating": 1494
+      },
+      {
+       "rank": 8,
+       "modelName": "claude-fable-5-high",
+       "organization": "anthropic",
+       "rating": 1491
+      },
+      {
+       "rank": 9,
+       "modelName": "mimo-v2.6-pro",
+       "organization": "xiaomi",
+       "rating": 1491
+      },
+      {
+       "rank": 10,
+       "modelName": "claude-opus-4-7-high",
+       "organization": "anthropic",
+       "rating": 1490
+      },
+      {
+       "rank": 11,
+       "modelName": "muse-spark-1.3-max",
+       "organization": "meta",
+       "rating": 1490
+      },
+      {
+       "rank": 12,
+       "modelName": "gemini-3.7-flash-high",
+       "organization": "google",
+       "rating": 1487
+      },
+      {
+       "rank": 13,
+       "modelName": "muse-spark-1.2 (xHigh)",
+       "organization": "meta",
+       "rating": 1486
+      },
+      {
+       "rank": 14,
+       "modelName": "claude-opus-4-7",
+       "organization": "anthropic",
+       "rating": 1484
+      },
+      {
+       "rank": 15,
+       "modelName": "gemini-3.5-flash-high",
+       "organization": "google",
+       "rating": 1481
+      },
+      {
+       "rank": 16,
+       "modelName": "gemini-3.1-pro-preview",
+       "organization": "google",
+       "rating": 1480
+      },
+      {
+       "rank": 17,
+       "modelName": "qwen3.8-max",
+       "organization": "alibaba",
+       "rating": 1480
+      },
+      {
+       "rank": 18,
+       "modelName": "gemini-3-pro",
+       "organization": "google",
+       "rating": 1479
+      },
+      {
+       "rank": 19,
+       "modelName": "muse-spark-1.1",
+       "organization": "meta",
+       "rating": 1478
+      },
+      {
+       "rank": 20,
+       "modelName": "gemini-3.6-flash-high",
+       "organization": "google",
+       "rating": 1478
+      }
+     ]
+    },
+    "packages": {
+     "pypi": [
+      {
+       "name": "diffusers",
+       "lastDay": 184153,
+       "lastWeek": 1184770,
+       "lastMonth": 4992487
+      },
+      {
+       "name": "langchain",
+       "lastDay": 6197217,
+       "lastWeek": 40448622,
+       "lastMonth": 169366312
+      },
+      {
+       "name": "openai",
+       "lastDay": 10764873,
+       "lastWeek": 70719962,
+       "lastMonth": 284217868
+      },
+      {
+       "name": "torch",
+       "lastDay": 2099762,
+       "lastWeek": 13928315,
+       "lastMonth": 59795650
+      },
+      {
+       "name": "transformers",
+       "lastDay": 3467668,
+       "lastWeek": 23488096,
+       "lastMonth": 92718566
+      }
+     ],
+     "npm": [
+      {
+       "name": "@anthropic-ai/sdk",
+       "lastDay": 4691593,
+       "lastWeek": 46425601,
+       "lastMonth": 147191123
+      },
+      {
+       "name": "@langchain/core",
+       "lastDay": 550950,
+       "lastWeek": 6262358,
+       "lastMonth": 20198417
+      },
+      {
+       "name": "ai",
+       "lastDay": 2729797,
+       "lastWeek": 30382054,
+       "lastMonth": 92038256
+      },
+      {
+       "name": "llamaindex",
+       "lastDay": 10327,
+       "lastWeek": 148227,
+       "lastMonth": 437467
+      },
+      {
+       "name": "openai",
+       "lastDay": 4424264,
+       "lastWeek": 44923488,
+       "lastMonth": 145278504
+      }
+     ],
+     "crates": [
+      {
+       "name": "burn",
+       "last90d": 466223,
+       "allTime": 1504522
+      },
+      {
+       "name": "candle-core",
+       "last90d": 3130885,
+       "allTime": 8804741
+      },
+      {
+       "name": "ort",
+       "last90d": 7514176,
+       "allTime": 19909659
+      },
+      {
+       "name": "tch",
+       "last90d": 1992986,
+       "allTime": 7565886
+      }
+     ],
+     "docker": [
+      {
+       "name": "ollama/ollama",
+       "allTime": 180612794,
+       "stars": 1614
+      },
+      {
+       "name": "vllm/vllm-openai",
+       "allTime": 36867006,
+       "stars": 309
+      }
+     ],
+     "brew": [
+      {
+       "name": "ollama",
+       "lastMonth": 24538,
+       "last90d": 133784,
+       "lastYear": 615833
+      }
+     ],
+     "vscode": [
+      {
+       "name": "Codeium.codeium",
+       "allTime": 3977365
+      },
+      {
+       "name": "Continue.continue",
+       "allTime": 4243391
+      },
+      {
+       "name": "GitHub.copilot",
+       "allTime": 74661148
+      },
+      {
+       "name": "saoudrizwan.claude-dev",
+       "allTime": 5478002
+      },
+      {
+       "name": "sourcegraph.cody-ai",
+       "allTime": 891187
+      },
+      {
+       "name": "TabNine.tabnine-vscode",
+       "allTime": 9639443
+      }
+     ]
+    },
+    "labs24h": [
+     {
+      "id": "langchain-sf",
+      "displayName": "LangChain",
+      "kind": "tooling",
+      "city": "San Francisco",
+      "country": "US",
+      "total": 190,
+      "byType": {
+       "PullRequestEvent": 55,
+       "WatchEvent": 47,
+       "ForkEvent": 12,
+       "IssueCommentEvent": 29,
+       "PullRequestReviewEvent": 11,
+       "IssuesEvent": 30,
+       "PushEvent": 5,
+       "CreateEvent": 1
+      },
+      "stale": false
+     },
+     {
+      "id": "anthropic-sf",
+      "displayName": "Anthropic",
+      "kind": "labs",
+      "city": "San Francisco",
+      "country": "US",
+      "total": 146,
+      "byType": {
+       "IssueCommentEvent": 24,
+       "PullRequestReviewEvent": 2,
+       "IssuesEvent": 56,
+       "WatchEvent": 35,
+       "ForkEvent": 20,
+       "PullRequestEvent": 6,
+       "PushEvent": 2,
+       "CreateEvent": 1
+      },
+      "stale": false
+     },
+     {
+      "id": "microsoft-research-redmond",
+      "displayName": "Microsoft Research",
+      "kind": "labs",
+      "city": "Redmond",
+      "country": "US",
+      "total": 128,
+      "byType": {
+       "WatchEvent": 24,
+       "PushEvent": 12,
+       "PullRequestReviewEvent": 20,
+       "PullRequestEvent": 25,
+       "ForkEvent": 8,
+       "CreateEvent": 4,
+       "IssueCommentEvent": 27,
+       "IssuesEvent": 8
+      },
+      "stale": false
+     },
+     {
+      "id": "huggingface-nyc",
+      "displayName": "Hugging Face",
+      "kind": "tooling",
+      "city": "New York",
+      "country": "US",
+      "total": 97,
+      "byType": {
+       "IssueCommentEvent": 27,
+       "PullRequestEvent": 10,
+       "WatchEvent": 16,
+       "PushEvent": 8,
+       "IssuesEvent": 14,
+       "CreateEvent": 9,
+       "ForkEvent": 8,
+       "PullRequestReviewEvent": 5
+      },
+      "stale": false
+     },
+     {
+      "id": "ollama-sf",
+      "displayName": "Ollama",
+      "kind": "tooling",
+      "city": "San Francisco",
+      "country": "US",
+      "total": 89,
+      "byType": {
+       "WatchEvent": 45,
+       "IssueCommentEvent": 12,
+       "ForkEvent": 8,
+       "IssuesEvent": 3,
+       "PushEvent": 6,
+       "CreateEvent": 1,
+       "PullRequestEvent": 8,
+       "PullRequestReviewEvent": 5,
+       "ReleaseEvent": 1
+      },
+      "stale": false
+     },
+     {
+      "id": "openai-sf",
+      "displayName": "OpenAI",
+      "kind": "labs",
+      "city": "San Francisco",
+      "country": "US",
+      "total": 86,
+      "byType": {
+       "IssueCommentEvent": 5,
+       "ForkEvent": 12,
+       "WatchEvent": 62,
+       "PullRequestEvent": 6,
+       "PullRequestReviewEvent": 1
+      },
+      "stale": false
+     },
+     {
+      "id": "wandb-sf",
+      "displayName": "Weights & Biases",
+      "kind": "tooling",
+      "city": "San Francisco",
+      "country": "US",
+      "total": 83,
+      "byType": {
+       "PullRequestEvent": 14,
+       "PushEvent": 36,
+       "IssueCommentEvent": 12,
+       "CreateEvent": 5,
+       "PullRequestReviewEvent": 15,
+       "ForkEvent": 1
+      },
+      "stale": false
+     },
+     {
+      "id": "deepseek-hangzhou",
+      "displayName": "DeepSeek",
+      "kind": "labs",
+      "city": "Hangzhou",
+      "country": "CN",
+      "total": 33,
+      "byType": {
+       "IssueCommentEvent": 16,
+       "WatchEvent": 12,
+       "IssuesEvent": 4,
+       "ForkEvent": 1
+      },
+      "stale": false
+     },
+     {
+      "id": "qwen-hangzhou",
+      "displayName": "Alibaba Qwen",
+      "kind": "labs",
+      "city": "Hangzhou",
+      "country": "CN",
+      "total": 16,
+      "byType": {
+       "WatchEvent": 8,
+       "ForkEvent": 7,
+       "PullRequestEvent": 1
+      },
+      "stale": false
+     },
+     {
+      "id": "google-research-mv",
+      "displayName": "Google Research",
+      "kind": "labs",
+      "city": "Mountain View",
+      "country": "US",
+      "total": 14,
+      "byType": {
+       "WatchEvent": 10,
+       "ForkEvent": 4
+      },
+      "stale": false
+     }
+    ],
+    "failures": []
+   }
+  ],
+  "degraded": false,
+  "generatedAt": "2026-09-29T11:10:12.524Z"
+ }
+}
