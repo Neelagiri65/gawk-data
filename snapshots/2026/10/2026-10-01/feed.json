@@ -1,0 +1,522 @@
+{
+ "v": 1,
+ "capturedAt": "2026-10-01T00:40:18.260Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-f5v07h-anu0",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "OpenAI API is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "OpenAI Status (summary)",
+    "sourceUrl": "https://status.openai.com",
+    "timestamp": "2026-10-01T00:40:22.109Z",
+    "meta": {
+     "toolId": "openai-api",
+     "status": "degraded",
+     "statusSourceId": "openai-status",
+     "activeIncidents": 1,
+     "incidentName": "Elevated errors in ChatGPT Space Pages"
+    },
+    "summary": "We have applied mitigations and are monitoring the recovery."
+   },
+   {
+    "id": "MODEL_MOVER-bxvdpw-anty",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Anthropic: Claude Opus 5.5 up 6 ranks on OpenRouter weekly",
+    "detail": "Now #15, was #21.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/anthropic/claude-opus-5.5",
+    "timestamp": "2026-09-30T22:36:34.368Z",
+    "meta": {
+     "slug": "anthropic/claude-opus-5.5",
+     "name": "Anthropic: Claude Opus 5.5",
+     "currentRank": 15,
+     "previousRank": 21,
+     "delta": -6
+    },
+    "summary": "Claude Opus 5.5 is Anthropic's flagship model for demanding reasoning, coding, and long-horizon agentic work, succeeding Claude Opus 5."
+   },
+   {
+    "id": "MODEL_MOVER-lvjx89-anty",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "MoonshotAI: Kimi K3 up 5 ranks on OpenRouter weekly",
+    "detail": "Now #17, was #22.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/moonshotai/kimi-k3",
+    "timestamp": "2026-09-30T22:36:34.368Z",
+    "meta": {
+     "slug": "moonshotai/kimi-k3",
+     "name": "MoonshotAI: Kimi K3",
+     "currentRank": 17,
+     "previousRank": 22,
+     "delta": -5
+    },
+    "summary": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1knzwk1-antj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Pexo: Produce pitch perfect launch videos with precise control",
+    "detail": "352 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/pexo-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-30T07:01:00.000Z",
+    "summary": "Pexo makes creating your launch video as simple as having a conversation. Share your product, website, or assets. It plans the story, chooses the right AI model for each task, generates and assembles the scenes, and handles voiceover, music, captions, motion graphics, and editing.",
+    "meta": {
+     "votes": 352,
+     "tagline": "Produce pitch perfect launch videos with precise control"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1ksxgvs-anty",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Xiaomi: MiMo-V2.5 down 6 ranks on OpenRouter weekly",
+    "detail": "Now #21, was #15.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/xiaomi/mimo-v2.5",
+    "timestamp": "2026-09-30T22:36:34.368Z",
+    "meta": {
+     "slug": "xiaomi/mimo-v2.5",
+     "name": "Xiaomi: MiMo-V2.5",
+     "currentRank": 21,
+     "previousRank": 15,
+     "delta": 6
+    },
+    "summary": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding tasks."
+   },
+   {
+    "id": "MODEL_MOVER-e7tqcy-anty",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3.5 Lightning down 47 ranks on OpenRouter weekly",
+    "detail": "Now #90, was #43.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3.5-lightning",
+    "timestamp": "2026-09-30T22:36:34.368Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3.5-lightning",
+     "name": "NVIDIA: Nemotron 3.5 Lightning",
+     "currentRank": 90,
+     "previousRank": 43,
+     "delta": 47
+    },
+    "summary": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that benefit from domain-specific customization."
+   },
+   {
+    "id": "PRESS-pvefmb-antx",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "OpenAI Releases GPT-6.1 Sol: Near-Astra Coding and Computer Use at One-Fifth of Astra&#8217;s Token Price",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price/",
+    "timestamp": "2026-09-30T21:09:24.000Z",
+    "summary": "OpenAI released GPT-6.1 Sol on September 29, 2026, an upgrade to GPT-6 Sol. It reaches near-Astra results on agentic coding, computer use and professional work at one-fifth of Astra's token prices. It costs $2 input and $10 output per million tokens, and cached input drops to $0.10.",
+    "meta": {
+     "rssId": "0f69160c4d629f5a",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    },
+    "story": {
+     "sources": [
+      {
+       "publisher": "latent.space",
+       "country": "US",
+       "lang": "en",
+       "url": "https://www.latent.space/p/devday-2026",
+       "timestamp": "2026-09-30T22:23:40.000Z"
+      }
+     ],
+     "discussion": [
+      {
+       "site": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=49906669",
+       "points": 50,
+       "timestamp": "2026-09-30T09:59:03Z"
+      }
+     ]
+    }
+   },
+   {
+    "id": "MODEL_MOVER-cgrvh6-anty",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-6 Luna (batch) down 91 ranks on OpenRouter weekly",
+    "detail": "Now #100, was #9.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-6-luna",
+    "timestamp": "2026-09-30T22:36:34.368Z",
+    "meta": {
+     "slug": "openai/gpt-6-luna",
+     "name": "OpenAI: GPT-6 Luna (batch)",
+     "currentRank": 100,
+     "previousRank": 9,
+     "delta": 91
+    },
+    "summary": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-14x4tbr-ansv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "iFixAi: Independent auditing of AI agents to uncover misalignment",
+    "detail": "412 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/ifixai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-29T07:01:00.000Z",
+    "summary": "iFixAi is an independent auditor helping companies assess whether they can trust their AI agents.",
+    "meta": {
+     "votes": 412,
+     "tagline": "Independent auditing of AI agents to uncover misalignment"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-aep2p0-ansv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "LUCI Desktop: Let your AI agents remember what you've seen",
+    "detail": "357 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/luci-desktop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-29T07:01:00.000Z",
+    "summary": "Luci saves your screen history and meeting transcripts locally, so agents like Claude Code, Cursor and Codex can help you find a page you forgot to bookmark or recall a decision from a call. Capture context across apps without setting up a connector for each one.",
+    "meta": {
+     "votes": 357,
+     "tagline": "Let your AI agents remember what you've seen"
+    }
+   },
+   {
+    "id": "NEWS-p41bze-antw",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Gemini 4 Argon",
+    "detail": "631 points · 386 comments on Hacker News.",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49913571",
+    "timestamp": "2026-09-30T20:04:37Z",
+    "meta": {
+     "hnId": "49913571",
+     "points": 631,
+     "numComments": 386,
+     "author": "bradleyg223"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-hfbtey-ans7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "MCP Connectors by Databox: Give your AI Analyst context to explain performance and act",
+    "detail": "461 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/databox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-28T07:01:00.000Z",
+    "summary": "Connect your AI Analyst to the tools your business runs on. It pulls context from your CRM or support desk, so every answer reflects what's happening in your business, and it can act on what it finds. Choose from 10+ connectors or add any MCP server.",
+    "meta": {
+     "votes": 461,
+     "tagline": "Give your AI Analyst context to explain performance and act"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-174wc38-anqv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Hemory: Keep listening. Searchable memory for your AI agents.",
+    "detail": "379 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/hemory?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-26T07:01:00.000Z",
+    "summary": "Hemory comes from Hear + Memory. It's not meeting transcription: Hemory listens on the phone or Apple Watch you already own, and keeps every conversation as memory. Your day is auto-split into moments with speaker labels, then settles into a private, searchable memory.",
+    "meta": {
+     "votes": 379,
+     "tagline": "Keep listening. Searchable memory for your AI agents."
+    }
+   },
+   {
+    "id": "RESEARCH-xfhsqo-ant5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
+    "detail": "Zihang Rui, Renhao Wang, Haoxu Huang et al. · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.38178v1",
+    "timestamp": "2026-09-29T17:59:55Z",
+    "summary": "Robots deployed in the physical world must be able to improve beyond their initial training as they encounter new situations and failures. For this improvement to scale across tasks, it must make effective use of experience without requiring human demonstration of each correction.",
+    "meta": {
+     "arxivId": "2609.38178v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-g4nurg-anq7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "PixVerse R2: A real-time world model you can explore and change",
+    "detail": "382 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/pixverse-r2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-25T07:01:00.000Z",
+    "summary": "PixVerse R2 is a real-time world model that generates continuously evolving audiovisual worlds instead of fixed video clips. It accepts text, images, audio and actions while generating, remembers what happened earlier in the session, and carries those changes forward in real time.",
+    "meta": {
+     "votes": 382,
+     "tagline": "A real-time world model you can explore and change"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-rgana9-anpj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Floot MCP: Build and ship web and mobile apps inside Claude or ChatGPT",
+    "detail": "448 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/floot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-24T07:01:00.000Z",
+    "summary": "Connect Floot to Claude or ChatGPT and build a full-stack app without leaving the chat. Floot gives your AI a ready-to-use workspace with a database, user logins, hosting, and a live URL - nothing to install or configure.",
+    "meta": {
+     "votes": 448,
+     "tagline": "Build and ship web and mobile apps inside Claude or ChatGPT"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-anu0",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (199 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-10-01T00:40:22.115Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 199,
+     "country": "US"
+    },
+    "summary": "anthropics/claude-code — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-45ffpv-anpj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Scholé Learn by Building: Learning should be more than \"click next\"",
+    "detail": "412 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/schole-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-24T07:01:00.000Z",
+    "summary": "Learn by building, on any website, with Scholé by your side. You can read about a tool, watch someone walk through it on YouTube, or ask ChatGPT to explain it. But you won’t properly learn until you build with it yourself.",
+    "meta": {
+     "votes": 412,
+     "tagline": "Learning should be more than \"click next\""
+    }
+   },
+   {
+    "id": "PRESS-17c4r40-anty",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Googles Gemini 4 Argon legt Fokus auf Cybersicherheit",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Googles-Gemini-4-Argon-legt-Fokus-auf-Cybersicherheit-11471944.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-09-30T22:25:00.000Z",
+    "summary": "Google stellt Gemini 4 Argon für IT-Sicherheit und Enterprise-Workflows vor, doch die Benchmarks zeigen Lücken gegenüber GPT-6 Astra und Claude Sonnet 5.5.",
+    "meta": {
+     "rssId": "41757221ebbe77a7",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/41757221ebbe77a7"
+    }
+   },
+   {
+    "id": "PRESS-r68qwl-antx",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Google DeepMind Unveils Gemini 4 Argon with 1M Output Tokens for Coding, Knowledge Work and Cyber Defense",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/09/30/google-deepmind-unveils-gemini-4-argon-with-1m-output-tokens-for-coding-knowledge-work-and-cyber-defense/",
+    "timestamp": "2026-09-30T21:30:08.000Z",
+    "summary": "Gemini 4 Argon tops GPT-6 Astra and Claude Opus 5.5 on most benchmarks, but access remains gated today.",
+    "meta": {
+     "rssId": "26145b268b19b381",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "NEWS-10mkr83-antw",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Index-Translate: 150 text languages, plus document translation, multilingual subtitles and dubbing",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wugf2t/indextranslate_150_text_languages_plus_document/",
+    "timestamp": "2026-09-30T20:49:45.000Z",
+    "meta": {
+     "redditId": "dd3b23ad119eb966",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "I'm part of the BiliBili Index LLM team . We're sharing Index-Translate and its companion models for translating text, documents, and videos. Index-Translate supports 150 text languages , with 2B, 9B, and 35B-A3B (preview) options."
+   },
+   {
+    "id": "PRESS-1sokq3r-antv",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "KI in der Reha: Entlastung bei der Dokumentation, offene Fragen zum Arztberuf",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/KI-in-der-Reha-Entlastung-bei-der-Dokumentation-offene-Fragen-zum-Arztberuf-11471741.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-09-30T19:28:00.000Z",
+    "summary": "Was bedeuten KI-Sprachmodelle für Rehakliniken? Ärzte diskutierten unter anderem über die Möglichkeiten, Kosten, Zeitersparnis und Deskilling.",
+    "meta": {
+     "rssId": "7b463af5b9209848",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/7b463af5b9209848"
+    }
+   },
+   {
+    "id": "PRESS-r3bcnh-ants",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Show colleagues how much you care by sending an AI avatar to your Google Meet call",
+    "detail": "Reported by The Register — AI/ML (London, UK).",
+    "sourceName": "The Register — AI/ML",
+    "sourceUrl": "https://www.theregister.com/ai-and-ml/2026/09/30/show-colleagues-how-much-you-care-by-sending-an-ai-avatar-to-your-google-meet-call/5300205",
+    "timestamp": "2026-09-30T16:03:07.000Z",
+    "summary": "MeetTwins is still in development, but it's a genius idea if the goal is to prove more time-wasting calls should just be emails",
+    "meta": {
+     "rssId": "ebfc7fd3c87cab57",
+     "publisher": "the-register-ai",
+     "country": "UK",
+     "lang": "en",
+     "imagePath": "/api/rss/image/ebfc7fd3c87cab57"
+    }
+   },
+   {
+    "id": "NEWS-o1gzdk-antw",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Qwen3.8-27B-pi: Effort-Ordered Reasoning for Agentic Coding",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wufzrh/qwen3827bpi_effortordered_reasoning_for_agentic/",
+    "timestamp": "2026-09-30T20:32:41.000Z",
+    "meta": {
+     "redditId": "2c40db05ec74c3df",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "NEWS-13wn3ew-antv",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "48GB VRAM + 64GB RAM, anything worth trying except Q38 fn/27b?",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wuey20/48gb_vram_64gb_ram_anything_worth_trying_except/",
+    "timestamp": "2026-09-30T19:51:50.000Z",
+    "meta": {
+     "redditId": "a82caadf1e3d574f",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "Basically the title. Just got myself a R9700(32GB) additionally to my rx7800 (16GB) and im already experimenting with qwen3.8 fn and 27b, but im interested wheter they are any other models compatible and comparable. I want to use it with hermes agent mainly."
+   },
+   {
+    "id": "RESEARCH-18d9tfu-ant5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Breakdown of Local Denoising as Semantic Speciation",
+    "detail": "Guangkuo Liu, Mert Okyay, Yifan F. Zhang et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.38176v1",
+    "timestamp": "2026-09-29T17:59:50Z",
+    "summary": "The dynamics of generative models exhibit two apparently distinct temporal windows: a speciation window, in which a sample commits to a semantic class, and a nonlocality window, in which local context windows become insufficient for generation.",
+    "meta": {
+     "arxivId": "2609.38176v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 6,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-l072k6-ant5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization",
+    "detail": "Bingchen Yao, Haobo Xu, Haokun Lin et al. · cs.CL",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.38169v1",
+    "timestamp": "2026-09-29T17:59:40Z",
+    "summary": "Linear attention replaces growing KV caches with fixed-size recurrent states, yet these persistent states can become a substantial memory bottleneck under concurrent serving. Directly quantizing recurrent states to low precision often leads to severe accuracy degradation, as quantization errors propagate through successive state updates.",
+    "meta": {
+     "arxivId": "2609.38169v1",
+     "primaryCategory": "cs.CL",
+     "authorCount": 9,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-6wbzb7-ant5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization",
+    "detail": "Yi Pan, Haocheng Xi, Kan Zhu et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.38166v1",
+    "timestamp": "2026-09-29T17:59:34Z",
+    "summary": "Recent LLMs increasingly adopt hybrid designs that replace standard attention with linear attention, such as Gated DeltaNet (GDN) and Kimi Delta Attention (KDA). Although they compress the context into a fixed-size recurrent state and substantially reduce the cost of long-context processing, repeatedly reading and updating that state remains a major inference bottleneck.",
+    "meta": {
+     "arxivId": "2609.38166v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 13,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1jl7omy-ant5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Cropland PAtteRNS: Parallel Dimensional Attention Networks and Attention to Dataset Disparity for Crop Segmentation in Satellite Imagery Time Series Data",
+    "detail": "Joseph Metcalfe, Sara Sharifzadeh, Fabio Caraffini · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.38165v1",
+    "timestamp": "2026-09-29T17:59:29Z",
+    "summary": "The landscape of satellite imagery time series datasets and boundary-pushing architectures for cropland segmentation has never been richer. However, in this gold rush, important truths are being missed on both fronts, as a drive for the most novel concepts or the largest datasets pushes finer details to the side.",
+    "meta": {
+     "arxivId": "2609.38165v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "Space Bunny Alpha",
+    "sourceUrl": "https://openrouter.ai/stealth/space-bunny-alpha"
+   },
+   "toolHealth": {
+    "operational": 4,
+    "degraded": 1,
+    "total": 5
+   },
+   "latestPaper": {
+    "title": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
+    "sourceUrl": "https://arxiv.org/abs/2609.38178v1"
+   }
+  },
+  "lastComputed": "2026-10-01T00:40:22.109Z"
+ }
+}
