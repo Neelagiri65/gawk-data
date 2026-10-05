@@ -1,0 +1,112 @@
+{
+ "v": 1,
+ "capturedAt": "2026-10-05T15:46:57.381Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/37335328402",
+ "record": {
+  "date": "2026-10-05",
+  "lead": "caddyserver/caddy trending on GitHub (526 stars today)",
+  "counts": {
+   "accepted": 10,
+   "skipped": 3
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "Space Bunny Alpha holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "caddyserver/caddy trending on GitHub (526 stars today)",
+    "source": "curated",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "vllm/vllm-openai on docker -11% vs baseline",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-2",
+    "headline": "Openai Api is degraded",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "Codeium.codeium downloads up 90% on vscode",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-4",
+    "headline": "GPT-6 Luna moved from rank 7 to 6",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "I asked Claude build a physically accurate O'Neill cylinder you can walk around",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-6",
+    "headline": "Anthropic reported diary entry to police, woman faces felony charge",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-7",
+    "headline": "Anthropic: Claude Sonnet 5.5 up 4 ranks on OpenRouter weekly",
+    "source": "curated",
+    "slot": 7
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "ZooWork: The AI agent delivery platform for FDEs and domain experts",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis",
+    "source": "curated",
+    "slot": 8
+   },
+   {
+    "verdict": "skip",
+    "gate": "sdk-dedup",
+    "reason": "same package already covered under wording drift",
+    "headline": "Codeium.codeium",
+    "source": "supplement"
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-anthropic",
+    "headline": "anthropic (pypi) up 34%",
+    "source": "supplement",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-rotated",
+    "reason": "lead \"Space Bunny Alpha holds #1 on OpenRouter\" led 2 consecutive days — promoted \"caddyserver/caddy trending on GitHub (526 stars today)\"",
+    "lead": "caddyserver/caddy trending on GitHub (526 stars today)"
+   }
+  ]
+ }
+}
