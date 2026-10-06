@@ -1,0 +1,513 @@
+{
+ "v": 1,
+ "capturedAt": "2026-10-06T00:27:12.007Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-f5v07h-anxc",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "OpenAI API is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "OpenAI Status (summary)",
+    "sourceUrl": "https://status.openai.com",
+    "timestamp": "2026-10-06T00:27:16.606Z",
+    "meta": {
+     "toolId": "openai-api",
+     "status": "degraded",
+     "statusSourceId": "openai-status",
+     "activeIncidents": 2,
+     "incidentName": "Elevated error rates in Codex Cloud"
+    },
+    "summary": "We have applied the mitigation and are monitoring the recovery."
+   },
+   {
+    "id": "TOOL_ALERT-qgyjmt-anxc",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "GitHub Copilot has an active incident: Disruption with some GitHub services",
+    "detail": "Status page is green but lists 1 active incident (investigating).",
+    "sourceName": "GitHub Status (covers Copilot)",
+    "sourceUrl": "https://www.githubstatus.com",
+    "timestamp": "2026-10-06T00:27:16.606Z",
+    "meta": {
+     "toolId": "copilot",
+     "status": "operational",
+     "statusSourceId": "github-status",
+     "activeIncidents": 1,
+     "incidentName": "Disruption with some GitHub services"
+    },
+    "summary": "Users may experience issues accessing organization and enterprise billing and licensing pages. We are deploying a mitigation and monitoring for recovery."
+   },
+   {
+    "id": "MODEL_MOVER-1vxv0i7-anxc",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-6.1 Sol up 6 ranks on OpenRouter weekly",
+    "detail": "Now #24, was #30.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-6.1-sol",
+    "timestamp": "2026-10-06T00:19:23.782Z",
+    "meta": {
+     "slug": "openai/gpt-6.1-sol",
+     "name": "OpenAI: GPT-6.1 Sol",
+     "currentRank": 24,
+     "previousRank": 30,
+     "delta": -6
+    },
+    "summary": "GPT-6.1 Sol is an upgrade to GPT-6 Sol from OpenAI, positioned below the flagship GPT-6 Astra in the GPT-6 series."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-vdq2r8-anwv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Spira Maxima: Video model that turns script into viral social media videos",
+    "detail": "320 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/spira-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-05T07:01:00.000Z",
+    "summary": "Spira Maxima turns plain text into a finished social video: presenter, on-trend B-roll, captions and music in one pass, ready to post with nothing to re-edit. Bring a photo and voice for your AI clone, product shots, or a recording, and it builds the edit around you.",
+    "meta": {
+     "votes": 320,
+     "tagline": "Video model that turns script into viral social media videos"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-jjn5to-anvj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "ZooWork: The AI agent delivery platform for FDEs and domain experts",
+    "detail": "328 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/zoowork?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-03T07:01:00.000Z",
+    "summary": "ZooWork lets you build, deploy, and deliver AI agents to teams or clients — experts start in the Builder UI, developers ship with the Managed Agent API. Turn your expertise into AI solutions built for real business operations.",
+    "meta": {
+     "votes": 328,
+     "tagline": "The AI agent delivery platform for FDEs and domain experts"
+    }
+   },
+   {
+    "id": "PRESS-1wklmjl-anx3",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Kalifornien zwingt OpenAI zur Herausgabe von Hugging-Face-Akten",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Kalifornien-zwingt-OpenAI-zur-Herausgabe-von-Hugging-Face-Akten-11476501.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-10-05T15:11:00.000Z",
+    "summary": "Der Generalstaatsanwalt von Kalifornien versucht mit einer Ermittlungsvorladung, die Herausgabe von OpenAIs Unterlagen zum Hugging-Face-Vorfall zu erzwingen.",
+    "meta": {
+     "rssId": "23d72decb0da8dc8",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/23d72decb0da8dc8"
+    },
+    "story": {
+     "sources": [],
+     "discussion": [
+      {
+       "site": "r/LocalLLaMA",
+       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wydetp/skyisnotgreenscion35ba3b_hugging_face_ternary_moe/",
+       "points": null,
+       "timestamp": "2026-10-05T16:41:29.000Z"
+      }
+     ]
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-15pbc6m-anuv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Gauth Unlimited Digital Canvas : An AI tutor on an infinite whiteboard, not a chat thread",
+    "detail": "462 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/gauth-ai-course?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-02T07:01:00.000Z",
+    "summary": "Gauth AI Course now runs on an Unlimited Digital Canvas: one continuous whiteboard where lessons unfold spatially instead of in a chat thread or slide deck.",
+    "meta": {
+     "votes": 462,
+     "tagline": "An AI tutor on an infinite whiteboard, not a chat thread"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-lz44cl-anu7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Yedric.ai: Let users control your SaaS with natural language",
+    "detail": "314 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/yedric-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-01T07:01:00.000Z",
+    "summary": "Your users shouldn't have to learn where every feature lives. Yedric adds an embeddable AI agent to your SaaS that turns natural-language requests into actions your product already knows how to perform. Users simply say what they want done and Yedric handles the interaction.",
+    "meta": {
+     "votes": 314,
+     "tagline": "Let users control your SaaS with natural language"
+    }
+   },
+   {
+    "id": "NEWS-1dx6skh-anx9",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+    "detail": "149 points · 115 comments on Hacker News.",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49970667",
+    "timestamp": "2026-10-05T21:00:21Z",
+    "meta": {
+     "hnId": "49970667",
+     "points": 149,
+     "numComments": 115,
+     "author": "outlier99"
+    },
+    "machineSummary": {
+     "text": "Two candidate room‑temperature Luttinger‑compensated semiconductors were identified: a new compound designed by Claude Opus 5.5 agents and KV[Cr(CN)₆] first synthesized in 1999. Both materials are predicted to have zero net spin moment, large spin‑sorted windows above 26 meV, and negligible stray magnetic fields, making them promising for spintronic memory devices.",
+     "model": "openai/gpt-oss-20b",
+     "generatedAt": "2026-10-05T22:31:56.741Z"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1knzwk1-antj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Pexo: Produce pitch perfect launch videos with precise control",
+    "detail": "457 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/pexo-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-30T07:01:00.000Z",
+    "summary": "Pexo makes creating your launch video as simple as having a conversation. Share your product, website, or assets. It plans the story, chooses the right AI model for each task, generates and assembles the scenes, and handles voiceover, music, captions, motion graphics, and editing.",
+    "meta": {
+     "votes": 457,
+     "tagline": "Produce pitch perfect launch videos with precise control"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-zkjj17-antj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Ferndesk: The help center that never goes out of date",
+    "detail": "385 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/ferndesk?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-30T07:01:00.000Z",
+    "summary": "Ferndesk is a complete help center with an agent that checks every article against your product, catches what changed, and drafts the fixes for you.",
+    "meta": {
+     "votes": 385,
+     "tagline": "The help center that never goes out of date"
+    }
+   },
+   {
+    "id": "RESEARCH-putswp-anv5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis",
+    "detail": "Keerthi Kaashyap, Dennis Anthony, Akshay Krishnan et al. · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.03717v1",
+    "timestamp": "2026-10-02T17:59:14Z",
+    "summary": "This paper examines the role of Novel View Synthesis (NVS) in geometric representation learning. In principle, NVS should reason about 3D scene structure, thereby enabling transferable multi-view geometric representations. Yet, existing encoder-based NVS methods yield poor representations.",
+    "meta": {
+     "arxivId": "2610.03717v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 8,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-14x4tbr-ansv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "iFixAi: Independent auditing of AI agents to uncover misalignment",
+    "detail": "445 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/ifixai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-29T07:01:00.000Z",
+    "summary": "iFixAi is an independent auditor helping companies assess whether they can trust their AI agents.",
+    "meta": {
+     "votes": 445,
+     "tagline": "Independent auditing of AI agents to uncover misalignment"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-aep2p0-ansv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "LUCI Desktop: Let your AI agents remember what you've seen",
+    "detail": "360 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/luci-desktop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-09-29T07:01:00.000Z",
+    "summary": "Luci saves your screen history and meeting transcripts locally, so agents like Claude Code, Cursor and Codex can help you find a page you forgot to bookmark or recall a decision from a call. Capture context across apps without setting up a connector for each one.",
+    "meta": {
+     "votes": 360,
+     "tagline": "Let your AI agents remember what you've seen"
+    }
+   },
+   {
+    "id": "PRESS-fodct7-anx0",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Building an Enterprise AI Customer Support Platform with Claude Fable 5.1 and Claude Code",
+    "detail": "Reported by Analytics Vidhya (Gurgaon, IN).",
+    "sourceName": "Analytics Vidhya",
+    "sourceUrl": "https://www.analyticsvidhya.com/blog/2026/10/build-enterprise-ai-agent-claude-fable-5-1/",
+    "timestamp": "2026-10-05T12:45:02.000Z",
+    "summary": "Most AI coding demos stop at task managers, weather apps, or simple chatbots.",
+    "meta": {
+     "rssId": "5ad1cd9729811cb6",
+     "publisher": "analytics-vidhya",
+     "country": "IN",
+     "lang": "en"
+    },
+    "story": {
+     "sources": [
+      {
+       "publisher": "MarkTechPost",
+       "country": "IN",
+       "lang": "en",
+       "url": "https://www.marktechpost.com/2026/10/04/gpt-6-astra-vs-gpt-6-1-sol-vs-gemini-4-argon-vs-claude-fable-5-1-which-frontier-model-fits-which-job/",
+       "timestamp": "2026-10-04T20:59:56.000Z"
+      }
+     ],
+     "discussion": []
+    }
+   },
+   {
+    "id": "PRESS-129xz6n-anxa",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Meet Together Link: A Free CLI That Runs Open Models Like Kimi K3 and GLM 5.3 Inside Claude Code, Codex, and OpenCode",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/10/05/meet-together-link-a-free-cli-that-runs-open-models-like-kimi-k3-and-glm-5-3-inside-claude-code-codex-and-opencode/",
+    "timestamp": "2026-10-05T22:51:05.000Z",
+    "summary": "Together AI has released Together Link, a free, MIT-licensed CLI that connects Claude Code, Codex, OpenCode, Pi, and the Claude and ChatGPT desktop apps to open models like Kimi K3 and GLM 5.3. One install command sets it up, and an Auto router picks a model for each session.",
+    "meta": {
+     "rssId": "4bd5b1edfeab1705",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-anxc",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (198 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-10-06T00:27:16.626Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 198,
+     "country": "US"
+    },
+    "summary": "anthropics/claude-code — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+   },
+   {
+    "id": "PRESS-1uiluxq-anx9",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Building a Streaming Robotics Learning Pipeline Using NVIDIA Cosmos3-DROID",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/10/05/building-a-streaming-robotics-learning-pipeline-using-nvidia-cosmos3-droid/",
+    "timestamp": "2026-10-05T21:41:14.000Z",
+    "summary": "Discover how to construct an end-to-end streaming robotics learning pipeline using the NVIDIA Cosmos3-DROID dataset without local downloads, leveraging byte-range Parquet reads, behavior cloning, and temporal ensembling.",
+    "meta": {
+     "rssId": "0cf0f95aceb58776",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "PRESS-hlrzsv-anx3",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Connecting AI agents to enterprise knowledge",
+    "detail": "Reported by MIT Technology Review — AI (Cambridge, US).",
+    "sourceName": "MIT Technology Review — AI",
+    "sourceUrl": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
+    "timestamp": "2026-10-05T15:47:52.000Z",
+    "summary": "For all the data that AI systems continually amass and analyze, enterprise AI agents often suffer from a curious shortcoming: a lack of knowledge. More than data, knowledge is the understanding of what the data means in the context of individual organizations.",
+    "meta": {
+     "rssId": "fa18144c498af4a5",
+     "publisher": "mit-tech-review-ai",
+     "country": "US",
+     "lang": "en",
+     "imagePath": "/api/rss/image/fa18144c498af4a5"
+    }
+   },
+   {
+    "id": "NEWS-112m30b-anx9",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "What comes close to Codex's Computer Use MCP",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wykkzd/what_comes_close_to_codexs_computer_use_mcp/",
+    "timestamp": "2026-10-05T21:17:19.000Z",
+    "meta": {
+     "redditId": "d4748e9d61759bcb",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "I'm not sure if it's the model or just the Codex's MCP itself, which was built by another smaller startup called Sky. I want to build an agent system equivalent of an RPA for my company, and we don't want to use Codex's Computer Use MCP because of the enterprise issues."
+   },
+   {
+    "id": "PRESS-huqvrs-anx1",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Google schränkt Gemini-Zugriff für AI-Plus-Kunden ein",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Google-Gemini-Pro-Modelle-erfordern-ab-Oktober-ein-AI-Pro-Abo-11476479.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-10-05T13:50:00.000Z",
+    "summary": "Googles Gemini-Pro-Modelle erfordern ab Oktober ein Google-AI-Pro-Abo. AI-Plus-Kunden verlieren den Zugriff.",
+    "meta": {
+     "rssId": "c2a20def8eda4709",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/c2a20def8eda4709"
+    }
+   },
+   {
+    "id": "PRESS-5yg9xo-anx1",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Bringing predictive analytics to the agentic AI era",
+    "detail": "Reported by MIT Technology Review — AI (Cambridge, US).",
+    "sourceName": "MIT Technology Review — AI",
+    "sourceUrl": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
+    "timestamp": "2026-10-05T13:29:32.000Z",
+    "summary": "In 2026, the question for enterprise AI is no longer whether predictive models can outperform statistical forecasts—that argument is settled. The big question now is how to enable predictive systems to act on their own conclusions without drifting from business intent.",
+    "meta": {
+     "rssId": "9678788d72e3181c",
+     "publisher": "mit-tech-review-ai",
+     "country": "US",
+     "lang": "en",
+     "imagePath": "/api/rss/image/9678788d72e3181c"
+    }
+   },
+   {
+    "id": "NEWS-snrlkc-anx9",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Blackwell + consumer GPU",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wykiu9/blackwell_consumer_gpu/",
+    "timestamp": "2026-10-05T21:14:48.000Z",
+    "meta": {
+     "redditId": "0ba3fa16b6413292",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "My machine isnt that terrible.. but nowhere near what some people run as an aI workstation. I am wondering if i can combine the 2 GPUs. I got a cheap Blackwell 4000 (little bit under MSRP) 24 GB and have an old 3060 12GB .."
+   },
+   {
+    "id": "NEWS-1w8jaoy-anx8",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "When Redditors come in here and ask why we run LLMs, this is why: Big AI is watching.",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wyjuh0/when_redditors_come_in_here_and_ask_why_we_run/",
+    "timestamp": "2026-10-05T20:47:58.000Z",
+    "meta": {
+     "redditId": "bd34b654222dbf14",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "Anthropic Reports Florida Woman's Claude 'Diary' Threat to Law Enforcement And this time it wasn't the AI model that made the LEO referral. It was the \"human review team\". The frontier AI companies are watching your input."
+   },
+   {
+    "id": "RESEARCH-1dgjj37-anv5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes",
+    "detail": "Ruihong Shen, Žiga Kovačič, Peter Kulits et al. · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.03715v1",
+    "timestamp": "2026-10-02T17:58:49Z",
+    "summary": "We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dynamic scenes from video as executable graphics programs. To accomplish this, agents must translate visual observations into compact representations of scene structure and dynamics, by implementing abstractions such as physical simulations to reproduce complex behavior.",
+    "meta": {
+     "arxivId": "2610.03715v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 9,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-aybcot-anv5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "What Should World Models Forget? Stratified Retention for Continual Adaptation",
+    "detail": "Nishit Anand, Ramani Duraiswami, Dinesh Manocha · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.03713v1",
+    "timestamp": "2026-10-02T17:58:14Z",
+    "summary": "Continual learning treats degradation on previously seen data as evidence of failure, a convention inherited from settings with a stationary prediction target, where a correct label remains correct indefinitely. World models do not satisfy this condition.",
+    "meta": {
+     "arxivId": "2610.03713v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-3c5g0u-anv5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "RNADyn: A Benchmark for Generating and Understanding RNA Dynamics",
+    "detail": "Yiming Huang, Lennart Bastian, Hanqun Cao et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.03712v1",
+    "timestamp": "2026-10-02T17:58:08Z",
+    "summary": "Ribonucleic acid (RNA) functions through conformational changes that are not fully captured by static structures. However, large-scale standardized RNA dynamics data remain limited, and existing approaches typically treat trajectory generation and dynamics understanding as separate objectives.",
+    "meta": {
+     "arxivId": "2610.03712v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1r3mczc-anv5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras",
+    "detail": "Kush Hari, Justin Kerr, Nidhya Shivakumar et al. · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.03710v1",
+    "timestamp": "2026-10-02T17:57:51Z",
+    "summary": "Inspired by human vision, we introduce a framework using active gaze to enable fine-grained bimanual manipulation with only a single stereo camera. EyeRobot 2.0 physically attends to a 3D fixation point in the scene by swiveling two eye viewpoints to center their gaze on it.",
+    "meta": {
+     "arxivId": "2610.03710v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 10,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+   },
+   "toolHealth": {
+    "operational": 4,
+    "degraded": 1,
+    "total": 5
+   },
+   "latestPaper": {
+    "title": "Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis",
+    "sourceUrl": "https://arxiv.org/abs/2610.03717v1"
+   }
+  },
+  "lastComputed": "2026-10-06T00:27:16.604Z"
+ }
+}
