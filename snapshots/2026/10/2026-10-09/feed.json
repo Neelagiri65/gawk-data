@@ -1,0 +1,571 @@
+{
+ "v": 1,
+ "capturedAt": "2026-10-09T00:14:06.297Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-nnnbm6-anzc",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Claude Code is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "Anthropic Status (Claude Code + API)",
+    "sourceUrl": "https://status.claude.com",
+    "timestamp": "2026-10-09T00:14:10.949Z",
+    "meta": {
+     "toolId": "claude-code",
+     "status": "degraded",
+     "statusSourceId": "anthropic-status",
+     "activeIncidents": 1,
+     "incidentName": "Elevated errors on platform.claude.com"
+    },
+    "summary": "We've mitigated the errors loading usage data on platform.claude.com and in the Admin API usage report. While we work on a full fix, the most recent ~30 minutes of usage may take longer to appear on the platform.claude.com. API requests are not affected, and we will provide additional updates here."
+   },
+   {
+    "id": "MODEL_MOVER-tbuqgt-anzb",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "DeepSeek: DeepSeek V4 Pro 0813 up 4 ranks on OpenRouter weekly",
+    "detail": "Now #24, was #28.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+    "timestamp": "2026-10-08T23:33:03.902Z",
+    "meta": {
+     "slug": "deepseek/deepseek-v4-pro-0813",
+     "name": "DeepSeek: DeepSeek V4 Pro 0813",
+     "currentRank": 24,
+     "previousRank": 28,
+     "delta": -4
+    },
+    "summary": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. This is the GA release of DeepSeek V4 Pro."
+   },
+   {
+    "id": "MODEL_MOVER-1gfz8ad-anzb",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Upstage: Solar Mini 4 up 5 ranks on OpenRouter weekly",
+    "detail": "Now #32, was #37.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/upstage/solar-mini4",
+    "timestamp": "2026-10-08T23:33:03.902Z",
+    "meta": {
+     "slug": "upstage/solar-mini4",
+     "name": "Upstage: Solar Mini 4",
+     "currentRank": 32,
+     "previousRank": 37,
+     "delta": -5
+    },
+    "summary": "Solar Mini 4 is Upstage's compact, cost-efficient language model, a 35B-parameter mixture-of-experts with 3B active parameters and a 524K context window."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-xo505e-any7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "IrisGo for Solopreneurs: AI workflow automation: show it once, let it run",
+    "detail": "516 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/irisgo-public-beta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-07T07:01:00.000Z",
+    "summary": "IrisGo helps solopreneurs automate recurring work. Get daily briefs, triage email, track to-dos, and turn demonstrated tasks into reusable workflows with Watch & Learn. Spend less time on admin and more time building your business. Free during beta.",
+    "meta": {
+     "votes": 516,
+     "tagline": "AI workflow automation: show it once, let it run"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-rn93tp-anzb",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "SpaceXAI: Grok 4.7 up 11 ranks on OpenRouter weekly",
+    "detail": "Now #39, was #50.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/x-ai/grok-4.7",
+    "timestamp": "2026-10-08T23:33:03.902Z",
+    "meta": {
+     "slug": "x-ai/grok-4.7",
+     "name": "SpaceXAI: Grok 4.7",
+     "currentRank": 39,
+     "previousRank": 50,
+     "delta": -11
+    },
+    "summary": "Grok 4.7 is SpaceXAI's flagship model for coding, agentic tasks, and knowledge work, succeeding Grok 4.6."
+   },
+   {
+    "id": "MODEL_MOVER-1w5wpct-anzb",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3 Super (free) up 5 ranks on OpenRouter weekly",
+    "detail": "Now #40, was #45.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b",
+    "timestamp": "2026-10-08T23:33:03.902Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3-super-120b-a12b",
+     "name": "NVIDIA: Nemotron 3 Super (free)",
+     "currentRank": 40,
+     "previousRank": 45,
+     "delta": -5
+    },
+    "summary": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications."
+   },
+   {
+    "id": "PRESS-1cnozk3-anz4",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/10/08/jetbrains-releases-mellum2-1-a-12b-moe-open-model-for-coding-agents/",
+    "timestamp": "2026-10-08T16:17:35.000Z",
+    "summary": "JetBrains released Mellum2.1, an Apache 2.0, 12B mixture-of-experts thinking model with 2.5B active parameters. RL in real repositories lifted its SWE-bench Verified score from 2.0 to 47.0.",
+    "meta": {
+     "rssId": "5dd1b5883f7c1bd1",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    },
+    "story": {
+     "sources": [],
+     "discussion": [
+      {
+       "site": "r/LocalLLaMA",
+       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0u6l7/mellum21_a_jetbrains_collection/",
+       "points": null,
+       "timestamp": "2026-10-08T15:38:19.000Z"
+      }
+     ]
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1b2jita-anzb",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Dots Studio: Dots3-Note Preview (free) up 5 ranks on OpenRouter weekly",
+    "detail": "Now #41, was #46.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/dots-studio/dots-3-note-preview",
+    "timestamp": "2026-10-08T23:33:03.902Z",
+    "meta": {
+     "slug": "dots-studio/dots-3-note-preview",
+     "name": "Dots Studio: Dots3-Note Preview (free)",
+     "currentRank": 41,
+     "previousRank": 46,
+     "delta": -5
+    },
+    "summary": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is suited for reasoning, coding, multimodal understanding, long-context processing, and multi-step agent workflows."
+   },
+   {
+    "id": "MODEL_MOVER-18zywve-anzb",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Qwen: Qwen3.8 27B down 4 ranks on OpenRouter weekly",
+    "detail": "Now #43, was #39.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/qwen/qwen3.8-27b",
+    "timestamp": "2026-10-08T23:33:03.902Z",
+    "meta": {
+     "slug": "qwen/qwen3.8-27b",
+     "name": "Qwen: Qwen3.8 27B",
+     "currentRank": 43,
+     "previousRank": 39,
+     "delta": 4
+    },
+    "summary": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be enabled or disabled."
+   },
+   {
+    "id": "NEWS-17ov2hi-anza",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Strata rewrote their Github history to wipe evidence of Claude-authoring",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x15a8w/strata_rewrote_their_github_history_to_wipe/",
+    "timestamp": "2026-10-08T22:52:03.000Z",
+    "meta": {
+     "redditId": "b96a85ed9fc11c5a",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "Just noticed this today when I went to run the built-in \"UPDATE\" script and git failed because there was no common ancestor. Looked into why, and apparently every historical commit has been re-written to strip the \"Co-Authored by Claude\" text from the descriptions."
+   },
+   {
+    "id": "MODEL_MOVER-whujn-anzb",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "DeepSeek: DeepSeek V4 Flash Latest down 4 ranks on OpenRouter weekly",
+    "detail": "Now #44, was #40.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/~deepseek/deepseek-v4-flash-latest",
+    "timestamp": "2026-10-08T23:33:03.902Z",
+    "meta": {
+     "slug": "~deepseek/deepseek-v4-flash-latest",
+     "name": "DeepSeek: DeepSeek V4 Flash Latest",
+     "currentRank": 44,
+     "previousRank": 40,
+     "delta": 4
+    },
+    "summary": "This model always redirects to the latest model in the DeepSeek V4 Flash family."
+   },
+   {
+    "id": "MODEL_MOVER-1cclgta-anzb",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: gpt-oss-120b down 7 ranks on OpenRouter weekly",
+    "detail": "Now #45, was #38.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-oss-120b",
+    "timestamp": "2026-10-08T23:33:03.902Z",
+    "meta": {
+     "slug": "openai/gpt-oss-120b",
+     "name": "OpenAI: gpt-oss-120b",
+     "currentRank": 45,
+     "previousRank": 38,
+     "delta": 7
+    },
+    "summary": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases."
+   },
+   {
+    "id": "RESEARCH-5yfde8-anyh",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
+    "detail": "Shravan Chaudhari, William Paul, Suchi Saria et al. · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.10538v1",
+    "timestamp": "2026-10-07T17:59:41Z",
+    "summary": "As we move through the world and carry out everyday tasks, we encounter objects that may become relevant only later. We are capable of recalling where we left something or what was inside a container, even without knowing we would need it later. Here, we study how an embodied assistant can build a similar memory from egocentric videos, by observing a person's day-to-day activities.",
+    "meta": {
+     "arxivId": "2610.10538v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-k0l2sr-anzb",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Qwen: Qwen3.8 Flash down 5 ranks on OpenRouter weekly",
+    "detail": "Now #47, was #42.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/qwen/qwen3.8-flash",
+    "timestamp": "2026-10-08T23:33:03.902Z",
+    "meta": {
+     "slug": "qwen/qwen3.8-flash",
+     "name": "Qwen: Qwen3.8 Flash",
+     "currentRank": 47,
+     "previousRank": 42,
+     "delta": 5
+    },
+    "summary": "Qwen3.8 Flash is a multimodal reasoning model from Alibaba. It is suited for coding assistance, agentic workflows, visual understanding, document and codebase analysis, desktop interaction, chart analysis, and long-video analysis."
+   },
+   {
+    "id": "MODEL_MOVER-i41l3g-anzb",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemini 2.5 Flash down 4 ranks on OpenRouter weekly",
+    "detail": "Now #48, was #44.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemini-2.5-flash",
+    "timestamp": "2026-10-08T23:33:03.902Z",
+    "meta": {
+     "slug": "google/gemini-2.5-flash",
+     "name": "Google: Gemini 2.5 Flash",
+     "currentRank": 48,
+     "previousRank": 44,
+     "delta": 4
+    },
+    "summary": "Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide responses with greater accuracy and nuanced context handling."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-m9lp57-any7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Velozity: The Multiplayer AI Office where your team and agents work.",
+    "detail": "445 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/velozity-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-07T07:01:00.000Z",
+    "summary": "Your team chats in one app, meets in another, and every AI works alone. Velozity brings it all into one place. Chat, audio and video calls with transcripts, tasks, calendar and files, plus AI agents (Claude, Codex, etc.) on the subscriptions you already pay for.",
+    "meta": {
+     "votes": 445,
+     "tagline": "The Multiplayer AI Office where your team and agents work."
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-9k4uq5-anxj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Rill Browser: The browser where Claude Code and Codex work beside you",
+    "detail": "439 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/rill-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-06T07:01:00.000Z",
+    "summary": "Rill is an AI-native browser built around the Claude Code and Codex you already use. Browse normally, then press ⌘E on any page to turn what you're looking at into a task for your agent. Rill finds the right project, passes along the context, and the agent works while you keep browsing.",
+    "meta": {
+     "votes": 439,
+     "tagline": "The browser where Claude Code and Codex work beside you"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-anzc",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (200 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-10-09T00:14:10.958Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 200,
+     "country": "US"
+    },
+    "summary": "anthropics/claude-code — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-15z7sdm-anxj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "OpenBot: Grok Bot alternative: free, local, open-source, multiplayer",
+    "detail": "364 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/openbot-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-06T07:01:00.000Z",
+    "summary": "OpenBot is an open-source workspace for AI teammates. Connect Claude, ChatGPT, Grok, OpenCode, or custom agents on Mac, Windows, and iOS. Give agents clear roles, let them delegate work, and invite your team to collaborate live with the same agents.",
+    "meta": {
+     "votes": 364,
+     "tagline": "Grok Bot alternative: free, local, open-source, multiplayer"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-vdq2r8-anwv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Spira Maxima: Video model that turns script into viral social media videos",
+    "detail": "480 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/spira-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-05T07:01:00.000Z",
+    "summary": "Spira Maxima turns plain text into a finished social video: presenter, on-trend B-roll, captions and music in one pass, ready to post with nothing to re-edit. Bring a photo and voice for your AI clone, product shots, or a recording, and it builds the edit around you.",
+    "meta": {
+     "votes": 480,
+     "tagline": "Video model that turns script into viral social media videos"
+    }
+   },
+   {
+    "id": "PRESS-p7tlhz-anzb",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "[AINews] not much happened today",
+    "detail": "Reported by latent.space (San Francisco, US).",
+    "sourceName": "latent.space",
+    "sourceUrl": "https://www.latent.space/p/ainews-not-much-happened-today-60f",
+    "timestamp": "2026-10-08T23:29:43.000Z",
+    "summary": "a quiet day.",
+    "meta": {
+     "rssId": "5be20daa15e12ad1",
+     "publisher": "latent-space",
+     "country": "US",
+     "lang": "en",
+     "imagePath": "/api/rss/image/5be20daa15e12ad1"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1735ska-anwv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "FastRouter.ai: Route requests to the right LLM for cost, latency & quality",
+    "detail": "358 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/fastrouter-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-05T07:01:00.000Z",
+    "summary": "FastRouter is a unified AI gateway and control plane for developers and enterprise teams building with LLMs. It routes every request to the right model across 200+ LLMs through one OpenAI-compatible API, optimizing for cost, latency, quality, and reliability.",
+    "meta": {
+     "votes": 358,
+     "tagline": "Route requests to the right LLM for cost, latency & quality"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1qhv1sw-anwv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Opengeni: Ship AI agents within minutes. Infrastructure for Agents",
+    "detail": "338 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/opengeni?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-05T07:01:00.000Z",
+    "summary": "Ship AI agents to production in hours. Opengeni gives you sessions that recover from failures, isolated sandboxes, 100+ integrations, human approvals, and visibility into every step and dollar spent. Focus on your agents. We handle the infrastructure. Self-host for free, or get started on our cloud.",
+    "meta": {
+     "votes": 338,
+     "tagline": "Ship AI agents within minutes. Infrastructure for Agents"
+    }
+   },
+   {
+    "id": "NEWS-1xnxv96-anz9",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Bois, there's now a waterblock for the R9700. Quiet 4x or 6x builds are now possible.",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x135oh/bois_theres_now_a_waterblock_for_the_r9700_quiet/",
+    "timestamp": "2026-10-08T21:19:58.000Z",
+    "meta": {
+     "redditId": "1a5ad0e3f44b8467",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "Seems 1-slot design, so you could cram in quite a lot into a case"
+   },
+   {
+    "id": "PRODUCT_LAUNCH-15pbc6m-anuv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Gauth Unlimited Digital Canvas : An AI tutor on an infinite whiteboard, not a chat thread",
+    "detail": "467 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/gauth-ai-course?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-02T07:01:00.000Z",
+    "summary": "Gauth AI Course now runs on an Unlimited Digital Canvas: one continuous whiteboard where lessons unfold spatially instead of in a chat thread or slide deck.",
+    "meta": {
+     "votes": 467,
+     "tagline": "An AI tutor on an infinite whiteboard, not a chat thread"
+    }
+   },
+   {
+    "id": "PRESS-1pbmf1c-anz4",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk",
+    "detail": "Reported by latent.space (San Francisco, US).",
+    "sourceName": "latent.space",
+    "sourceUrl": "https://www.latent.space/p/periodic",
+    "timestamp": "2026-10-08T16:27:54.000Z",
+    "summary": "A special Science pod and Engineering pod crossover.. with Forward Deployed Engineering kicker!",
+    "meta": {
+     "rssId": "d76511746000857d",
+     "publisher": "latent-space",
+     "country": "US",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "PRESS-p08tgc-anz3",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Ecosia: Warum die Suchmaschine Mistral AI durch chinesische KI ersetzt",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Adieu-Mistral-Ecosia-wechselt-zu-chinesischen-Open-Source-KI-Modellen-11481323.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-10-08T15:39:00.000Z",
+    "summary": "Die Suchmaschine Ecosia trennt sich von Mistral AI. Künftig setzt das Unternehmen verstärkt auf Open-Weight-Modelle, darunter auch Systeme aus China.",
+    "meta": {
+     "rssId": "e4120ca8f2e7a750",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/e4120ca8f2e7a750"
+    }
+   },
+   {
+    "id": "NEWS-8of6x6-anz8",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "GPU - Vulkan llama.cpp benchmarks sorted by price to performance",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x12dkh/gpu_vulkan_llamacpp_benchmarks_sorted_by_price_to/",
+    "timestamp": "2026-10-08T20:49:04.000Z",
+    "meta": {
+     "redditId": "920983861fcf0fa7",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "This table to help anyone looking to build a budget Data Center homelab. I copied the bulk of value based, mid level, decent speed results GPUs and feed it to AI or SI and here are the recommended results."
+   },
+   {
+    "id": "RESEARCH-gw7e3e-anyh",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Decoupling Exploration from Optimization in RLVR",
+    "detail": "Saif Punjwani, Micah Goldblum · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.10536v1",
+    "timestamp": "2026-10-07T17:59:26Z",
+    "summary": "Modern language models undergo reinforcement learning with verifiable rewards (RLVR) on top of already-trained checkpoints. A key promise of RLVR is the discovery of new reasoning strategies. In principle, a model can sample novel ideas absent from its prior training data. In practice, however, augmenting RLVR with strong novelty incentives has seen limited success and can degrade model quality.",
+    "meta": {
+     "arxivId": "2610.10536v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-4nm8th-anyh",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Long-WAM: Scaling the Context of World-Action Models",
+    "detail": "Wei Huang, Bohan Zhang, Chenzhi Liu et al. · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.10528v1",
+    "timestamp": "2026-10-07T17:58:04Z",
+    "summary": "Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints.",
+    "meta": {
+     "arxivId": "2610.10528v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 16,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-kfxr7o-anyh",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Decentralized SGD under Heavy-Tailed Noise: Optimal Convergence Rates and the Role of Gradient Clipping",
+    "detail": "Aleksandar Armacki, Haoyuan Cai, Ali H. Sayed · math.OC",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.10527v1",
+    "timestamp": "2026-10-07T17:57:58Z",
+    "summary": "Heavy-tailed noise has been widely observed in modern machine learning, motivating the use of methods like gradient clipping and normalization. While these methods are well understood in centralized settings, much less is known in decentralized ones, where applying a nonlinearity to local gradients affects both optimization and consensus.",
+    "meta": {
+     "arxivId": "2610.10527v1",
+     "primaryCategory": "math.OC",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1ingfo3-anyh",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Rephrase Before You Act: Characterizing and Mitigating Language Sensitivity in Vision-Language-Action Models",
+    "detail": "Mikey Watts, Yuchen Cui · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.10526v1",
+    "timestamp": "2026-10-07T17:57:38Z",
+    "summary": "Vision-language-action models (VLAs) are strikingly sensitive to instruction phrasing and do not inherit the language robustness of the vision-language models they are built on.",
+    "meta": {
+     "arxivId": "2610.10526v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+   },
+   "toolHealth": {
+    "operational": 4,
+    "degraded": 1,
+    "total": 5
+   },
+   "latestPaper": {
+    "title": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
+    "sourceUrl": "https://arxiv.org/abs/2610.10538v1"
+   }
+  },
+  "lastComputed": "2026-10-09T00:14:10.949Z"
+ }
+}
