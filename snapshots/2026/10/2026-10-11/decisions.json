@@ -1,0 +1,112 @@
+{
+ "v": 1,
+ "capturedAt": "2026-10-11T13:54:23.080Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/38144918894",
+ "record": {
+  "date": "2026-10-11",
+  "lead": "vllm/vllm-openai downloads up 64.2% on docker",
+  "counts": {
+   "accepted": 10,
+   "skipped": 3
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "DeepSeek V4.1 Flash holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "vllm/vllm-openai downloads up 64.2% on docker",
+    "source": "curated",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "huggingface/transformers trending on GitHub (536 stars today)",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-2",
+    "headline": "Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "Claude Code is degraded",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-4",
+    "headline": "Claude Sonnet 5.5 moved from rank 19 to 14",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-5",
+    "headline": "ollama on brew +35% vs baseline",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-6",
+    "headline": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
+    "source": "curated",
+    "slot": 7
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "OpenAI API is reporting degraded performance",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "model-dedup",
+    "reason": "same rank move already shipped for \"claude sonnet 5.5\"",
+    "headline": "Anthropic: Claude Sonnet 5.5 up 5 ranks on OpenRouter weekly",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
+    "source": "curated",
+    "slot": 8
+   },
+   {
+    "verdict": "skip",
+    "gate": "sdk-dedup",
+    "reason": "same package already covered under wording drift",
+    "headline": "vllm/vllm-openai",
+    "source": "supplement"
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-llamaindex",
+    "headline": "llamaindex (npm) up 58%",
+    "source": "supplement",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-rotated",
+    "reason": "lead \"DeepSeek V4.1 Flash holds #1 on OpenRouter\" led 2 consecutive days — promoted \"vllm/vllm-openai downloads up 64.2% on docker\"",
+    "lead": "vllm/vllm-openai downloads up 64.2% on docker"
+   }
+  ]
+ }
+}
