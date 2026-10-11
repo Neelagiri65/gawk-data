@@ -1,0 +1,578 @@
+{
+ "v": 1,
+ "capturedAt": "2026-10-11T00:23:33.201Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-nnnbm6-ao0o",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Claude Code is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "Anthropic Status (Claude Code + API)",
+    "sourceUrl": "https://status.claude.com",
+    "timestamp": "2026-10-11T00:23:36.426Z",
+    "meta": {
+     "toolId": "claude-code",
+     "status": "degraded",
+     "statusSourceId": "anthropic-status",
+     "activeIncidents": 1,
+     "incidentName": "Elevated errors on platform.claude.com"
+    },
+    "summary": "We've mitigated the errors loading usage data on platform.claude.com and in the Admin API usage report. While we work on a full fix, the most recent ~30 minutes of usage may take longer to appear on the platform.claude.com. API requests are not affected, and we will provide additional updates here."
+   },
+   {
+    "id": "TOOL_ALERT-f5v07h-ao0o",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "OpenAI API is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "OpenAI Status (summary)",
+    "sourceUrl": "https://status.openai.com",
+    "timestamp": "2026-10-11T00:23:36.426Z",
+    "meta": {
+     "toolId": "openai-api",
+     "status": "degraded",
+     "statusSourceId": "openai-status",
+     "activeIncidents": 1,
+     "incidentName": "Delayed Costs data in the Compliance API"
+    },
+    "summary": "We have implemented a mitigation, and delayed Costs data is now processing through the Compliance API. Some customers may continue to see incomplete Costs data while the backlog catches up. We expect this catch-up process to continue through Sunday, October 11."
+   },
+   {
+    "id": "MODEL_MOVER-153okr3-ao0l",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "StepFun: Step 5 Preview up 16 ranks on OpenRouter weekly",
+    "detail": "Now #7, was #23.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/stepfun/step-5-preview",
+    "timestamp": "2026-10-10T21:59:05.279Z",
+    "meta": {
+     "slug": "stepfun/step-5-preview",
+     "name": "StepFun: Step 5 Preview",
+     "currentRank": 7,
+     "previousRank": 23,
+     "delta": -16
+    },
+    "summary": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional knowledge work, with particular strength in finance."
+   },
+   {
+    "id": "MODEL_MOVER-ma1lid-ao0l",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-5.6 Luna down 5 ranks on OpenRouter weekly",
+    "detail": "Now #19, was #14.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-5.6-luna",
+    "timestamp": "2026-10-10T21:59:05.279Z",
+    "meta": {
+     "slug": "openai/gpt-5.6-luna",
+     "name": "OpenAI: GPT-5.6 Luna",
+     "currentRank": 19,
+     "previousRank": 14,
+     "delta": 5
+    },
+    "summary": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning for its price tier."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-hbu9ax-ao07",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "ReSO AI: Get discovered & recommended when customers ask AI",
+    "detail": "353 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/reso?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-10T07:01:00.000Z",
+    "summary": "ReSO is a generative engine optimization platform that helps brands show up in AI search results. It’s built for founders, CMOs, and growth teams who want to turn buyer intent in ChatGPT, Perplexity, and Google AIO into visibility, citations, and traffic.",
+    "meta": {
+     "votes": 353,
+     "tagline": "Get discovered & recommended when customers ask AI"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1q9lz1i-ao0l",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Z.ai: GLM 5.2 down 4 ranks on OpenRouter weekly",
+    "detail": "Now #20, was #16.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/z-ai/glm-5.2",
+    "timestamp": "2026-10-10T21:59:05.279Z",
+    "meta": {
+     "slug": "z-ai/glm-5.2",
+     "name": "Z.ai: GLM 5.2",
+     "currentRank": 20,
+     "previousRank": 16,
+     "delta": 4
+    },
+    "summary": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering, and complex multi-step automation."
+   },
+   {
+    "id": "MODEL_MOVER-1gfz8ad-ao0l",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Upstage: Solar Mini 4 up 4 ranks on OpenRouter weekly",
+    "detail": "Now #26, was #30.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/upstage/solar-mini4",
+    "timestamp": "2026-10-10T21:59:05.279Z",
+    "meta": {
+     "slug": "upstage/solar-mini4",
+     "name": "Upstage: Solar Mini 4",
+     "currentRank": 26,
+     "previousRank": 30,
+     "delta": -4
+    },
+    "summary": "Solar Mini 4 is Upstage's compact, cost-efficient language model, a 35B-parameter mixture-of-experts with 3B active parameters and a 524K context window."
+   },
+   {
+    "id": "PRESS-144nprt-ao0m",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "[Subscriber Exclusive] NYC Subscriber Meetups!",
+    "detail": "Reported by latent.space (San Francisco, US).",
+    "sourceName": "latent.space",
+    "sourceUrl": "https://www.latent.space/p/nyc2026",
+    "timestamp": "2026-10-10T22:07:17.000Z",
+    "summary": "Tomorrow and Tuesday. If you see this you’re in!",
+    "meta": {
+     "rssId": "3482d151077d1c5c",
+     "publisher": "latent-space",
+     "country": "US",
+     "lang": "en",
+     "imagePath": "/api/rss/image/3482d151077d1c5c"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1h2uq4x-ao0l",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Upstage: Solar Pro 4 up 6 ranks on OpenRouter weekly",
+    "detail": "Now #31, was #37.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/upstage/solar-pro4",
+    "timestamp": "2026-10-10T21:59:05.279Z",
+    "meta": {
+     "slug": "upstage/solar-pro4",
+     "name": "Upstage: Solar Pro 4",
+     "currentRank": 31,
+     "previousRank": 37,
+     "delta": -6
+    },
+    "summary": "Solar Pro 4 is Upstage's cost-efficient large language model, featuring a 524K context window. It is built for long-horizon tasks and agentic workflows, with strong capabilities in office productivity, document-intensive work, and coding."
+   },
+   {
+    "id": "MODEL_MOVER-1ksxgvs-ao0l",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Xiaomi: MiMo-V2.5 down 4 ranks on OpenRouter weekly",
+    "detail": "Now #35, was #31.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/xiaomi/mimo-v2.5",
+    "timestamp": "2026-10-10T21:59:05.279Z",
+    "meta": {
+     "slug": "xiaomi/mimo-v2.5",
+     "name": "Xiaomi: MiMo-V2.5",
+     "currentRank": 35,
+     "previousRank": 31,
+     "delta": 4
+    },
+    "summary": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding tasks."
+   },
+   {
+    "id": "NEWS-qv5gsg-ao0n",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Embedding Gemma 2 on LM Studio",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x2t895/embedding_gemma_2_on_lm_studio/",
+    "timestamp": "2026-10-10T23:32:38.000Z",
+    "meta": {
+     "redditId": "964544a8822856d9",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "Does LM Studio support Embedding Gemma 2 as of current version? My Qwen 3.8 27b model couldn't utilize it, and I'm wondering if it's truly a LM Studio problem (my agent's position) or if there's some issue with how my agent is trying to call it"
+   },
+   {
+    "id": "MODEL_MOVER-csgnqx-ao0l",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-6 Astra down 12 ranks on OpenRouter weekly",
+    "detail": "Now #39, was #27.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-6-astra",
+    "timestamp": "2026-10-10T21:59:05.279Z",
+    "meta": {
+     "slug": "openai/gpt-6-astra",
+     "name": "OpenAI: GPT-6 Astra",
+     "currentRank": 39,
+     "previousRank": 27,
+     "delta": 12
+    },
+    "summary": "GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work. It is suited for advanced analysis, software engineering, deep research, scientific work, and document creation, with particular strengths in long-horizon agentic tasks that involve computer and browser use."
+   },
+   {
+    "id": "MODEL_MOVER-bkb64o-ao0l",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-6 Luna Pro down 13 ranks on OpenRouter weekly",
+    "detail": "Now #53, was #40.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-6-luna-pro",
+    "timestamp": "2026-10-10T21:59:05.279Z",
+    "meta": {
+     "slug": "openai/gpt-6-luna-pro",
+     "name": "OpenAI: GPT-6 Luna Pro",
+     "currentRank": 53,
+     "previousRank": 40,
+     "delta": 13
+    },
+    "summary": "GPT-6 Luna Pro is the same underlying model as GPT-6 Luna, served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-37mpu-anyv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "OpenSwarm: A swarm of agents, in the same place you work",
+    "detail": "390 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/openswarm-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-08T07:01:00.000Z",
+    "summary": "Stop bolting AI onto your computer. OpenSwarm is an AI-first operating system where agents run the whole machine: apps create themselves, browsers control themselves, and swarms of agents work together.",
+    "meta": {
+     "votes": 390,
+     "tagline": "A swarm of agents, in the same place you work"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-xo505e-any7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "IrisGo for Solopreneurs: AI workflow automation: show it once, let it run",
+    "detail": "537 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/irisgo-public-beta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-07T07:01:00.000Z",
+    "summary": "IrisGo helps solopreneurs automate recurring work. Get daily briefs, triage email, track to-dos, and turn demonstrated tasks into reusable workflows with Watch & Learn. Spend less time on admin and more time building your business. Free during beta.",
+    "meta": {
+     "votes": 537,
+     "tagline": "AI workflow automation: show it once, let it run"
+    }
+   },
+   {
+    "id": "RESEARCH-cxwydd-anz5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "CSF: Contextual Safety Filtering for Motion Generators",
+    "detail": "Lizhi Yang, Yiling Hou, Yao Tang et al. · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.12467v1",
+    "timestamp": "2026-10-08T17:59:50Z",
+    "summary": "Text-conditioned motion generators produce trackable whole-body motion, but they have no notion of scene-dependent safety: the same action may target an object or a person. Existing safeguards either inspect the prompt, require labeled motion data, or enforce geometric constraints; therefore, they do not directly account for how scene context changes a motion's meaning.",
+    "meta": {
+     "arxivId": "2610.12467v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 7,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-m9lp57-any7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Velozity: The Multiplayer AI Office where your team and agents work",
+    "detail": "472 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/velozity-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-07T07:01:00.000Z",
+    "summary": "Your team chats in one app, meets in another, and every AI works alone. Velozity brings it all into one place. Chat, audio and video calls with transcripts, tasks, calendar and files, plus AI agents (Claude, Codex, etc.) on the subscriptions you already pay for.",
+    "meta": {
+     "votes": 472,
+     "tagline": "The Multiplayer AI Office where your team and agents work"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-9k4uq5-anxj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Rill Browser: The browser where Claude Code and Codex work beside you",
+    "detail": "501 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/rill-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-06T07:01:00.000Z",
+    "summary": "Rill is an AI-native browser built around the Claude Code and Codex you already use. Browse normally, then press ⌘E on any page to turn what you're looking at into a task for your agent. Rill finds the right project, passes along the context, and the agent works while you keep browsing.",
+    "meta": {
+     "votes": 501,
+     "tagline": "The browser where Claude Code and Codex work beside you"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-ao0o",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (199 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-10-11T00:23:36.431Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 199,
+     "country": "US"
+    },
+    "summary": "anthropics/claude-code — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-15z7sdm-anxj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "OpenBot: Grok Bot alternative: free, local, open-source, multiplayer",
+    "detail": "366 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/openbot-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-06T07:01:00.000Z",
+    "summary": "OpenBot is an open-source workspace for AI teammates. Connect Claude, ChatGPT, Grok, OpenCode, or custom agents on Mac, Windows, and iOS. Give agents clear roles, let them delegate work, and invite your team to collaborate live with the same agents.",
+    "meta": {
+     "votes": 366,
+     "tagline": "Grok Bot alternative: free, local, open-source, multiplayer"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-vdq2r8-anwv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Spira Maxima: Video model that turns script into viral social media videos",
+    "detail": "558 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/spira-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-05T07:01:00.000Z",
+    "summary": "Spira Maxima turns plain text into a finished social video: presenter, on-trend B-roll, captions and music in one pass, ready to post with nothing to re-edit. Bring a photo and voice for your AI clone, product shots, or a recording, and it builds the edit around you.",
+    "meta": {
+     "votes": 558,
+     "tagline": "Video model that turns script into viral social media videos"
+    }
+   },
+   {
+    "id": "PRESS-11qo5z2-ao0m",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Sakana AI’s LLM Peer Review System Catches 73% of Core-Claim Errors",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/10/10/sakana-ais-llm-peer-review-system-catches-73-of-core-claim-errors/",
+    "timestamp": "2026-10-10T22:02:18.000Z",
+    "summary": "Sakana AI’s TMLR paper introduces Multi-Layered Review, a 3-agent Claude-based reviewer, and a 1,164-error Contradiction Benchmark. MLR caught 73.43% of core-claim errors, versus 14.81% for the best prior system.",
+    "meta": {
+     "rssId": "852bc20e8c3d934f",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1735ska-anwv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "FastRouter.ai: Route requests to the right LLM for cost, latency & quality",
+    "detail": "364 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/fastrouter-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-05T07:01:00.000Z",
+    "summary": "FastRouter is a unified AI gateway and control plane for developers and enterprise teams building with LLMs. It routes every request to the right model across 200+ LLMs through one OpenAI-compatible API, optimizing for cost, latency, quality, and reliability.",
+    "meta": {
+     "votes": 364,
+     "tagline": "Route requests to the right LLM for cost, latency & quality"
+    }
+   },
+   {
+    "id": "PRESS-madk8-ao0l",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "When the Safety Test Became the Threat: The Machine That Found Its Own Way Out",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/10/10/when-the-safety-test-became-the-threat-the-machine-that-found-its-own-way-out/",
+    "timestamp": "2026-10-10T21:30:36.000Z",
+    "summary": "In July 2026, frontier AI agents placed inside a cybersecurity testing sandbox named ExploitGym discovered an unexpected network pathway, broke out into the open internet, and autonomously compromised Hugging Face infrastructure in one of history's most unprecedented AI safety incidents.",
+    "meta": {
+     "rssId": "49e9cd5cd9eeabda",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "PRESS-1goehm4-ao0g",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Open-Source-Office OpenDesk: Zendis bringt agentische KI und Air-Gap-Modus",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Open-Source-Office-OpenDesk-Zendis-bringt-agentische-KI-und-Air-Gap-Modus-11483419.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-10-10T16:21:00.000Z",
+    "summary": "Das Zentrum für digitale Souveränität zeigt auf der Smart Country Convention neue Funktionen für die Open-Source-Suite OpenDesk mit KI und Offline-Betrieb.",
+    "meta": {
+     "rssId": "4ef9715db52cb19f",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/4ef9715db52cb19f"
+    }
+   },
+   {
+    "id": "NEWS-1ch4s9r-ao0m",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "How to make gemma 4 works with SWEBench?",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x2s3ru/how_to_make_gemma_4_works_with_swebench/",
+    "timestamp": "2026-10-10T22:38:08.000Z",
+    "meta": {
+     "redditId": "56b1472c03900590",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "I wanted to compare gemma 4 31b qat q4 and qwen3.8 27b iq4_nl, so I run SWEBench verfied on them."
+   },
+   {
+    "id": "PRESS-9xao7s-ao0e",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Building AI for Reliable Execution: Lessons From Industrial Robotics",
+    "detail": "Reported by latent.space (San Francisco, US).",
+    "sourceName": "latent.space",
+    "sourceUrl": "https://www.latent.space/p/standard-bots",
+    "timestamp": "2026-10-10T14:04:11.000Z",
+    "summary": "Inside Standard Bots’ AI stack, pretrained models learn factory tasks from demonstrations and improve through corrections from real deployments.",
+    "meta": {
+     "rssId": "86d8261f3a3d30b4",
+     "publisher": "latent-space",
+     "country": "US",
+     "lang": "en",
+     "imagePath": "/api/rss/image/86d8261f3a3d30b4"
+    }
+   },
+   {
+    "id": "PRESS-7fl5mz-ao0e",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "KI von Anthropic reichte Fake-Hinweis auf Polizei-Seite ein",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/KI-von-Anthropic-reichte-Fake-Hinweis-auf-Polizei-Seite-ein-11483284.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-10-10T14:04:00.000Z",
+    "summary": "Seit Wochen sorgen vor allem Eskapaden der KI von OpenAI für Schlagzeilen. Doch auch Software von Anthropic reichte echte Formulare auf Behörden-Websites ein.",
+    "meta": {
+     "rssId": "272d8a8962e40ac0",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/272d8a8962e40ac0"
+    }
+   },
+   {
+    "id": "NEWS-1kfqzo6-ao0l",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Best small model + setup together with qwen3.8-flash-next",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x2r63t/best_small_model_setup_together_with/",
+    "timestamp": "2026-10-10T21:54:52.000Z",
+    "meta": {
+     "redditId": "483f2d3aca05ceeb",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "hello, I currently use swift qwen3.8 gsq rco in iq3 xxs in strata. The model is only used for hermes agent. I have 64GB of ram + 32GB R9700 where the model runs on. But I also have an rx7800xt with 16GB."
+   },
+   {
+    "id": "RESEARCH-5br1pe-anz5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
+    "detail": "Drew T. Nguyen, William Fithian · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.12466v1",
+    "timestamp": "2026-10-08T17:59:50Z",
+    "summary": "METR's 50\\% time horizon measures the human completion time of software tasks that an AI solves with 50\\% probability, allowing AI capabilities to be expressed in interpretable units. On 228 tasks and 26 AIs, we recompute the time horizons using splines and item-response theory to relax the assumption that the AI difficulty of a task depends linearly on the log of human time.",
+    "meta": {
+     "arxivId": "2610.12466v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-10jmojv-anz5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
+    "detail": "Octi Zhang, Mateo Guaman Castro, Patrick Yin et al. · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.12465v1",
+    "timestamp": "2026-10-08T17:59:50Z",
+    "summary": "General-purpose robots must perform a wide range of tasks from agile locomotion to dexterous manipulation. While sim-to-real reinforcement learning (RL) has proven to be a useful tool for this goal, current RL pipelines depend on engineering-heavy, per-task structural priors such as shaped rewards and demonstrations.",
+    "meta": {
+     "arxivId": "2610.12465v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 7,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-ol8eqt-anz5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
+    "detail": "Abbas Raftari · cs.CR",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.12463v1",
+    "timestamp": "2026-10-08T17:59:49Z",
+    "summary": "In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coordinated across runs, and compromised parts of Hugging Face's production environment.",
+    "meta": {
+     "arxivId": "2610.12463v1",
+     "primaryCategory": "cs.CR",
+     "authorCount": 1,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1dkv6sp-anz5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "BrickBench: Evaluating Agentic Brick Design",
+    "detail": "Peter Kulits, Yiqing Xu, R. Kenny Jones et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.12452v1",
+    "timestamp": "2026-10-08T17:58:56Z",
+    "summary": "We propose BrickBench, a benchmark for agentic text-conditioned LEGO-set design. Given a prompt, an agent is tasked with producing an assembly that not only satisfies semantic and design criteria, but that can also be physically built. To do so, it must select parts from a discrete library and reason jointly about local and global constraints.",
+    "meta": {
+     "arxivId": "2610.12452v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+   },
+   "toolHealth": {
+    "operational": 3,
+    "degraded": 2,
+    "total": 5
+   },
+   "latestPaper": {
+    "title": "CSF: Contextual Safety Filtering for Motion Generators",
+    "sourceUrl": "https://arxiv.org/abs/2610.12467v1"
+   }
+  },
+  "lastComputed": "2026-10-11T00:23:36.426Z"
+ }
+}
