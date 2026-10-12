@@ -1,0 +1,486 @@
+{
+ "v": 1,
+ "capturedAt": "2026-10-12T00:42:18.633Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-nnnbm6-ao1c",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Claude Code is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "Anthropic Status (Claude Code + API)",
+    "sourceUrl": "https://status.claude.com",
+    "timestamp": "2026-10-12T00:42:22.421Z",
+    "meta": {
+     "toolId": "claude-code",
+     "status": "degraded",
+     "statusSourceId": "anthropic-status",
+     "activeIncidents": 1,
+     "incidentName": "Elevated errors on platform.claude.com"
+    },
+    "summary": "We've mitigated the errors loading usage data on platform.claude.com and in the Admin API usage report. While we work on a full fix, the most recent ~30 minutes of usage may take longer to appear on the platform.claude.com. API requests are not affected, and we will provide additional updates here."
+   },
+   {
+    "id": "TOOL_ALERT-f5v07h-ao1c",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "OpenAI API is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "OpenAI Status (summary)",
+    "sourceUrl": "https://status.openai.com",
+    "timestamp": "2026-10-12T00:42:22.421Z",
+    "meta": {
+     "toolId": "openai-api",
+     "status": "degraded",
+     "statusSourceId": "openai-status",
+     "activeIncidents": 1,
+     "incidentName": "Delayed Costs data in the Compliance API"
+    },
+    "summary": "We have implemented a mitigation, and delayed Costs data is now processing through the Compliance API. Some customers may continue to see incomplete Costs data while the backlog catches up. We expect this catch-up process to continue through Sunday, October 11."
+   },
+   {
+    "id": "MODEL_MOVER-153okr3-ao1a",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "StepFun: Step 5 Preview up 4 ranks on OpenRouter weekly",
+    "detail": "Now #5, was #9.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/stepfun/step-5-preview",
+    "timestamp": "2026-10-11T22:27:40.949Z",
+    "meta": {
+     "slug": "stepfun/step-5-preview",
+     "name": "StepFun: Step 5 Preview",
+     "currentRank": 5,
+     "previousRank": 9,
+     "delta": -4
+    },
+    "summary": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional knowledge work, with particular strength in finance."
+   },
+   {
+    "id": "MODEL_MOVER-14dsu6k-ao1a",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Anthropic: Claude Sonnet 5.5 up 5 ranks on OpenRouter weekly",
+    "detail": "Now #14, was #19.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/anthropic/claude-sonnet-5.5",
+    "timestamp": "2026-10-11T22:27:40.949Z",
+    "meta": {
+     "slug": "anthropic/claude-sonnet-5.5",
+     "name": "Anthropic: Claude Sonnet 5.5",
+     "currentRank": 14,
+     "previousRank": 19,
+     "delta": -5
+    },
+    "summary": "Claude Sonnet 5.5 is Anthropic's Sonnet-class model for well-scoped everyday work, succeeding Claude Sonnet 5 as a direct upgrade."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-hbu9ax-ao07",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "ReSO AI: Get discovered & recommended when customers ask AI",
+    "detail": "469 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/reso?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-10T07:01:00.000Z",
+    "summary": "ReSO is a generative engine optimization platform that helps brands show up in AI search results. It’s built for founders, CMOs, and growth teams who want to turn buyer intent in ChatGPT, Perplexity, and Google AIO into visibility, citations, and traffic.",
+    "meta": {
+     "votes": 469,
+     "tagline": "Get discovered & recommended when customers ask AI"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-kv64gd-ao1a",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Anthropic: Claude Haiku 5.5 up 10 ranks on OpenRouter weekly",
+    "detail": "Now #26, was #36.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/anthropic/claude-haiku-5.5",
+    "timestamp": "2026-10-11T22:27:40.949Z",
+    "meta": {
+     "slug": "anthropic/claude-haiku-5.5",
+     "name": "Anthropic: Claude Haiku 5.5",
+     "currentRank": 26,
+     "previousRank": 36,
+     "delta": -10
+    },
+    "summary": "Claude Haiku 5.5 is Anthropic's small, fast model for high-volume, cost-sensitive work such as summarization, subagents, and browser use. It succeeds Claude Haiku 4.5 with stronger coding, computer use, and knowledge work, and accepts text and image input with a 1M-token context window."
+   },
+   {
+    "id": "MODEL_MOVER-1cj8uwy-ao1a",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-6 Sol down 5 ranks on OpenRouter weekly",
+    "detail": "Now #32, was #27.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-6-sol",
+    "timestamp": "2026-10-11T22:27:40.949Z",
+    "meta": {
+     "slug": "openai/gpt-6-sol",
+     "name": "OpenAI: GPT-6 Sol",
+     "currentRank": 32,
+     "previousRank": 27,
+     "delta": 5
+    },
+    "summary": "GPT-6 Sol is the cost-efficient high-end model in OpenAI's GPT-6 series, positioned below the flagship GPT-6 Astra and above the fast GPT-6 Luna tier."
+   },
+   {
+    "id": "PRESS-s3wqil-ao1b",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Meet Cloudflare Clef-omni: A 30B-A3B Multimodal Decision Model for Audio, Video, Image and Text",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/10/11/cloudflare-clef-omni-multimodal-decision-model/",
+    "timestamp": "2026-10-11T23:15:52.000Z",
+    "summary": "Cloudflare released Clef-omni, an Apache-2.0 multimodal decision model built on Qwen3-Omni-30B-A3B. It scores text, images, audio and video in one call for $0.15 per million input tokens, while Clef-flash drops to $0.038.",
+    "meta": {
+     "rssId": "30631ff0cdc61141",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1ksxgvs-ao1a",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Xiaomi: MiMo-V2.5 down 4 ranks on OpenRouter weekly",
+    "detail": "Now #37, was #33.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/xiaomi/mimo-v2.5",
+    "timestamp": "2026-10-11T22:27:40.949Z",
+    "meta": {
+     "slug": "xiaomi/mimo-v2.5",
+     "name": "Xiaomi: MiMo-V2.5",
+     "currentRank": 37,
+     "previousRank": 33,
+     "delta": 4
+    },
+    "summary": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding tasks."
+   },
+   {
+    "id": "MODEL_MOVER-u8kqi1-ao1a",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "inclusionAI: Ling 3.1 Flash up 4 ranks on OpenRouter weekly",
+    "detail": "Now #39, was #43.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/inclusionai/ling-3.1-flash",
+    "timestamp": "2026-10-11T22:27:40.949Z",
+    "meta": {
+     "slug": "inclusionai/ling-3.1-flash",
+     "name": "inclusionAI: Ling 3.1 Flash",
+     "currentRank": 39,
+     "previousRank": 43,
+     "delta": -4
+    },
+    "summary": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-q3dygg-ao07",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Onepin: AI voiceover with every name, price and date said right",
+    "detail": "444 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/onepin?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-10T07:01:00.000Z",
+    "summary": "AI voices sound human now. But they still guess names from the spelling, and nobody has time to listen to every line.",
+    "meta": {
+     "votes": 444,
+     "tagline": "AI voiceover with every name, price and date said right"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-37mpu-anyv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "OpenSwarm: A swarm of agents, in the same place you work",
+    "detail": "390 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/openswarm-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-08T07:01:00.000Z",
+    "summary": "Stop bolting AI onto your computer. OpenSwarm is an AI-first operating system where agents run the whole machine: apps create themselves, browsers control themselves, and swarms of agents work together.",
+    "meta": {
+     "votes": 390,
+     "tagline": "A swarm of agents, in the same place you work"
+    }
+   },
+   {
+    "id": "NEWS-19ihuox-ao18",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "The gap in shared understanding of LLM capability is widening",
+    "detail": "148 points · 201 comments on Hacker News.",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50047422",
+    "timestamp": "2026-10-11T20:20:52Z",
+    "meta": {
+     "hnId": "50047422",
+     "points": 148,
+     "numComments": 201,
+     "author": "albertzeyer"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-xo505e-any7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "IrisGo for Solopreneurs: AI workflow automation: show it once, let it run",
+    "detail": "539 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/irisgo-public-beta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-07T07:01:00.000Z",
+    "summary": "IrisGo helps solopreneurs automate recurring work. Get daily briefs, triage email, track to-dos, and turn demonstrated tasks into reusable workflows with Watch & Learn. Spend less time on admin and more time building your business. Free during beta.",
+    "meta": {
+     "votes": 539,
+     "tagline": "AI workflow automation: show it once, let it run"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-m9lp57-any7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Velozity: The Multiplayer AI Office where your team and agents work",
+    "detail": "473 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/velozity-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-07T07:01:00.000Z",
+    "summary": "Your team chats in one app, meets in another, and every AI works alone. Velozity brings it all into one place. Chat, audio and video calls with transcripts, tasks, calendar and files, plus AI agents (Claude, Codex, etc.) on the subscriptions you already pay for.",
+    "meta": {
+     "votes": 473,
+     "tagline": "The Multiplayer AI Office where your team and agents work"
+    }
+   },
+   {
+    "id": "RESEARCH-cxwydd-anz5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "CSF: Contextual Safety Filtering for Motion Generators",
+    "detail": "Lizhi Yang, Yiling Hou, Yao Tang et al. · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.12467v1",
+    "timestamp": "2026-10-08T17:59:50Z",
+    "summary": "Text-conditioned motion generators produce trackable whole-body motion, but they have no notion of scene-dependent safety: the same action may target an object or a person. Existing safeguards either inspect the prompt, require labeled motion data, or enforce geometric constraints; therefore, they do not directly account for how scene context changes a motion's meaning.",
+    "meta": {
+     "arxivId": "2610.12467v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 7,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-9k4uq5-anxj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Rill Browser: The browser where Claude Code and Codex work beside you",
+    "detail": "543 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/rill-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-06T07:01:00.000Z",
+    "summary": "Rill is an AI-native browser built around the Claude Code and Codex you already use. Browse normally, then press ⌘E on any page to turn what you're looking at into a task for your agent. Rill finds the right project, passes along the context, and the agent works while you keep browsing.",
+    "meta": {
+     "votes": 543,
+     "tagline": "The browser where Claude Code and Codex work beside you"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-15z7sdm-anxj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "OpenBot: Grok Bot alternative: free, local, open-source, multiplayer",
+    "detail": "366 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/openbot-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-06T07:01:00.000Z",
+    "summary": "OpenBot is an open-source workspace for AI teammates. Connect Claude, ChatGPT, Grok, OpenCode, or custom agents on Mac, Windows, and iOS. Give agents clear roles, let them delegate work, and invite your team to collaborate live with the same agents.",
+    "meta": {
+     "votes": 366,
+     "tagline": "Grok Bot alternative: free, local, open-source, multiplayer"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-ao1c",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (199 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-10-12T00:42:22.428Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 199,
+     "country": "US"
+    },
+    "summary": "anthropics/claude-code — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-vdq2r8-anwv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Spira Maxima: Video model that turns script into viral social media videos",
+    "detail": "572 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/spira-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-05T07:01:00.000Z",
+    "summary": "Spira Maxima turns plain text into a finished social video: presenter, on-trend B-roll, captions and music in one pass, ready to post with nothing to re-edit. Bring a photo and voice for your AI clone, product shots, or a recording, and it builds the edit around you.",
+    "meta": {
+     "votes": 572,
+     "tagline": "Video model that turns script into viral social media videos"
+    }
+   },
+   {
+    "id": "PRESS-14h7g03-ao19",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "What is Decision 3.0? vLLM Semantic Router’s New Open Decision Models",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/10/11/what-is-decision-3-0-vllm-semantic-routers-new-open-decision-models/",
+    "timestamp": "2026-10-11T21:43:41.000Z",
+    "summary": "vLLM Semantic Router released Decision 3.0, 5 Apache-2.0 multimodal decision models from 0.8B to 27B. They answer choice, yes/no and score questions about text and images in one call, without generating text.",
+    "meta": {
+     "rssId": "0129d91f7def23cf",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "NEWS-v1qbhe-ao1b",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "OpenCode 2.0.26 is out, if you need to constantly prompt \"Continue\" it's not just your bot AFAIK",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x3n8ex/opencode_2026_is_out_if_you_need_to_constantly/",
+    "timestamp": "2026-10-11T23:56:26.000Z",
+    "meta": {
+     "redditId": "76aa8c823b73425e",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "I upgraded to OpenCode 2.0.26 today, and even with competent bots it seems to hang up where the bot will be like, \"Great, I'll implement that.\" And I have to prompt it with, \"Yes, go ahead.\" as if it has no agenticness. Bot: \"Fixing the test:\" Me \" T-t-t-today, junior! \""
+   },
+   {
+    "id": "NEWS-lnck0v-ao1b",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "GitHub - giveen/Decapybara: Open-source C++20 and CUDA reconstruction of the MegaCapybara inference server",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x3mikv/github_giveendecapybara_opensource_c20_and_cuda/",
+    "timestamp": "2026-10-11T23:20:49.000Z",
+    "meta": {
+     "redditId": "520f479cbb8e293a",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "I dont like how in a open source code community, someone posts a binary file, says \"trust me bro\" to run it on our local computers. Claims \"oh i'm the fastest but I dont have time to post my source code, just my pre-compiled binary files\""
+   },
+   {
+    "id": "RESEARCH-5br1pe-anz5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
+    "detail": "Drew T. Nguyen, William Fithian · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.12466v1",
+    "timestamp": "2026-10-08T17:59:50Z",
+    "summary": "METR's 50\\% time horizon measures the human completion time of software tasks that an AI solves with 50\\% probability, allowing AI capabilities to be expressed in interpretable units. On 228 tasks and 26 AIs, we recompute the time horizons using splines and item-response theory to relax the assumption that the AI difficulty of a task depends linearly on the log of human time.",
+    "meta": {
+     "arxivId": "2610.12466v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "NEWS-ewrd97-ao1a",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "AuroraIMG-6M Releases!",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x3lzmk/auroraimg6m_releases/",
+    "timestamp": "2026-10-11T22:56:03.000Z",
+    "meta": {
+     "redditId": "4a9a336cec68d578",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "It's a tiny 6M parameter text to image model, and it can make recognizable images at 64x64. The 6M accounts for everything, there's no oversized text encoder or VAE. Check out the model card for samples, a detailed explanation about it's architecture and training, and a quick start!"
+   },
+   {
+    "id": "RESEARCH-10jmojv-anz5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
+    "detail": "Octi Zhang, Mateo Guaman Castro, Patrick Yin et al. · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.12465v1",
+    "timestamp": "2026-10-08T17:59:50Z",
+    "summary": "General-purpose robots must perform a wide range of tasks from agile locomotion to dexterous manipulation. While sim-to-real reinforcement learning (RL) has proven to be a useful tool for this goal, current RL pipelines depend on engineering-heavy, per-task structural priors such as shaped rewards and demonstrations.",
+    "meta": {
+     "arxivId": "2610.12465v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 7,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-ol8eqt-anz5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
+    "detail": "Abbas Raftari · cs.CR",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.12463v1",
+    "timestamp": "2026-10-08T17:59:49Z",
+    "summary": "In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coordinated across runs, and compromised parts of Hugging Face's production environment.",
+    "meta": {
+     "arxivId": "2610.12463v1",
+     "primaryCategory": "cs.CR",
+     "authorCount": 1,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1dkv6sp-anz5",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "BrickBench: Evaluating Agentic Brick Design",
+    "detail": "Peter Kulits, Yiqing Xu, R. Kenny Jones et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.12452v1",
+    "timestamp": "2026-10-08T17:58:56Z",
+    "summary": "We propose BrickBench, a benchmark for agentic text-conditioned LEGO-set design. Given a prompt, an agent is tasked with producing an assembly that not only satisfies semantic and design criteria, but that can also be physically built. To do so, it must select parts from a discrete library and reason jointly about local and global constraints.",
+    "meta": {
+     "arxivId": "2610.12452v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+   },
+   "toolHealth": {
+    "operational": 3,
+    "degraded": 2,
+    "total": 5
+   },
+   "latestPaper": {
+    "title": "CSF: Contextual Safety Filtering for Motion Generators",
+    "sourceUrl": "https://arxiv.org/abs/2610.12467v1"
+   }
+  },
+  "lastComputed": "2026-10-12T00:42:22.421Z"
+ }
+}
