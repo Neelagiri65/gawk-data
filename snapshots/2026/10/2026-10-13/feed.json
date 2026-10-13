@@ -1,0 +1,443 @@
+{
+ "v": 1,
+ "capturedAt": "2026-10-13T02:34:44.667Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-nnnbm6-ao22",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Claude Code is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "Anthropic Status (Claude Code + API)",
+    "sourceUrl": "https://status.claude.com",
+    "timestamp": "2026-10-13T02:34:47.694Z",
+    "meta": {
+     "toolId": "claude-code",
+     "status": "degraded",
+     "statusSourceId": "anthropic-status",
+     "activeIncidents": 1,
+     "incidentName": "Elevated errors on platform.claude.com"
+    },
+    "summary": "We've mitigated the errors loading usage data on platform.claude.com and in the Admin API usage report. While we work on a full fix, the most recent ~30 minutes of usage may take longer to appear on the platform.claude.com. API requests are not affected, and we will provide additional updates here."
+   },
+   {
+    "id": "TOOL_ALERT-1ef0dl0-ao22",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Cursor is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "Cursor Status",
+    "sourceUrl": "https://status.cursor.com",
+    "timestamp": "2026-10-13T02:34:47.694Z",
+    "meta": {
+     "toolId": "cursor",
+     "status": "degraded",
+     "statusSourceId": "cursor-status",
+     "activeIncidents": 1,
+     "incidentName": "Degraded performance and errors across Cursor services"
+    },
+    "summary": "All Cursor services have recovered and are operating normally, except Cloud Agents. Some Cloud Agents may still be slow to start or fail to run, and we're actively working to restore full service. We'll share another update as soon as we have more information."
+   },
+   {
+    "id": "MODEL_MOVER-1ksxgvs-ao20",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Xiaomi: MiMo-V2.5 down 4 ranks on OpenRouter weekly",
+    "detail": "Now #42, was #38.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/xiaomi/mimo-v2.5",
+    "timestamp": "2026-10-13T00:57:57.102Z",
+    "meta": {
+     "slug": "xiaomi/mimo-v2.5",
+     "name": "Xiaomi: MiMo-V2.5",
+     "currentRank": 42,
+     "previousRank": 38,
+     "delta": 4
+    },
+    "summary": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding tasks."
+   },
+   {
+    "id": "MODEL_MOVER-k0l2sr-ao20",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Qwen: Qwen3.8 Flash up 4 ranks on OpenRouter weekly",
+    "detail": "Now #45, was #49.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/qwen/qwen3.8-flash",
+    "timestamp": "2026-10-13T00:57:57.102Z",
+    "meta": {
+     "slug": "qwen/qwen3.8-flash",
+     "name": "Qwen: Qwen3.8 Flash",
+     "currentRank": 45,
+     "previousRank": 49,
+     "delta": -4
+    },
+    "summary": "Qwen3.8 Flash is a multimodal reasoning model from Alibaba. It is suited for coding assistance, agentic workflows, visual understanding, document and codebase analysis, desktop interaction, chart analysis, and long-video analysis."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-hbu9ax-ao07",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "ReSO AI: Get discovered & recommended when customers ask AI",
+    "detail": "500 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/reso?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-10T07:01:00.000Z",
+    "summary": "ReSO is a generative engine optimization platform that helps brands show up in AI search results. It’s built for founders, CMOs, and growth teams who want to turn buyer intent in ChatGPT, Perplexity, and Google AIO into visibility, citations, and traffic.",
+    "meta": {
+     "votes": 500,
+     "tagline": "Get discovered & recommended when customers ask AI"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-q3dygg-ao07",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Onepin: AI voiceover with every name, price and date said right",
+    "detail": "435 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/onepin?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-10T07:01:00.000Z",
+    "summary": "AI voices sound human now. But they still guess names from the spelling, and nobody has time to listen to every line.",
+    "meta": {
+     "votes": 435,
+     "tagline": "AI voiceover with every name, price and date said right"
+    }
+   },
+   {
+    "id": "PRESS-1x38f7s-ao1x",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/10/12/alibaba-qwen-introduces-qwengyre-elastic-reinforcement-learning-rl-for-xlong-horizon-agents/",
+    "timestamp": "2026-10-12T21:41:50.000Z",
+    "summary": "Alibaba’s Qwen team has introduced QwenGyre, an elastic reinforcement learning RL framework for extreme-long-horizon agent training. QwenGyre is an online reinforcement learning system from Alibaba that trains coding agents through unmodified, black-box harnesses.",
+    "meta": {
+     "rssId": "732fc3317ca96ca7",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    },
+    "story": {
+     "sources": [],
+     "discussion": [
+      {
+       "site": "r/LocalLLaMA",
+       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x41myz/qwen_released_qwengyre_rl_framework_for_training/",
+       "points": null,
+       "timestamp": "2026-10-12T13:18:10.000Z"
+      }
+     ]
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-37mpu-anyv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "OpenSwarm: A swarm of agents, in the same place you work",
+    "detail": "383 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/openswarm-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-08T07:01:00.000Z",
+    "summary": "Stop bolting AI onto your computer. OpenSwarm is an AI-first operating system where agents run the whole machine: apps create themselves, browsers control themselves, and swarms of agents work together.",
+    "meta": {
+     "votes": 383,
+     "tagline": "A swarm of agents, in the same place you work"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-t3yyz2-anyv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Claude Haiku 5.5: Anthropic's fastest and most capable Haiku yet",
+    "detail": "345 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/claude-haiku-5-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-08T07:01:00.000Z",
+    "summary": "Claude Haiku 5.5 is Anthropic's fastest and most capable small model, built for high-volume, cost-sensitive tasks like summarization, classification, coding subagents, customer support, and browser use.",
+    "meta": {
+     "votes": 345,
+     "tagline": "Anthropic's fastest and most capable Haiku yet"
+    }
+   },
+   {
+    "id": "NEWS-lya6q0-ao1z",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "I turned my unused Kindle into a photo frame with GPT-6 Astra",
+    "detail": "123 points · 79 comments on Hacker News.",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50064318",
+    "timestamp": "2026-10-12T23:07:25Z",
+    "meta": {
+     "hnId": "50064318",
+     "points": 123,
+     "numComments": 79,
+     "author": "nirajrajgor"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-xo505e-any7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "IrisGo for Solopreneurs: AI workflow automation: show it once, let it run",
+    "detail": "527 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/irisgo-public-beta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-07T07:01:00.000Z",
+    "summary": "IrisGo helps solopreneurs automate recurring work. Get daily briefs, triage email, track to-dos, and turn demonstrated tasks into reusable workflows with Watch & Learn. Spend less time on admin and more time building your business. Free during beta.",
+    "meta": {
+     "votes": 527,
+     "tagline": "AI workflow automation: show it once, let it run"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-m9lp57-any7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Velozity: The Multiplayer AI Office where your team and agents work",
+    "detail": "467 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/velozity-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-07T07:01:00.000Z",
+    "summary": "Your team chats in one app, meets in another, and every AI works alone. Velozity brings it all into one place. Chat, audio and video calls with transcripts, tasks, calendar and files, plus AI agents (Claude, Codex, etc.) on the subscriptions you already pay for.",
+    "meta": {
+     "votes": 467,
+     "tagline": "The Multiplayer AI Office where your team and agents work"
+    }
+   },
+   {
+    "id": "RESEARCH-3rqja0-anzt",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Can Language Models Play the Wikipedia Game?",
+    "detail": "Alexander Hickey, Joanna Knight, James Bishop · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.13948v1",
+    "timestamp": "2026-10-09T17:59:56Z",
+    "summary": "Language models increasingly support or automate information retrieval from document collections too large to index. This task is difficult when it requires specialist linguistic or scientific knowledge. We used the Wikipedia Game to test language models on an analogous information retrieval task. In the game, players must reach a target article using only article links.",
+    "meta": {
+     "arxivId": "2610.13948v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-9k4uq5-anxj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Rill Browser: The browser where Claude Code and Codex work beside you",
+    "detail": "540 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/rill-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-06T07:01:00.000Z",
+    "summary": "Rill is an AI-native browser built around the Claude Code and Codex you already use. Browse normally, then press ⌘E on any page to turn what you're looking at into a task for your agent. Rill finds the right project, passes along the context, and the agent works while you keep browsing.",
+    "meta": {
+     "votes": 540,
+     "tagline": "The browser where Claude Code and Codex work beside you"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-15z7sdm-anxj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "OpenBot: Grok Bot alternative: free, local, open-source, multiplayer",
+    "detail": "362 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/openbot-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-06T07:01:00.000Z",
+    "summary": "OpenBot is an open-source workspace for AI teammates. Connect Claude, ChatGPT, Grok, OpenCode, or custom agents on Mac, Windows, and iOS. Give agents clear roles, let them delegate work, and invite your team to collaborate live with the same agents.",
+    "meta": {
+     "votes": 362,
+     "tagline": "Grok Bot alternative: free, local, open-source, multiplayer"
+    }
+   },
+   {
+    "id": "PRESS-s54nzo-ao20",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "OpenAI Decisions API: What it is and how to use it?",
+    "detail": "Reported by Analytics Vidhya (Gurgaon, IN).",
+    "sourceName": "Analytics Vidhya",
+    "sourceUrl": "https://www.analyticsvidhya.com/blog/2026/10/openai-decisions-api/",
+    "timestamp": "2026-10-13T00:39:00.000Z",
+    "summary": "Imagine building an AI agent that has to decide whether a customer complaint needs human intervention, which department should handle a query, or whether a submitted delivery photo is valid. Getting these decisions right matters.",
+    "meta": {
+     "rssId": "cbd5fc3c9b9f85c0",
+     "publisher": "analytics-vidhya",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "PRESS-19y1rpo-ao1u",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
+    "detail": "Reported by latent.space (San Francisco, US).",
+    "sourceName": "latent.space",
+    "sourceUrl": "https://www.latent.space/p/claude-dynamic-workflows",
+    "timestamp": "2026-10-12T18:18:17.000Z",
+    "summary": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers.",
+    "meta": {
+     "rssId": "46b3360856f933da",
+     "publisher": "latent-space",
+     "country": "US",
+     "lang": "en",
+     "imagePath": "/api/rss/image/46b3360856f933da"
+    }
+   },
+   {
+    "id": "NEWS-1gphp66-ao1y",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Intel \"Crescent Island\" GPU Gets D-Series Name, Supports Up to 480 GB of LPDDR5X",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x4g90u/intel_crescent_island_gpu_gets_dseries_name/",
+    "timestamp": "2026-10-12T22:42:31.000Z",
+    "meta": {
+     "redditId": "be4fe5c09342dda6",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "The newly named D-Series GPU features a total of 32 Xe3P cores, 256 XMX engines, 32 MB of unified L2 cache, and up to 480 GB of LPDDR5X memory. Intel rates it for up to 1.3 PetaFLOPS of FP8 performance, with support for formats ranging from FP4 to FP64."
+   },
+   {
+    "id": "NEWS-1p2ibqd-ao1x",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Size of AI models. What we mean by \"Large\"?",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x4f80v/size_of_ai_models_what_we_mean_by_large/",
+    "timestamp": "2026-10-12T21:57:43.000Z",
+    "meta": {
+     "redditId": "dad58e1abb5ec516",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "What is 'Small', what is 'Large'? We're still over the place, years later we still can't reach consensus, causing endless confusion, so in infinite wisdom and generosity I took it upon myself to fix it."
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-ao22",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (199 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-10-13T02:34:47.700Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 199,
+     "country": "US"
+    },
+    "summary": "anthropics/claude-code — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+   },
+   {
+    "id": "NEWS-udkteb-ao1x",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Explore DNA with DeepMind’s AlphaGenome and in-browser MedGemma 1.5 4B via WebGPU",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x4ec7b/explore_dna_with_deepminds_alphagenome_and/",
+    "timestamp": "2026-10-12T21:20:33.000Z",
+    "meta": {
+     "redditId": "9294302b98cff2ef",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "Hey everyone, Sharing an educational tool called AskCyph Health Explorer to explore how single-letter DNA mutations lead to disease, how they alter 3D anatomy, inheritance probabilities, and available treatments."
+   },
+   {
+    "id": "RESEARCH-1thwn0k-anzt",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Hide and Seek: HIDE Concepts to SEEK explanations for black box models",
+    "detail": "Bhanu Tokas, Rahul Nair, Rockwell Jackson et al. · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.13935v1",
+    "timestamp": "2026-10-09T17:56:59Z",
+    "summary": "Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models. Concept-based attribution methods interpret models using human-understandable concepts. Existing concept-based methods can only interpret classification and regression models.",
+    "meta": {
+     "arxivId": "2610.13935v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-6sv67c-anzt",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Constructive Bounds for the Topological Expressivity of Neural Networks",
+    "detail": "Kosio Beshkov · math.AT",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.13931v1",
+    "timestamp": "2026-10-09T17:55:33Z",
+    "summary": "The expressivity of a neural network $Φ$ describes the class of functions that a network can express. The term topological expressivity refers to a family of measures particularly suited to understand binary classification and is often formulated in terms of the Betti numbers of a decision boundary $β(Φ^{-1}(0))$.",
+    "meta": {
+     "arxivId": "2610.13931v1",
+     "primaryCategory": "math.AT",
+     "authorCount": 1,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1py69wa-anzt",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "AI Models Can Provably Hide Arbitrary Capabilities",
+    "detail": "Andis Draguns, Sumeet Ramesh Motwani, Raymond Douglas et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.13928v1",
+    "timestamp": "2026-10-09T17:55:06Z",
+    "summary": "Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited.",
+    "meta": {
+     "arxivId": "2610.13928v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1qvol06-anzt",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "KL Before and After Mixing: A Round-Complexity Separation in Parallel Sampling",
+    "detail": "Tianyi Wu · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.13924v1",
+    "timestamp": "2026-10-09T17:54:16Z",
+    "summary": "A parallel sampler can choose at random which coordinates to generate together. For a target $p$ and the output law $q_U$ of a schedule $U$ drawn afresh for each output, we compare the schedule-averaged divergence $\\mathbb{E}_U D_{\\mathrm{KL}}(p\\|q_U)$ with the output-law divergence $D_{\\mathrm{KL}}(p\\|\\mathbb{E}_U q_U)$, in nats.",
+    "meta": {
+     "arxivId": "2610.13924v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 1,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+   },
+   "toolHealth": {
+    "operational": 3,
+    "degraded": 2,
+    "total": 5
+   },
+   "latestPaper": {
+    "title": "Can Language Models Play the Wikipedia Game?",
+    "sourceUrl": "https://arxiv.org/abs/2610.13948v1"
+   }
+  },
+  "lastComputed": "2026-10-13T02:34:47.694Z"
+ }
+}
