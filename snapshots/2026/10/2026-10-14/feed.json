@@ -1,0 +1,533 @@
+{
+ "v": 1,
+ "capturedAt": "2026-10-14T00:12:38.130Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "MODEL_MOVER-kv64gd-ao2n",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Anthropic: Claude Haiku 5.5 up 5 ranks on OpenRouter weekly",
+    "detail": "Now #20, was #25.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/anthropic/claude-haiku-5.5",
+    "timestamp": "2026-10-13T23:06:50.200Z",
+    "meta": {
+     "slug": "anthropic/claude-haiku-5.5",
+     "name": "Anthropic: Claude Haiku 5.5",
+     "currentRank": 20,
+     "previousRank": 25,
+     "delta": -5
+    },
+    "summary": "Claude Haiku 5.5 is Anthropic's small, fast model for high-volume, cost-sensitive work such as summarization, subagents, and browser use. It succeeds Claude Haiku 4.5 with stronger coding, computer use, and knowledge work, and accepts text and image input with a 1M-token context window."
+   },
+   {
+    "id": "MODEL_MOVER-e7tqcy-ao2n",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3.5 Lightning (free) up 4 ranks on OpenRouter weekly",
+    "detail": "Now #26, was #30.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3.5-lightning",
+    "timestamp": "2026-10-13T23:06:50.200Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3.5-lightning",
+     "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+     "currentRank": 26,
+     "previousRank": 30,
+     "delta": -4
+    },
+    "summary": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that benefit from domain-specific customization."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1d78l6p-ao27",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Articos MCP: See how simulated buyers react, right in your agent",
+    "detail": "298 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/articos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-13T07:01:00.000Z",
+    "summary": "Most teams ship, then hope it lands. Articos MCP lets you check first. Right inside Claude or ChatGPT, run your headlines, positioning, or pages past simulated buyers based on your actual customers, and see how they respond before it goes out.",
+    "meta": {
+     "votes": 298,
+     "tagline": "See how simulated buyers react, right in your agent"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1cj8uwy-ao2n",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-6 Sol down 4 ranks on OpenRouter weekly",
+    "detail": "Now #36, was #32.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-6-sol",
+    "timestamp": "2026-10-13T23:06:50.200Z",
+    "meta": {
+     "slug": "openai/gpt-6-sol",
+     "name": "OpenAI: GPT-6 Sol",
+     "currentRank": 36,
+     "previousRank": 32,
+     "delta": 4
+    },
+    "summary": "GPT-6 Sol is the cost-efficient high-end model in OpenAI's GPT-6 series, positioned below the flagship GPT-6 Astra and above the fast GPT-6 Luna tier."
+   },
+   {
+    "id": "MODEL_MOVER-1ksxgvs-ao2n",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Xiaomi: MiMo-V2.5 down 4 ranks on OpenRouter weekly",
+    "detail": "Now #42, was #38.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/xiaomi/mimo-v2.5",
+    "timestamp": "2026-10-13T23:06:50.200Z",
+    "meta": {
+     "slug": "xiaomi/mimo-v2.5",
+     "name": "Xiaomi: MiMo-V2.5",
+     "currentRank": 42,
+     "previousRank": 38,
+     "delta": 4
+    },
+    "summary": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding tasks."
+   },
+   {
+    "id": "PRESS-tq6c6g-ao2m",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Meta Launches Muse Wonder and Muse Wonder Full: Benchmarks, Pricing and How to Use It",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/10/13/meta-muse-wonder-muse-wonder-full-release/",
+    "timestamp": "2026-10-13T22:53:44.000Z",
+    "summary": "Meta released Muse Wonder and Muse Wonder Full, 1M-context agent models. Muse Wonder costs $4/$20 per million tokens on Meta Model API. Wonder Full, on Muse Code plans, leads DeepSWE and SWE-Marathon.",
+    "meta": {
+     "rssId": "83b195b82c3d5acf",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en",
+     "imagePath": "/api/rss/image/83b195b82c3d5acf"
+    },
+    "story": {
+     "sources": [
+      {
+       "publisher": "latent.space",
+       "country": "US",
+       "lang": "en",
+       "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
+       "timestamp": "2026-10-13T09:37:04.000Z"
+      }
+     ],
+     "discussion": []
+    }
+   },
+   {
+    "id": "MODEL_MOVER-whujn-ao2n",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "DeepSeek: DeepSeek V4 Flash Latest down 4 ranks on OpenRouter weekly",
+    "detail": "Now #49, was #45.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/~deepseek/deepseek-v4-flash-latest",
+    "timestamp": "2026-10-13T23:06:50.200Z",
+    "meta": {
+     "slug": "~deepseek/deepseek-v4-flash-latest",
+     "name": "DeepSeek: DeepSeek V4 Flash Latest",
+     "currentRank": 49,
+     "previousRank": 45,
+     "delta": 4
+    },
+    "summary": "This model always redirects to the latest model in the DeepSeek V4 Flash family."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-3o1on9-ao1j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Google EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+    "detail": "303 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/embeddinggemma-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-12T07:01:00.000Z",
+    "summary": "EmbeddingGemma 2 is Google DeepMind's open embedding model that maps text, code, images, video and audio into one shared space, so you can search across them from a single query.",
+    "meta": {
+     "votes": 303,
+     "tagline": "An open, lightweight multimodal embedding model"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-hbu9ax-ao07",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "ReSO AI: Get discovered & recommended when customers ask AI",
+    "detail": "495 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/reso?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-10T07:01:00.000Z",
+    "summary": "ReSO is a generative engine optimization platform that helps brands show up in AI search results. It’s built for founders, CMOs, and growth teams who want to turn buyer intent in ChatGPT, Perplexity, and Google AIO into visibility, citations, and traffic.",
+    "meta": {
+     "votes": 495,
+     "tagline": "Get discovered & recommended when customers ask AI"
+    }
+   },
+   {
+    "id": "NEWS-172hv2z-ao2k",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "OpenAI engineer arrested in bugging of executive conference room",
+    "detail": "216 points · 209 comments on Hacker News.",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50078141",
+    "timestamp": "2026-10-13T20:23:55Z",
+    "meta": {
+     "hnId": "50078141",
+     "points": 216,
+     "numComments": 209,
+     "author": "forthwall"
+    },
+    "summary": "https://x.com/OpenAINewsroom/status/2110095403198849132",
+    "story": {
+     "sources": [],
+     "discussion": [
+      {
+       "site": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50077703",
+       "points": 80,
+       "timestamp": "2026-10-13T19:55:31Z"
+      },
+      {
+       "site": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50078176",
+       "points": 10,
+       "timestamp": "2026-10-13T20:26:11Z"
+      },
+      {
+       "site": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50078582",
+       "points": 6,
+       "timestamp": "2026-10-13T20:53:32Z"
+      },
+      {
+       "site": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50078653",
+       "points": 25,
+       "timestamp": "2026-10-13T20:59:13Z"
+      },
+      {
+       "site": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50078937",
+       "points": 10,
+       "timestamp": "2026-10-13T21:20:30Z"
+      }
+     ]
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-q3dygg-ao07",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Onepin: AI voiceover with every name, price and date said right",
+    "detail": "384 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/onepin?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-10T07:01:00.000Z",
+    "summary": "AI voices sound human now. But they still guess names from the spelling, and nobody has time to listen to every line.",
+    "meta": {
+     "votes": 384,
+     "tagline": "AI voiceover with every name, price and date said right"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-37mpu-anyv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "OpenSwarm: A swarm of agents, in the same place you work",
+    "detail": "365 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/openswarm-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-08T07:01:00.000Z",
+    "summary": "Stop bolting AI onto your computer. OpenSwarm is an AI-first operating system where agents run the whole machine: apps create themselves, browsers control themselves, and swarms of agents work together.",
+    "meta": {
+     "votes": 365,
+     "tagline": "A swarm of agents, in the same place you work"
+    }
+   },
+   {
+    "id": "RESEARCH-3rqja0-anzt",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Can Language Models Play the Wikipedia Game?",
+    "detail": "Alexander Hickey, Joanna Knight, James Bishop · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.13948v1",
+    "timestamp": "2026-10-09T17:59:56Z",
+    "summary": "Language models increasingly support or automate information retrieval from document collections too large to index. This task is difficult when it requires specialist linguistic or scientific knowledge. We used the Wikipedia Game to test language models on an analogous information retrieval task. In the game, players must reach a target article using only article links.",
+    "meta": {
+     "arxivId": "2610.13948v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-t3yyz2-anyv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Claude Haiku 5.5: Anthropic's fastest and most capable Haiku yet",
+    "detail": "342 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/claude-haiku-5-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-08T07:01:00.000Z",
+    "summary": "Claude Haiku 5.5 is Anthropic's fastest and most capable small model, built for high-volume, cost-sensitive tasks like summarization, classification, coding subagents, customer support, and browser use.",
+    "meta": {
+     "votes": 342,
+     "tagline": "Anthropic's fastest and most capable Haiku yet"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-xo505e-any7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "IrisGo for Solopreneurs: AI workflow automation: show it once, let it run",
+    "detail": "506 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/irisgo-public-beta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-07T07:01:00.000Z",
+    "summary": "IrisGo helps solopreneurs automate recurring work. Get daily briefs, triage email, track to-dos, and turn demonstrated tasks into reusable workflows with Watch & Learn. Spend less time on admin and more time building your business. Free during beta.",
+    "meta": {
+     "votes": 506,
+     "tagline": "AI workflow automation: show it once, let it run"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-ao2o",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (199 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-10-14T00:12:41.027Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 199,
+     "country": "US"
+    },
+    "summary": "anthropics/anthropic-cookbook — A collection of notebooks/recipes showcasing some fun and effective ways of using Claude."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-m9lp57-any7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Velozity: The Multiplayer AI Office where your team and agents work",
+    "detail": "449 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/velozity-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-07T07:01:00.000Z",
+    "summary": "Your team chats in one app, meets in another, and every AI works alone. Velozity brings it all into one place. Chat, audio and video calls with transcripts, tasks, calendar and files, plus AI agents (Claude, Codex, etc.) on the subscriptions you already pay for.",
+    "meta": {
+     "votes": 449,
+     "tagline": "The Multiplayer AI Office where your team and agents work"
+    }
+   },
+   {
+    "id": "PRESS-fdrevh-ao2m",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+    "detail": "Reported by latent.space (San Francisco, US).",
+    "sourceName": "latent.space",
+    "sourceUrl": "https://www.latent.space/p/dyna",
+    "timestamp": "2026-10-13T22:25:55.000Z",
+    "summary": "Our first robotics pod with Dyna’s Chief Scientist on their big bet on World Action Models & the Next Frontier of Physical AI",
+    "meta": {
+     "rssId": "2ff287362b1dcdc5",
+     "publisher": "latent-space",
+     "country": "US",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "PRESS-u9wlp8-ao2m",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "How to Use Meta&#8217;s Rebalancer for Task Placement &#038; Optimization",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/10/13/how-to-use-metas-rebalancer-for-task-placement-optimization/",
+    "timestamp": "2026-10-13T22:14:20.000Z",
+    "summary": "In this comprehensive coding tutorial, we explore Meta's Rebalancer assignment solver using its C++ core and Python bindings.",
+    "meta": {
+     "rssId": "98d2709eb7deedec",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "NEWS-11lk850-ao2m",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Someone is running Qwen 27B at ~20 tok/s on a jailbroken PS5's GPU",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x5ak2n/someone_is_running_qwen_27b_at_20_toks_on_a/",
+    "timestamp": "2026-10-13T22:21:00.000Z",
+    "meta": {
+     "redditId": "a43b284301dd3a58",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRESS-1d6qlnt-ao2f",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Apple stellt neues Apple TV 4K vor – mit Siri AI",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Apple-stellt-neues-Apple-TV-4K-vor-mit-SIri-AI-11485171.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-10-13T15:22:00.000Z",
+    "summary": "Apple hat am Dienstag eine neue Multimediabox vorgestellt. Die Hardware sieht aus wie zuvor, wurde aber grunderneuert – und verteuert.",
+    "meta": {
+     "rssId": "4ca021d1fc53871a",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/4ca021d1fc53871a"
+    }
+   },
+   {
+    "id": "PRESS-1p7tchb-ao2f",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Anthropic warnt: KI-Replikation auf IoT-Geräten rückt näher",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Anthropic-KI-koennte-sich-bald-auf-Haushaltsgeraeten-selbst-replizieren-11485683.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-10-13T15:10:00.000Z",
+    "summary": "Anthropic warnt: Kleinere KI-Modelle könnten sich bald zum Beispiel auf Haushaltsgeräten selbst vervielfältigen. Kontrolle wäre dann kaum noch möglich.",
+    "meta": {
+     "rssId": "71a7f85ca63aa655",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/71a7f85ca63aa655"
+    }
+   },
+   {
+    "id": "NEWS-fao08v-ao2l",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Thank-you post for DeepSeek-V4-Flash-0731 with DSpark",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x592dl/thankyou_post_for_deepseekv4flash0731_with_dspark/",
+    "timestamp": "2026-10-13T21:18:18.000Z",
+    "meta": {
+     "redditId": "3f1a23397b25c12d",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "DeepSeek guys, thank you so much! Don't give this up. mac setup [pi.dev] -> [ds 4 flash 0731 - brain] -> [qwen 3.6 35b a3b - body] - works perfect"
+   },
+   {
+    "id": "NEWS-1lfuz56-ao2l",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Homeland upgrade: used 3090(s), 2x modded 3080 20GB, or a new 32GB card (R9700)",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x58s5x/homeland_upgrade_used_3090s_2x_modded_3080_20gb/",
+    "timestamp": "2026-10-13T21:06:56.000Z",
+    "meta": {
+     "redditId": "cf77adf02e3578d7",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "Hey all, First of all, apologies for the mobile formatting, will try and fix it in the morning. I'd like a second opinion before I spend real money in a GPU market that seems to go up every week."
+   },
+   {
+    "id": "RESEARCH-1thwn0k-anzt",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Hide and Seek: HIDE Concepts to SEEK explanations for black box models",
+    "detail": "Bhanu Tokas, Rahul Nair, Rockwell Jackson et al. · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.13935v1",
+    "timestamp": "2026-10-09T17:56:59Z",
+    "summary": "Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models. Concept-based attribution methods interpret models using human-understandable concepts. Existing concept-based methods can only interpret classification and regression models.",
+    "meta": {
+     "arxivId": "2610.13935v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-6sv67c-anzt",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Constructive Bounds for the Topological Expressivity of Neural Networks",
+    "detail": "Kosio Beshkov · math.AT",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.13931v1",
+    "timestamp": "2026-10-09T17:55:33Z",
+    "summary": "The expressivity of a neural network $Φ$ describes the class of functions that a network can express. The term topological expressivity refers to a family of measures particularly suited to understand binary classification and is often formulated in terms of the Betti numbers of a decision boundary $β(Φ^{-1}(0))$.",
+    "meta": {
+     "arxivId": "2610.13931v1",
+     "primaryCategory": "math.AT",
+     "authorCount": 1,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1py69wa-anzt",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "AI Models Can Provably Hide Arbitrary Capabilities",
+    "detail": "Andis Draguns, Sumeet Ramesh Motwani, Raymond Douglas et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.13928v1",
+    "timestamp": "2026-10-09T17:55:06Z",
+    "summary": "Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited.",
+    "meta": {
+     "arxivId": "2610.13928v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1qvol06-anzt",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "KL Before and After Mixing: A Round-Complexity Separation in Parallel Sampling",
+    "detail": "Tianyi Wu · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.13924v1",
+    "timestamp": "2026-10-09T17:54:16Z",
+    "summary": "A parallel sampler can choose at random which coordinates to generate together. For a target $p$ and the output law $q_U$ of a schedule $U$ drawn afresh for each output, we compare the schedule-averaged divergence $\\mathbb{E}_U D_{\\mathrm{KL}}(p\\|q_U)$ with the output-law divergence $D_{\\mathrm{KL}}(p\\|\\mathbb{E}_U q_U)$, in nats.",
+    "meta": {
+     "arxivId": "2610.13924v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 1,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+   },
+   "toolHealth": {
+    "operational": 5,
+    "degraded": 0,
+    "total": 5
+   },
+   "latestPaper": {
+    "title": "Can Language Models Play the Wikipedia Game?",
+    "sourceUrl": "https://arxiv.org/abs/2610.13948v1"
+   }
+  },
+  "lastComputed": "2026-10-14T00:12:41.023Z"
+ }
+}
