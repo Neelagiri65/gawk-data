@@ -1,0 +1,479 @@
+{
+ "v": 1,
+ "capturedAt": "2026-10-15T00:50:54.664Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-f5v07h-ao3c",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "OpenAI API is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "OpenAI Status (summary)",
+    "sourceUrl": "https://status.openai.com",
+    "timestamp": "2026-10-15T00:50:58.065Z",
+    "meta": {
+     "toolId": "openai-api",
+     "status": "degraded",
+     "statusSourceId": "openai-status",
+     "activeIncidents": 1,
+     "incidentName": "Delayed Costs data in the Compliance API"
+    },
+    "summary": "We have identified an issue causing delays in publishing organization cost data through the Costs API. A fix is in progress and currently undergoing testing. API and ChatGPT usage are not affected, and other reporting channels remain available."
+   },
+   {
+    "id": "MODEL_MOVER-ltlwqn-ao39",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-5.6 Sol down 9 ranks on OpenRouter weekly",
+    "detail": "Now #30, was #21.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-5.6-sol",
+    "timestamp": "2026-10-14T21:55:41.052Z",
+    "meta": {
+     "slug": "openai/gpt-5.6-sol",
+     "name": "OpenAI: GPT-5.6 Sol",
+     "currentRank": 30,
+     "previousRank": 21,
+     "delta": 9
+    },
+    "summary": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks and long-horizon problem solving."
+   },
+   {
+    "id": "MODEL_MOVER-1w5wpct-ao39",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3 Super (free) up 4 ranks on OpenRouter weekly",
+    "detail": "Now #36, was #40.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b",
+    "timestamp": "2026-10-14T21:55:41.052Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3-super-120b-a12b",
+     "name": "NVIDIA: Nemotron 3 Super (free)",
+     "currentRank": 36,
+     "previousRank": 40,
+     "delta": -4
+    },
+    "summary": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1gsh6if-ao2v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Pancake: The Vercel for GTM",
+    "detail": "490 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/pancake-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-14T07:01:00.000Z",
+    "summary": "Pancake is the Vercel for GTM. It gives you the building blocks to deploy any go-to-market idea from your favorite AI agent, such as Claude or Codex: a GTM Brain, sending infrastructure, and 40+ data providers and enrichment, all accessible through one MCP connection.",
+    "meta": {
+     "votes": 490,
+     "tagline": "The Vercel for GTM"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1cclgta-ao39",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: gpt-oss-120b up 4 ranks on OpenRouter weekly",
+    "detail": "Now #44, was #48.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-oss-120b",
+    "timestamp": "2026-10-14T21:55:41.052Z",
+    "meta": {
+     "slug": "openai/gpt-oss-120b",
+     "name": "OpenAI: gpt-oss-120b",
+     "currentRank": 44,
+     "previousRank": 48,
+     "delta": -4
+    },
+    "summary": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-10nud0p-ao2v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Inferock: Serverless inference, with credits back for failed calls.",
+    "detail": "338 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/inferock?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-14T07:01:00.000Z",
+    "summary": "Get free signup credits to use all available models on Inferock. Bring your own keys: run your OpenAI, Claude or Gemini accounts, see where calls fail and what they cost, and get credits back on eligible failed calls. Serverless: pay-per-token LLM inference. Get signup credits to start using.",
+    "meta": {
+     "votes": 338,
+     "tagline": "Serverless inference, with credits back for failed calls."
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1d78l6p-ao27",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Articos MCP: See how simulated buyers react, right in your agent",
+    "detail": "334 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/articos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-13T07:01:00.000Z",
+    "summary": "Most teams ship, then hope it lands. Articos MCP lets you check first. Right inside Claude or ChatGPT, run your headlines, positioning, or pages past simulated buyers based on your actual customers, and see how they respond before it goes out.",
+    "meta": {
+     "votes": 334,
+     "tagline": "See how simulated buyers react, right in your agent"
+    }
+   },
+   {
+    "id": "PRESS-zhvjp9-ao3a",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Fish Audio Releases Drama 3, a 35B Open-Weight MoE Text-to-Speech Model",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/10/14/fish-audio-drama-3-open-weight-tts-model/",
+    "timestamp": "2026-10-14T22:52:17.000Z",
+    "summary": "Fish Audio released Drama 3, a 35B mixture-of-experts text-to-speech model with about 3B active parameters. It takes plain-language direction, covers 83 languages and ships open weights under a revenue-capped community license.",
+    "meta": {
+     "rssId": "0c97895a3f9d376f",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    },
+    "story": {
+     "sources": [],
+     "discussion": [
+      {
+       "site": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50085198",
+       "points": 5,
+       "timestamp": "2026-10-14T10:15:32Z"
+      }
+     ]
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-3o1on9-ao1j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Google EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+    "detail": "308 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/embeddinggemma-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-12T07:01:00.000Z",
+    "summary": "EmbeddingGemma 2 is Google DeepMind's open embedding model that maps text, code, images, video and audio into one shared space, so you can search across them from a single query.",
+    "meta": {
+     "votes": 308,
+     "tagline": "An open, lightweight multimodal embedding model"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-hbu9ax-ao07",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "ReSO AI: Get discovered & recommended when customers ask AI",
+    "detail": "502 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/reso?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-10T07:01:00.000Z",
+    "summary": "ReSO is a generative engine optimization platform that helps brands show up in AI search results. It’s built for founders, CMOs, and growth teams who want to turn buyer intent in ChatGPT, Perplexity, and Google AIO into visibility, citations, and traffic.",
+    "meta": {
+     "votes": 502,
+     "tagline": "Get discovered & recommended when customers ask AI"
+    }
+   },
+   {
+    "id": "NEWS-pvfj2u-ao38",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Anthropic's Scion is heavily inspired by Mononoke",
+    "detail": "158 points · 54 comments on Hacker News.",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50094694",
+    "timestamp": "2026-10-14T20:30:54Z",
+    "meta": {
+     "hnId": "50094694",
+     "points": 158,
+     "numComments": 54,
+     "author": "sunshowers"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-q3dygg-ao07",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Onepin: AI voiceover with every name, price and date said right",
+    "detail": "383 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/onepin?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-10T07:01:00.000Z",
+    "summary": "AI voices sound human now. But they still guess names from the spelling, and nobody has time to listen to every line.",
+    "meta": {
+     "votes": 383,
+     "tagline": "AI voiceover with every name, price and date said right"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-37mpu-anyv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "OpenSwarm: A swarm of agents, in the same place you work",
+    "detail": "367 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/openswarm-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-08T07:01:00.000Z",
+    "summary": "Stop bolting AI onto your computer. OpenSwarm is an AI-first operating system where agents run the whole machine: apps create themselves, browsers control themselves, and swarms of agents work together.",
+    "meta": {
+     "votes": 367,
+     "tagline": "A swarm of agents, in the same place you work"
+    }
+   },
+   {
+    "id": "RESEARCH-1xzmq57-ao2h",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "ChunkAct: Action Chunking for Agentic Robotics",
+    "detail": "Bingxin Xu, Wenrui Bao, Xinxin Liu et al. · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.18874v1",
+    "timestamp": "2026-10-13T17:59:57Z",
+    "summary": "Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-language-action (VLA) tools under the guidance of a memory and thereby generalizes to new tasks without retraining. This generality comes at a steep price in efficiency.",
+    "meta": {
+     "arxivId": "2610.18874v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 6,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-t3yyz2-anyv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Claude Haiku 5.5: Anthropic's fastest and most capable Haiku yet",
+    "detail": "344 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/claude-haiku-5-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-08T07:01:00.000Z",
+    "summary": "Claude Haiku 5.5 is Anthropic's fastest and most capable small model, built for high-volume, cost-sensitive tasks like summarization, classification, coding subagents, customer support, and browser use.",
+    "meta": {
+     "votes": 344,
+     "tagline": "Anthropic's fastest and most capable Haiku yet"
+    }
+   },
+   {
+    "id": "PRESS-2w3m87-ao39",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
+    "detail": "Reported by latent.space (San Francisco, US).",
+    "sourceName": "latent.space",
+    "sourceUrl": "https://www.latent.space/p/crossing-the-threshold",
+    "timestamp": "2026-10-14T21:40:52.000Z",
+    "summary": "At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
+    "meta": {
+     "rssId": "4bcb242de077be47",
+     "publisher": "latent-space",
+     "country": "US",
+     "lang": "en",
+     "imagePath": "/api/rss/image/4bcb242de077be47"
+    }
+   },
+   {
+    "id": "PRESS-1hueuoh-ao38",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
+    "detail": "Reported by latent.space (San Francisco, US).",
+    "sourceName": "latent.space",
+    "sourceUrl": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+    "timestamp": "2026-10-14T20:35:09.000Z",
+    "summary": "How Leash Bio tamed DELs, the assay that traumatizes everyone, and used the data to catch cheating models. And why that same data is perfect for AI agents learning to think like chemists.",
+    "meta": {
+     "rssId": "261b12af69912813",
+     "publisher": "latent-space",
+     "country": "US",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-ao3c",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (199 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-10-15T00:50:58.070Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 199,
+     "country": "US"
+    },
+    "summary": "anthropics/claude-code — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+   },
+   {
+    "id": "PRESS-mqsswi-ao34",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Forschungsdatenzentrum soll mit ePA-Daten und KI zum Riesen werden",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/FDZ-Gesundheit-Pharma-Vertreter-nennt-Zugang-fuer-Industrie-Ochsentour-11488523.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-10-14T16:46:00.000Z",
+    "summary": "Auf dem Health Data Summit wird deutlich: Das FDZ soll mit KI und ePA-Daten zum europäischen Riesen werden. Es hakt aber bei Tempo, Usability und Datenqualität.",
+    "meta": {
+     "rssId": "886a1712bf576aa5",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/886a1712bf576aa5"
+    }
+   },
+   {
+    "id": "PRESS-1s1gww-ao33",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "KI bisher kein Jobkiller in Deutschland",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/KI-bisher-kein-Jobkiller-in-Deutschland-11488403.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-10-14T15:26:00.000Z",
+    "summary": "Dass KI massiv Jobs vernichtet, wurde weithin befürchtet. Laut einer neuen Analyse lässt sich das im deutschen Arbeitsmarkt aber so nicht feststellen.",
+    "meta": {
+     "rssId": "269f26410821ddc7",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/269f26410821ddc7"
+    }
+   },
+   {
+    "id": "NEWS-1eezd5p-ao3b",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "microsoft/UserRepGen-4B",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x664yt/microsoftuserrepgen4b/",
+    "timestamp": "2026-10-14T23:16:47.000Z",
+    "meta": {
+     "redditId": "c47ade3d72746e97",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "https://preview.redd.it/gwb4of5vmivh1.png?width=2400&format=png&auto=webp&s=853f4cf25b4140ccf8b151b4124547788a544b33 UserRepGen-4B is a fine-tuned Qwen3.5-4B language model that generates a structured, natural-language user representation from a multi-turn user-assistant conversation."
+   },
+   {
+    "id": "NEWS-w9iuge-ao3a",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Strata performance finetuning - try it out",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x65hq9/strata_performance_finetuning_try_it_out/",
+    "timestamp": "2026-10-14T22:47:26.000Z",
+    "meta": {
+     "redditId": "3c3c90563e2de0fd",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "As strata is somewhat new, I assume that some people din't yet learn how to finetune it for best performance on their machine. I find documentation a bit hard to navigate (use your agents for this!), which doesn't help. After some serious testing, I've tweaked pretty much every parameter available."
+   },
+   {
+    "id": "RESEARCH-138jcnk-ao2h",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion",
+    "detail": "Chih-Hai Su, Tsung-Wei Ke, Yu-Lun Liu · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.18871v1",
+    "timestamp": "2026-10-13T17:59:53Z",
+    "summary": "Sparse-to-dense motion completion recovers dense mesh motion from sparse vertex displacements. Residual priors trained on one geometry family frequently fail to beat parameter-free harmonic extension off-family. Moreover, cross-family training meets a scaling barrier: residual amplitude varies by more than an order of magnitude across geometry families and collapses as observations become denser.",
+    "meta": {
+     "arxivId": "2610.18871v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "NEWS-nas1du-ao3a",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Qwen 3.8 Flash-Next compared to GLM 5.3 Flash",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x6533a/qwen_38_flashnext_compared_to_glm_53_flash/",
+    "timestamp": "2026-10-14T22:29:11.000Z",
+    "meta": {
+     "redditId": "110e83caabbd2d80",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "Anecdotally, I've noticed that QFN seems more collaborative than GLM. QFN seems willing to engage in conversation. It feels more like an assistant. GLM seems more action-oriented and less willing to converse."
+   },
+   {
+    "id": "RESEARCH-cz833l-ao2h",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study",
+    "detail": "Mingxuan Yan, Litian Gong, Dihong Huang et al. · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.18869v1",
+    "timestamp": "2026-10-13T17:59:52Z",
+    "summary": "How should demonstration quality be used during vision-language-action (VLA) pretraining to improve performance after target-task fine-tuning? We compare weighting, filtering, and conditioning across reward definitions and label granularities using 5,000 naturally suboptimal human demonstrations and 24 target tasks. Within each VLA, we match demonstrations and training budgets.",
+    "meta": {
+     "arxivId": "2610.18869v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 22,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-5d26fm-ao2h",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
+    "detail": "Wenbo Hu, Shraman Pramanick, Krishna Kumar Singh et al. · cs.CL",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.18868v1",
+    "timestamp": "2026-10-13T17:59:51Z",
+    "summary": "Long-horizon agents have drawn growing attention for their ability to work autonomously -- from hours to days -- on economically valuable tasks, a capability essential to automated discovery and recursive self-improvement (RSI).",
+    "meta": {
+     "arxivId": "2610.18868v1",
+     "primaryCategory": "cs.CL",
+     "authorCount": 6,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-3l9ocj-ao2h",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Data Free Training of Diffusion Models for Lattice Field Theories",
+    "detail": "Dennis Grinwald, Ankur Singha, Khaled Kahouli et al. · hep-lat",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.18863v1",
+    "timestamp": "2026-10-13T17:59:33Z",
+    "summary": "Sampling equilibrium field configurations remains a major computational bottleneck in lattice field theory, motivating the development of generative samplers that can produce independent configurations.",
+    "meta": {
+     "arxivId": "2610.18863v1",
+     "primaryCategory": "hep-lat",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+   },
+   "toolHealth": {
+    "operational": 4,
+    "degraded": 1,
+    "total": 5
+   },
+   "latestPaper": {
+    "title": "ChunkAct: Action Chunking for Agentic Robotics",
+    "sourceUrl": "https://arxiv.org/abs/2610.18874v1"
+   }
+  },
+  "lastComputed": "2026-10-15T00:50:58.065Z"
+ }
+}
