@@ -1,0 +1,489 @@
+{
+ "v": 1,
+ "capturedAt": "2026-10-16T00:05:31.802Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-f5v07h-ao40",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "OpenAI API is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "OpenAI Status (summary)",
+    "sourceUrl": "https://status.openai.com",
+    "timestamp": "2026-10-16T00:05:49.275Z",
+    "meta": {
+     "toolId": "openai-api",
+     "status": "degraded",
+     "statusSourceId": "openai-status",
+     "activeIncidents": 1,
+     "incidentName": "Delayed Costs data in the Compliance API"
+    },
+    "summary": "We have deployed a fix and are monitoring recovery. Costs data in the Compliance API remains delayed while we process the backlog. We will provide further updates as processing catches up."
+   },
+   {
+    "id": "TOOL_ALERT-1ef0dl0-ao40",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Cursor is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "Cursor Status",
+    "sourceUrl": "https://status.cursor.com",
+    "timestamp": "2026-10-16T00:05:49.275Z",
+    "meta": {
+     "toolId": "cursor",
+     "status": "degraded",
+     "statusSourceId": "cursor-status",
+     "activeIncidents": 1,
+     "incidentName": "Elevated errors affecting Grok models"
+    },
+    "summary": "A fix has been implemented and we are monitoring for service restoration."
+   },
+   {
+    "id": "MODEL_MOVER-1w5wpct-ao3x",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3 Super (free) up 5 ranks on OpenRouter weekly",
+    "detail": "Now #34, was #39.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b",
+    "timestamp": "2026-10-15T21:45:33.442Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3-super-120b-a12b",
+     "name": "NVIDIA: Nemotron 3 Super (free)",
+     "currentRank": 34,
+     "previousRank": 39,
+     "delta": -5
+    },
+    "summary": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications."
+   },
+   {
+    "id": "MODEL_MOVER-k0l2sr-ao3x",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Qwen: Qwen3.8 Flash up 4 ranks on OpenRouter weekly",
+    "detail": "Now #42, was #46.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/qwen/qwen3.8-flash",
+    "timestamp": "2026-10-15T21:45:33.442Z",
+    "meta": {
+     "slug": "qwen/qwen3.8-flash",
+     "name": "Qwen: Qwen3.8 Flash",
+     "currentRank": 42,
+     "previousRank": 46,
+     "delta": -4
+    },
+    "summary": "Qwen3.8 Flash is a multimodal reasoning model from Alibaba. It is suited for coding assistance, agentic workflows, visual understanding, document and codebase analysis, desktop interaction, chart analysis, and long-video analysis."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1gsh6if-ao2v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Pancake: The Vercel for GTM",
+    "detail": "570 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/pancake-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-14T07:01:00.000Z",
+    "summary": "Pancake is the Vercel for GTM. It gives you the building blocks to deploy any go-to-market idea from your favorite AI agent, such as Claude or Codex: a GTM Brain, sending infrastructure, and 40+ data providers and enrichment, all accessible through one MCP connection.",
+    "meta": {
+     "votes": 570,
+     "tagline": "The Vercel for GTM"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-csgnqx-ao3x",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-6 Astra down 4 ranks on OpenRouter weekly",
+    "detail": "Now #46, was #42.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-6-astra",
+    "timestamp": "2026-10-15T21:45:33.442Z",
+    "meta": {
+     "slug": "openai/gpt-6-astra",
+     "name": "OpenAI: GPT-6 Astra",
+     "currentRank": 46,
+     "previousRank": 42,
+     "delta": 4
+    },
+    "summary": "GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work. It is suited for advanced analysis, software engineering, deep research, scientific work, and document creation, with particular strengths in long-horizon agentic tasks that involve computer and browser use."
+   },
+   {
+    "id": "MODEL_MOVER-3368h3-ao3x",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Meta: Muse Spark 1.3 down 4 ranks on OpenRouter weekly",
+    "detail": "Now #47, was #43.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/meta/muse-spark-1.3",
+    "timestamp": "2026-10-15T21:45:33.442Z",
+    "meta": {
+     "slug": "meta/muse-spark-1.3",
+     "name": "Meta: Muse Spark 1.3",
+     "currentRank": 47,
+     "previousRank": 43,
+     "delta": 4
+    },
+    "summary": "Muse Spark 1.3 is a multimodal reasoning model from Meta for long-running agentic, multi-agent, and coding workflows."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-10nud0p-ao2v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Inferock: Serverless inference, with credits back for failed calls.",
+    "detail": "397 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/inferock?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-14T07:01:00.000Z",
+    "summary": "Get free signup credits to use all available models on Inferock. Bring your own keys: run your OpenAI, Claude or Gemini accounts, see where calls fail and what they cost, and get credits back on eligible failed calls. Serverless: pay-per-token LLM inference. Get signup credits to start using.",
+    "meta": {
+     "votes": 397,
+     "tagline": "Serverless inference, with credits back for failed calls."
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1d78l6p-ao27",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Articos MCP: See how simulated buyers react, right in your agent",
+    "detail": "343 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/articos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-13T07:01:00.000Z",
+    "summary": "Most teams ship, then hope it lands. Articos MCP lets you check first. Right inside Claude or ChatGPT, run your headlines, positioning, or pages past simulated buyers based on your actual customers, and see how they respond before it goes out.",
+    "meta": {
+     "votes": 343,
+     "tagline": "See how simulated buyers react, right in your agent"
+    }
+   },
+   {
+    "id": "PRESS-unqz6z-ao3v",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "NVIDIA Releases Nemotron 3.5 Super VL, a 120B Open Multimodal Agent Model",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/",
+    "timestamp": "2026-10-15T19:53:50.000Z",
+    "summary": "NVIDIA released Nemotron 3.5 Super VL, an open 120B-parameter multimodal MoE model with 12B active parameters, 1M-token context and NVFP4 weights that run on 1 DGX Spark, plus 2 Bolt edge models.",
+    "meta": {
+     "rssId": "6065107ad88fcf25",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en",
+     "imagePath": "/api/rss/image/6065107ad88fcf25"
+    },
+    "story": {
+     "sources": [],
+     "discussion": [
+      {
+       "site": "r/LocalLLaMA",
+       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6mlby/add_nemotron_super_35_vl_and_nemotron_bolt_74b/",
+       "points": null,
+       "timestamp": "2026-10-15T14:06:37.000Z"
+      },
+      {
+       "site": "r/LocalLLaMA",
+       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6qc3j/nemotron_35_bolt_vs_nemo_35_super_vs_qwen_38_27bfn/",
+       "points": null,
+       "timestamp": "2026-10-15T16:28:32.000Z"
+      }
+     ]
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-3o1on9-ao1j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Google EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+    "detail": "311 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/embeddinggemma-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-12T07:01:00.000Z",
+    "summary": "EmbeddingGemma 2 is Google DeepMind's open embedding model that maps text, code, images, video and audio into one shared space, so you can search across them from a single query.",
+    "meta": {
+     "votes": 311,
+     "tagline": "An open, lightweight multimodal embedding model"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1j44k8l-ao1j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "ngram 2.0: Create explainers, screencasts, and AI avatar videos",
+    "detail": "282 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/ngram?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-12T07:01:00.000Z",
+    "summary": "Turn ideas, documents, and recordings into narrated videos. ngram analyzes uploaded videos and screen recordings to identify key moments and build clear product walkthroughs. Create animated explainers or add an AI avatar presenter, then refine your video in chat.",
+    "meta": {
+     "votes": 282,
+     "tagline": "Create explainers, screencasts, and AI avatar videos"
+    }
+   },
+   {
+    "id": "NEWS-3ttor3-ao3x",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Ternary Bonsai 2 Family: 2B, 4B, & 9B based on Qwen 3.5",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x6yk1f/ternary_bonsai_2_family_2b_4b_9b_based_on_qwen_35/",
+    "timestamp": "2026-10-15T21:45:44.000Z",
+    "meta": {
+     "redditId": "40be2b853e936262",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "Going to try these out to see if they have the same looping behaviors that other Bonsai models have had. Still requires their fork of llama.cpp (branch prism) so dont expect it to work with vanilla llama.cpp."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-dbzykb-ao0v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "kōdlo: End-to-end sales workspace with unified context",
+    "detail": "308 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/kodlo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-11T07:01:00.000Z",
+    "summary": "kōdlo finds prospects that fit your ICP and tells you how to warm each one up. Upload product catalogues and other docs to the Knowledge Hub, and its agent turns them into personalized messages, offers, deep searches and decks.",
+    "meta": {
+     "votes": 308,
+     "tagline": "End-to-end sales workspace with unified context"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-hbu9ax-ao07",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "ReSO AI: Get discovered & recommended when customers ask AI",
+    "detail": "505 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/reso?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-10T07:01:00.000Z",
+    "summary": "ReSO is a generative engine optimization platform that helps brands show up in AI search results. It’s built for founders, CMOs, and growth teams who want to turn buyer intent in ChatGPT, Perplexity, and Google AIO into visibility, citations, and traffic.",
+    "meta": {
+     "votes": 505,
+     "tagline": "Get discovered & recommended when customers ask AI"
+    }
+   },
+   {
+    "id": "RESEARCH-1v3kvul-ao35",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
+    "detail": "Huixuan Cheng, Bike Zhang, Shankar Sastry et al. · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.20606v1",
+    "timestamp": "2026-10-14T17:59:52Z",
+    "summary": "Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world.",
+    "meta": {
+     "arxivId": "2610.20606v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-q3dygg-ao07",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Onepin: AI voiceover with every name, price and date said right",
+    "detail": "383 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/onepin?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-10T07:01:00.000Z",
+    "summary": "AI voices sound human now. But they still guess names from the spelling, and nobody has time to listen to every line.",
+    "meta": {
+     "votes": 383,
+     "tagline": "AI voiceover with every name, price and date said right"
+    }
+   },
+   {
+    "id": "PRESS-p71d0h-ao3s",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "„Schwarzer Donnerstag“ wegen Sorgen über KI-Ausgaben: Asiens Börsen abgesackt",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Schwarzer-Donnerstag-wegen-Sorgen-ueber-KI-Ausgaben-Asiens-Boersen-abgesackt-11489778.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-10-15T16:21:00.000Z",
+    "summary": "Die jüngste Kurskorrektur hat vor allem Südkorea getroffen, dort ist die Rede von einem „Schwarzen Donnerstag“. Samsung und SK Hynix trifft es besonders stark.",
+    "meta": {
+     "rssId": "c503bef7f39b6fb1",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/c503bef7f39b6fb1"
+    }
+   },
+   {
+    "id": "PRESS-hyq1tc-ao3r",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Ubuntu 26.10: Linux 7.3 und KI-Assistent im Gepäck",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Ubuntu-26-10-Linux-7-3-und-KI-Assistent-im-Gepaeck-11488457.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-10-15T15:41:00.000Z",
+    "summary": "Das neue Ubuntu-Release enthält bereits Kernel Linux 7.3, obwohl dieser erst noch erscheint. Außerdem gibt es optional den KI-Assistenten Myna für den Desktop.",
+    "meta": {
+     "rssId": "fcfe81d3fabdd86f",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/fcfe81d3fabdd86f"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-ao40",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (199 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-10-16T00:05:49.280Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 199,
+     "country": "US"
+    },
+    "summary": "anthropics/claude-code — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+   },
+   {
+    "id": "PRESS-2clx4i-ao3q",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "CopilotKit Releases CLiF: A Continual Learning Platform That Turns Agent Traces and User Actions into Skills, Evals, and Fine-Tuning Data",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/10/15/copilotkit-releases-clif-a-continual-learning-platform-that-turns-agent-traces-and-user-actions-into-skills-evals-and-fine-tuning-data/",
+    "timestamp": "2026-10-15T14:19:27.000Z",
+    "summary": "Introduction Teams shipping AI agents at scale keep running into the same pattern. Even agents built on top-tier models like Fable and Astra struggle to carry out complex, end-to-end tasks inside a specific product consistently enough to deploy.",
+    "meta": {
+     "rssId": "1ee51165abeaed2d",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en",
+     "imagePath": "/api/rss/image/1ee51165abeaed2d"
+    }
+   },
+   {
+    "id": "NEWS-60ve3v-ao3w",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "anyone running good open weight models for development in 48GB, 64GB or 96GB of RAM?",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x6x5tk/anyone_running_good_open_weight_models_for/",
+    "timestamp": "2026-10-15T20:47:59.000Z",
+    "meta": {
+     "redditId": "600dc228c4eb0764",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "I posted a question the other day in here about good development models, which prompted good discussion."
+   },
+   {
+    "id": "NEWS-6oh0rb-ao3w",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "ibm-granite/granite-switch-4.1 30B/8B",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x6wwx2/ibmgranitegraniteswitch41_30b8b/",
+    "timestamp": "2026-10-15T20:38:05.000Z",
+    "meta": {
+     "redditId": "50e3c84145294b92",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "Granite Switch 4.1 30B 📝 Read the launch blog: Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint Model Summary: Granite Switch 4.1 30B is a modular LLM that composes a base model, multiple adapters and an encoder together so that a single hosted endpoint can move between…"
+   },
+   {
+    "id": "RESEARCH-1nhez6m-ao35",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance",
+    "detail": "Zhefei Gong, Hefeifei Jiang, Zehao Wang et al. · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.20607v1",
+    "timestamp": "2026-10-14T17:59:52Z",
+    "summary": "Mobile Manipulation (MoMa) is a cornerstone of autonomous robotic systems, yet real-world fine-tuning remains a formidable challenge because of high-dimensional action spaces and intricate coupling between heterogeneous modules.",
+    "meta": {
+     "arxivId": "2610.20607v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-e2g602-ao35",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Co-Evolving Acting and Forecasting for Language Agents",
+    "detail": "Haofei Yu, Yixing Chen, Yining Zhao et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.20597v1",
+    "timestamp": "2026-10-14T17:59:28Z",
+    "summary": "Training language agents is bottlenecked by the high cost of long-horizon rollouts, yet standard agentic reinforcement learning (RL) learns only from a terminal scalar reward, leaving the supervision in intermediate steps largely unused. Prior work exploits this supervision through value targets that estimate per-step success probabilities or observation targets that fit environment response.",
+    "meta": {
+     "arxivId": "2610.20597v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 9,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-cnyhdu-ao35",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Your Transformer Is Secretly Elastic",
+    "detail": "Walter Simoncini, Dheeraj Varghese, Gertjan J. Burghouts et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.20588v1",
+    "timestamp": "2026-10-14T17:58:08Z",
+    "summary": "Scaling up transformers has produced models with broad capabilities, deployed across heterogeneous hardware and fluctuating workloads. Yet, model families offer only a few fixed sizes (e.g., S, B, L), forcing users to commit to a model based on hardware and latency constraints. This rigidity is often suboptimal under varying query loads.",
+    "meta": {
+     "arxivId": "2610.20588v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-w5epuv-ao35",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Price of Anarchy of First-Price Auctions in Agentic Markets",
+    "detail": "Shubhendu Trivedi, Jacob Eisenstein, Alekh Agarwal et al. · cs.GT",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.20587v1",
+    "timestamp": "2026-10-14T17:57:57Z",
+    "summary": "An agentic market is a decentralized serving-time market where AI agents bid to claim each user prompt. An agent's bid is based on its expected value for the prompt, which is the expectation of the reward for its response minus its inference costs.",
+    "meta": {
+     "arxivId": "2610.20587v1",
+     "primaryCategory": "cs.GT",
+     "authorCount": 6,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+   },
+   "toolHealth": {
+    "operational": 3,
+    "degraded": 2,
+    "total": 5
+   },
+   "latestPaper": {
+    "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
+    "sourceUrl": "https://arxiv.org/abs/2610.20606v1"
+   }
+  },
+  "lastComputed": "2026-10-16T00:05:49.274Z"
+ }
+}
