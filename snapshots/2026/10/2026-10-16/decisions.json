@@ -1,0 +1,119 @@
+{
+ "v": 1,
+ "capturedAt": "2026-10-16T12:13:53.749Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/38898869049",
+ "record": {
+  "date": "2026-10-16",
+  "lead": "DeepSeek V4.1 Flash holds #1 on OpenRouter",
+  "counts": {
+   "accepted": 9,
+   "skipped": 5
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "DeepSeek V4.1 Flash holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "vllm/vllm-openai downloads up 26.5% on docker",
+    "source": "curated",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "NationalSecurityAgency/ghidra trending on GitHub (1185 stars today)",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "ollama on brew +61% vs baseline",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-4",
+    "headline": "GLM 5.3 moved from rank 10 to 9",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-5",
+    "headline": "More on Anthropic's Scion ripping off Mononoke",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Inferock: Serverless inference, with credits back for failed calls.",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Articos MCP: See how simulated buyers react, right in your agent",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Qwen Flash Next potential SOTA Q2 nobody talks about",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "Gen4P: Video Generators are 4D Perceivers",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-burn",
+    "headline": "burn (crates) up 89%",
+    "source": "supplement",
+    "slot": 7
+   },
+   {
+    "verdict": "skip",
+    "gate": "sdk-dedup",
+    "reason": "same package already covered under wording drift",
+    "headline": "ollama",
+    "source": "supplement"
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-tch",
+    "headline": "tch (crates) up 48%",
+    "source": "supplement",
+    "slot": 8
+   },
+   {
+    "verdict": "lead-kept",
+    "reason": "lead fresh (led 0 prior days, limit 2)",
+    "lead": "DeepSeek V4.1 Flash holds #1 on OpenRouter"
+   }
+  ]
+ }
+}
