@@ -1,0 +1,119 @@
+{
+ "v": 1,
+ "capturedAt": "2026-10-17T11:31:38.879Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/39028903867",
+ "record": {
+  "date": "2026-10-17",
+  "lead": "DeepSeek V4.1 Flash holds #1 on OpenRouter",
+  "counts": {
+   "accepted": 9,
+   "skipped": 5
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "DeepSeek V4.1 Flash holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "yt-dlp/yt-dlp trending on GitHub (423 stars today)",
+    "source": "curated",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "Claude reveals ECDSA curve origins",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-2",
+    "headline": "vllm/vllm-openai on docker +10% vs baseline",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "DeepSeek V4 Flash 0423 moved from rank 13 to 14",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-4",
+    "headline": "burn downloads up 53.5% on crates",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Anthropic assigned highest junk credit rating in June",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Harness by Autonomous: Every coding agent, every machine, one command center.",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "Discovering state-of-the-art quantum circuits with large language models",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-ollama",
+    "headline": "ollama (brew) up 62%",
+    "source": "supplement",
+    "slot": 7
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-Codeium.codeium",
+    "headline": "Codeium.codeium (vscode) down 62%",
+    "source": "supplement",
+    "slot": 8
+   },
+   {
+    "verdict": "skip",
+    "gate": "sdk-dedup",
+    "reason": "same package already covered under wording drift",
+    "headline": "burn",
+    "source": "supplement"
+   },
+   {
+    "verdict": "lead-kept",
+    "reason": "lead fresh (led 1 prior day, limit 2)",
+    "lead": "DeepSeek V4.1 Flash holds #1 on OpenRouter"
+   }
+  ]
+ }
+}
