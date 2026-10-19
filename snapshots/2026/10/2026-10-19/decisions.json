@@ -1,0 +1,119 @@
+{
+ "v": 1,
+ "capturedAt": "2026-10-19T16:38:35.887Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/39286825104",
+ "record": {
+  "date": "2026-10-19",
+  "lead": "DeepSeek V4.1 Flash holds #1 on OpenRouter",
+  "counts": {
+   "accepted": 9,
+   "skipped": 5
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "DeepSeek V4.1 Flash holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "sponsors/ImranR98 trending on GitHub (69 stars today)",
+    "source": "curated",
+    "slot": 1
+   },
+   {
+    "verdict": "skip",
+    "gate": "leaderboard-dedup",
+    "reason": "model already shown in the leaderboard top-5",
+    "headline": "DeepSeek V4.1 Flash 1017 moved from rank 24 to 8",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-2",
+    "headline": "Cursor is degraded",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "ollama downloads up 68.9% on brew",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-4",
+    "headline": "NVIDIA: Nemotron 3.5 Super VL (free) up 12 ranks on OpenRouter weekly",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Show HN: Strot – Compile an LLM's intent once, run decisions locally",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-6",
+    "headline": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "MiniMax Just Launched M3.1 Flash: 428B MoE Agentic Model at $0.15/M Input",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Harness Engineering 101: The LLM is the brain, the harness is the body",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "DrugHarness: An Evolvable Agent Harness for Computational Drug Discovery",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "skip",
+    "gate": "sdk-dedup",
+    "reason": "same package already covered under wording drift",
+    "headline": "ollama",
+    "source": "supplement"
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-Codeium.codeium",
+    "headline": "Codeium.codeium (vscode) up 52%",
+    "source": "supplement",
+    "slot": 7
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-ai",
+    "headline": "ai (npm) up 32%",
+    "source": "supplement",
+    "slot": 8
+   },
+   {
+    "verdict": "lead-kept",
+    "reason": "lead fresh (led 0 prior days, limit 2)",
+    "lead": "DeepSeek V4.1 Flash holds #1 on OpenRouter"
+   }
+  ]
+ }
+}
