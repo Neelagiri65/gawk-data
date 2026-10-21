@@ -1,0 +1,436 @@
+{
+ "v": 1,
+ "capturedAt": "2026-10-21T00:47:14.276Z",
+ "endpoint": "/api/v1/status",
+ "record": {
+  "data": {
+   "claude-code": {
+    "status": "operational",
+    "statusSourceId": "anthropic-status",
+    "lastCheckedAt": "2026-10-21T00:47:16.961Z",
+    "openIssues": 14746,
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-10-15",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 270
+     },
+     {
+      "date": "2026-10-16",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-10-17",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-10-18",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-10-19",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-20",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 279
+     },
+     {
+      "date": "2026-10-21",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 10
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "claude-code",
+     "host": "api.anthropic.com",
+     "kind": "api-auth",
+     "state": "reachable",
+     "latencyMs": 76,
+     "checkedAt": "2026-10-21T00:46:34.322Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "openai-api": {
+    "status": "operational",
+    "statusSourceId": "openai-status",
+    "lastCheckedAt": "2026-10-21T00:47:16.961Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-10-15",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "01M4XNQX7C6RCBNGX9H711WFSG",
+        "name": "Delayed Costs data in the Compliance API",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-14T17:00:44Z",
+        "resolvedAt": "2026-10-16T10:44:58Z"
+       },
+       {
+        "id": "01M506BA4XRSWH7THR53HQGN3Z",
+        "name": "Widespread feature degradation",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-10-15T16:29:26Z",
+        "resolvedAt": "2026-10-15T18:56:00Z"
+       }
+      ],
+      "sampleCount": 270
+     },
+     {
+      "date": "2026-10-16",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01M4XNQX7C6RCBNGX9H711WFSG",
+        "name": "Delayed Costs data in the Compliance API",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-14T17:00:44Z",
+        "resolvedAt": "2026-10-16T10:44:58Z"
+       }
+      ],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-10-17",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-10-18",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-10-19",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01M5A5S1ATN3QB2WCHQ3VDZC81",
+        "name": "File Download errors",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-19T13:31:52Z",
+        "resolvedAt": "2026-10-19T14:14:03Z"
+       }
+      ],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-20",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 279
+     },
+     {
+      "date": "2026-10-21",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 10
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "openai-api",
+     "host": "api.openai.com",
+     "kind": "api-auth",
+     "state": "reachable",
+     "latencyMs": 96,
+     "checkedAt": "2026-10-21T00:46:34.322Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "copilot": {
+    "status": "operational",
+    "statusSourceId": "github-status",
+    "lastCheckedAt": "2026-10-21T00:47:16.961Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-10-15",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 270
+     },
+     {
+      "date": "2026-10-16",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-10-17",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-10-18",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-10-19",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-20",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 279
+     },
+     {
+      "date": "2026-10-21",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 10
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "copilot",
+     "host": "api.github.com",
+     "kind": "api",
+     "state": "reachable",
+     "latencyMs": 19,
+     "checkedAt": "2026-10-21T00:46:34.322Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "windsurf": {
+    "status": "operational",
+    "statusSourceId": "windsurf-status",
+    "lastCheckedAt": "2026-10-21T00:47:16.961Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-10-15",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 270
+     },
+     {
+      "date": "2026-10-16",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-10-17",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-10-18",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-10-19",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-20",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 279
+     },
+     {
+      "date": "2026-10-21",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 10
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "windsurf",
+     "host": "server.codeium.com",
+     "kind": "healthz",
+     "state": "reachable",
+     "latencyMs": 172,
+     "checkedAt": "2026-10-21T00:46:34.322Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "cursor": {
+    "status": "operational",
+    "statusSourceId": "cursor-status",
+    "lastCheckedAt": "2026-10-21T00:47:16.961Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-10-15",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "h76w09vs1vqq",
+        "name": "Elevated errors affecting Grok models",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-15T22:25:11.670Z",
+        "resolvedAt": "2026-10-16T05:20:54.441Z"
+       }
+      ],
+      "sampleCount": 270
+     },
+     {
+      "date": "2026-10-16",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "h76w09vs1vqq",
+        "name": "Elevated errors affecting Grok models",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-15T22:25:11.670Z",
+        "resolvedAt": "2026-10-16T05:20:54.441Z"
+       }
+      ],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-10-17",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-10-18",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-10-19",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "c30f94k6rtrp",
+        "name": "Investigating service degradation — Grok Bot",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-19T18:09:57.998Z",
+        "resolvedAt": "2026-10-19T18:28:33.749Z"
+       },
+       {
+        "id": "48bg6xqptq72",
+        "name": "Investigating service degradation — Grok Bot",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-19T16:15:04.451Z",
+        "resolvedAt": "2026-10-19T17:21:36.769Z"
+       },
+       {
+        "id": "fhvjq1tr18sl",
+        "name": "Investigating service degradation",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-19T13:24:52.409Z",
+        "resolvedAt": "2026-10-19T13:52:07.370Z"
+       }
+      ],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-20",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 279
+     },
+     {
+      "date": "2026-10-21",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 10
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "cursor",
+     "host": "api2.cursor.sh",
+     "kind": "api",
+     "state": "reachable",
+     "latencyMs": 62,
+     "checkedAt": "2026-10-21T00:46:34.322Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   }
+  },
+  "polledAt": "2026-10-21T00:47:16.961Z",
+  "failures": [
+   {
+    "toolId": "codex",
+    "sourceId": "openai-status",
+    "message": "neither `Codex Web` nor `Codex API` component found on OpenAI status page"
+   }
+  ]
+ }
+}
