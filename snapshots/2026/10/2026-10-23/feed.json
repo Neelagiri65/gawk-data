@@ -1,0 +1,648 @@
+{
+ "v": 1,
+ "capturedAt": "2026-10-23T00:15:06.114Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-qgyjmt-ao8o",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "GitHub Copilot has an active incident: Project updates delayed",
+    "detail": "Status page is green but lists 1 active incident (investigating).",
+    "sourceName": "GitHub Status (covers Copilot)",
+    "sourceUrl": "https://www.githubstatus.com",
+    "timestamp": "2026-10-23T00:15:08.406Z",
+    "meta": {
+     "toolId": "copilot",
+     "status": "operational",
+     "statusSourceId": "github-status",
+     "activeIncidents": 1,
+     "incidentName": "Project updates delayed"
+    },
+    "summary": "GitHub Projects update processing has improved, but newly added items may still take longer than expected to appear. We're continuing to work on the remaining delays and monitor recovery."
+   },
+   {
+    "id": "MODEL_MOVER-153okr3-ao8l",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "StepFun: Step 5 Preview down 6 ranks on OpenRouter weekly",
+    "detail": "Now #15, was #9.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/stepfun/step-5-preview",
+    "timestamp": "2026-10-22T21:54:56.436Z",
+    "meta": {
+     "slug": "stepfun/step-5-preview",
+     "name": "StepFun: Step 5 Preview",
+     "currentRank": 15,
+     "previousRank": 9,
+     "delta": 6
+    },
+    "summary": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional knowledge work, with particular strength in finance."
+   },
+   {
+    "id": "MODEL_MOVER-tbuqgt-ao8l",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "DeepSeek: DeepSeek V4 Pro 0813 up 4 ranks on OpenRouter weekly",
+    "detail": "Now #28, was #32.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+    "timestamp": "2026-10-22T21:54:56.436Z",
+    "meta": {
+     "slug": "deepseek/deepseek-v4-pro-0813",
+     "name": "DeepSeek: DeepSeek V4 Pro 0813",
+     "currentRank": 28,
+     "previousRank": 32,
+     "delta": -4
+    },
+    "summary": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. This is the GA release of DeepSeek V4 Pro."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1rxwo1o-ao7j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "UseIt Studio: Your AI design agent for real, editable project files.",
+    "detail": "325 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/useit-studio-from-idea-to-delivery?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-21T07:01:00.000Z",
+    "summary": "UseIt is an AI design studio for things you can hold. Describe what you want in one sentence. UseIt asks what a designer would ask, designs it with you, and lets you refine any detail by pointing at it.",
+    "meta": {
+     "votes": 325,
+     "tagline": "Your AI design agent for real, editable project files."
+    }
+   },
+   {
+    "id": "MODEL_MOVER-k0l2sr-ao8l",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Qwen: Qwen3.8 Flash up 4 ranks on OpenRouter weekly",
+    "detail": "Now #37, was #41.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/qwen/qwen3.8-flash",
+    "timestamp": "2026-10-22T21:54:56.436Z",
+    "meta": {
+     "slug": "qwen/qwen3.8-flash",
+     "name": "Qwen: Qwen3.8 Flash",
+     "currentRank": 37,
+     "previousRank": 41,
+     "delta": -4
+    },
+    "summary": "Qwen3.8 Flash is a multimodal reasoning model from Alibaba. It is suited for coding assistance, agentic workflows, visual understanding, document and codebase analysis, desktop interaction, chart analysis, and long-video analysis."
+   },
+   {
+    "id": "MODEL_MOVER-1twaeit-ao8l",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Anthropic: Claude Sonnet 5 up 4 ranks on OpenRouter weekly",
+    "detail": "Now #40, was #44.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/anthropic/claude-sonnet-5",
+    "timestamp": "2026-10-22T21:54:56.436Z",
+    "meta": {
+     "slug": "anthropic/claude-sonnet-5",
+     "name": "Anthropic: Claude Sonnet 5",
+     "currentRank": 40,
+     "previousRank": 44,
+     "delta": -4
+    },
+    "summary": "Sonnet 5 is Anthropic's most capable Sonnet-class model, with frontier performance across coding, agents, and professional work. It supports adaptive thinking with selectable reasoning effort levels (low, medium, high, max, and x-high), a 1M-token context window, and text, image, and file inputs."
+   },
+   {
+    "id": "PRESS-y7p761-ao8l",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Designing an AI serving harness built to last",
+    "detail": "Reported by MIT Technology Review — AI (Cambridge, US).",
+    "sourceName": "MIT Technology Review — AI",
+    "sourceUrl": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+    "timestamp": "2026-10-22T21:17:29.000Z",
+    "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift.",
+    "meta": {
+     "rssId": "73ed5e40f096fa34",
+     "publisher": "mit-tech-review-ai",
+     "country": "US",
+     "lang": "en",
+     "imagePath": "/api/rss/image/73ed5e40f096fa34"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-164jtp5-ao8l",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemma 4 31B up 4 ranks on OpenRouter weekly",
+    "detail": "Now #41, was #45.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemma-4-31b-it",
+    "timestamp": "2026-10-22T21:54:56.436Z",
+    "meta": {
+     "slug": "google/gemma-4-31b-it",
+     "name": "Google: Gemma 4 31B",
+     "currentRank": 41,
+     "previousRank": 45,
+     "delta": -4
+    },
+    "summary": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function calling, and multilingual support across 140+ languages."
+   },
+   {
+    "id": "MODEL_MOVER-1w5wpct-ao8l",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3 Super (free) down 8 ranks on OpenRouter weekly",
+    "detail": "Now #47, was #39.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b",
+    "timestamp": "2026-10-22T21:54:56.436Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3-super-120b-a12b",
+     "name": "NVIDIA: Nemotron 3 Super (free)",
+     "currentRank": 47,
+     "previousRank": 39,
+     "delta": 8
+    },
+    "summary": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications."
+   },
+   {
+    "id": "NEWS-82m1x1-ao8l",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Strata-Ready Uncensored Swift 1.5 Qwen 3.8 FN - Unsloth Dynamic IQ4_XS",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xcvtmj/strataready_uncensored_swift_15_qwen_38_fn/",
+    "timestamp": "2026-10-22T21:46:27.000Z",
+    "meta": {
+     "redditId": "6b9bbbdb32795b89",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "An update on my heretic (uncensored - refusals removed) unsloth dynamic iq4_xs quant clone - I added the strata ready artifacts: This is: the heretic version of Swift 1.5 Qwen 3.8 flash next, (mean KLD 0.06, median 0.02, mean concentrated on drug-related prompts so skewed in that direction)…"
+   },
+   {
+    "id": "MODEL_MOVER-1ksxgvs-ao8l",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Xiaomi: MiMo-V2.5 down 5 ranks on OpenRouter weekly",
+    "detail": "Now #52, was #47.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/xiaomi/mimo-v2.5",
+    "timestamp": "2026-10-22T21:54:56.436Z",
+    "meta": {
+     "slug": "xiaomi/mimo-v2.5",
+     "name": "Xiaomi: MiMo-V2.5",
+     "currentRank": 52,
+     "previousRank": 47,
+     "delta": 5
+    },
+    "summary": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding tasks."
+   },
+   {
+    "id": "MODEL_MOVER-ltlwqn-ao8l",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-5.6 Sol down 4 ranks on OpenRouter weekly",
+    "detail": "Now #53, was #49.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-5.6-sol",
+    "timestamp": "2026-10-22T21:54:56.436Z",
+    "meta": {
+     "slug": "openai/gpt-5.6-sol",
+     "name": "OpenAI: GPT-5.6 Sol",
+     "currentRank": 53,
+     "previousRank": 49,
+     "delta": 4
+    },
+    "summary": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks and long-horizon problem solving."
+   },
+   {
+    "id": "RESEARCH-51tn60-ao7t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
+    "detail": "Zhennan Wan, Jianfei Chen · cs.CL",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.30132v1",
+    "timestamp": "2026-10-21T17:59:14Z",
+    "summary": "Reinforcement learning (RL) is an effective way to strengthen the long-context reasoning of large language models (LLMs), but it needs training data that are long, diverse, challenging, and verifiable.",
+    "meta": {
+     "arxivId": "2610.30132v1",
+     "primaryCategory": "cs.CL",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-mad5z4-ao8l",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3.5 Super VL down 55 ranks on OpenRouter weekly",
+    "detail": "Now #81, was #26.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl",
+    "timestamp": "2026-10-22T21:54:56.436Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3.5-super-vl",
+     "name": "NVIDIA: Nemotron 3.5 Super VL",
+     "currentRank": 81,
+     "previousRank": 26,
+     "delta": 55
+    },
+    "summary": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total."
+   },
+   {
+    "id": "MODEL_MOVER-cgrvh6-ao8l",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-6 Luna (batch) down 77 ranks on OpenRouter weekly",
+    "detail": "Now #84, was #7.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-6-luna",
+    "timestamp": "2026-10-22T21:54:56.436Z",
+    "meta": {
+     "slug": "openai/gpt-6-luna",
+     "name": "OpenAI: GPT-6 Luna (batch)",
+     "currentRank": 84,
+     "previousRank": 7,
+     "delta": 77
+    },
+    "summary": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1fi1pv3-ao7j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "BAND for Developers: Coding agents, meet teamwork",
+    "detail": "300 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/band?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-21T07:01:00.000Z",
+    "summary": "Running multiple coding agents shouldn’t mean becoming their project manager. BAND lets them work together. Connect agents across your existing development tools and give them a shared workspace to coordinate tasks, exchange context, and hand off work without you playing middleman.",
+    "meta": {
+     "votes": 300,
+     "tagline": "Coding agents, meet teamwork"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1fjzsud-ao7j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Needle: The agent-native outbound engine",
+    "detail": "279 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/needle-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-21T07:01:00.000Z",
+    "summary": "Find your perfect leads and reach out by prompting Claude, ChatGPT, or Grok. Wherever your ICP are, on LinkedIn, Instagram, or email.",
+    "meta": {
+     "votes": 279,
+     "tagline": "The agent-native outbound engine"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-ao8o",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (200 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-10-23T00:15:08.412Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 200,
+     "country": "US"
+    },
+    "summary": "anthropics/claude-code — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-v2hm0f-ao6v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Composio Instant: The easiest way for AI agents to pay for their own tools",
+    "detail": "331 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/composio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-20T07:01:00.000Z",
+    "summary": "Give your agent superpowers. No subscriptions, no signups. With Composio Instant, your agent can search the web, find business contacts, create voiceovers, turn audio into text, and so much more. Try it free: composio.dev/instant",
+    "meta": {
+     "votes": 331,
+     "tagline": "The easiest way for AI agents to pay for their own tools"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-teuqum-ao67",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Beam.win: Run AI agents on one Mac and use its windows on another",
+    "detail": "378 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/beam-win?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-19T07:01:00.000Z",
+    "summary": "Keep your agents and builds running on a Mac mini or Studio. Beam brings their Terminal, browser and other app windows onto the Mac in front of you, each as its own window with a Dock icon and ⌘Tab presence. Encrypted between your Macs. Free to try.",
+    "meta": {
+     "votes": 378,
+     "tagline": "Run AI agents on one Mac and use its windows on another"
+    }
+   },
+   {
+    "id": "PRESS-czw15j-ao8i",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Studie: KI-Videos untergraben Vertrauen in Bewegtbild massiv",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Studie-KI-Videos-untergraben-Vertrauen-in-Bewegtbild-massiv-11497558.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-10-22T18:54:00.000Z",
+    "summary": "Die Mehrheit der Deutschen geht Deepfakes in die Falle und fordert daher strenge Kennzeichnungspflichten. Creators werden häufiger zur Nachrichtenquelle.",
+    "meta": {
+     "rssId": "15159f6acb156690",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/15159f6acb156690"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-6m0kpy-ao5j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Inbox Zero: Open-source Superhuman alternative",
+    "detail": "378 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/inbox-zero-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-18T07:01:00.000Z",
+    "summary": "Inbox Zero Mail is an open-source email client for Gmail and Outlook. Fast, keyboard-first, and free to use, on web, Mac, Windows and iPhone, with all your accounts in one inbox. Add AI for $20/mo: every email is sorted, and replies are drafted in your voice before you open them.",
+    "meta": {
+     "votes": 378,
+     "tagline": "Open-source Superhuman alternative"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1g4k4tx-ao47",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Jockey by TwelveLabs: Your entire video library: organized, searchable, understood",
+    "detail": "358 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/twelvelabs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-16T07:01:00.000Z",
+    "summary": "Jockey is the first AI that understands your entire media library across photos and video. It analyzes thousands of hours of footage so you can find and connect people, moments and context across videos. Use it in Claude or ChatGPT, or build with the API/SDK.",
+    "meta": {
+     "votes": 358,
+     "tagline": "Your entire video library: organized, searchable, understood"
+    }
+   },
+   {
+    "id": "NEWS-hlusbl-ao8l",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Making Kokoro TTS 50-100x faster without knowing how",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xcuqor/making_kokoro_tts_50100x_faster_without_knowing/",
+    "timestamp": "2026-10-22T21:02:36.000Z",
+    "meta": {
+     "redditId": "096a40dd1ec84034",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "My thinking was models, esp Opus 5.5 can just hill-climb as long as you give them something achievable and a clear metric to improve on. So here's something I don't even have a clue how it exactly works. The training itself happened in my basement 4070ti super over a day or so."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-bzpbu6-ao47",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Harness by Autonomous: Every coding agent, every machine, one command center.",
+    "detail": "294 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/harness-by-autonomous?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-16T07:01:00.000Z",
+    "summary": "Harness is the open-source command center for coding agents. Claude Code at work, Codex at home, Hermes in the cloud: every agent on every machine, side by side. Use the native desktop app, hn in your terminal, or the iOS and Android app to answer agents by voice. End-to-end encrypted.",
+    "meta": {
+     "votes": 294,
+     "tagline": "Every coding agent, every machine, one command center."
+    }
+   },
+   {
+    "id": "PRESS-11hz417-ao8i",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "The Foundations of Scalable AI",
+    "detail": "Reported by MIT Technology Review — AI (Cambridge, US).",
+    "sourceName": "MIT Technology Review — AI",
+    "sourceUrl": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+    "timestamp": "2026-10-22T18:48:04.000Z",
+    "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one.",
+    "meta": {
+     "rssId": "93f7489118b0287a",
+     "publisher": "mit-tech-review-ai",
+     "country": "US",
+     "lang": "en",
+     "imagePath": "/api/rss/image/93f7489118b0287a"
+    }
+   },
+   {
+    "id": "PRESS-tjmy0p-ao8h",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
+    "detail": "Reported by latent.space (San Francisco, US).",
+    "sourceName": "latent.space",
+    "sourceUrl": "https://www.latent.space/p/modal-d",
+    "timestamp": "2026-10-22T17:40:57.000Z",
+    "summary": "Elastic GPUs, sandbox growth, and the economics of the agent cloud",
+    "meta": {
+     "rssId": "d8a65c018ba8b593",
+     "publisher": "latent-space",
+     "country": "US",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "RESEARCH-sitej-ao7t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation",
+    "detail": "Zhanshuo Cao, Jiakai Tang, Yuqi Zhou et al. · cs.IR",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.30128v1",
+    "timestamp": "2026-10-21T17:58:06Z",
+    "summary": "Existing sequential recommenders usually allocate a fixed computational budget to every item in a user's interaction history, regardless of the item's contribution to the final prediction. We challenge this de facto design with two diagnostic findings. (1) Non-uniform computational need: items within the same sequence vary drastically in how much computation they require.",
+    "meta": {
+     "arxivId": "2610.30128v1",
+     "primaryCategory": "cs.IR",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRESS-9y9f4g-ao8h",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Liquid AI Launches RIPL, a Real-Time Inference Engine for Sub-50 ms LFMs",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/10/22/liquid-ai-ripl-real-time-inference-engine/",
+    "timestamp": "2026-10-22T17:33:25.000Z",
+    "summary": "Liquid AI released RIPL, a real-time inference engine for its LFM models. On one B200, LFM2.5-1.2B on RIPL showed 14.4 to 28.4x lower p95 latency than Qwen3.5-0.8B on vLLM.",
+    "meta": {
+     "rssId": "6d3f10960af4ba0f",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "PRESS-3pmy4p-ao8g",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Gradium Open-Sources Phonon, a 31M-Parameter On-Device TTS Model Under Apache 2.0",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/10/22/gradium-phonon-31m-on-device-tts/",
+    "timestamp": "2026-10-22T16:56:12.000Z",
+    "summary": "Gradium has open-sourced Phonon, a family of on-device text-to-speech models. The English Phonon 31m ships under Apache 2.0, fits in 64.5 MB, and starts speaking in about 7 ms on a laptop CPU.",
+    "meta": {
+     "rssId": "be4a1996172b51bc",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en",
+     "imagePath": "/api/rss/image/be4a1996172b51bc"
+    }
+   },
+   {
+    "id": "NEWS-1r1igle-ao8k",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Is anyone else concerned about the security of the implementation engines?",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xcu4or/is_anyone_else_concerned_about_the_security_of/",
+    "timestamp": "2026-10-22T20:38:37.000Z",
+    "meta": {
+     "redditId": "c32c94531159e55d",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "Like… is strata gonna steal all my data…"
+   },
+   {
+    "id": "PRESS-sjc8a3-ao8g",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "OpenAI: Agenten schalteten eigene Sicherheitswarnungen ab",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/OpenAI-Agenten-unterdrueckten-aktiv-Sicherheitswarnungen-11496302.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-10-22T16:49:00.000Z",
+    "summary": "Zwei OpenAI-Agenten haben aktiv Sicherheitswarnungen unterdrückt. Es wird geprüft, ob dies aus Missverständnis oder Absicht geschah.",
+    "meta": {
+     "rssId": "480bc1ce52e75163",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/480bc1ce52e75163"
+    }
+   },
+   {
+    "id": "PRESS-poucrg-ao8e",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "You are the Team  — Anekha Sokhal, Moshi",
+    "detail": "Reported by latent.space (San Francisco, US).",
+    "sourceName": "latent.space",
+    "sourceUrl": "https://www.latent.space/p/moshi",
+    "timestamp": "2026-10-22T14:03:40.000Z",
+    "summary": "How Moshi turns market data into actionable insights, and why AI tools have to fit the trader’s workflow.",
+    "meta": {
+     "rssId": "e77baf7f11683e04",
+     "publisher": "latent-space",
+     "country": "US",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "RESEARCH-gyin5k-ao7t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "PhysiCalWorld: In-Context Physics Calibration for World Models",
+    "detail": "Yunhao Luo, Wentao He, Yinpei Dai et al. · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.30125v1",
+    "timestamp": "2026-10-21T17:57:59Z",
+    "summary": "Existing world models typically perceive a scene through current visual frame or a narrow history window. However, these observations may not reveal the physics properties that determine transition dynamics, such as an object's mass distribution, joint damping, or surface friction.",
+    "meta": {
+     "arxivId": "2610.30125v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 8,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRESS-11k8x7k-ao8d",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Build AI Employees in Python That Work While You Sleep",
+    "detail": "Reported by Analytics Vidhya (Gurgaon, IN).",
+    "sourceName": "Analytics Vidhya",
+    "sourceUrl": "https://www.analyticsvidhya.com/blog/2026/10/build-an-ai-employee-in-python/",
+    "timestamp": "2026-10-22T13:38:55.000Z",
+    "summary": "It’s Friday, 8 a.m. Your weekly tech newsletter is drafted, fact-checked and waiting for one click of approval. You didn’t write it. You were asleep. Three AI employees did. A researcher found the week’s best links. A writer turned them into a draft.",
+    "meta": {
+     "rssId": "36f166ac25e16774",
+     "publisher": "analytics-vidhya",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "RESEARCH-1equ521-ao7t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "A Quasipolynomial Algorithm for $\\ell_\\infty$ Contractions",
+    "detail": "Ashkan Soleymani, Gabriele Farina · cs.GT",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.30122v1",
+    "timestamp": "2026-10-21T17:57:19Z",
+    "summary": "We give an algorithm for computing an $\\eps$-approximate fixed point of any $d$-dimensional nonexpansion with respect to the $\\ell_\\infty$ norm in time $\\log(1/\\eps)^{O(\\log^2 d)}$. At its core, our method uses a boosting argument to geometrically shrink a search region. Among other consequences, our algorithm implies that simple stochastic games can be solved in quasipolynomial time.",
+    "meta": {
+     "arxivId": "2610.30122v1",
+     "primaryCategory": "cs.GT",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-paf3nb-ao7t",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Self-normalized Bernstein Inequalities for Regenerative Processes and Applications to Learning Without Independence",
+    "detail": "Imon Banerjee, Pierre Alquier · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.30119v1",
+    "timestamp": "2026-10-21T17:56:37Z",
+    "summary": "We prove a self-normalized Bernstein inequality for bounded functions of a regenerative process with independent, identically distributed marked cycles of finite mean length. The bound uses observed cycle lengths and retains explicit terms for truncation and the cycle ending after the observation horizon.",
+    "meta": {
+     "arxivId": "2610.30119v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+   },
+   "toolHealth": {
+    "operational": 5,
+    "degraded": 0,
+    "total": 5
+   },
+   "latestPaper": {
+    "title": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
+    "sourceUrl": "https://arxiv.org/abs/2610.30132v1"
+   }
+  },
+  "lastComputed": "2026-10-23T00:15:08.405Z"
+ }
+}
