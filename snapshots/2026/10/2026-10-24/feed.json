@@ -1,0 +1,612 @@
+{
+ "v": 1,
+ "capturedAt": "2026-10-24T00:02:52.154Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-nnnbm6-ao9c",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Claude Code is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "Anthropic Status (Claude Code + API)",
+    "sourceUrl": "https://status.claude.com",
+    "timestamp": "2026-10-24T00:02:55.712Z",
+    "meta": {
+     "toolId": "claude-code",
+     "status": "degraded",
+     "statusSourceId": "anthropic-status",
+     "activeIncidents": 1,
+     "incidentName": "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5"
+    },
+    "summary": "We are seeing success rates return to normal for all affected models, and are continuing to monitor to ensure no further issues."
+   },
+   {
+    "id": "TOOL_ALERT-qgyjmt-ao9c",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "GitHub Copilot has an active incident: Grok 4.6 and Grok 4.7 Service Issues",
+    "detail": "Status page is green but lists 1 active incident (investigating).",
+    "sourceName": "GitHub Status (covers Copilot)",
+    "sourceUrl": "https://www.githubstatus.com",
+    "timestamp": "2026-10-24T00:02:55.712Z",
+    "meta": {
+     "toolId": "copilot",
+     "status": "operational",
+     "statusSourceId": "github-status",
+     "activeIncidents": 1,
+     "incidentName": "Grok 4.6 and Grok 4.7 Service Issues"
+    },
+    "summary": "We are experiencing degraded availability for the Grok 4.6 and Grok 4.7 models in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider."
+   },
+   {
+    "id": "MODEL_MOVER-k0l2sr-ao99",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Qwen: Qwen3.8 Flash up 4 ranks on OpenRouter weekly",
+    "detail": "Now #35, was #39.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/qwen/qwen3.8-flash",
+    "timestamp": "2026-10-23T21:40:15.120Z",
+    "meta": {
+     "slug": "qwen/qwen3.8-flash",
+     "name": "Qwen: Qwen3.8 Flash",
+     "currentRank": 35,
+     "previousRank": 39,
+     "delta": -4
+    },
+    "summary": "Qwen3.8 Flash is a multimodal reasoning model from Alibaba. It is suited for coding assistance, agentic workflows, visual understanding, document and codebase analysis, desktop interaction, chart analysis, and long-video analysis."
+   },
+   {
+    "id": "TOOL_ALERT-1ef0dl0-ao9c",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Cursor is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "Cursor Status",
+    "sourceUrl": "https://status.cursor.com",
+    "timestamp": "2026-10-24T00:02:55.712Z",
+    "meta": {
+     "toolId": "cursor",
+     "status": "degraded",
+     "statusSourceId": "cursor-status",
+     "activeIncidents": 1,
+     "incidentName": "Investigating service outage - Grok models unavailable"
+    },
+    "summary": "A fix has been implemented and Grok models are recovering. We're monitoring to confirm full service restoration."
+   },
+   {
+    "id": "MODEL_MOVER-5mq7sq-ao99",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Qwen: Qwen3.6 35B A3B down 5 ranks on OpenRouter weekly",
+    "detail": "Now #40, was #35.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/qwen/qwen3.6-35b-a3b",
+    "timestamp": "2026-10-23T21:40:15.120Z",
+    "meta": {
+     "slug": "qwen/qwen3.6-35b-a3b",
+     "name": "Qwen: Qwen3.6 35B A3B",
+     "currentRank": 40,
+     "previousRank": 35,
+     "delta": 5
+    },
+    "summary": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token."
+   },
+   {
+    "id": "MODEL_MOVER-wdxvpy-ao99",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemini 3.1 Flash Lite up 4 ranks on OpenRouter weekly",
+    "detail": "Now #43, was #47.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemini-3.1-flash-lite",
+    "timestamp": "2026-10-23T21:40:15.120Z",
+    "meta": {
+     "slug": "google/gemini-3.1-flash-lite",
+     "name": "Google: Gemini 3.1 Flash Lite",
+     "currentRank": 43,
+     "previousRank": 47,
+     "delta": -4
+    },
+    "summary": "Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-gq1fau-ao87",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "DeepCell: Your deadline survival kit for office work",
+    "detail": "341 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/deepcell?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-22T07:01:00.000Z",
+    "summary": "Deepcell can help you with deadline tasks that require narrations, calculation and presentation at the same time, such as modeling, sales review, budget forecast and monthly report.",
+    "meta": {
+     "votes": 341,
+     "tagline": "Your deadline survival kit for office work"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1cj8uwy-ao99",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-6 Sol down 4 ranks on OpenRouter weekly",
+    "detail": "Now #54, was #50.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-6-sol",
+    "timestamp": "2026-10-23T21:40:15.120Z",
+    "meta": {
+     "slug": "openai/gpt-6-sol",
+     "name": "OpenAI: GPT-6 Sol",
+     "currentRank": 54,
+     "previousRank": 50,
+     "delta": 4
+    },
+    "summary": "GPT-6 Sol is the cost-efficient high-end model in OpenAI's GPT-6 series, positioned below the flagship GPT-6 Astra and above the fast GPT-6 Luna tier."
+   },
+   {
+    "id": "MODEL_MOVER-1ksxgvs-ao99",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Xiaomi: MiMo-V2.5 down 7 ranks on OpenRouter weekly",
+    "detail": "Now #55, was #48.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/xiaomi/mimo-v2.5",
+    "timestamp": "2026-10-23T21:40:15.120Z",
+    "meta": {
+     "slug": "xiaomi/mimo-v2.5",
+     "name": "Xiaomi: MiMo-V2.5",
+     "currentRank": 55,
+     "previousRank": 48,
+     "delta": 7
+    },
+    "summary": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding tasks."
+   },
+   {
+    "id": "PRESS-11tbvjk-ao9a",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Moonshot AI Releases Kimi K3.1 Pro: A 2.8T Total/104B Active Params (MoE) Model with 1M Context",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/10/23/moonshot-ai-kimi-k3-1-pro-open-weight-model/",
+    "timestamp": "2026-10-23T22:52:40.000Z",
+    "summary": "Moonshot AI released Kimi K3.1 Pro, a 2.8T-parameter, 104B-active MoE model with 1M-token context. It scores 65.7% on Terminal-Bench 4.0, costs $2/$10 per million tokens, and open weights arrive by Nov 4, 2026.",
+    "meta": {
+     "rssId": "5abc433e25abd483",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    },
+    "story": {
+     "sources": [],
+     "discussion": [
+      {
+       "site": "r/LocalLLaMA",
+       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdk6ow/introducing_kimi_k31_pro_advancing_open/",
+       "points": null,
+       "timestamp": "2026-10-23T17:20:05.000Z"
+      },
+      {
+       "site": "r/LocalLLaMA",
+       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdphiy/kimi_k31_pro_tech_blog_advancing_open_intelligence/",
+       "points": null,
+       "timestamp": "2026-10-23T20:42:19.000Z"
+      }
+     ]
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1w5wpct-ao99",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3 Super (free) down 10 ranks on OpenRouter weekly",
+    "detail": "Now #56, was #46.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b",
+    "timestamp": "2026-10-23T21:40:15.120Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3-super-120b-a12b",
+     "name": "NVIDIA: Nemotron 3 Super (free)",
+     "currentRank": 56,
+     "previousRank": 46,
+     "delta": 10
+    },
+    "summary": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications."
+   },
+   {
+    "id": "MODEL_MOVER-mad5z4-ao99",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3.5 Super VL down 48 ranks on OpenRouter weekly",
+    "detail": "Now #74, was #26.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl",
+    "timestamp": "2026-10-23T21:40:15.120Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3.5-super-vl",
+     "name": "NVIDIA: Nemotron 3.5 Super VL",
+     "currentRank": 74,
+     "previousRank": 26,
+     "delta": 48
+    },
+    "summary": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total."
+   },
+   {
+    "id": "NEWS-s8wbwj-ao9b",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xdtk7m/istadaslabdeepseekv41flash1017gsqrco/",
+    "timestamp": "2026-10-23T23:37:39.000Z",
+    "meta": {
+     "redditId": "88dac2eced8af66d",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "A brand-new release from ISTA-DASLab with their GSQ-RCO smart quantization approach."
+   },
+   {
+    "id": "MODEL_MOVER-1v9ytte-ao99",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "MiniMax: MiniMax M3.1 Flash down 73 ranks on OpenRouter weekly",
+    "detail": "Now #77, was #4.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/minimax/minimax-m3.1-flash",
+    "timestamp": "2026-10-23T21:40:15.120Z",
+    "meta": {
+     "slug": "minimax/minimax-m3.1-flash",
+     "name": "MiniMax: MiniMax M3.1 Flash",
+     "currentRank": 77,
+     "previousRank": 4,
+     "delta": 73
+    },
+    "summary": "MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity."
+   },
+   {
+    "id": "MODEL_MOVER-cgrvh6-ao99",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-6 Luna (batch) down 70 ranks on OpenRouter weekly",
+    "detail": "Now #78, was #8.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-6-luna",
+    "timestamp": "2026-10-23T21:40:15.120Z",
+    "meta": {
+     "slug": "openai/gpt-6-luna",
+     "name": "OpenAI: GPT-6 Luna (batch)",
+     "currentRank": 78,
+     "previousRank": 8,
+     "delta": 70
+    },
+    "summary": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-146qwme-ao87",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Claude Duet: Proactive agent that understands what needs your attention",
+    "detail": "332 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-22T07:01:00.000Z",
+    "summary": "Claude Duet is a helpful, proactive agent you hand off work to through messages. Tell it what you need and it works on its own computer in the cloud, using apps you connect. It messages you when it is done or needs a decision from you.",
+    "meta": {
+     "votes": 332,
+     "tagline": "Proactive agent that understands what needs your attention"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1rxwo1o-ao7j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "UseIt Studio: Your AI design agent for real, editable project files.",
+    "detail": "328 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/useit-studio-from-idea-to-delivery?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-21T07:01:00.000Z",
+    "summary": "UseIt is an AI design studio for things you can hold. Describe what you want in one sentence. UseIt asks what a designer would ask, designs it with you, and lets you refine any detail by pointing at it.",
+    "meta": {
+     "votes": 328,
+     "tagline": "Your AI design agent for real, editable project files."
+    }
+   },
+   {
+    "id": "RESEARCH-1li7azm-ao8h",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+    "detail": "Yunfei Xie, Howard H. Qian, Shiyi Lan et al. · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.31670v1",
+    "timestamp": "2026-10-22T17:59:51Z",
+    "summary": "Robotic foundation models are typically evaluated through costly closed-loop rollouts, which motivates cheap offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, different modalities such as vision and language converge toward a shared statistical model of reality.",
+    "meta": {
+     "arxivId": "2610.31670v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1fi1pv3-ao7j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "BAND for Developers: Coding agents, meet teamwork",
+    "detail": "309 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/band?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-21T07:01:00.000Z",
+    "summary": "Running multiple coding agents shouldn’t mean becoming their project manager. BAND lets them work together. Connect agents across your existing development tools and give them a shared workspace to coordinate tasks, exchange context, and hand off work without you playing middleman.",
+    "meta": {
+     "votes": 309,
+     "tagline": "Coding agents, meet teamwork"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1fjzsud-ao7j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Needle: The agent-native outbound engine",
+    "detail": "291 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/needle-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-21T07:01:00.000Z",
+    "summary": "Find your perfect leads and reach out by prompting Claude, ChatGPT, or Grok. Wherever your ICP are, on LinkedIn, Instagram, or email.",
+    "meta": {
+     "votes": 291,
+     "tagline": "The agent-native outbound engine"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-fekc88-ao9c",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "DeepSeek leads 7-day GitHub activity (198 events)",
+    "detail": "Hangzhou, CN · deepseek-ai",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.deepseek.com",
+    "timestamp": "2026-10-24T00:02:55.728Z",
+    "meta": {
+     "labId": "deepseek-hangzhou",
+     "total": 198,
+     "country": "CN"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-v2hm0f-ao6v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Composio Instant: The easiest way for AI agents to pay for their own tools",
+    "detail": "331 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/composio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-20T07:01:00.000Z",
+    "summary": "Give your agent superpowers. No subscriptions, no signups. With Composio Instant, your agent can search the web, find business contacts, create voiceovers, turn audio into text, and so much more. Try it free: composio.dev/instant",
+    "meta": {
+     "votes": 331,
+     "tagline": "The easiest way for AI agents to pay for their own tools"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-teuqum-ao67",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Beam.win: Run AI agents on one Mac and use its windows on another",
+    "detail": "379 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/beam-win?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-19T07:01:00.000Z",
+    "summary": "Keep your agents and builds running on a Mac mini or Studio. Beam brings their Terminal, browser and other app windows onto the Mac in front of you, each as its own window with a Dock icon and ⌘Tab presence. Encrypted between your Macs. Free to try.",
+    "meta": {
+     "votes": 379,
+     "tagline": "Run AI agents on one Mac and use its windows on another"
+    }
+   },
+   {
+    "id": "PRESS-hhe6q1-ao94",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "LLM Inference Explained: How Models Generate Responses Faster",
+    "detail": "Reported by Analytics Vidhya (Gurgaon, IN).",
+    "sourceName": "Analytics Vidhya",
+    "sourceUrl": "https://www.analyticsvidhya.com/blog/2026/10/llm-inference-explained-optimization-techniques/",
+    "timestamp": "2026-10-23T16:53:41.000Z",
+    "summary": "You type a question into ChatGPT or Claude. For a split second, nothing happens. Then the answer starts flowing, word by word. That brief pause and the steady stream that follows are two very different jobs happening on a GPU.",
+    "meta": {
+     "rssId": "2b5e1e40d301edb5",
+     "publisher": "analytics-vidhya",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-6m0kpy-ao5j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Inbox Zero: Open-source Superhuman alternative",
+    "detail": "379 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/inbox-zero-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-18T07:01:00.000Z",
+    "summary": "Inbox Zero Mail is an open-source email client for Gmail and Outlook. Fast, keyboard-first, and free to use, on web, Mac, Windows and iPhone, with all your accounts in one inbox. Add AI for $20/mo: every email is sorted, and replies are drafted in your voice before you open them.",
+    "meta": {
+     "votes": 379,
+     "tagline": "Open-source Superhuman alternative"
+    }
+   },
+   {
+    "id": "PRESS-1kqapqs-ao93",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Nvidia-CEO nimmt KI-Entwickler in die Pflicht: Sollen keine Schäden anrichten",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Nvidia-CEO-nimmt-KI-Entwickler-in-die-Pflicht-Sollen-keine-Schaeden-anrichten-11498634.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-10-23T15:28:00.000Z",
+    "summary": "Laut Jensen Huang macht nicht Regulierung KI sicher, sondern Engineering. Als Sicherheitsgurt für KI-Agenten empfiehlt Nvidia seine freie Software OpenShell.",
+    "meta": {
+     "rssId": "bd983868d754c3eb",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/bd983868d754c3eb"
+    }
+   },
+   {
+    "id": "PRESS-1hcshzu-ao93",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "AI Is Getting Good at Math. Here’s Why.",
+    "detail": "Reported by latent.space (San Francisco, US).",
+    "sourceName": "latent.space",
+    "sourceUrl": "https://latent.space/p/ai-is-getting-good-at-math/",
+    "timestamp": "2026-10-23T15:19:48.000Z",
+    "summary": "AI models are solving more mathematical problems. A pattern is emerging in their successes that could help us predict which problems they’ll solve next.",
+    "meta": {
+     "rssId": "2963991c2639565e",
+     "publisher": "latent-space",
+     "country": "US",
+     "lang": "en",
+     "imagePath": "/api/rss/image/2963991c2639565e"
+    }
+   },
+   {
+    "id": "NEWS-12xe9ne-ao9a",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Some benchmarks on mini-AGI (dynamic continual learning model) after training it completely from scratch for a month on a 8GB VRAM GPU.",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xds6ts/some_benchmarks_on_miniagi_dynamic_continual/",
+    "timestamp": "2026-10-23T22:34:52.000Z",
+    "meta": {
+     "redditId": "50acc052763c1fa9",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "The most important part is a difference between \"forzen\" and \"best effort\" attempts where we allow the model to specialize on the task as it goes through the evaluation dataset. Clearly showcasing the power of continual learning regime simply unavailable for any other typical LLM."
+   },
+   {
+    "id": "PRESS-8ewlix-ao92",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Google Maps für CarPlay: Mit Gemini sprechen bei der Fahrt",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Google-Maps-fuer-CarPlay-Mit-Gemini-sprechen-bei-der-Fahrt-11497080.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-10-23T14:18:00.000Z",
+    "summary": "Wer von Googles Ki-Assistenz nicht genug bekommt, kann sie nun auch in CarPlay-Autos aufrufen, während Google Maps navigiert.",
+    "meta": {
+     "rssId": "0a0cc31fd228e0e7",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/0a0cc31fd228e0e7"
+    }
+   },
+   {
+    "id": "NEWS-18vr4r4-ao99",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "wanna help me design an HPC system upgrade for cancer research?",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xdqk1d/wanna_help_me_design_an_hpc_system_upgrade_for/",
+    "timestamp": "2026-10-23T21:25:42.000Z",
+    "meta": {
+     "redditId": "0f7b6c4e666ea4a9",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "background so, I'm director of scientific computing at a cancer center and have just received some interesting news: a new lab has between a $300-400K budget to pay for GPU hardware to run their AlphaFold 2 workloads."
+   },
+   {
+    "id": "RESEARCH-18m4bga-ao8h",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
+    "detail": "Mahdi Salmani, Adel Javanmard, Devansh Gupta et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.31667v1",
+    "timestamp": "2026-10-22T17:59:48Z",
+    "summary": "Test-time scaling has emerged as a key inference strategy for reasoning models, where a model generates a large number of candidate solutions in the hope of finding at least one correct solution.",
+    "meta": {
+     "arxivId": "2610.31667v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-lipptq-ao8h",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Phase Transition from Random Features to Fully Trainable Networks",
+    "detail": "Xin He, Huan Lao, Xiliang Lu et al. · math.NA",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.31663v1",
+    "timestamp": "2026-10-22T17:59:29Z",
+    "summary": "Constructing accurate and computationally tractable approximation spaces is a fundamental task in scientific computing. Partially trainable neural networks bridge fixed random features and fully adaptive representations.",
+    "meta": {
+     "arxivId": "2610.31663v1",
+     "primaryCategory": "math.NA",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-sg4hp9-ao8h",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Reliable AI-Assisted Decisions via Selective Auditing",
+    "detail": "Isaac Gibbs, Elise L. Han, Ryan J. Tibshirani et al. · stat.ML",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.31662v1",
+    "timestamp": "2026-10-22T17:59:22Z",
+    "summary": "We consider online monitoring of an AI system that produces a sequence of decisions. At each round, the system outputs a proposed decision together with a confidence score estimating the trustworthiness of the decision.",
+    "meta": {
+     "arxivId": "2610.31662v1",
+     "primaryCategory": "stat.ML",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-5b0m97-ao8h",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing",
+    "detail": "Sy-Tuyen Ho, Anirudh Satheesh, Soham Chawathe et al. · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.31659v1",
+    "timestamp": "2026-10-22T17:59:03Z",
+    "summary": "Auditing whether a text-to-image (T2I) model was fine-tuned on a particular image collection is difficult: a model can absorb collection-level visual characteristics without reproducing training images. Proactive dataset-use auditing plants a shared signal in a dataset before release, then later checks whether that signal appears in a suspect model's generated outputs.",
+    "meta": {
+     "arxivId": "2610.31659v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 7,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017"
+   },
+   "toolHealth": {
+    "operational": 3,
+    "degraded": 2,
+    "total": 5
+   },
+   "latestPaper": {
+    "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+    "sourceUrl": "https://arxiv.org/abs/2610.31670v1"
+   }
+  },
+  "lastComputed": "2026-10-24T00:02:55.712Z"
+ }
+}
