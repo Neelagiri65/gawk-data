@@ -1,0 +1,112 @@
+{
+ "v": 1,
+ "capturedAt": "2026-10-25T12:27:31.648Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/40193059731",
+ "record": {
+  "date": "2026-10-25",
+  "lead": "sponsors/coollabsio trending on GitHub (192 stars today)",
+  "counts": {
+   "accepted": 10,
+   "skipped": 3
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "DeepSeek V4.1 Flash 1017 holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "sponsors/coollabsio trending on GitHub (192 stars today)",
+    "source": "curated",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "ollama downloads up 57.1% on brew",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-2",
+    "headline": "Google: Gemini 2.5 Flash Lite down 4 ranks on OpenRouter weekly",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-3",
+    "headline": "Step 5 Preview moved from rank 18 to 11",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-4",
+    "headline": "donnemartin/system-design-primer trending on GitHub (158 stars today)",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-5",
+    "headline": "codecrafters-io/build-your-own-x trending on GitHub (324 stars today)",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-7",
+    "headline": "@anthropic-ai/sdk on npm +41% vs baseline",
+    "source": "curated",
+    "slot": 7
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Claude Duet: Proactive agent that understands what needs your attention",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "A Unified Framework for Image-to-3D Part Generation via Variable Granularity",
+    "source": "curated",
+    "slot": 8
+   },
+   {
+    "verdict": "skip",
+    "gate": "sdk-dedup",
+    "reason": "same package already covered under wording drift",
+    "headline": "ollama",
+    "source": "supplement"
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-Codeium.codeium",
+    "headline": "Codeium.codeium (vscode) up 52%",
+    "source": "supplement",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-rotated",
+    "reason": "lead \"DeepSeek V4.1 Flash 1017 holds #1 on OpenRouter\" led 2 consecutive days — promoted \"sponsors/coollabsio trending on GitHub (192 stars today)\"",
+    "lead": "sponsors/coollabsio trending on GitHub (192 stars today)"
+   }
+  ]
+ }
+}
