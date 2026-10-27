@@ -1,0 +1,593 @@
+{
+ "v": 1,
+ "capturedAt": "2026-10-27T00:46:12.316Z",
+ "endpoint": "/api/v1/status",
+ "record": {
+  "data": {
+   "claude-code": {
+    "status": "operational",
+    "statusSourceId": "anthropic-status",
+    "lastCheckedAt": "2026-10-27T00:46:14.315Z",
+    "openIssues": 15046,
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-10-21",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "njk29r81v3wg",
+        "name": "Degraded performance for Claude Fable 5",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-21T19:49:06.495Z",
+        "resolvedAt": "2026-10-21T20:29:17.844Z"
+       }
+      ],
+      "sampleCount": 279
+     },
+     {
+      "date": "2026-10-22",
+      "worstStatus": "degraded",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-23",
+      "worstStatus": "major_outage",
+      "worstImpact": "critical",
+      "incidents": [
+       {
+        "id": "h101vcmhnfky",
+        "name": "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
+        "status": "resolved",
+        "impact": "critical",
+        "createdAt": "2026-10-23T23:37:42.667Z",
+        "resolvedAt": "2026-10-24T00:11:20.874Z"
+       }
+      ],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-24",
+      "worstStatus": "major_outage",
+      "worstImpact": "critical",
+      "incidents": [
+       {
+        "id": "0ns5clsk8p2x",
+        "name": "Elevated errors for Claude Fable 5 and Claude Fable 5.1",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-10-24T05:16:50.587Z",
+        "resolvedAt": "2026-10-24T05:53:30.600Z"
+       },
+       {
+        "id": "3cqf3pmlnr96",
+        "name": "Elevated errors for Claude Opus 5.5",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-10-24T00:31:37.604Z",
+        "resolvedAt": "2026-10-24T00:37:17.808Z"
+       },
+       {
+        "id": "h101vcmhnfky",
+        "name": "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
+        "status": "resolved",
+        "impact": "critical",
+        "createdAt": "2026-10-23T23:37:42.667Z",
+        "resolvedAt": "2026-10-24T00:11:20.874Z"
+       }
+      ],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-25",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "vx06kp8wfpq2",
+        "name": "Elevated errors for Claude Fable 5.1",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-10-25T08:17:08.285Z",
+        "resolvedAt": "2026-10-25T08:49:29.501Z"
+       },
+       {
+        "id": "334jvgbrc4ff",
+        "name": "Elevated errors for Claude Sonnet 5.5 and other models",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-10-25T06:14:18.095Z",
+        "resolvedAt": "2026-10-25T07:53:39.004Z"
+       }
+      ],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-10-26",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-10-27",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 9
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "claude-code",
+     "host": "api.anthropic.com",
+     "kind": "api-auth",
+     "state": "reachable",
+     "latencyMs": 70,
+     "checkedAt": "2026-10-27T00:45:14.031Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "openai-api": {
+    "status": "operational",
+    "statusSourceId": "openai-status",
+    "lastCheckedAt": "2026-10-27T00:46:14.315Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-10-21",
+      "worstStatus": "partial_outage",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01M5FD63HHDRPQPM5YMQWJ5HTN",
+        "name": "Elevated FedRAMP API error rates for Astra and Sol",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-21T14:17:32Z",
+        "resolvedAt": "2026-10-21T19:34:58Z"
+       },
+       {
+        "id": "01M5FHKHPQJMSHCE2B2WDPZW2N",
+        "name": "Elevated error rates for gpt-5.6-luna API requests",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-21T15:34:47Z",
+        "resolvedAt": "2026-10-21T16:44:09Z"
+       },
+       {
+        "id": "01M5E4G39TD1BW1QWHZG6RFA5H",
+        "name": "Degraded performance in ChatGPT, Codex, and APIs",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-21T02:26:28Z",
+        "resolvedAt": "2026-10-21T03:28:00Z"
+       }
+      ],
+      "sampleCount": 279
+     },
+     {
+      "date": "2026-10-22",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01M5JHVJVC8WAXB4WRYFMKG6HP",
+        "name": "New Ad Accounts failing to provision admins",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-22T19:36:53Z",
+        "resolvedAt": "2026-10-23T00:07:55Z"
+       },
+       {
+        "id": "01M5JF8DR3EGQJNTXPZ24AKX2G",
+        "name": "Degraded Performance of Dots on Enterprise",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-22T18:51:28Z",
+        "resolvedAt": "2026-10-22T20:55:48Z"
+       },
+       {
+        "id": "01M5GPE9C4E19HE461P8JAMYXD",
+        "name": "Elevated ChatGPT conversation and Responses API errors",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-22T02:18:32Z",
+        "resolvedAt": "2026-10-22T08:50:43Z"
+       }
+      ],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-23",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01M5NFF94XCJ6CGTD4S78A9BEB",
+        "name": "Degraded experience with ChatGPT app connections using CIMD",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-23T22:52:56Z",
+        "resolvedAt": "2026-10-23T23:43:22Z"
+       },
+       {
+        "id": "01M5NAR5GZC5M7D0S7AQ6CGEEN",
+        "name": "Help Center Chat Support Degraded",
+        "status": "resolved",
+        "impact": "none",
+        "createdAt": "2026-10-23T21:30:25Z",
+        "resolvedAt": "2026-10-23T22:02:57Z"
+       },
+       {
+        "id": "01M5KDJ4079XQTZDSRX40NMN6H",
+        "name": "Delays in customer support responses",
+        "status": "resolved",
+        "impact": "none",
+        "createdAt": "2026-10-23T03:41:03Z",
+        "resolvedAt": "2026-10-23T05:58:06Z"
+       },
+       {
+        "id": "01M5JHVJVC8WAXB4WRYFMKG6HP",
+        "name": "New Ad Accounts failing to provision admins",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-22T19:36:53Z",
+        "resolvedAt": "2026-10-23T00:07:55Z"
+       }
+      ],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-24",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-25",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-10-26",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01M5WPZTT0385GMEV1353ZC4AM",
+        "name": "Elevated error rates for Ads POST requests",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-26T18:19:00Z",
+        "resolvedAt": "2026-10-26T18:30:18Z"
+       }
+      ],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-10-27",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 9
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "openai-api",
+     "host": "api.openai.com",
+     "kind": "api-auth",
+     "state": "reachable",
+     "latencyMs": 73,
+     "checkedAt": "2026-10-27T00:45:14.031Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "copilot": {
+    "status": "operational",
+    "statusSourceId": "github-status",
+    "lastCheckedAt": "2026-10-27T00:46:14.315Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-10-21",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 279
+     },
+     {
+      "date": "2026-10-22",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-23",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-24",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-25",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-10-26",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-10-27",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 9
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "copilot",
+     "host": "api.github.com",
+     "kind": "api",
+     "state": "reachable",
+     "latencyMs": 13,
+     "checkedAt": "2026-10-27T00:45:14.031Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "windsurf": {
+    "status": "operational",
+    "statusSourceId": "windsurf-status",
+    "lastCheckedAt": "2026-10-27T00:46:14.315Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-10-21",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 279
+     },
+     {
+      "date": "2026-10-22",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-23",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-24",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-25",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-10-26",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-10-27",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 9
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "windsurf",
+     "host": "server.codeium.com",
+     "kind": "healthz",
+     "state": "reachable",
+     "latencyMs": 102,
+     "checkedAt": "2026-10-27T00:45:14.031Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "cursor": {
+    "status": "degraded",
+    "statusSourceId": "cursor-status",
+    "lastCheckedAt": "2026-10-27T00:46:14.315Z",
+    "activeIncidents": [
+     {
+      "id": "ps_67a789782eda77b3",
+      "name": "Degraded agent personalization and codebase sync",
+      "status": "investigating",
+      "createdAt": "2026-10-26T22:02:31.000Z",
+      "latestUpdate": "We've identified the cause and are rolling out a fix."
+     }
+    ],
+    "history": [
+     {
+      "date": "2026-10-21",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "691lnxhmwgs6",
+        "name": "Elevated errors for Bitbucket Cloud integrations",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-21T17:40:17.211Z",
+        "resolvedAt": "2026-10-21T17:53:46.902Z"
+       },
+       {
+        "id": "qy67qt0s4n18",
+        "name": "Investigating service degradation",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-21T15:46:15.268Z",
+        "resolvedAt": "2026-10-21T17:40:30.133Z"
+       }
+      ],
+      "sampleCount": 279
+     },
+     {
+      "date": "2026-10-22",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-23",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "z1rz4fcd48j6",
+        "name": "Investigating service outage - Grok models unavailable",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-10-23T23:39:03.345Z",
+        "resolvedAt": "2026-10-24T00:20:24.927Z"
+       }
+      ],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-24",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "ps_1bf7caceaa5f7a94",
+        "name": "Degraded Model Performance",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-24T00:03:44.000Z",
+        "resolvedAt": "2026-10-24T00:04:21.000Z"
+       },
+       {
+        "id": "z1rz4fcd48j6",
+        "name": "Investigating service outage - Grok models unavailable",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-10-23T23:39:03.345Z",
+        "resolvedAt": "2026-10-24T00:20:24.927Z"
+       }
+      ],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-25",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-10-26",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "ps_67a789782eda77b3",
+        "name": "Degraded agent personalization and codebase sync",
+        "status": "investigating",
+        "impact": "minor",
+        "createdAt": "2026-10-26T22:02:31.000Z"
+       },
+       {
+        "id": "tf5vxc32161d",
+        "name": "Elevated errors for Claude Sonnet 5.5",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-26T14:02:00.000Z",
+        "resolvedAt": "2026-10-26T15:25:50.951Z"
+       }
+      ],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-10-27",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "ps_3e59314c94d41d47",
+        "name": "Payment System Sync Issues",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-27T00:19:53.000Z",
+        "resolvedAt": "2026-10-27T00:24:28.000Z"
+       },
+       {
+        "id": "ps_67a789782eda77b3",
+        "name": "Degraded agent personalization and codebase sync",
+        "status": "investigating",
+        "impact": "minor",
+        "createdAt": "2026-10-26T22:02:31.000Z"
+       }
+      ],
+      "sampleCount": 9
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "cursor",
+     "host": "api2.cursor.sh",
+     "kind": "api",
+     "state": "reachable",
+     "latencyMs": 26,
+     "checkedAt": "2026-10-27T00:45:14.031Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   }
+  },
+  "polledAt": "2026-10-27T00:46:14.315Z",
+  "failures": [
+   {
+    "toolId": "codex",
+    "sourceId": "openai-status",
+    "message": "neither `Codex Web` nor `Codex API` component found on OpenAI status page"
+   }
+  ]
+ }
+}

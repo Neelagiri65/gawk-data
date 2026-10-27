@@ -1,0 +1,540 @@
+{
+ "v": 1,
+ "capturedAt": "2026-10-27T00:46:12.316Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-1ef0dl0-aobc",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Cursor is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "Cursor Status",
+    "sourceUrl": "https://status.cursor.com",
+    "timestamp": "2026-10-27T00:46:14.669Z",
+    "meta": {
+     "toolId": "cursor",
+     "status": "degraded",
+     "statusSourceId": "cursor-status",
+     "activeIncidents": 1,
+     "incidentName": "Degraded agent personalization and codebase sync"
+    },
+    "summary": "We've identified the cause and are rolling out a fix."
+   },
+   {
+    "id": "MODEL_MOVER-1v9ytte-aoba",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "MiniMax: MiniMax M3.1 Flash up 19 ranks on OpenRouter weekly",
+    "detail": "Now #27, was #46.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/minimax/minimax-m3.1-flash",
+    "timestamp": "2026-10-26T22:51:55.376Z",
+    "meta": {
+     "slug": "minimax/minimax-m3.1-flash",
+     "name": "MiniMax: MiniMax M3.1 Flash",
+     "currentRank": 27,
+     "previousRank": 46,
+     "delta": -19
+    },
+    "summary": "MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity."
+   },
+   {
+    "id": "MODEL_MOVER-k676a4-aoba",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemini 4 Argon down 4 ranks on OpenRouter weekly",
+    "detail": "Now #32, was #28.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemini-4-argon",
+    "timestamp": "2026-10-26T22:51:55.376Z",
+    "meta": {
+     "slug": "google/gemini-4-argon",
+     "name": "Google: Gemini 4 Argon",
+     "currentRank": 32,
+     "previousRank": 28,
+     "delta": 4
+    },
+    "summary": "Gemini 4 Argon is Google's flagship reasoning model, built for complex software engineering, deep mathematical and scientific problem solving, and autonomous multi-step agents."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-14btj2p-aoa7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Moli by Lexmount: The fastest headless browser for agents and harnesses",
+    "detail": "292 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/lexmount-browser?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-25T07:01:00.000Z",
+    "summary": "Moli by Lexmount is our browser engine built from scratch for AI agents. It starts faster and uses less memory than Chrome. Use Moli through Lexmount Browser, our cloud browser platform. Run multiple isolated browser sessions with proxy support while we handle the infrastructure.",
+    "meta": {
+     "votes": 292,
+     "tagline": "The fastest headless browser for agents and harnesses"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1fx1owq-aoba",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "MoonshotAI: Kimi K3.1 Pro up 15 ranks on OpenRouter weekly",
+    "detail": "Now #35, was #50.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/moonshotai/kimi-k3.1-pro",
+    "timestamp": "2026-10-26T22:51:55.376Z",
+    "meta": {
+     "slug": "moonshotai/kimi-k3.1-pro",
+     "name": "MoonshotAI: Kimi K3.1 Pro",
+     "currentRank": 35,
+     "previousRank": 50,
+     "delta": -15
+    },
+    "summary": "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window."
+   },
+   {
+    "id": "MODEL_MOVER-17wo1el-aoba",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Anthropic: Claude Opus 5 down 4 ranks on OpenRouter weekly",
+    "detail": "Now #37, was #33.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/anthropic/claude-opus-5",
+    "timestamp": "2026-10-26T22:51:55.376Z",
+    "meta": {
+     "slug": "anthropic/claude-opus-5",
+     "name": "Anthropic: Claude Opus 5",
+     "currentRank": 37,
+     "previousRank": 33,
+     "delta": 4
+    },
+    "summary": "Claude Opus 5 is Anthropic’s flagship model for demanding reasoning, coding, and long-horizon agentic work. It is particularly strong at end-to-end software tasks, code review and bug finding, visual analysis of charts and documents, complex office deliverables, and coordinating parallel subagents."
+   },
+   {
+    "id": "PRESS-n8qle-aob5",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Supabase’s Plan for a Billion AI-Built Apps",
+    "detail": "Reported by latent.space (San Francisco, US).",
+    "sourceName": "latent.space",
+    "sourceUrl": "https://latent.space/p/supabase_s_plan_for_a_billion_ai-built_apps/",
+    "timestamp": "2026-10-26T17:53:59.000Z",
+    "summary": "AI agents are creating more software—and that changes what a backend needs to do.",
+    "meta": {
+     "rssId": "64166776b48e214b",
+     "publisher": "latent-space",
+     "country": "US",
+     "lang": "en",
+     "imagePath": "/api/rss/image/64166776b48e214b"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-164jtp5-aoba",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemma 4 31B down 4 ranks on OpenRouter weekly",
+    "detail": "Now #45, was #41.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemma-4-31b-it",
+    "timestamp": "2026-10-26T22:51:55.376Z",
+    "meta": {
+     "slug": "google/gemma-4-31b-it",
+     "name": "Google: Gemma 4 31B",
+     "currentRank": 45,
+     "previousRank": 41,
+     "delta": 4
+    },
+    "summary": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function calling, and multilingual support across 140+ languages."
+   },
+   {
+    "id": "MODEL_MOVER-mad5z4-aoba",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3.5 Super VL down 54 ranks on OpenRouter weekly",
+    "detail": "Now #80, was #26.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl",
+    "timestamp": "2026-10-26T22:51:55.376Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3.5-super-vl",
+     "name": "NVIDIA: Nemotron 3.5 Super VL",
+     "currentRank": 80,
+     "previousRank": 26,
+     "delta": 54
+    },
+    "summary": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total."
+   },
+   {
+    "id": "NEWS-gieqyv-aob9",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Working with academic communities to build scientific understanding",
+    "detail": "219 points · 90 comments on Hacker News.",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50251344",
+    "timestamp": "2026-10-26T21:35:28Z",
+    "meta": {
+     "hnId": "50251344",
+     "points": 219,
+     "numComments": 90,
+     "author": "jonluca"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-cgrvh6-aoba",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-6 Luna (batch) down 80 ranks on OpenRouter weekly",
+    "detail": "Now #86, was #6.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-6-luna",
+    "timestamp": "2026-10-26T22:51:55.376Z",
+    "meta": {
+     "slug": "openai/gpt-6-luna",
+     "name": "OpenAI: GPT-6 Luna (batch)",
+     "currentRank": 86,
+     "previousRank": 6,
+     "delta": 80
+    },
+    "summary": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-8di3ik-ao8v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "MOVO AI: The world's first long-form video agent for mobile",
+    "detail": "304 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/movo-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-23T07:01:00.000Z",
+    "summary": "MOVO AI is the world’s first AI video agent for long-form creation that works right from your phone. It also works on the web. Shoot, upload, or start with an idea, then tell MOVO AI what you want.",
+    "meta": {
+     "votes": 304,
+     "tagline": "The world's first long-form video agent for mobile"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-146qwme-ao87",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Claude Duet: Proactive agent that understands what needs your attention",
+    "detail": "357 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-22T07:01:00.000Z",
+    "summary": "Claude Duet is a helpful, proactive agent you hand off work to through messages. Tell it what you need and it works on its own computer in the cloud, using apps you connect. It messages you when it is done or needs a decision from you.",
+    "meta": {
+     "votes": 357,
+     "tagline": "Proactive agent that understands what needs your attention"
+    }
+   },
+   {
+    "id": "RESEARCH-grk28g-ao95",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
+    "detail": "Yuhan Liu, Lianhui Qin, Shenji Wan · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.32978v1",
+    "timestamp": "2026-10-23T17:59:21Z",
+    "summary": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors over plausible arrangements, yet their outputs require geometric reasoning to become physically valid 3D scenes.",
+    "meta": {
+     "arxivId": "2610.32978v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-gq1fau-ao87",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "DeepCell: Your deadline survival kit for office work",
+    "detail": "352 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/deepcell?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-22T07:01:00.000Z",
+    "summary": "Deepcell can help you with deadline tasks that require narrations, calculation and presentation at the same time, such as modeling, sales review, budget forecast and monthly report.",
+    "meta": {
+     "votes": 352,
+     "tagline": "Your deadline survival kit for office work"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1rxwo1o-ao7j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "UseIt Studio: Your AI design agent for real, editable project files.",
+    "detail": "329 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/useit-studio-from-idea-to-delivery?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-21T07:01:00.000Z",
+    "summary": "UseIt is an AI design studio for things you can hold. Describe what you want in one sentence. UseIt asks what a designer would ask, designs it with you, and lets you refine any detail by pointing at it.",
+    "meta": {
+     "votes": 329,
+     "tagline": "Your AI design agent for real, editable project files."
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-aobc",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (199 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-10-27T00:46:14.674Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 199,
+     "country": "US"
+    },
+    "summary": "anthropics/claude-code — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1fi1pv3-ao7j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "BAND for Developers: Coding agents, meet teamwork",
+    "detail": "309 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/band?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-21T07:01:00.000Z",
+    "summary": "Running multiple coding agents shouldn’t mean becoming their project manager. BAND lets them work together. Connect agents across your existing development tools and give them a shared workspace to coordinate tasks, exchange context, and hand off work without you playing middleman.",
+    "meta": {
+     "votes": 309,
+     "tagline": "Coding agents, meet teamwork"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1fjzsud-ao7j",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Needle: The agent-native outbound engine",
+    "detail": "297 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/needle-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-21T07:01:00.000Z",
+    "summary": "Find your perfect leads and reach out by prompting Claude, ChatGPT, or Grok. Wherever your ICP are, on LinkedIn, Instagram, or email.",
+    "meta": {
+     "votes": 297,
+     "tagline": "The agent-native outbound engine"
+    }
+   },
+   {
+    "id": "PRESS-mmbenw-aob5",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Will the real Anthropic please stand up",
+    "detail": "Reported by MIT Technology Review — AI (Cambridge, US).",
+    "sourceName": "MIT Technology Review — AI",
+    "sourceUrl": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+    "timestamp": "2026-10-26T17:45:43.000Z",
+    "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus.",
+    "meta": {
+     "rssId": "664f86ce67ce91e9",
+     "publisher": "mit-tech-review-ai",
+     "country": "US",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-v2hm0f-ao6v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Composio Instant: The easiest way for AI agents to pay for their own tools",
+    "detail": "343 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/composio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-20T07:01:00.000Z",
+    "summary": "Give your agent superpowers. No subscriptions, no signups. With Composio Instant, your agent can search the web, find business contacts, create voiceovers, turn audio into text, and so much more. Try it free: composio.dev/instant",
+    "meta": {
+     "votes": 343,
+     "tagline": "The easiest way for AI agents to pay for their own tools"
+    }
+   },
+   {
+    "id": "PRESS-8plgg9-aob5",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Wenn KI wählen müsste: GPT und Grok liefern gegensätzliche Empfehlungen",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/KI-Wahlempfehlungen-GPT-waehlt-Demokraten-Grok-waehlt-Republikaner-11500825.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-10-26T17:07:00.000Z",
+    "summary": "Ein Forscherteam fragte GPT-6.1 Sol und Grok 4.7 per API nach Wahlempfehlungen. Das Ergebnis: GPT wählte fast nur demokratisch, Grok fast nur republikanisch.",
+    "meta": {
+     "rssId": "164237c2a6b61af5",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/164237c2a6b61af5"
+    }
+   },
+   {
+    "id": "PRESS-1g17x2-aob4",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Nace AI Releases Drex for Search for AI Agents: 92.05% on BrowseComp-Plus With 12.6 Search Calls",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/10/26/nace-ai-releases-drex-for-search-for-ai-agents/",
+    "timestamp": "2026-10-26T16:46:09.000Z",
+    "summary": "Nace AI has released Drex for Search, bringing its Drex decision models to document search for AI agents. Nace reports 92.05% on BrowseComp-Plus with 12.6 search calls, and fewer agent turns on OfficeQA Pro.",
+    "meta": {
+     "rssId": "d5cb2785b811912e",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "NEWS-7y4y1f-aobb",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Update: My 4B coding model is getting better at generating 3D scenes",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xgc7uv/update_my_4b_coding_model_is_getting_better_at/",
+    "timestamp": "2026-10-26T23:07:49.000Z",
+    "meta": {
+     "redditId": "06d5b26ed669c78e",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "Hey everyone, just wanted to share a quick update on the 4B model I posted here . The video shows some results from the latest checkpoint. I'm still training this Qwen3.5-4B fine-tune for general coding, using Three.js scene generation as my main test for now."
+   },
+   {
+    "id": "PRESS-vzwo7o-aob4",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "heise+ | MCP für Android-Apps: Android AppFunctions im praktischen Einsatz",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/ratgeber/MCP-fuer-Android-Apps-Android-AppFunctions-im-praktischen-Einsatz-11493658.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+    "timestamp": "2026-10-26T16:30:00.000Z",
+    "summary": "Die Android-Plattform-API AppFunctions ermöglicht es Apps, ihre Funktionen und Daten so bereitzustellen, dass KI-Agenten diese finden und nutzen können.",
+    "meta": {
+     "rssId": "e91aa4bdc5069ffa",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/e91aa4bdc5069ffa"
+    }
+   },
+   {
+    "id": "NEWS-1b1ma5c-aoba",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Interactive neuron steering playground for Qwen3.5-4B that runs locally in the browser on WebGPU",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xgbr9y/interactive_neuron_steering_playground_for/",
+    "timestamp": "2026-10-26T22:48:42.000Z",
+    "meta": {
+     "redditId": "e81fb3ed547a2222",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "There is a trend on X where users are finding tiny subsets of neurons (often just one or two) that can steer LLM behavior in surprising ways. For example, steering just two neurons in Qwen3.5-4B can make it talk about harming, dominating, and destroying the user."
+   },
+   {
+    "id": "NEWS-eowlb1-aoba",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Qwen investigation traces release",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xgbm28/qwen_investigation_traces_release/",
+    "timestamp": "2026-10-26T22:42:31.000Z",
+    "meta": {
+     "redditId": "0c108298083eb1ae",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "In the spirit of transparency and openness, we are releasing the traces so developers can test this out for themselves. We noticed this behaviour without prefilling with the following prompt, but this is rare. If you want to reproduce it, you can use this prompt with prefilling."
+   },
+   {
+    "id": "RESEARCH-9p45z-ao95",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
+    "detail": "Xi Chen, Fengqi Hu, Zeyu Shen et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.32971v1",
+    "timestamp": "2026-10-23T17:57:22Z",
+    "summary": "Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit their broader potential: limited algorithm reusability and an unclear empirical capability boundary.",
+    "meta": {
+     "arxivId": "2610.32971v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 8,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-7ul0zq-ao95",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
+    "detail": "Amber Xie, Jiawei Fu, Xiaofeng Guo et al. · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.32969v1",
+    "timestamp": "2026-10-23T17:56:28Z",
+    "summary": "Collecting high-quality demonstrations remains a central bottleneck for learning dexterous manipulation. Teleoperation records executable robot actions, but it requires a complete robot setup and places the burden of coordinating many finger joints on the operator.",
+    "meta": {
+     "arxivId": "2610.32969v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 6,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-5nlccp-ao95",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Flownomaly: Single-Step Conditional-Mean Recovery for Few-Shot Anomaly Detection",
+    "detail": "Bernardo Perrone Ribeiro, Erkut Akdag, Egor Bondarev · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.32964v1",
+    "timestamp": "2026-10-23T17:53:30Z",
+    "summary": "Few-shot industrial anomaly detection requires modeling category-specific normality from only a handful of defect-free images. Common approaches tie inference to stored exemplars, impose rigid linear structure, or risk reproducing anomalous content. Flownomaly instead casts the problem as normal-counterpart recovery in frozen DINOv2 feature space.",
+    "meta": {
+     "arxivId": "2610.32964v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-10avz5d-ao95",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox",
+    "detail": "Federico Lucca · cs.CL",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.32955v1",
+    "timestamp": "2026-10-23T17:49:43Z",
+    "summary": "Personal email agents decide, for every message, what it is, whether it is urgent, whether to draft a reply, create a task, or ignore it. Their error rate is rarely measured: the stored labels were written by the system itself.",
+    "meta": {
+     "arxivId": "2610.32955v1",
+     "primaryCategory": "cs.CL",
+     "authorCount": 1,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017"
+   },
+   "toolHealth": {
+    "operational": 4,
+    "degraded": 1,
+    "total": 5
+   },
+   "latestPaper": {
+    "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
+    "sourceUrl": "https://arxiv.org/abs/2610.32978v1"
+   }
+  },
+  "lastComputed": "2026-10-27T00:46:14.669Z"
+ }
+}
