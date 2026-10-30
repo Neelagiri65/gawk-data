@@ -1,0 +1,619 @@
+{
+ "v": 1,
+ "capturedAt": "2026-10-30T00:55:35.367Z",
+ "endpoint": "/api/v1/status",
+ "record": {
+  "data": {
+   "claude-code": {
+    "status": "operational",
+    "statusSourceId": "anthropic-status",
+    "lastCheckedAt": "2026-10-30T00:55:52.286Z",
+    "openIssues": 15397,
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-10-24",
+      "worstStatus": "major_outage",
+      "worstImpact": "critical",
+      "incidents": [
+       {
+        "id": "0ns5clsk8p2x",
+        "name": "Elevated errors for Claude Fable 5 and Claude Fable 5.1",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-10-24T05:16:50.587Z",
+        "resolvedAt": "2026-10-24T05:53:30.600Z"
+       },
+       {
+        "id": "3cqf3pmlnr96",
+        "name": "Elevated errors for Claude Opus 5.5",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-10-24T00:31:37.604Z",
+        "resolvedAt": "2026-10-24T00:37:17.808Z"
+       },
+       {
+        "id": "h101vcmhnfky",
+        "name": "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
+        "status": "resolved",
+        "impact": "critical",
+        "createdAt": "2026-10-23T23:37:42.667Z",
+        "resolvedAt": "2026-10-24T00:11:20.874Z"
+       }
+      ],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-25",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "vx06kp8wfpq2",
+        "name": "Elevated errors for Claude Fable 5.1",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-10-25T08:17:08.285Z",
+        "resolvedAt": "2026-10-25T08:49:29.501Z"
+       },
+       {
+        "id": "334jvgbrc4ff",
+        "name": "Elevated errors for Claude Sonnet 5.5 and other models",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-10-25T06:14:18.095Z",
+        "resolvedAt": "2026-10-25T07:53:39.004Z"
+       }
+      ],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-10-26",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-10-27",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "lqhknfdjrcst",
+        "name": "Elevated errors for Claude Sonnet 5.5",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-10-27T15:09:08.936Z",
+        "resolvedAt": "2026-10-27T15:50:17.700Z"
+       },
+       {
+        "id": "0q89dylg9vjk",
+        "name": "Elevated errors for Claude Sonnet 5.5",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-10-27T09:14:35.052Z",
+        "resolvedAt": "2026-10-27T09:56:46.355Z"
+       }
+      ],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-10-28",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "phg1y2yh07n2",
+        "name": "Elevated errors affecting the Google Calendar connector",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-28T16:19:09.946Z",
+        "resolvedAt": "2026-10-28T20:05:18.208Z"
+       },
+       {
+        "id": "9ftx658xtd5z",
+        "name": "Elevated errors affecting the Gmail connector",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-28T03:59:32.234Z",
+        "resolvedAt": "2026-10-28T05:48:13.126Z"
+       }
+      ],
+      "sampleCount": 271
+     },
+     {
+      "date": "2026-10-29",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 278
+     },
+     {
+      "date": "2026-10-30",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 11
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "claude-code",
+     "host": "api.anthropic.com",
+     "kind": "api-auth",
+     "state": "reachable",
+     "latencyMs": 52,
+     "checkedAt": "2026-10-30T00:55:33.821Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "openai-api": {
+    "status": "operational",
+    "statusSourceId": "openai-status",
+    "lastCheckedAt": "2026-10-30T00:55:52.286Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-10-24",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-25",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-10-26",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01M5WPZTT0385GMEV1353ZC4AM",
+        "name": "Elevated error rates for Ads POST requests",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-26T18:19:00Z",
+        "resolvedAt": "2026-10-26T18:30:18Z"
+       }
+      ],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-10-27",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01M5YY4A3TQETEQ53DVSK8SW10",
+        "name": "6.1 Sol Degraded Model Performance",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-27T15:02:15Z",
+        "resolvedAt": "2026-10-27T16:20:06Z"
+       },
+       {
+        "id": "01M5Y60NQGGN514EB3943V94EN",
+        "name": "Elevated error rates for most hosted Code Reviews and Security Reviews on private GitHub repositories",
+        "status": "resolved",
+        "impact": "none",
+        "createdAt": "2026-10-27T08:00:50Z",
+        "resolvedAt": "2026-10-27T08:30:00Z"
+       }
+      ],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-10-28",
+      "worstStatus": "degraded",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 271
+     },
+     {
+      "date": "2026-10-29",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 278
+     },
+     {
+      "date": "2026-10-30",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 11
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "openai-api",
+     "host": "api.openai.com",
+     "kind": "api-auth",
+     "state": "reachable",
+     "latencyMs": 144,
+     "checkedAt": "2026-10-30T00:55:33.821Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "copilot": {
+    "status": "operational",
+    "statusSourceId": "github-status",
+    "lastCheckedAt": "2026-10-30T00:55:52.286Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-10-24",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-25",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-10-26",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-10-27",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-10-28",
+      "worstStatus": "major_outage",
+      "worstImpact": "critical",
+      "incidents": [
+       {
+        "id": "l7ycmglmykgg",
+        "name": "Disruption with some Copilot services",
+        "status": "resolved",
+        "impact": "critical",
+        "createdAt": "2026-10-28T14:12:53.821Z",
+        "resolvedAt": "2026-10-28T15:28:19.237Z"
+       }
+      ],
+      "sampleCount": 271
+     },
+     {
+      "date": "2026-10-29",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 278
+     },
+     {
+      "date": "2026-10-30",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 11
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "copilot",
+     "host": "api.github.com",
+     "kind": "api",
+     "state": "reachable",
+     "latencyMs": 12,
+     "checkedAt": "2026-10-30T00:55:33.821Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "windsurf": {
+    "status": "operational",
+    "statusSourceId": "windsurf-status",
+    "lastCheckedAt": "2026-10-30T00:55:52.286Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-10-24",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-25",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-10-26",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-10-27",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-10-28",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 271
+     },
+     {
+      "date": "2026-10-29",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 278
+     },
+     {
+      "date": "2026-10-30",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 11
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "windsurf",
+     "host": "server.codeium.com",
+     "kind": "healthz",
+     "state": "reachable",
+     "latencyMs": 119,
+     "checkedAt": "2026-10-30T00:55:33.821Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "cursor": {
+    "status": "degraded",
+    "statusSourceId": "cursor-status",
+    "lastCheckedAt": "2026-10-30T00:55:52.286Z",
+    "activeIncidents": [
+     {
+      "id": "ps_e5eb22a9954466c4",
+      "name": "Auto Review Degradation",
+      "status": "investigating",
+      "createdAt": "2026-10-29T23:44:42.000Z",
+      "latestUpdate": "We are investigating a degradation in Auto Review functionality"
+     },
+     {
+      "id": "ps_35b661ea1cde5cbc",
+      "name": "Cloud Agent Degradation",
+      "status": "investigating",
+      "createdAt": "2026-10-29T23:29:27.000Z",
+      "latestUpdate": "We are investigation a degradation to Cloud Agents"
+     },
+     {
+      "id": "ps_ad31c985bfc193b9",
+      "name": "Investigating Service Degradation with VS Code Extensions",
+      "status": "investigating",
+      "createdAt": "2026-10-29T21:38:10.000Z",
+      "latestUpdate": "We are investigating a service degradation with VS Code extensions"
+     }
+    ],
+    "history": [
+     {
+      "date": "2026-10-24",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "ps_1bf7caceaa5f7a94",
+        "name": "Degraded Model Performance",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-24T00:03:44.000Z",
+        "resolvedAt": "2026-10-24T00:04:21.000Z"
+       },
+       {
+        "id": "z1rz4fcd48j6",
+        "name": "Investigating service outage - Grok models unavailable",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-10-23T23:39:03.345Z",
+        "resolvedAt": "2026-10-24T00:20:24.927Z"
+       }
+      ],
+      "sampleCount": 280
+     },
+     {
+      "date": "2026-10-25",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-10-26",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "ps_67a789782eda77b3",
+        "name": "Degraded agent personalization and codebase sync",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-26T22:02:31.000Z",
+        "resolvedAt": "2026-10-27T01:19:29.000Z"
+       },
+       {
+        "id": "tf5vxc32161d",
+        "name": "Elevated errors for Claude Sonnet 5.5",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-26T14:02:00.000Z",
+        "resolvedAt": "2026-10-26T15:25:50.951Z"
+       }
+      ],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-10-27",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "ps_45622ec185897742",
+        "name": "Delayed responses in Grok Bot",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-10-27T20:33:09.000Z",
+        "resolvedAt": "2026-10-27T20:43:04.000Z"
+       },
+       {
+        "id": "ps_7e6bd6bbd3e53c30",
+        "name": "Elevated errors affecting repository integrations",
+        "status": "resolved",
+        "impact": "none",
+        "createdAt": "2026-10-27T07:33:08.000Z",
+        "resolvedAt": "2026-10-27T08:18:40.000Z"
+       },
+       {
+        "id": "ps_3e59314c94d41d47",
+        "name": "Payment System Sync Issues",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-27T00:19:53.000Z",
+        "resolvedAt": "2026-10-27T00:24:28.000Z"
+       },
+       {
+        "id": "ps_67a789782eda77b3",
+        "name": "Degraded agent personalization and codebase sync",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-26T22:02:31.000Z",
+        "resolvedAt": "2026-10-27T01:19:29.000Z"
+       }
+      ],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-10-28",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "ps_d25569b21cabd283",
+        "name": "Multiple services degraded",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-10-28T21:15:10.000Z",
+        "resolvedAt": "2026-10-28T23:13:34.000Z"
+       }
+      ],
+      "sampleCount": 271
+     },
+     {
+      "date": "2026-10-29",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "ps_e5eb22a9954466c4",
+        "name": "Auto Review Degradation",
+        "status": "investigating",
+        "impact": "minor",
+        "createdAt": "2026-10-29T23:44:42.000Z"
+       },
+       {
+        "id": "ps_35b661ea1cde5cbc",
+        "name": "Cloud Agent Degradation",
+        "status": "investigating",
+        "impact": "minor",
+        "createdAt": "2026-10-29T23:29:27.000Z"
+       },
+       {
+        "id": "ps_ad31c985bfc193b9",
+        "name": "Investigating Service Degradation with VS Code Extensions",
+        "status": "investigating",
+        "impact": "minor",
+        "createdAt": "2026-10-29T21:38:10.000Z"
+       },
+       {
+        "id": "ps_95a4f0b2be913452",
+        "name": "Degraded performance — Origin and Cloud Agents",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-10-29T09:01:50.000Z",
+        "resolvedAt": "2026-10-29T09:18:22.000Z"
+       }
+      ],
+      "sampleCount": 278
+     },
+     {
+      "date": "2026-10-30",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "ps_e5eb22a9954466c4",
+        "name": "Auto Review Degradation",
+        "status": "investigating",
+        "impact": "minor",
+        "createdAt": "2026-10-29T23:44:42.000Z"
+       },
+       {
+        "id": "ps_35b661ea1cde5cbc",
+        "name": "Cloud Agent Degradation",
+        "status": "investigating",
+        "impact": "minor",
+        "createdAt": "2026-10-29T23:29:27.000Z"
+       },
+       {
+        "id": "ps_ad31c985bfc193b9",
+        "name": "Investigating Service Degradation with VS Code Extensions",
+        "status": "investigating",
+        "impact": "minor",
+        "createdAt": "2026-10-29T21:38:10.000Z"
+       }
+      ],
+      "sampleCount": 11
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "cursor",
+     "host": "api2.cursor.sh",
+     "kind": "api",
+     "state": "reachable",
+     "latencyMs": 35,
+     "checkedAt": "2026-10-30T00:55:33.821Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   }
+  },
+  "polledAt": "2026-10-30T00:55:52.286Z",
+  "failures": [
+   {
+    "toolId": "codex",
+    "sourceId": "openai-status",
+    "message": "neither `Codex Web` nor `Codex API` component found on OpenAI status page"
+   }
+  ]
+ }
+}

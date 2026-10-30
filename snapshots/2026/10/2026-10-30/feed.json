@@ -1,0 +1,487 @@
+{
+ "v": 1,
+ "capturedAt": "2026-10-30T00:55:35.367Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-1ef0dl0-aodc",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Cursor is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "Cursor Status",
+    "sourceUrl": "https://status.cursor.com",
+    "timestamp": "2026-10-30T00:55:52.706Z",
+    "meta": {
+     "toolId": "cursor",
+     "status": "degraded",
+     "statusSourceId": "cursor-status",
+     "activeIncidents": 3,
+     "incidentName": "Auto Review Degradation"
+    },
+    "summary": "We are investigating a degradation in Auto Review functionality"
+   },
+   {
+    "id": "MODEL_MOVER-1v9ytte-aoda",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "MiniMax: MiniMax M3.1 Flash up 4 ranks on OpenRouter weekly",
+    "detail": "Now #13, was #17.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/minimax/minimax-m3.1-flash",
+    "timestamp": "2026-10-29T22:58:05.545Z",
+    "meta": {
+     "slug": "minimax/minimax-m3.1-flash",
+     "name": "MiniMax: MiniMax M3.1 Flash",
+     "currentRank": 13,
+     "previousRank": 17,
+     "delta": -4
+    },
+    "summary": "MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity."
+   },
+   {
+    "id": "MODEL_MOVER-17wo1el-aoda",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Anthropic: Claude Opus 5 down 6 ranks on OpenRouter weekly",
+    "detail": "Now #51, was #45.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/anthropic/claude-opus-5",
+    "timestamp": "2026-10-29T22:58:05.545Z",
+    "meta": {
+     "slug": "anthropic/claude-opus-5",
+     "name": "Anthropic: Claude Opus 5",
+     "currentRank": 51,
+     "previousRank": 45,
+     "delta": 6
+    },
+    "summary": "Claude Opus 5 is Anthropic’s flagship model for demanding reasoning, coding, and long-horizon agentic work. It is particularly strong at end-to-end software tasks, code review and bug finding, visual analysis of charts and documents, complex office deliverables, and coordinating parallel subagents."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-jy9pbt-aocv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Empacer:  The voice-first assistant for small business owners",
+    "detail": "379 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/empacer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-29T07:01:00.000Z",
+    "summary": "Most small business owners face the same problem when trying to use AI tools: they don't have time for re-explaining their business in every chat. Empacer is designed to skip this part.",
+    "meta": {
+     "votes": 379,
+     "tagline": " The voice-first assistant for small business owners"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-mad5z4-aoda",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3.5 Super VL down 50 ranks on OpenRouter weekly",
+    "detail": "Now #74, was #24.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl",
+    "timestamp": "2026-10-29T22:58:05.545Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3.5-super-vl",
+     "name": "NVIDIA: Nemotron 3.5 Super VL",
+     "currentRank": 74,
+     "previousRank": 24,
+     "delta": 50
+    },
+    "summary": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total."
+   },
+   {
+    "id": "MODEL_MOVER-cgrvh6-aoda",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-6 Luna (batch) down 80 ranks on OpenRouter weekly",
+    "detail": "Now #84, was #4.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-6-luna",
+    "timestamp": "2026-10-29T22:58:05.545Z",
+    "meta": {
+     "slug": "openai/gpt-6-luna",
+     "name": "OpenAI: GPT-6 Luna (batch)",
+     "currentRank": 84,
+     "previousRank": 4,
+     "delta": 80
+    },
+    "summary": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-y6xwzf-aocv",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Scape: An intelligent email inbox that works for you",
+    "detail": "287 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/scape-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-29T07:01:00.000Z",
+    "summary": "Imagine opening your inbox and finding everything already organized, with replies ready to review. Scape is an intelligent email client that prioritizes messages, prepares contextual drafts, and helps track conversations and follow-ups.",
+    "meta": {
+     "votes": 287,
+     "tagline": "An intelligent email inbox that works for you"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-5zvta1-aobj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "TheySaid 4.0: See how users will react, right where you build.",
+    "detail": "371 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/theysaid?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-27T07:01:00.000Z",
+    "summary": "Put what you’re building in front of real customers or synthetic users trained on them when you need an answer in minutes without leaving Claude, Cursor, or Jira. Nothing ships on a guess.",
+    "meta": {
+     "votes": 371,
+     "tagline": "See how users will react, right where you build."
+    }
+   },
+   {
+    "id": "PRESS-172uci2-aod9",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Baseten Releases joey-1, a 2B Decision Model at $0.01 per 1M Tokens",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/10/29/baseten-joey-1-2b-decision-model/",
+    "timestamp": "2026-10-29T21:20:29.000Z",
+    "summary": "Baseten has released joey-1, a 2B open-weight decision model that returns calibrated probabilities instead of text. It runs at 20 ms P50 latency and costs $0.01 per million input tokens.",
+    "meta": {
+     "rssId": "387fa7c4bd5143ad",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-or4dve-aobj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Overmind: Open-source platform for continuous learning",
+    "detail": "311 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/overmind-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-27T07:01:00.000Z",
+    "summary": "Overmind is the model training platform for AI teams. Turn your production traces into specialised models you own, trained, benchmarked, and served.",
+    "meta": {
+     "votes": 311,
+     "tagline": "Open-source platform for continuous learning"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1ropwrg-aoav",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Strawberry 1.0: AI Browser that saves your team >100h/week",
+    "detail": "350 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/strawberry?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-26T07:01:00.000Z",
+    "summary": "Strawberry is an AI browser that can do hours of work in minutes. Strawberry's agents, which we call \"Companions\", can research hundreds of leads in parallel, transcribe your meetings, automate follow-ups, and handle all the repetitive admin your team keeps procrastinating.",
+    "meta": {
+     "votes": 350,
+     "tagline": "AI Browser that saves your team >100h/week"
+    }
+   },
+   {
+    "id": "NEWS-1rqcgwa-aodb",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Open Code PyHooker open_code_hooker.py",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xizv2e/open_code_pyhooker_open_code_hookerpy/",
+    "timestamp": "2026-10-29T23:34:43.000Z",
+    "meta": {
+     "redditId": "279e6f0f454a024f",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "I really was completely lazy to do the research into any Open Code hooks into remote servers running AI rigs. So in my case I have my LLMs all bound locally therefore an auth and proxy gateway was needed. I chicken and egged a lightweight python proxy auth gateway running on fastapi/uvicorn."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-14btj2p-aoa7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Moli by Lexmount: The fastest headless browser for agents and harnesses",
+    "detail": "302 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/lexmount-browser?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-25T07:01:00.000Z",
+    "summary": "Moli by Lexmount is our browser engine built from scratch for AI agents. It starts faster and uses less memory than Chrome. Use Moli through Lexmount Browser, our cloud browser platform. Run multiple isolated browser sessions with proxy support while we handle the infrastructure.",
+    "meta": {
+     "votes": 302,
+     "tagline": "The fastest headless browser for agents and harnesses"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-8di3ik-ao8v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "MOVO AI: The world's first long-form video agent for mobile",
+    "detail": "309 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/movo-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-23T07:01:00.000Z",
+    "summary": "MOVO AI is the world’s first AI video agent for long-form creation that works right from your phone. It also works on the web. Shoot, upload, or start with an idea, then tell MOVO AI what you want.",
+    "meta": {
+     "votes": 309,
+     "tagline": "The world's first long-form video agent for mobile"
+    }
+   },
+   {
+    "id": "RESEARCH-172fc79-aobt",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
+    "detail": "Prakhar Kaushik, Soumava Paul, Alan Yuille · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.37668v1",
+    "timestamp": "2026-10-27T17:59:59Z",
+    "summary": "Novel view synthesis and 3D reconstruction have advanced rapidly with radiance fields and splatting, yet their memory and computational demands limit their use in resource-constrained settings. We introduce Hexels: novel planar hexagonal surface elements with a first-order spatial color field for efficient 3D scene and 2D image representation.",
+    "meta": {
+     "arxivId": "2610.37668v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-11c4mnt-ao8v",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Agent Hunt: Live rankings of the tools AI agents use most",
+    "detail": "284 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/monid?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-23T07:01:00.000Z",
+    "summary": "Agent Hunt is a live leaderboard of the tools AI agents actually use. Every place is earned by real calls agents make through Monid.",
+    "meta": {
+     "votes": 284,
+     "tagline": "Live rankings of the tools AI agents use most"
+    }
+   },
+   {
+    "id": "PRESS-zdt9aw-aod8",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Howler will have AI answer your questions, then burn the chat",
+    "detail": "Reported by The Register — AI/ML (London, UK).",
+    "sourceName": "The Register — AI/ML",
+    "sourceUrl": "https://www.theregister.com/offbeat/2026/10/29/howler-will-have-ai-answer-your-questions-then-burn-the-chat/5306484",
+    "timestamp": "2026-10-29T20:04:05.000Z",
+    "summary": "Ask AI dumb things and leave no local chat history, all with the style of a kids' fantasy novel – or rather, one of its magical letters",
+    "meta": {
+     "rssId": "3126f78433f425e0",
+     "publisher": "the-register-ai",
+     "country": "UK",
+     "lang": "en",
+     "imagePath": "/api/rss/image/3126f78433f425e0"
+    }
+   },
+   {
+    "id": "PRESS-18jtkcq-aod6",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Prime Intellect Releases Prime Mega MoE: Trainable Fused MoE Kernel, 3.11x Faster Forward Pass",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/10/29/prime-intellect-prime-mega-moe-fused-moe-kernel-training/",
+    "timestamp": "2026-10-29T18:28:57.000Z",
+    "summary": "Prime Intellect released Prime Mega MoE, a backward pass for DeepSeek’s fused Mega MoE kernel. It makes the kernel trainable and speeds Qwen3 MoE training steps by up to 34% in prime-rl.",
+    "meta": {
+     "rssId": "49488d887002e055",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-fekc88-aodc",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "DeepSeek leads 7-day GitHub activity (200 events)",
+    "detail": "Hangzhou, CN · deepseek-ai",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.deepseek.com",
+    "timestamp": "2026-10-30T00:55:52.712Z",
+    "meta": {
+     "labId": "deepseek-hangzhou",
+     "total": 200,
+     "country": "CN"
+    }
+   },
+   {
+    "id": "PRESS-jseq6v-aod5",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Malaysia: Zoll beschlagnahmt KI-Chips im Wert von rund 12 Millionen US-Dollar",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Malaysia-Zoll-beschlagnahmt-KI-Chips-im-Wert-von-rund-12-Millionen-US-Dollar-11505399.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-10-29T17:27:00.000Z",
+    "summary": "Am Flughafen Kuala Lumpur wurden 30 Server mit KI-Chips im Wert von rund 12 Millionen US-Dollar sichergestellt. Sie sollten mutmaßlich geschmuggelt werden.",
+    "meta": {
+     "rssId": "3a0745f3b9e2ac6c",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/3a0745f3b9e2ac6c"
+    }
+   },
+   {
+    "id": "PRESS-kxbbce-aod5",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Schwarz-Gruppe investiert Milliarden in KI-Start-up Cohere",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Schwarz-Gruppe-investiert-Milliarden-in-KI-Start-up-Cohere-11505395.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-10-29T17:12:00.000Z",
+    "summary": "Cohere will mit Milliardenkapital weltweit wachsen und setzt auf Unternehmenskunden. Was die Schwarz-Gruppe mit der Beteiligung strategisch erreichen will.",
+    "meta": {
+     "rssId": "90bf852beea8bbb6",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/90bf852beea8bbb6"
+    }
+   },
+   {
+    "id": "NEWS-7tjdg4-aodb",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Sam Altman: “Local inference is a terrible allocation of scarce resources”",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xizbq1/sam_altman_local_inference_is_a_terrible/",
+    "timestamp": "2026-10-29T23:11:52.000Z",
+    "meta": {
+     "redditId": "e8314a9d33ebb6b7",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "Sam Altman: “ Local inference is a terrible allocation of scarce resources."
+   },
+   {
+    "id": "PRESS-1ap54ow-aod4",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+    "detail": "Reported by latent.space (San Francisco, US).",
+    "sourceName": "latent.space",
+    "sourceUrl": "https://latent.space/p/elorian/",
+    "timestamp": "2026-10-29T16:00:00.000Z",
+    "summary": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
+    "meta": {
+     "rssId": "0184662122498ed3",
+     "publisher": "latent-space",
+     "country": "US",
+     "lang": "en",
+     "imagePath": "/api/rss/image/0184662122498ed3"
+    }
+   },
+   {
+    "id": "NEWS-1l2vft0-aod9",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Arguably unethical behavior from Cohere",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xix61q/arguably_unethical_behavior_from_cohere/",
+    "timestamp": "2026-10-29T21:43:11.000Z",
+    "meta": {
+     "redditId": "4592a009e5ab413b",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "3 days ago, u/Cohere generated a huge amount of media attention and many fear-mongering headlines by publishing a largely unscientific blog post about an \"experiment\" where they used extensive pre-filling and prompt engineering to force Qwen 3.8 Flash Next to complete partial cURL commands."
+   },
+   {
+    "id": "RESEARCH-1ljqlv7-aobt",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+    "detail": "Chaehyun Kim, Chi-Pin Huang, Jisoo Kim et al. · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.37666v1",
+    "timestamp": "2026-10-27T17:59:52Z",
+    "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding.",
+    "meta": {
+     "arxivId": "2610.37666v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 7,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-18lk5ge-aobt",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "When Should We Intervene at Test Time?",
+    "detail": "Jiahao Zhang, Xinling Wen, Liangliang Li et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.37658v1",
+    "timestamp": "2026-10-27T17:58:53Z",
+    "summary": "Test-time adaptation helps a deployed model respond to changing inputs, but the same intervention can rescue one batch and damage the next. Updating normalization statistics, for example, can improve corrupted images yet fail when a batch contains mostly one class. Average accuracy hides these failures and cannot tell a model when to use an intervention.",
+    "meta": {
+     "arxivId": "2610.37658v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-h5x6or-aobt",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
+    "detail": "Igor Shilov, Xiaoxue Yang, Alexander Panfilov et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.37657v1",
+    "timestamp": "2026-10-27T17:58:52Z",
+    "summary": "We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistribute attention between trusted and untrusted tokens, enabling models to reason over untrusted content without following injected instructions.",
+    "meta": {
+     "arxivId": "2610.37657v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 9,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-190rc0c-aobt",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Attention as Lattice Gauge Theory: Relations Interact Only Through Wilson Loops",
+    "detail": "Aakash Sarkar, Ananya Mukherjee, Motoshige Sato · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2610.37656v1",
+    "timestamp": "2026-10-27T17:58:48Z",
+    "summary": "Relations compose through the entity they share - Alice is Bob's mother and Bob is Carol's father, so Alice is Carol's grandmother - and the order matters, since a father's mother is not a mother's father; verifying a composed relation means closing the loop. We show that if each entity's coordinate frame may be rotated independently (per-entity frame freedom), three things follow.",
+    "meta": {
+     "arxivId": "2610.37656v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017"
+   },
+   "toolHealth": {
+    "operational": 4,
+    "degraded": 1,
+    "total": 5
+   },
+   "latestPaper": {
+    "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
+    "sourceUrl": "https://arxiv.org/abs/2610.37668v1"
+   }
+  },
+  "lastComputed": "2026-10-30T00:55:52.706Z"
+ }
+}
