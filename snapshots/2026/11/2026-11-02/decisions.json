@@ -1,0 +1,105 @@
+{
+ "v": 1,
+ "capturedAt": "2026-11-02T19:45:59.833Z",
+ "generator": "scripts/video/generate-daily-script.ts",
+ "run": "https://github.com/Neelagiri65/aipulse/actions/runs/41512592959",
+ "record": {
+  "date": "2026-11-02",
+  "lead": "DeepSeek V4.1 Flash 1017 holds #1 on OpenRouter",
+  "counts": {
+   "accepted": 10,
+   "skipped": 2
+  },
+  "decisions": [
+   {
+    "verdict": "accept",
+    "id": "top-model",
+    "headline": "DeepSeek V4.1 Flash 1017 holds #1 on OpenRouter",
+    "source": "hook",
+    "slot": 0
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-0",
+    "headline": "@anthropic-ai/sdk downloads up 36.3% on npm",
+    "source": "curated",
+    "slot": 1
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-1",
+    "headline": "paperless-ngx/paperless-ngx trending on GitHub (74 stars today)",
+    "source": "curated",
+    "slot": 2
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-2",
+    "headline": "hyprwm/Hyprland trending on GitHub (508 stars today)",
+    "source": "curated",
+    "slot": 3
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Anthropic releases amended IPO prospectus with third-quarter financials",
+    "source": "curated"
+   },
+   {
+    "verdict": "skip",
+    "gate": "story-gate",
+    "reason": "no-metric",
+    "headline": "Latent Reasoning in Continuous Space for Unified Multimodal Models",
+    "source": "curated"
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-5",
+    "headline": "Nemotron 3 Ultra (free) moved from rank 13 to 16",
+    "source": "curated",
+    "slot": 4
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-6",
+    "headline": "Astra can read and write weights to improve Qwen",
+    "source": "curated",
+    "slot": 5
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-7",
+    "headline": "ripienaar/free-for-dev trending on GitHub (274 stars today)",
+    "source": "curated",
+    "slot": 6
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-8",
+    "headline": "microsoft/onnxruntime trending on GitHub (12 stars today)",
+    "source": "curated",
+    "slot": 7
+   },
+   {
+    "verdict": "accept",
+    "id": "narrative-9",
+    "headline": "RangeSWA: Training-Free Length Extrapolation for Continuous Diffusion Language Models",
+    "source": "curated",
+    "slot": 8
+   },
+   {
+    "verdict": "accept",
+    "id": "sdk-ai",
+    "headline": "ai (npm) up 42%",
+    "source": "supplement",
+    "slot": 9
+   },
+   {
+    "verdict": "lead-kept",
+    "reason": "lead fresh (led 0 prior days, limit 2)",
+    "lead": "DeepSeek V4.1 Flash 1017 holds #1 on OpenRouter"
+   }
+  ]
+ }
+}
