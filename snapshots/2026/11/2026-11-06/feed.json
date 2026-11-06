@@ -1,0 +1,436 @@
+{
+ "v": 1,
+ "capturedAt": "2026-11-06T00:45:47.518Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-f5v07h-aoi0",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "OpenAI API has an active incident: ChatGPT Work and Dots Errors",
+    "detail": "Status page is green but lists 1 active incident (monitoring).",
+    "sourceName": "OpenAI Status (summary)",
+    "sourceUrl": "https://status.openai.com",
+    "timestamp": "2026-11-06T00:45:50.969Z",
+    "meta": {
+     "toolId": "openai-api",
+     "status": "operational",
+     "statusSourceId": "openai-status",
+     "activeIncidents": 1,
+     "incidentName": "ChatGPT Work and Dots Errors"
+    },
+    "summary": "We’ve applied a mitigation and are monitoring the affected services to confirm recovery."
+   },
+   {
+    "id": "MODEL_MOVER-mad5z4-aohw",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3.5 Super VL down 27 ranks on OpenRouter weekly",
+    "detail": "Now #45, was #18.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl",
+    "timestamp": "2026-11-05T20:15:46.564Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3.5-super-vl",
+     "name": "NVIDIA: Nemotron 3.5 Super VL",
+     "currentRank": 45,
+     "previousRank": 18,
+     "delta": 27
+    },
+    "summary": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total."
+   },
+   {
+    "id": "MODEL_MOVER-18d6na4-aohw",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "StepFun: Step 3.7 Flash down 7 ranks on OpenRouter weekly",
+    "detail": "Now #49, was #42.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/stepfun/step-3.7-flash",
+    "timestamp": "2026-11-05T20:15:46.564Z",
+    "meta": {
+     "slug": "stepfun/step-3.7-flash",
+     "name": "StepFun: Step 3.7 Flash",
+     "currentRank": 49,
+     "previousRank": 42,
+     "delta": 7
+    },
+    "summary": "Step 3.7 Flash is StepFun's latest high-efficiency multimodal Mixture-of-Experts model. It pairs a 196B-parameter language backbone with a vision encoder for native image and video understanding, activating roughly 11B parameters per token."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1ji2jfc-aogw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Wanaka Studio: Make and publish 3D games with the first AI game engine",
+    "detail": "453 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/wanaka-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-04T08:01:00.000Z",
+    "summary": "The first all-in-one, AI-native game engine. An AI agent builds your AAA-style 3D game. You can edit it directly in a synced visual editor. No code. Auto-rigging, multiplayer, and 1-click publish built in. Uses ~80% fewer tokens and generates faster than Claude Opus 5.5 + Unity.",
+    "meta": {
+     "votes": 453,
+     "tagline": "Make and publish 3D games with the first AI game engine"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-5xl9xq-aogw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Floot Payments : Take payments in apps you build in ChatGPT and Claude",
+    "detail": "324 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/floot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-04T08:01:00.000Z",
+    "summary": "Floot apps can now take real money.",
+    "meta": {
+     "votes": 324,
+     "tagline": "Take payments in apps you build in ChatGPT and Claude"
+    }
+   },
+   {
+    "id": "PRESS-1ydt0ht-aohy",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Google Releases Gemini Omni 1.2 Flash: 15-Second AI Video at $0.07 per Second",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/11/05/google-gemini-omni-1-2-flash-15-second-video/",
+    "timestamp": "2026-11-05T22:58:21.000Z",
+    "summary": "Google released Gemini Omni 1.2 Flash, a video generation and editing model with native 15-second clips, multi-turn conversational editing and a 30% price cut to $0.07 per second of 720p video.",
+    "meta": {
+     "rssId": "38838c16452a3c91",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-129yx0x-aog8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Teamily AI: Your personal agent, agent teams & people in one messenger",
+    "detail": "373 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/teamily-ai-human-ai-social-network?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-03T08:01:00.000Z",
+    "summary": "The human-agent platform where people and always-on agents get work done together in one unified, context-aware space. Unlike single-user personal agents, Teamily AI enables multi-user, multi-agent teamwork.",
+    "meta": {
+     "votes": 373,
+     "tagline": "Your personal agent, agent teams & people in one messenger"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1wra4d3-aofk",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Xmind 2027: Your mind map is now an AI thinking partner",
+    "detail": "317 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/xmind?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-02T08:01:00.000Z",
+    "summary": "As information becomes easier to access, understanding and judgment matter more than ever. Xmind 2027 gives you and AI a shared visual space to work through ideas. With Xmind Agent, use your local documents and maps to research, develop ideas, and weigh possibilities through conversation.",
+    "meta": {
+     "votes": 317,
+     "tagline": "Your mind map is now an AI thinking partner"
+    }
+   },
+   {
+    "id": "NEWS-1q6xqwj-aohy",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Claude Code sends your email address to websites",
+    "detail": "354 points · 115 comments on Hacker News.",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50385272",
+    "timestamp": "2026-11-05T22:17:15Z",
+    "meta": {
+     "hnId": "50385272",
+     "points": 354,
+     "numComments": 115,
+     "author": "motoroco"
+    },
+    "machineSummary": {
+     "text": "Claude Code divulged an email address to arbitrary 3rd parties in the User-Agent request header during web searches. The user is migrating their company to Pi with OpenRouter because of privacy concerns with anthropic.",
+     "model": "nvidia/nemotron-3.5-bolt-e4b",
+     "generatedAt": "2026-11-05T23:19:29.614Z"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1bncsf0-aoe7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Specsight: Product observability for teams shipping fast with AI",
+    "detail": "331 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/specsight?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-31T07:01:00.000Z",
+    "summary": "Shipping fast with AI? Specsight turns code changes into a living product map, feature knowledge, and clear release updates. Keep Product, Sales, and Support in sync with what your software actually does and what changed.",
+    "meta": {
+     "votes": 331,
+     "tagline": "Product observability for teams shipping fast with AI"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-i7k2pm-aoe7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "SKI: Voice-first coding harness ",
+    "detail": "313 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/ski?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-31T07:01:00.000Z",
+    "summary": "Talk to your coding agents and hear them talk back. SKI runs Claude Code, Codex, Cursor, OpenCode, Antigravity and pi side by side on your Mac, and tells you the moment one needs you.",
+    "meta": {
+     "votes": 313,
+     "tagline": "Voice-first coding harness "
+    }
+   },
+   {
+    "id": "RESEARCH-ok5pkk-aoh6",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "A Framework for Context Enrichment and Selective Robustness in LLM Social Agents",
+    "detail": "Mattia Greiche, Reihaneh Rabbany, Maximilian Puelma Touzel · cs.MA",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.06914v1",
+    "timestamp": "2026-11-04T18:58:23Z",
+    "summary": "Researchers use large language models as agents in social simulations, where agents are prompted with observations and background information intended to shape their actions. Yet LLM agents have been shown to substantially change their behavior under meaning-preserving prompt variations, creating a validation problem for social simulation.",
+    "meta": {
+     "arxivId": "2611.06914v1",
+     "primaryCategory": "cs.MA",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-6vdpx6-aodj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Vaani Developer Platform: The only voice AI harness that you'll ever need",
+    "detail": "390 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/vaani-developer-platfrom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-30T07:01:00.000Z",
+    "summary": "Build a voice agent that sounds and behaves human without writing a single line of code. Design the call flow, handle objections and edge cases, connect your tools and knowledge base, and go live on a real phone number. Every call ends with clean, structured data.",
+    "meta": {
+     "votes": 390,
+     "tagline": "The only voice AI harness that you'll ever need"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1sp4r5g-aodj",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "SpeakON Agent: Turn natural speech into real work for an agent to complete",
+    "detail": "328 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/speakon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-30T07:01:00.000Z",
+    "summary": "Turn natural speech into real work with SpeakON Agent. It understands your Notes, connects your tools, and prepares Actions for you to review and confirm.",
+    "meta": {
+     "votes": 328,
+     "tagline": "Turn natural speech into real work for an agent to complete"
+    }
+   },
+   {
+    "id": "PRESS-140cwqr-aohy",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Brasilien: Gericht verbietet Meta die Nutzung von Medieninhalten für KI-Training",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Brasilien-Gericht-verbietet-Meta-die-Nutzung-von-Medieninhalten-fuer-KI-Training-11514246.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-11-05T22:22:00.000Z",
+    "summary": "Metas neue Nutzungsbedingungen sahen die kostenlose Überlassung von Inhalten vor. Ein Gericht in Brasilien erklärt dies für unzulässig und droht mit Zwangsgeld.",
+    "meta": {
+     "rssId": "dfed113880bf8529",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/dfed113880bf8529"
+    }
+   },
+   {
+    "id": "PRESS-awuo7v-aohx",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Baidu Releases ERNIE 5.5 Flash Base: A 280B MoE Base Model With 14B Active Parameters",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/11/05/baidu-ernie-5-5-flash-base-280b-moe/",
+    "timestamp": "2026-11-05T21:33:00.000Z",
+    "summary": "Baidu has released ERNIE 5.5 Flash Base, a 280B sparse MoE base model with 14B active parameters, trained on 33.5T tokens and published before any mid- or post-training.",
+    "meta": {
+     "rssId": "5911b43b3eb91e93",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-aoi0",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (200 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-11-06T00:45:50.976Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 200,
+     "country": "US"
+    },
+    "summary": "anthropics/claude-code — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+   },
+   {
+    "id": "PRESS-ztczv3-aohs",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "heise+ | Wie Entwickler Claude mit C#-SDK in .NET einbinden",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/ratgeber/Wie-Entwickler-Claude-mit-C-SDK-in-NET-einbinden-11495780.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+    "timestamp": "2026-11-05T16:30:00.000Z",
+    "summary": "Bisher nutzten .NET-Entwickler für das Anbinden von Claude HTTP-Aufrufe der REST-API oder ein Community-SDK. Anthropic liefert nun ein offizielles C#-SDK.",
+    "meta": {
+     "rssId": "2a2ae614f1349fde",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/2a2ae614f1349fde"
+    }
+   },
+   {
+    "id": "NEWS-1r7vjmb-aohy",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Maybe we'll get cheap RAM for Christmas after all!",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xovnaa/maybe_well_get_cheap_ram_for_christmas_after_all/",
+    "timestamp": "2026-11-05T22:00:25.000Z",
+    "meta": {
+     "redditId": "75806798e529d93e",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "NEWS-kbj4xv-aohx",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Lawyer with too many GPUs, part 4: DeepSeek-V4.1-Flash on eight V100s from 2018. 200+ tok/s on code, ~110 on legal writing, 2,200 tok/s prefill at 128K, 524K context, every weight in VRAM",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xoubyo/lawyer_with_too_many_gpus_part_4_deepseekv41flash/",
+    "timestamp": "2026-11-05T21:07:54.000Z",
+    "meta": {
+     "redditId": "77fd7bec4e79aae9",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "fuck you sam altman. i am keeping my spare capacity. Update from the lawyer with the V100 server. Three days ago I got excited and posted DeepSeek-V4.1-Flash on four V100s at 36-38 tok/s, before I had done my custom kernel work and prefill optimizations. I also said I'd try it across eight. I did."
+   },
+   {
+    "id": "RESEARCH-dc1fr2-aoh6",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "FlowReconBench: Accuracy, calibration and cost of learned and classical flow reconstruction from sparse sensors",
+    "detail": "Nicolas Tricard, Linzheng Wang, Jason Chen et al. · physics.flu-dyn",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.06912v1",
+    "timestamp": "2026-11-04T18:57:47Z",
+    "summary": "Reconstructing full flow fields from sparse sensors requires prior assumptions about unmeasured regions and physical variables. Yet it remains unclear when learned models outperform classical estimators and which aspects of their predictions can be trusted.",
+    "meta": {
+     "arxivId": "2611.06912v1",
+     "primaryCategory": "physics.flu-dyn",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "NEWS-1myumc3-aohw",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "I fixed my tiny TTS by editing the weights directly, no retraining",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xou096/i_fixed_my_tiny_tts_by_editing_the_weights/",
+    "timestamp": "2026-11-05T20:54:52.000Z",
+    "meta": {
+     "redditId": "6bca348007223ebf",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "I'm building Silencio-2, a small finetune of Kyutai's Pocket TTS. It adds inline tags for emotions ( , , , , , ) and for sounds like [laugh] . I simply didn't have enough tagged data to make them stable. worked, the others were hit or miss, and gave an actual whisper in about 1 of 5 takes."
+   },
+   {
+    "id": "RESEARCH-8zt2lz-aoh6",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
+    "detail": "Fei Lin, Tengchao Zhang, Ziyang Gong et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.06911v1",
+    "timestamp": "2026-11-04T18:57:17Z",
+    "summary": "Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints.",
+    "meta": {
+     "arxivId": "2611.06911v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 18,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1dn5y0-aoh6",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+    "detail": "Bingran You, Wenjun Ke, Ria Rosenauer et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.06910v1",
+    "timestamp": "2026-11-04T18:56:22Z",
+    "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness.",
+    "meta": {
+     "arxivId": "2611.06910v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 72,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1k724cl-aoh6",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Perceptive Humanoid Motion from Simulation",
+    "detail": "Siyuan Hu, Abulikemu Abuduweili, Yue Meng et al. · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.06908v1",
+    "timestamp": "2026-11-04T18:55:33Z",
+    "summary": "Humanoid robots have the potential to automate a wide range of physical tasks. Progress toward generalist humanoid autonomy, however, remains constrained by a data bottleneck: mapping pixels and free-form language to low-level joint commands requires paired supervision, and no corpus of such data exists at sufficiently large scale.",
+    "meta": {
+     "arxivId": "2611.06908v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 8,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017"
+   },
+   "toolHealth": {
+    "operational": 6,
+    "degraded": 0,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "A Framework for Context Enrichment and Selective Robustness in LLM Social Agents",
+    "sourceUrl": "https://arxiv.org/abs/2611.06914v1"
+   }
+  },
+  "lastComputed": "2026-11-06T00:45:50.968Z"
+ }
+}
