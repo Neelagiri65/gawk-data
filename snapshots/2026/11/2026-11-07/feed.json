@@ -1,0 +1,470 @@
+{
+ "v": 1,
+ "capturedAt": "2026-11-07T00:01:18.301Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-f5v07h-aoio",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "OpenAI API has an active incident: Elevated error rates with some U.S. business Mastercards",
+    "detail": "Status page is green but lists 1 active incident (identified).",
+    "sourceName": "OpenAI Status (summary)",
+    "sourceUrl": "https://status.openai.com",
+    "timestamp": "2026-11-07T00:01:21.605Z",
+    "meta": {
+     "toolId": "openai-api",
+     "status": "operational",
+     "statusSourceId": "openai-status",
+     "activeIncidents": 1,
+     "incidentName": "Elevated error rates with some U.S. business Mastercards"
+    },
+    "summary": "Investigating — We’re seeing payment declines on some U.S. business Mastercards. Affected cards have numbers beginning with 544015, 546400, 543502, 543799, or 512998. Some cards beginning with 513989 are also affected."
+   },
+   {
+    "id": "MODEL_MOVER-460q3p-aoij",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Tencent: Hy4 up 17 ranks on OpenRouter weekly",
+    "detail": "Now #7, was #24.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/tencent/hy4",
+    "timestamp": "2026-11-06T19:40:42.167Z",
+    "meta": {
+     "slug": "tencent/hy4",
+     "name": "Tencent: Hy4",
+     "currentRank": 7,
+     "previousRank": 24,
+     "delta": -17
+    },
+    "summary": "The official release of Hy4 delivers comprehensive and substantial improvements over Hy4 Preview, with particularly strong gains in agentic capabilities and performance across a wide range of long-horizon, real-world productivity tasks. It also introduces visual understanding for the first time."
+   },
+   {
+    "id": "MODEL_MOVER-1vz8845-aoij",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Crouton Alpha up 10 ranks on OpenRouter weekly",
+    "detail": "Now #24, was #34.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/stealth/crouton-alpha",
+    "timestamp": "2026-11-06T19:40:42.167Z",
+    "meta": {
+     "slug": "stealth/crouton-alpha",
+     "name": "Crouton Alpha",
+     "currentRank": 24,
+     "previousRank": 34,
+     "delta": -10
+    },
+    "summary": "Crouton Alpha is a lightweight model built for scalable coding, agentic, and multimodal workflows. It's ideal for executing agentic sub-tasks, tool use, and document analysis in high-volume, repeated work."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-19j3z7t-aoi8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Tobira Site Agent: Turn your website into an AI agent that sells to AI agents",
+    "detail": "322 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/tobira-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-06T08:01:00.000Z",
+    "summary": "People already find you through AI. Tobira turns that AI traffic into real leads and customers. Paste your URL and in 10 minutes your website becomes an AI agent. It answers people and their AI, negotiates, books calls and takes orders right in customers' ChatGPT, Claude, Grok and other AI chats.",
+    "meta": {
+     "votes": 322,
+     "tagline": "Turn your website into an AI agent that sells to AI agents"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-mad5z4-aoij",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3.5 Super VL down 20 ranks on OpenRouter weekly",
+    "detail": "Now #38, was #18.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl",
+    "timestamp": "2026-11-06T19:40:42.167Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3.5-super-vl",
+     "name": "NVIDIA: Nemotron 3.5 Super VL",
+     "currentRank": 38,
+     "previousRank": 18,
+     "delta": 20
+    },
+    "summary": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total."
+   },
+   {
+    "id": "MODEL_MOVER-18d6na4-aoij",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "StepFun: Step 3.7 Flash down 5 ranks on OpenRouter weekly",
+    "detail": "Now #52, was #47.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/stepfun/step-3.7-flash",
+    "timestamp": "2026-11-06T19:40:42.167Z",
+    "meta": {
+     "slug": "stepfun/step-3.7-flash",
+     "name": "StepFun: Step 3.7 Flash",
+     "currentRank": 52,
+     "previousRank": 47,
+     "delta": 5
+    },
+    "summary": "Step 3.7 Flash is StepFun's latest high-efficiency multimodal Mixture-of-Experts model. It pairs a 196B-parameter language backbone with a vision encoder for native image and video understanding, activating roughly 11B parameters per token."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-2v4ipf-aohk",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Glasshand: Give your agent a real iPhone and Mac",
+    "detail": "376 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/glasshand?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-05T08:01:00.000Z",
+    "summary": "Glasshand gives your AI agents real iPhones and Macs to work on. Connect Claude Code, Codex, or any other agent, and it can rent a device with a single prompt.",
+    "meta": {
+     "votes": 376,
+     "tagline": "Give your agent a real iPhone and Mac"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1ji2jfc-aogw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Wanaka Studio: Make and publish 3D games with the first AI game engine",
+    "detail": "468 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/wanaka-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-04T08:01:00.000Z",
+    "summary": "The first all-in-one, AI-native game engine. An AI agent builds your AAA-style 3D game. You can edit it directly in a synced visual editor. No code. Auto-rigging, multiplayer, and 1-click publish built in. Uses ~80% fewer tokens and generates faster than Claude Opus 5.5 + Unity.",
+    "meta": {
+     "votes": 468,
+     "tagline": "Make and publish 3D games with the first AI game engine"
+    }
+   },
+   {
+    "id": "PRESS-11n5xm6-aoih",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Zyphra ZYFA: FP8 FlashAttention for AMD MI355X, Up to 1.76x Faster",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/11/06/zyphra-zyfa-fp8-flashattention-amd-mi355x/",
+    "timestamp": "2026-11-06T17:28:04.000Z",
+    "summary": "Zyphra released ZYFA, open-source FP8 and BF16 prefill attention kernels for AMD Instinct MI355X. On real model activations, its FP8 kernels run 1.16-1.76x faster than AMD’s AITER, with 62-78% lower error at head dimension 128.",
+    "meta": {
+     "rssId": "38bcc92391de5b3e",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-5xl9xq-aogw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Floot Payments : Take payments in apps you build in ChatGPT and Claude",
+    "detail": "327 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/floot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-04T08:01:00.000Z",
+    "summary": "Floot apps can now take real money.",
+    "meta": {
+     "votes": 327,
+     "tagline": "Take payments in apps you build in ChatGPT and Claude"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-129yx0x-aog8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Teamily AI: Your personal agent, agent teams & people in one messenger",
+    "detail": "375 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/teamily-ai-human-ai-social-network?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-03T08:01:00.000Z",
+    "summary": "The human-agent platform where people and always-on agents get work done together in one unified, context-aware space. Unlike single-user personal agents, Teamily AI enables multi-user, multi-agent teamwork.",
+    "meta": {
+     "votes": 375,
+     "tagline": "Your personal agent, agent teams & people in one messenger"
+    }
+   },
+   {
+    "id": "NEWS-16sq44x-aoin",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Six Pallets of NVIDIA Hardware Worth $11.4 Million Stolen on the Way to Texas",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xpqx1p/six_pallets_of_nvidia_hardware_worth_114_million/",
+    "timestamp": "2026-11-06T23:03:21.000Z",
+    "meta": {
+     "redditId": "b1fb4fd14725dc58",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1wra4d3-aofk",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Xmind 2027: Your mind map is now an AI thinking partner",
+    "detail": "317 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/xmind?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-02T08:01:00.000Z",
+    "summary": "As information becomes easier to access, understanding and judgment matter more than ever. Xmind 2027 gives you and AI a shared visual space to work through ideas. With Xmind Agent, use your local documents and maps to research, develop ideas, and weigh possibilities through conversation.",
+    "meta": {
+     "votes": 317,
+     "tagline": "Your mind map is now an AI thinking partner"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1bncsf0-aoe7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Specsight: Product observability for teams shipping fast with AI",
+    "detail": "331 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/specsight?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-31T07:01:00.000Z",
+    "summary": "Shipping fast with AI? Specsight turns code changes into a living product map, feature knowledge, and clear release updates. Keep Product, Sales, and Support in sync with what your software actually does and what changed.",
+    "meta": {
+     "votes": 331,
+     "tagline": "Product observability for teams shipping fast with AI"
+    }
+   },
+   {
+    "id": "RESEARCH-xfo9dl-aohu",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
+    "detail": "Jonathan Kozaczuk, Zheng Dong, Noyan Evirgen et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.08487v1",
+    "timestamp": "2026-11-05T18:59:42Z",
+    "summary": "User embeddings are central components of modern recommendation, personalization, and behavioral modeling systems. Though these embeddings can compactly encode rich behavioral information, they are inherently dense and opaque, limiting interpretability. To address this gap, we argue that user embeddings can be understood as sparse superpositions of interpretable behavioral modes.",
+    "meta": {
+     "arxivId": "2611.08487v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 10,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-i7k2pm-aoe7",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "SKI: Voice-first coding harness ",
+    "detail": "315 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/ski?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-10-31T07:01:00.000Z",
+    "summary": "Talk to your coding agents and hear them talk back. SKI runs Claude Code, Codex, Cursor, OpenCode, Antigravity and pi side by side on your Mac, and tells you the moment one needs you.",
+    "meta": {
+     "votes": 315,
+     "tagline": "Voice-first coding harness "
+    }
+   },
+   {
+    "id": "PRESS-rqsovk-aoig",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Lokale KI: Das läuft auf deinem Rechner",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Lokale-KI-Das-laeuft-auf-deinem-Rechner-11515316.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-11-06T16:27:00.000Z",
+    "summary": "Lokale KI wird immer besser, die dafür benötigte Hardware immer teurer. c’t 3003 gibt Kaufberatung und Praxistipps.",
+    "meta": {
+     "rssId": "cfe035a38b3b5da8",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/cfe035a38b3b5da8"
+    }
+   },
+   {
+    "id": "PRESS-1bcxsra-aoif",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+    "detail": "Reported by latent.space (San Francisco, US).",
+    "sourceName": "latent.space",
+    "sourceUrl": "https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/",
+    "timestamp": "2026-11-06T15:10:53.000Z",
+    "summary": "As systems biology efforts heat up to map biology at higher resolution, greater breadth and more modalities, Fabian Theis is pushing the frontier from mapping to predicting to controlling biology",
+    "meta": {
+     "rssId": "9f991ac0d8edd211",
+     "publisher": "latent-space",
+     "country": "US",
+     "lang": "en",
+     "imagePath": "/api/rss/image/9f991ac0d8edd211"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-aoio",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (199 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-11-07T00:01:21.614Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 199,
+     "country": "US"
+    },
+    "summary": "anthropics/anthropic-cookbook — A collection of notebooks/recipes showcasing some fun and effective ways of using Claude."
+   },
+   {
+    "id": "PRESS-jcbwac-aoie",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+    "detail": "Reported by latent.space (San Francisco, US).",
+    "sourceName": "latent.space",
+    "sourceUrl": "https://latent.space/p/controlling_biology_-_fabian_theis_helmholtz_munich_1/",
+    "timestamp": "2026-11-06T14:48:24.000Z",
+    "summary": "Fabian Theis has been one of the key players in the various iterations of the Virtual Cell concept and initiatives.",
+    "meta": {
+     "rssId": "93d93170cf395ac1",
+     "publisher": "latent-space",
+     "country": "US",
+     "lang": "en",
+     "imagePath": "/api/rss/image/93d93170cf395ac1"
+    }
+   },
+   {
+    "id": "PRESS-ev3jo2-aoie",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "KI-Update Deep-Dive: Wie Mistral mit ML4 im KI-Rennen aufholen will",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/KI-Update-Deep-Dive-Wie-Mistral-mit-ML4-im-KI-Rennen-aufholen-will-11513626.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-11-06T14:00:00.000Z",
+    "summary": "Mistrals wissenschaftlicher Leiter Pierre Stock erklärt im Podcast, wie das neueste Modell ML4 entstand und warum Offenheit für Europas Souveränität zählt.",
+    "meta": {
+     "rssId": "e026c2ab0856d8fe",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/e026c2ab0856d8fe"
+    }
+   },
+   {
+    "id": "NEWS-ak339u-aoim",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Qwen Flash Next on Strata is unreal.",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xpqa3e/qwen_flash_next_on_strata_is_unreal/",
+    "timestamp": "2026-11-06T22:34:47.000Z",
+    "meta": {
+     "redditId": "18891c876e451ab2",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "I have been looking for a local model to do some of the typical work I used AI subscriptions for. I’ve tested almost every popular model."
+   },
+   {
+    "id": "NEWS-lp450b-aoim",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "I'm going to try to turn a 4B model into a genuinely useful coding agent that can compete with much larger models",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xppw37/im_going_to_try_to_turn_a_4b_model_into_a/",
+    "timestamp": "2026-11-06T22:17:58.000Z",
+    "meta": {
+     "redditId": "4e351ade14ae021d",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "After releasing 3D Coder and GLB 3D Coder , I realized I should have involved the community earlier. Your feedback directly influenced the second model and could have saved me some additional training runs. This time, I'd like to discuss the idea with the community before starting."
+   },
+   {
+    "id": "RESEARCH-j7wxy5-aohu",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+    "detail": "Qile Jiang, George Em Karniadakis · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.08483v1",
+    "timestamp": "2026-11-05T18:59:29Z",
+    "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for each round and must repeat this generation many times to maintain population diversity.",
+    "meta": {
+     "arxivId": "2611.08483v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1xpgq7z-aohu",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Scientist World: Grow a Research World for AI-Scientists",
+    "detail": "Taiming Lu, Sachin Konan, Zhuang Liu · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.08478v1",
+    "timestamp": "2026-11-05T18:58:17Z",
+    "summary": "AI-Scientists arrived, but a world for them to grow in did not. Human scientists take theirs for granted $-$ centuries of open problems and shared ideas, waiting in the scientific literature. To AI-Scientists, that world is readable but not runnable, so we build Scientist World for them: every research paper becomes an executable environment.",
+    "meta": {
+     "arxivId": "2611.08478v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1lju5al-aohu",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "XStack: A Benchmark for ML Repo Migration",
+    "detail": "Linrong Cai, Taiming Lu, Haozhe Chen et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.08472v1",
+    "timestamp": "2026-11-05T18:55:54Z",
+    "summary": "ML code should run where researchers choose, not where it was first written. Today, machine learning code mainly lives in two ecosystems, PyTorch on NVIDIA GPUs and JAX on Google TPUs. Migrating repositories between them means building and testing across frameworks and hardware.",
+    "meta": {
+     "arxivId": "2611.08472v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1ojnlix-aohu",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
+    "detail": "Linqian Wu, Diaoxuan He · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.08469v1",
+    "timestamp": "2026-11-05T18:55:31Z",
+    "summary": "Interpretability, AI auditing and assessments of machine consciousness increasingly rest on mechanism-level quantities: functionals of a system's causal transition law that describe how it computes, not what it outputs. Experiments see that law only through finite, partial and noisy interventions.",
+    "meta": {
+     "arxivId": "2611.08469v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017"
+   },
+   "toolHealth": {
+    "operational": 6,
+    "degraded": 0,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
+    "sourceUrl": "https://arxiv.org/abs/2611.08487v1"
+   }
+  },
+  "lastComputed": "2026-11-07T00:01:21.605Z"
+ }
+}
