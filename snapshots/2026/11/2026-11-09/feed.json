@@ -1,0 +1,428 @@
+{
+ "v": 1,
+ "capturedAt": "2026-11-09T00:38:27.333Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-f5v07h-aok0",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "OpenAI API has an active incident: Elevated error rates with some U.S. business Mastercards",
+    "detail": "Status page is green but lists 1 active incident (monitoring).",
+    "sourceName": "OpenAI Status (summary)",
+    "sourceUrl": "https://status.openai.com",
+    "timestamp": "2026-11-09T00:38:30.025Z",
+    "meta": {
+     "toolId": "openai-api",
+     "status": "operational",
+     "statusSourceId": "openai-status",
+     "activeIncidents": 1,
+     "incidentName": "Elevated error rates with some U.S. business Mastercards"
+    },
+    "summary": "We’ve applied a mitigation and are monitoring the affected services to confirm recovery."
+   },
+   {
+    "id": "MODEL_MOVER-1fx1owq-aojy",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "MoonshotAI: Kimi K3.1 Pro up 4 ranks on OpenRouter weekly",
+    "detail": "Now #9, was #13.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/moonshotai/kimi-k3.1-pro",
+    "timestamp": "2026-11-08T22:28:19.914Z",
+    "meta": {
+     "slug": "moonshotai/kimi-k3.1-pro",
+     "name": "MoonshotAI: Kimi K3.1 Pro",
+     "currentRank": 9,
+     "previousRank": 13,
+     "delta": -4
+    },
+    "summary": "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window."
+   },
+   {
+    "id": "MODEL_MOVER-1vz8845-aojy",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Crouton Alpha up 7 ranks on OpenRouter weekly",
+    "detail": "Now #12, was #19.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/stealth/crouton-alpha",
+    "timestamp": "2026-11-08T22:28:19.914Z",
+    "meta": {
+     "slug": "stealth/crouton-alpha",
+     "name": "Crouton Alpha",
+     "currentRank": 12,
+     "previousRank": 19,
+     "delta": -7
+    },
+    "summary": "Crouton Alpha is a lightweight model built for scalable coding, agentic, and multimodal workflows. It's ideal for executing agentic sub-tasks, tool use, and document analysis in high-volume, repeated work."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-lkon9a-aoiw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "ChatGPT Images 2.6: Create, edit, and animate images with AI",
+    "detail": "293 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-07T08:01:00.000Z",
+    "summary": "Images 2.6 brings faster image generation, more precise editing, and native GIF creation to ChatGPT, Codex, and the API. Create looping animations, maintain character and product consistency across edits, export SVGs, and control generation complexity.",
+    "meta": {
+     "votes": 293,
+     "tagline": "Create, edit, and animate images with AI"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-ma1lid-aojy",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-5.6 Luna down 7 ranks on OpenRouter weekly",
+    "detail": "Now #17, was #10.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-5.6-luna",
+    "timestamp": "2026-11-08T22:28:19.914Z",
+    "meta": {
+     "slug": "openai/gpt-5.6-luna",
+     "name": "OpenAI: GPT-5.6 Luna",
+     "currentRank": 17,
+     "previousRank": 10,
+     "delta": 7
+    },
+    "summary": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning for its price tier."
+   },
+   {
+    "id": "MODEL_MOVER-mad5z4-aojy",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3.5 Super VL down 18 ranks on OpenRouter weekly",
+    "detail": "Now #35, was #17.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl",
+    "timestamp": "2026-11-08T22:28:19.914Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3.5-super-vl",
+     "name": "NVIDIA: Nemotron 3.5 Super VL",
+     "currentRank": 35,
+     "previousRank": 17,
+     "delta": 18
+    },
+    "summary": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-19j3z7t-aoi8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Tobira Site Agent: Turn your website into an AI agent that sells to AI agents",
+    "detail": "388 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/tobira-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-06T08:01:00.000Z",
+    "summary": "People already find you through AI. Tobira turns that AI traffic into real leads and customers. Paste your URL and in 10 minutes your website becomes an AI agent. It answers people and their AI, negotiates, books calls and takes orders right in customers' ChatGPT, Claude, Grok and other AI chats.",
+    "meta": {
+     "votes": 388,
+     "tagline": "Turn your website into an AI agent that sells to AI agents"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-2v4ipf-aohk",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Glasshand: Give your agent a real iPhone and Mac",
+    "detail": "384 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/glasshand?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-05T08:01:00.000Z",
+    "summary": "Glasshand gives your AI agents real iPhones and Macs to work on. Connect Claude Code, Codex, or any other agent, and it can rent a device with a single prompt.",
+    "meta": {
+     "votes": 384,
+     "tagline": "Give your agent a real iPhone and Mac"
+    }
+   },
+   {
+    "id": "PRESS-1g4fh85-aojx",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+    "detail": "Reported by latent.space (San Francisco, US).",
+    "sourceName": "latent.space",
+    "sourceUrl": "https://latent.space/p/cs146s/",
+    "timestamp": "2026-11-08T21:41:44.000Z",
+    "summary": "What happens when students can one-shot last year’s homework? Inside CS146S and the engineering team at Monaco.",
+    "meta": {
+     "rssId": "d9d31a4b2ac7d6b9",
+     "publisher": "latent-space",
+     "country": "US",
+     "lang": "en",
+     "imagePath": "/api/rss/image/d9d31a4b2ac7d6b9"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1ji2jfc-aogw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Wanaka Studio: Make and publish 3D games with the first AI game engine",
+    "detail": "482 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/wanaka-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-04T08:01:00.000Z",
+    "summary": "The first all-in-one, AI-native game engine. An AI agent builds your AAA-style 3D game. You can edit it directly in a synced visual editor. No code. Auto-rigging, multiplayer, and 1-click publish built in. Uses ~80% fewer tokens and generates faster than Claude Opus 5.5 + Unity.",
+    "meta": {
+     "votes": 482,
+     "tagline": "Make and publish 3D games with the first AI game engine"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-5xl9xq-aogw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Floot Payments : Take payments in apps you build in ChatGPT and Claude",
+    "detail": "328 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/floot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-04T08:01:00.000Z",
+    "summary": "Floot apps can now take real money.",
+    "meta": {
+     "votes": 328,
+     "tagline": "Take payments in apps you build in ChatGPT and Claude"
+    }
+   },
+   {
+    "id": "NEWS-u2p0zr-aojy",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Nous Research Arete-27B GGUF quants",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xrarta/nous_research_arete27b_gguf_quants/",
+    "timestamp": "2026-11-08T22:17:10.000Z",
+    "meta": {
+     "redditId": "f92cf8848649bdd7",
+     "subreddit": "reddit-localllama"
+    },
+    "story": {
+     "sources": [
+      {
+       "publisher": "MarkTechPost",
+       "country": "IN",
+       "lang": "en",
+       "url": "https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune/",
+       "timestamp": "2026-11-08T04:45:59.000Z"
+      }
+     ],
+     "discussion": []
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1kicq14-aogw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Prelulu: Be the main character: chat & video roleplay any story",
+    "detail": "278 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/prelulu?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-04T08:01:00.000Z",
+    "summary": "Immersive stories with AI characters you can text or video roleplay with. It's our first time bringing real-time avatar technology to consumer scale. You can create your own characters with live avatar capability.",
+    "meta": {
+     "votes": 278,
+     "tagline": "Be the main character: chat & video roleplay any story"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-129yx0x-aog8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Teamily AI: Your personal agent, agent teams & people in one messenger",
+    "detail": "375 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/teamily-ai-human-ai-social-network?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-03T08:01:00.000Z",
+    "summary": "The human-agent platform where people and always-on agents get work done together in one unified, context-aware space. Unlike single-user personal agents, Teamily AI enables multi-user, multi-agent teamwork.",
+    "meta": {
+     "votes": 375,
+     "tagline": "Your personal agent, agent teams & people in one messenger"
+    }
+   },
+   {
+    "id": "RESEARCH-xfo9dl-aohu",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
+    "detail": "Jonathan Kozaczuk, Zheng Dong, Noyan Evirgen et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.08487v1",
+    "timestamp": "2026-11-05T18:59:42Z",
+    "summary": "User embeddings are central components of modern recommendation, personalization, and behavioral modeling systems. Though these embeddings can compactly encode rich behavioral information, they are inherently dense and opaque, limiting interpretability. To address this gap, we argue that user embeddings can be understood as sparse superpositions of interpretable behavioral modes.",
+    "meta": {
+     "arxivId": "2611.08487v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 10,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1wra4d3-aofk",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Xmind 2027: Your mind map is now an AI thinking partner",
+    "detail": "317 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/xmind?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-02T08:01:00.000Z",
+    "summary": "As information becomes easier to access, understanding and judgment matter more than ever. Xmind 2027 gives you and AI a shared visual space to work through ideas. With Xmind Agent, use your local documents and maps to research, develop ideas, and weigh possibilities through conversation.",
+    "meta": {
+     "votes": 317,
+     "tagline": "Your mind map is now an AI thinking partner"
+    }
+   },
+   {
+    "id": "PRESS-90qjc2-aojx",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+    "detail": "Reported by latent.space (San Francisco, US).",
+    "sourceName": "latent.space",
+    "sourceUrl": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+    "timestamp": "2026-11-08T21:23:29.000Z",
+    "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course.",
+    "meta": {
+     "rssId": "1bdca70ca0357a2c",
+     "publisher": "latent-space",
+     "country": "US",
+     "lang": "en",
+     "imagePath": "/api/rss/image/1bdca70ca0357a2c"
+    }
+   },
+   {
+    "id": "NEWS-xptdfx-aojy",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "How do you locally benchmark and compare local LLMs?",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xrbhdf/how_do_you_locally_benchmark_and_compare_local/",
+    "timestamp": "2026-11-08T22:49:16.000Z",
+    "meta": {
+     "redditId": "3e04e9edca67e869",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "If I wanted to locally compare performance for multiple different offline LLM models across various modalities (speed, efficiency, reasoning, tool use, programing/coding, etc), what strategies, prompts, software are commonly used to do this?"
+   },
+   {
+    "id": "NEWS-1a66e2l-aojy",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "How much code do AI models and harnesses add? I made an open-source benchmark to measure code complexity.",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xrathc/how_much_code_do_ai_models_and_harnesses_add_i/",
+    "timestamp": "2026-11-08T22:19:15.000Z",
+    "meta": {
+     "redditId": "87d2b963233fb7d4",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "Existing benchmarks measure the solve rate and token output/cost, but don't punish excess code or overengineering, which increases technical debt in the long term. Parsimony counts syntax units (statements, calls, names) in the patches other benchmarks publish."
+   },
+   {
+    "id": "RESEARCH-j7wxy5-aohu",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+    "detail": "Qile Jiang, George Em Karniadakis · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.08483v1",
+    "timestamp": "2026-11-05T18:59:29Z",
+    "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for each round and must repeat this generation many times to maintain population diversity.",
+    "meta": {
+     "arxivId": "2611.08483v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1xpgq7z-aohu",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Scientist World: Grow a Research World for AI-Scientists",
+    "detail": "Taiming Lu, Sachin Konan, Zhuang Liu · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.08478v1",
+    "timestamp": "2026-11-05T18:58:17Z",
+    "summary": "AI-Scientists arrived, but a world for them to grow in did not. Human scientists take theirs for granted $-$ centuries of open problems and shared ideas, waiting in the scientific literature. To AI-Scientists, that world is readable but not runnable, so we build Scientist World for them: every research paper becomes an executable environment.",
+    "meta": {
+     "arxivId": "2611.08478v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-fekc88-aok0",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "DeepSeek leads 7-day GitHub activity (200 events)",
+    "detail": "Hangzhou, CN · deepseek-ai",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.deepseek.com",
+    "timestamp": "2026-11-09T00:38:30.039Z",
+    "meta": {
+     "labId": "deepseek-hangzhou",
+     "total": 200,
+     "country": "CN"
+    }
+   },
+   {
+    "id": "RESEARCH-1lju5al-aohu",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "XStack: A Benchmark for ML Repo Migration",
+    "detail": "Linrong Cai, Taiming Lu, Haozhe Chen et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.08472v1",
+    "timestamp": "2026-11-05T18:55:54Z",
+    "summary": "ML code should run where researchers choose, not where it was first written. Today, machine learning code mainly lives in two ecosystems, PyTorch on NVIDIA GPUs and JAX on Google TPUs. Migrating repositories between them means building and testing across frameworks and hardware.",
+    "meta": {
+     "arxivId": "2611.08472v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1ojnlix-aohu",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
+    "detail": "Linqian Wu, Diaoxuan He · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.08469v1",
+    "timestamp": "2026-11-05T18:55:31Z",
+    "summary": "Interpretability, AI auditing and assessments of machine consciousness increasingly rest on mechanism-level quantities: functionals of a system's causal transition law that describe how it computes, not what it outputs. Experiments see that law only through finite, partial and noisy interventions.",
+    "meta": {
+     "arxivId": "2611.08469v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017"
+   },
+   "toolHealth": {
+    "operational": 6,
+    "degraded": 0,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
+    "sourceUrl": "https://arxiv.org/abs/2611.08487v1"
+   }
+  },
+  "lastComputed": "2026-11-09T00:38:30.025Z"
+ }
+}
