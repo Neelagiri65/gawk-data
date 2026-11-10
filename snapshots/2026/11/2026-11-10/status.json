@@ -1,0 +1,596 @@
+{
+ "v": 1,
+ "capturedAt": "2026-11-10T01:31:20.552Z",
+ "endpoint": "/api/v1/status",
+ "record": {
+  "data": {
+   "claude-code": {
+    "status": "operational",
+    "statusSourceId": "anthropic-status",
+    "lastCheckedAt": "2026-11-10T01:31:23.098Z",
+    "openIssues": 16278,
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-11-04",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 278
+     },
+     {
+      "date": "2026-11-05",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-11-06",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 283
+     },
+     {
+      "date": "2026-11-07",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-11-08",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "kw2lxj1th04c",
+        "name": "Degraded performance for Claude Fable 5.1",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-11-08T08:28:32.818Z",
+        "resolvedAt": "2026-11-08T08:54:43.667Z"
+       }
+      ],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-11-09",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-11-10",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 18
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "claude-code",
+     "host": "api.anthropic.com",
+     "kind": "api-auth",
+     "state": "reachable",
+     "latencyMs": 69,
+     "checkedAt": "2026-11-10T01:29:52.536Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "openai-api": {
+    "status": "operational",
+    "statusSourceId": "openai-status",
+    "lastCheckedAt": "2026-11-10T01:31:23.098Z",
+    "activeIncidents": [
+     {
+      "id": "01M6S2FV5TZWQ753NHRB7BF5K7",
+      "name": "Elevated error rates with some U.S. business Mastercards",
+      "status": "monitoring",
+      "createdAt": "2026-11-06T18:38:43Z",
+      "latestUpdate": "We’ve applied a mitigation and are monitoring the affected services to confirm recovery."
+     }
+    ],
+    "history": [
+     {
+      "date": "2026-11-04",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01M6MBCX427A7113A3T4FJ1N6Y",
+        "name": "Elevated error rates across paid ChatGPT plans",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-11-04T22:38:12Z",
+        "resolvedAt": "2026-11-05T00:32:37Z"
+       }
+      ],
+      "sampleCount": 278
+     },
+     {
+      "date": "2026-11-05",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01M6P50GPP1V98EF8MJ9SH393R",
+        "name": "ChatGPT Work and Dots Errors",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-11-05T15:25:03Z",
+        "resolvedAt": "2026-11-06T04:31:37Z"
+       },
+       {
+        "id": "01M6MBCX427A7113A3T4FJ1N6Y",
+        "name": "Elevated error rates across paid ChatGPT plans",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-11-04T22:38:12Z",
+        "resolvedAt": "2026-11-05T00:32:37Z"
+       }
+      ],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-11-06",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01M6S2FV5TZWQ753NHRB7BF5K7",
+        "name": "Elevated error rates with some U.S. business Mastercards",
+        "status": "monitoring",
+        "impact": "none",
+        "createdAt": "2026-11-06T18:38:43Z"
+       },
+       {
+        "id": "01M6P50GPP1V98EF8MJ9SH393R",
+        "name": "ChatGPT Work and Dots Errors",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-11-05T15:25:03Z",
+        "resolvedAt": "2026-11-06T04:31:37Z"
+       }
+      ],
+      "sampleCount": 283
+     },
+     {
+      "date": "2026-11-07",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [
+       {
+        "id": "01M6S2FV5TZWQ753NHRB7BF5K7",
+        "name": "Elevated error rates with some U.S. business Mastercards",
+        "status": "monitoring",
+        "impact": "none",
+        "createdAt": "2026-11-06T18:38:43Z"
+       }
+      ],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-11-08",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01M6XVDCKRT3PSB0YP8J30GTD5",
+        "name": "Elevated errors with image generation",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-11-08T15:11:15Z",
+        "resolvedAt": "2026-11-08T17:00:42Z"
+       },
+       {
+        "id": "01M6S2FV5TZWQ753NHRB7BF5K7",
+        "name": "Elevated error rates with some U.S. business Mastercards",
+        "status": "monitoring",
+        "impact": "none",
+        "createdAt": "2026-11-06T18:38:43Z"
+       }
+      ],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-11-09",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "01M7193DWYRFWQM5W6E3VZ7TM7",
+        "name": "Elevated Errors On API",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-11-09T23:08:12Z",
+        "resolvedAt": "2026-11-09T23:50:46Z"
+       },
+       {
+        "id": "01M70RDA2GWD2WXE58ANY0WV5R",
+        "name": "Elevated ChatGPT Conversation Errors",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-11-09T18:16:30Z",
+        "resolvedAt": "2026-11-09T19:08:31Z"
+       },
+       {
+        "id": "01M6S2FV5TZWQ753NHRB7BF5K7",
+        "name": "Elevated error rates with some U.S. business Mastercards",
+        "status": "monitoring",
+        "impact": "none",
+        "createdAt": "2026-11-06T18:38:43Z"
+       }
+      ],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-11-10",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [
+       {
+        "id": "01M6S2FV5TZWQ753NHRB7BF5K7",
+        "name": "Elevated error rates with some U.S. business Mastercards",
+        "status": "monitoring",
+        "impact": "none",
+        "createdAt": "2026-11-06T18:38:43Z"
+       }
+      ],
+      "sampleCount": 18
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "openai-api",
+     "host": "api.openai.com",
+     "kind": "api-auth",
+     "state": "reachable",
+     "latencyMs": 80,
+     "checkedAt": "2026-11-10T01:29:52.536Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "codex": {
+    "status": "operational",
+    "statusSourceId": "openai-status",
+    "lastCheckedAt": "2026-11-10T01:31:23.098Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-11-04",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 278
+     },
+     {
+      "date": "2026-11-05",
+      "worstStatus": "degraded",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-11-06",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 283
+     },
+     {
+      "date": "2026-11-07",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-11-08",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-11-09",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-11-10",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 18
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "codex",
+     "host": "api.openai.com",
+     "kind": "api-auth",
+     "state": "reachable",
+     "latencyMs": 115,
+     "checkedAt": "2026-11-10T01:29:52.536Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "copilot": {
+    "status": "operational",
+    "statusSourceId": "github-status",
+    "lastCheckedAt": "2026-11-10T01:31:23.098Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-11-04",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 278
+     },
+     {
+      "date": "2026-11-05",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-11-06",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 283
+     },
+     {
+      "date": "2026-11-07",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-11-08",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-11-09",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "6jm5k16vyhfg",
+        "name": "Degraded availability for GPT-5.3 Codex and GPT-5.6 models in Copilot",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-11-09T23:16:32.233Z",
+        "resolvedAt": "2026-11-10T00:05:52.345Z"
+       }
+      ],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-11-10",
+      "worstStatus": "partial_outage",
+      "worstImpact": "major",
+      "incidents": [
+       {
+        "id": "6jm5k16vyhfg",
+        "name": "Degraded availability for GPT-5.3 Codex and GPT-5.6 models in Copilot",
+        "status": "resolved",
+        "impact": "major",
+        "createdAt": "2026-11-09T23:16:32.233Z",
+        "resolvedAt": "2026-11-10T00:05:52.345Z"
+       }
+      ],
+      "sampleCount": 18
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "copilot",
+     "host": "api.github.com",
+     "kind": "api",
+     "state": "reachable",
+     "latencyMs": 24,
+     "checkedAt": "2026-11-10T01:29:52.536Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "windsurf": {
+    "status": "operational",
+    "statusSourceId": "windsurf-status",
+    "lastCheckedAt": "2026-11-10T01:31:23.098Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-11-04",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 278
+     },
+     {
+      "date": "2026-11-05",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-11-06",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 283
+     },
+     {
+      "date": "2026-11-07",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-11-08",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-11-09",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-11-10",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 18
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "windsurf",
+     "host": "server.codeium.com",
+     "kind": "healthz",
+     "state": "reachable",
+     "latencyMs": 120,
+     "checkedAt": "2026-11-10T01:29:52.536Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   },
+   "cursor": {
+    "status": "operational",
+    "statusSourceId": "cursor-status",
+    "lastCheckedAt": "2026-11-10T01:31:23.098Z",
+    "activeIncidents": [],
+    "history": [
+     {
+      "date": "2026-11-04",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 278
+     },
+     {
+      "date": "2026-11-05",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "ps_78783e1b35b98b43",
+        "name": "composer-2.5 degraded",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-11-05T15:06:52.000Z",
+        "resolvedAt": "2026-11-05T15:56:32.000Z"
+       },
+       {
+        "id": "ps_c0cee9e504398968",
+        "name": "Degraded Performance - Grok Bot",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-11-05T00:34:40.000Z",
+        "resolvedAt": "2026-11-05T01:49:31.000Z"
+       }
+      ],
+      "sampleCount": 281
+     },
+     {
+      "date": "2026-11-06",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "ps_9a160a3b12ec99d1",
+        "name": "Grok Bot is currently degraded",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-11-06T13:57:57.000Z",
+        "resolvedAt": "2026-11-06T15:15:07.000Z"
+       },
+       {
+        "id": "ps_183910c201a91593",
+        "name": "Computer use in Grok Bot fails for users in a few regions.",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-11-06T11:49:46.000Z",
+        "resolvedAt": "2026-11-06T12:03:16.000Z"
+       }
+      ],
+      "sampleCount": 283
+     },
+     {
+      "date": "2026-11-07",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-11-08",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-11-09",
+      "worstStatus": "degraded",
+      "worstImpact": "minor",
+      "incidents": [
+       {
+        "id": "ps_36cccee22d7e0c91",
+        "name": "Elevated errors for OpenAI model requests",
+        "status": "resolved",
+        "impact": "minor",
+        "createdAt": "2026-11-09T23:10:16.000Z",
+        "resolvedAt": "2026-11-09T23:44:34.000Z"
+       }
+      ],
+      "sampleCount": 282
+     },
+     {
+      "date": "2026-11-10",
+      "worstStatus": "operational",
+      "worstImpact": "none",
+      "incidents": [],
+      "sampleCount": 18
+     }
+    ],
+    "historyHasSamples": true,
+    "probe": {
+     "toolId": "cursor",
+     "host": "api2.cursor.sh",
+     "kind": "api",
+     "state": "reachable",
+     "latencyMs": 55,
+     "checkedAt": "2026-11-10T01:29:52.536Z",
+     "consecutiveFails": 0,
+     "samples": 60
+    }
+   }
+  },
+  "polledAt": "2026-11-10T01:31:23.098Z",
+  "failures": []
+ }
+}

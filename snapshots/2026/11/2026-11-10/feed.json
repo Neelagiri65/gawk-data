@@ -1,0 +1,485 @@
+{
+ "v": 1,
+ "capturedAt": "2026-11-10T01:31:20.552Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-f5v07h-aokp",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "OpenAI API has an active incident: Elevated error rates with some U.S. business Mastercards",
+    "detail": "Status page is green but lists 1 active incident (monitoring).",
+    "sourceName": "OpenAI Status (summary)",
+    "sourceUrl": "https://status.openai.com",
+    "timestamp": "2026-11-10T01:31:23.460Z",
+    "meta": {
+     "toolId": "openai-api",
+     "status": "operational",
+     "statusSourceId": "openai-status",
+     "activeIncidents": 1,
+     "incidentName": "Elevated error rates with some U.S. business Mastercards"
+    },
+    "summary": "We’ve applied a mitigation and are monitoring the affected services to confirm recovery."
+   },
+   {
+    "id": "MODEL_MOVER-36rc12-aokm",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Xiaomi: MiMo-V2.6-Flash up 4 ranks on OpenRouter weekly",
+    "detail": "Now #20, was #24.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/xiaomi/mimo-v2.6-flash",
+    "timestamp": "2026-11-09T22:41:21.621Z",
+    "meta": {
+     "slug": "xiaomi/mimo-v2.6-flash",
+     "name": "Xiaomi: MiMo-V2.6-Flash",
+     "currentRank": 20,
+     "previousRank": 24,
+     "delta": -4
+    },
+    "summary": "MiMo-V2.6-Flash is an open-source foundation model developed by Xiaomi. Built on a Mixture-of-Experts architecture with 309B total parameters and 15B activated per token, it employs a hybrid attention mechanism for greater computational efficiency."
+   },
+   {
+    "id": "MODEL_MOVER-mad5z4-aokm",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3.5 Super VL down 17 ranks on OpenRouter weekly",
+    "detail": "Now #35, was #18.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl",
+    "timestamp": "2026-11-09T22:41:21.621Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3.5-super-vl",
+     "name": "NVIDIA: Nemotron 3.5 Super VL",
+     "currentRank": 35,
+     "previousRank": 18,
+     "delta": 17
+    },
+    "summary": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-12xddjz-aok8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Product Hunt MCP: The community you trust in the assistant you use",
+    "detail": "340 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/producthunt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-09T08:00:00.000Z",
+    "summary": "Ask your AI assistant to find your next favorite product. Explore new launches, compare alternatives, and see what the Product Hunt community thinks. Building something yourself? Turn your README and website into a launch draft, add images, and check what's missing before you submit.",
+    "meta": {
+     "votes": 340,
+     "tagline": "The community you trust in the assistant you use"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1lmrp83-aojk",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "AXL: GTM copilot for AI product founders: 1,200+ actions via MCP",
+    "detail": "284 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/axl-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-08T08:01:00.000Z",
+    "summary": "Capture leads, close sales & onboard customers in one system: pages, quizzes, webinars, courses, video hosting & streaming, email, chat, CRM, telephony & AI calls. No integrations to build & maintain. Every interaction enriches each lead's history.",
+    "meta": {
+     "votes": 284,
+     "tagline": "GTM copilot for AI product founders: 1,200+ actions via MCP"
+    }
+   },
+   {
+    "id": "PRESS-ea53vk-aokk",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Milliarden-Deal für Gasturbinen: Anthropic sichert sich Energiekapazitäten",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Milliarden-Deal-fuer-Gasturbinen-Anthropic-sichert-sich-Energiekapazitaeten-11518056.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-11-09T20:13:00.000Z",
+    "summary": "Angesichts des rasant steigenden Energiebedarfs für KI-Infrastruktur investiert der Claude-Entwickler erstmals direkt in Anlagen zur Stromerzeugung.",
+    "meta": {
+     "rssId": "37670df88738df08",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/37670df88738df08"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-lkon9a-aoiw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "ChatGPT Images 2.6: Create, edit, and animate images with AI",
+    "detail": "296 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-07T08:01:00.000Z",
+    "summary": "Images 2.6 brings faster image generation, more precise editing, and native GIF creation to ChatGPT, Codex, and the API. Create looping animations, maintain character and product consistency across edits, export SVGs, and control generation complexity.",
+    "meta": {
+     "votes": 296,
+     "tagline": "Create, edit, and animate images with AI"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-19j3z7t-aoi8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Tobira Site Agent: Turn your website into an AI agent that sells to AI agents",
+    "detail": "393 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/tobira-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-06T08:01:00.000Z",
+    "summary": "People already find you through AI. Tobira turns that AI traffic into real leads and customers. Paste your URL and in 10 minutes your website becomes an AI agent. It answers people and their AI, negotiates, books calls and takes orders right in customers' ChatGPT, Claude, Grok and other AI chats.",
+    "meta": {
+     "votes": 393,
+     "tagline": "Turn your website into an AI agent that sells to AI agents"
+    }
+   },
+   {
+    "id": "NEWS-fzgk1f-aokl",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Got another good reminder why local matters today",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xs3y17/got_another_good_reminder_why_local_matters_today/",
+    "timestamp": "2026-11-09T21:13:10.000Z",
+    "meta": {
+     "redditId": "c0d0dc2ef97d0d38",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "Apparently, they're threatening to ban me for merely red-teaming my own plugin. The appeal was immediately denied without any details."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-2v4ipf-aohk",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Glasshand: Give your agent a real iPhone and Mac",
+    "detail": "398 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/glasshand?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-05T08:01:00.000Z",
+    "summary": "Glasshand gives your AI agents real iPhones and Macs to work on. Connect Claude Code, Codex, or any other agent, and it can rent a device with a single prompt.",
+    "meta": {
+     "votes": 398,
+     "tagline": "Give your agent a real iPhone and Mac"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1ji2jfc-aogw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Wanaka Studio: Make and publish 3D games with the first AI game engine",
+    "detail": "487 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/wanaka-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-04T08:01:00.000Z",
+    "summary": "The first all-in-one, AI-native game engine. An AI agent builds your AAA-style 3D game. You can edit it directly in a synced visual editor. No code. Auto-rigging, multiplayer, and 1-click publish built in. Uses ~80% fewer tokens and generates faster than Claude Opus 5.5 + Unity.",
+    "meta": {
+     "votes": 487,
+     "tagline": "Make and publish 3D games with the first AI game engine"
+    }
+   },
+   {
+    "id": "RESEARCH-eay55m-aoii",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "On Agentic Manipulation Policies",
+    "detail": "Chen Chen, Omid Bagherieh, Naveen Nikamanth Appiah Balaji et al. · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.09892v1",
+    "timestamp": "2026-11-06T18:59:34Z",
+    "summary": "Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such as vision-language-action models (VLAs) and world-action models (WAMs).",
+    "meta": {
+     "arxivId": "2611.09892v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 13,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-5xl9xq-aogw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Floot Payments : Take payments in apps you build in ChatGPT and Claude",
+    "detail": "328 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/floot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-04T08:01:00.000Z",
+    "summary": "Floot apps can now take real money.",
+    "meta": {
+     "votes": 328,
+     "tagline": "Take payments in apps you build in ChatGPT and Claude"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-129yx0x-aog8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Teamily AI: Your personal agent, agent teams & people in one messenger",
+    "detail": "387 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/teamily-ai-human-ai-social-network?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-03T08:01:00.000Z",
+    "summary": "The human-agent platform where people and always-on agents get work done together in one unified, context-aware space. Unlike single-user personal agents, Teamily AI enables multi-user, multi-agent teamwork.",
+    "meta": {
+     "votes": 387,
+     "tagline": "Your personal agent, agent teams & people in one messenger"
+    }
+   },
+   {
+    "id": "PRESS-wyckny-aokj",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "The backlash about data centers might really just be about electricity",
+    "detail": "Reported by MIT Technology Review — AI (Cambridge, US).",
+    "sourceName": "MIT Technology Review — AI",
+    "sourceUrl": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+    "timestamp": "2026-11-09T19:35:33.000Z",
+    "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center Alley—the world’s largest data center hub.",
+    "meta": {
+     "rssId": "bf2f99d3b33602a1",
+     "publisher": "mit-tech-review-ai",
+     "country": "US",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "PRESS-thl206-aokh",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Telekom rüstet KI-Fabrik in München nach, Gigafactory bleibt Option",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Telekom-ruestet-KI-Fabrik-in-Muenchen-nach-Gigafactory-bleibt-Option-11517926.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-11-09T17:17:00.000Z",
+    "summary": "Mit viel Politprominenz hat die Telekom am Montag den Startschuss für ihre „KI-Fabrik 2.0“ gegeben. Zu einer möglichen Gigafactory blieb Tim Höttges vage.",
+    "meta": {
+     "rssId": "f5460124be1f1516",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/f5460124be1f1516"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-fekc88-aokp",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "DeepSeek leads 7-day GitHub activity (199 events)",
+    "detail": "Hangzhou, CN · deepseek-ai",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.deepseek.com",
+    "timestamp": "2026-11-10T01:31:23.466Z",
+    "meta": {
+     "labId": "deepseek-hangzhou",
+     "total": 199,
+     "country": "CN"
+    }
+   },
+   {
+    "id": "PRESS-1a8dm87-aokh",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
+    "detail": "Reported by latent.space (San Francisco, US).",
+    "sourceName": "latent.space",
+    "sourceUrl": "https://latent.space/p/handshake/",
+    "timestamp": "2026-11-09T17:15:53.000Z",
+    "summary": "Handshake went from launch to $1B in one year pushing the envelope of specialized data for frontier labs. Our first deep dive into a data lab with specific examples across Finance, Bio, and Alignment",
+    "meta": {
+     "rssId": "d39f7e3102c70378",
+     "publisher": "latent-space",
+     "country": "US",
+     "lang": "en",
+     "imagePath": "/api/rss/image/d39f7e3102c70378"
+    }
+   },
+   {
+    "id": "PRESS-9bpzkt-aokh",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Google Unveils TPU 8i Max and TPU 8tx: A Dual-Chip TPU and a Confidential TPU",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/11/09/google-tpu-8i-max-tpu-8tx/",
+    "timestamp": "2026-11-09T17:09:54.000Z",
+    "summary": "Google added TPU 8i Max and TPU 8tx to its eighth-generation TPU lineup. TPU 8i Max packs 2 TPU 8i chips per package for long-context agents. TPU 8tx adds hardware confidential inference. Bloomberg reports 2027 availability.",
+    "meta": {
+     "rssId": "7cdf11d29ea3811f",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "NEWS-1040kv0-aokk",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Qwen 3.8 FN getting stressed from messing up",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xs2okh/qwen_38_fn_getting_stressed_from_messing_up/",
+    "timestamp": "2026-11-09T20:24:57.000Z",
+    "meta": {
+     "redditId": "820958c20f16cbd4",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "Qwen 3.8 Flash Next getting confused on how it keeps messing up. This is the only time I noticed it happening in a 6hr run. I'm running IQ3_S on high effort on strata."
+   },
+   {
+    "id": "PRESS-bsofrf-aokh",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Nancy Pelosi’s replacement is ready to regulate AI",
+    "detail": "Reported by MIT Technology Review — AI (Cambridge, US).",
+    "sourceName": "MIT Technology Review — AI",
+    "sourceUrl": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+    "timestamp": "2026-11-09T17:05:43.000Z",
+    "summary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy.",
+    "meta": {
+     "rssId": "9f09199924ad4a17",
+     "publisher": "mit-tech-review-ai",
+     "country": "US",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "PRESS-rro667-aokg",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
+    "detail": "Reported by latent.space (San Francisco, US).",
+    "sourceName": "latent.space",
+    "sourceUrl": "https://latent.space/p/what_frontier_labs_buy_a_data_deep_dive_with_handshake_ai_garrett_lord_team/",
+    "timestamp": "2026-11-09T16:41:48.000Z",
+    "summary": "Our first deep dive with an AI data company. In roughly a year, Handshake built an AI training business doing nearly $1 billion in gross annualized revenue. What are frontier labs buying?",
+    "meta": {
+     "rssId": "adb63868f7d66e4d",
+     "publisher": "latent-space",
+     "country": "US",
+     "lang": "en",
+     "imagePath": "/api/rss/image/adb63868f7d66e4d"
+    }
+   },
+   {
+    "id": "RESEARCH-10n6hsz-aoii",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
+    "detail": "Peter Belcak, Greg Heinrich, Saurav Muralidharan et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.09891v1",
+    "timestamp": "2026-11-06T18:58:50Z",
+    "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned through, the application of its solution to a new problem instance can be done very efficiently and with little involvement from language models.",
+    "meta": {
+     "arxivId": "2611.09891v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRESS-9mb7nm-aokg",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Baidu’s ERNIE Evolve Automated Research System Beats NanoChat and NanoGPT Records",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/11/09/baidu-ernie-evolve-automated-research-system/",
+    "timestamp": "2026-11-09T16:31:59.000Z",
+    "summary": "Baidu’s ERNIE Evolve is an automated research system that edits code, runs experiments and keeps only verified gains. It beat public bests on NanoChat and NanoGPT Speedrun and sped up ERNIE-5.5-Flash inference.",
+    "meta": {
+     "rssId": "0dedbf4f89ff03f6",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "NEWS-1e0g821-aokj",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "llm-psicotest: a seeded 38-turn conversation to check whether a quant swap changed behaviour",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xs1my0/llmpsicotest_a_seeded_38turn_conversation_to/",
+    "timestamp": "2026-11-09T19:45:49.000Z",
+    "meta": {
+     "redditId": "4a5799c071fb20dd",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "llm-psicotest runs one 38-turn conversation against any OpenAI-compatible endpoint: 29 capability items plus protocol turns. The items come from seeded generators, so a seed gives byte-identical prompts on any machine, and code scores every turn against a computed key."
+   },
+   {
+    "id": "RESEARCH-u6r3fs-aoii",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "On the (non-)closedness of the set of ReLU networks",
+    "detail": "Eloi Martinet, Leon Bungert · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.09887v1",
+    "timestamp": "2026-11-06T18:58:06Z",
+    "summary": "We prove that the set $\\mathcal{N}_N$ of ReLU networks with one hidden layer and at most $N\\in\\mathbb N$ neurons is weakly closed in $W^{1,p}(Ω)$, for a bounded connected open set $Ω\\subset\\mathbb R^d$. Consequently, every coercive, weakly lower semicontinuous energy on this space attains its minimum over $\\mathcal{N}_N$.",
+    "meta": {
+     "arxivId": "2611.09887v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1g276qb-aoii",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "FlowMoP: Stochastic Multi-Person Motion Prediction",
+    "detail": "Aadya Agrawal, Ho Kei Cheng, Alexander Schwing · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.09882v1",
+    "timestamp": "2026-11-06T18:56:41Z",
+    "summary": "Predicting the future motion of multiple people is inherently stochastic: the same observed history admits many plausible continuations depending on intent, coordination, and social context. Yet the dominant paradigm in multi-person 3D motion prediction remains deterministic, with existing methods producing a fixed number of outputs per agent.",
+    "meta": {
+     "arxivId": "2611.09882v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1l2y0ta-aoii",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Graded convolutional networks: scale invariance without the scale and robustness to unknown blur",
+    "detail": "Tanush Shaska · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.09878v1",
+    "timestamp": "2026-11-06T18:54:03Z",
+    "summary": "The Gaussian jet of an image is a graded vector space: a dilation by $λ$ multiplies derivatives of order $k$ by $λ^{-k}$. Local graded convolutions are exactly homogeneous differential operators, and a local feature is dilation-invariant if and only if it factors through the scale-normalized jet or, without the scale, through the retraction onto the weighted sphere of the grading.",
+    "meta": {
+     "arxivId": "2611.09878v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 1,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017"
+   },
+   "toolHealth": {
+    "operational": 6,
+    "degraded": 0,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "On Agentic Manipulation Policies",
+    "sourceUrl": "https://arxiv.org/abs/2611.09892v1"
+   }
+  },
+  "lastComputed": "2026-11-10T01:31:23.460Z"
+ }
+}
