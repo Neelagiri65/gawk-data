@@ -1,0 +1,514 @@
+{
+ "v": 1,
+ "capturedAt": "2026-11-12T00:40:39.534Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-f5v07h-aom0",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "OpenAI API is reporting a major outage",
+    "detail": "Upstream status page reports major_outage.",
+    "sourceName": "OpenAI Status (summary)",
+    "sourceUrl": "https://status.openai.com",
+    "timestamp": "2026-11-12T00:40:42.608Z",
+    "meta": {
+     "toolId": "openai-api",
+     "status": "major_outage",
+     "statusSourceId": "openai-status",
+     "activeIncidents": 1,
+     "incidentName": "Unable to start new Workspace Agent runs"
+    },
+    "summary": "We are investigating an issue preventing users from starting new Workspace Agent runs. We will share another update as more information becomes available."
+   },
+   {
+    "id": "MODEL_MOVER-36rc12-aolv",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Xiaomi: MiMo-V2.6-Flash up 4 ranks on OpenRouter weekly",
+    "detail": "Now #14, was #18.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/xiaomi/mimo-v2.6-flash",
+    "timestamp": "2026-11-11T19:51:12.358Z",
+    "meta": {
+     "slug": "xiaomi/mimo-v2.6-flash",
+     "name": "Xiaomi: MiMo-V2.6-Flash",
+     "currentRank": 14,
+     "previousRank": 18,
+     "delta": -4
+    },
+    "summary": "MiMo-V2.6-Flash is an open-source foundation model developed by Xiaomi. Built on a Mixture-of-Experts architecture with 309B total parameters and 15B activated per token, it employs a hybrid attention mechanism for greater computational efficiency."
+   },
+   {
+    "id": "MODEL_MOVER-1uybg37-aolv",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-6.1 Terra up 4 ranks on OpenRouter weekly",
+    "detail": "Now #28, was #32.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-6.1-terra",
+    "timestamp": "2026-11-11T19:51:12.358Z",
+    "meta": {
+     "slug": "openai/gpt-6.1-terra",
+     "name": "OpenAI: GPT-6.1 Terra",
+     "currentRank": 28,
+     "previousRank": 32,
+     "delta": -4
+    },
+    "summary": "GPT-6.1 Terra is the mid-tier model in OpenAI's GPT-6.1 series, priced below GPT-6.1 Sol. It is suited for everyday agentic, coding, and writing work, is particularly strong at understanding screenshots and on-screen content, and is efficient enough for high-volume workloads."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1y9uv5p-aokw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Alsona: AI agents that turn buying signals into booked sales calls",
+    "detail": "485 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/alsona?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-10T08:01:00.000Z",
+    "summary": "95% of prospects aren't ready to buy when you reach out. Alsona finds the ones showing buying intent right now. It tracks 32+ signals across hiring, funding, tech changes, reviews, ad spend, and more, then scores companies against your ICP and explains why they're worth contacting.",
+    "meta": {
+     "votes": 485,
+     "tagline": "AI agents that turn buying signals into booked sales calls"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-mad5z4-aolv",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3.5 Super VL down 18 ranks on OpenRouter weekly",
+    "detail": "Now #34, was #16.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl",
+    "timestamp": "2026-11-11T19:51:12.358Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3.5-super-vl",
+     "name": "NVIDIA: Nemotron 3.5 Super VL",
+     "currentRank": 34,
+     "previousRank": 16,
+     "delta": 18
+    },
+    "summary": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total."
+   },
+   {
+    "id": "MODEL_MOVER-whujn-aolv",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "DeepSeek: DeepSeek V4 Flash Latest up 6 ranks on OpenRouter weekly",
+    "detail": "Now #42, was #48.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/~deepseek/deepseek-v4-flash-latest",
+    "timestamp": "2026-11-11T19:51:12.358Z",
+    "meta": {
+     "slug": "~deepseek/deepseek-v4-flash-latest",
+     "name": "DeepSeek: DeepSeek V4 Flash Latest",
+     "currentRank": 42,
+     "previousRank": 48,
+     "delta": -6
+    },
+    "summary": "This model always redirects to the latest model in the DeepSeek V4 Flash family."
+   },
+   {
+    "id": "PRESS-nd2da0-aolx",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Google Launches Gemini Decisions API With Gemini Decision 1 at $0.10/M Tokens",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/11/11/google-gemini-decisions-api-gemini-decision-1/",
+    "timestamp": "2026-11-11T21:21:42.000Z",
+    "summary": "Google launched the Gemini Decisions API, powered by Gemini Decision 1. It returns calibrated probabilities for up to 1,000 yes/no, choice and rubric questions over text, images, audio, video and PDFs, at $0.10 per 1M input tokens.",
+    "meta": {
+     "rssId": "7e2a1e36ed41309c",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    },
+    "story": {
+     "sources": [],
+     "discussion": [
+      {
+       "site": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50457853",
+       "points": 10,
+       "timestamp": "2026-11-11T19:59:47Z"
+      }
+     ]
+    }
+   },
+   {
+    "id": "MODEL_MOVER-hljzog-aolv",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Perplexity: Decider V1.2 up 5 ranks on OpenRouter weekly",
+    "detail": "Now #45, was #50.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/perplexity/pplx-decider-v1.2",
+    "timestamp": "2026-11-11T19:51:12.358Z",
+    "meta": {
+     "slug": "perplexity/pplx-decider-v1.2",
+     "name": "Perplexity: Decider V1.2",
+     "currentRank": 45,
+     "previousRank": 50,
+     "delta": -5
+    },
+    "summary": "Decider V1.2 is a new 27B checkpoint of Perplexity's decision model, succeeding Decider V1.1 27B with the same API contract."
+   },
+   {
+    "id": "MODEL_MOVER-5ysli4-aolv",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Tencent: Hy4 preview down 29 ranks on OpenRouter weekly",
+    "detail": "Now #51, was #22.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/tencent/hy4-preview",
+    "timestamp": "2026-11-11T19:51:12.358Z",
+    "meta": {
+     "slug": "tencent/hy4-preview",
+     "name": "Tencent: Hy4 preview",
+     "currentRank": 51,
+     "previousRank": 22,
+     "delta": 29
+    },
+    "summary": "Tencent: Hy4 preview is a mixture-of-experts model from Tencent, with 49B active parameters out of 770B total. It is designed for coding agents, complex tool-use workflows, and productivity tasks that require planning, context continuity, and sustained multi-step execution."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1rire72-aokw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Maxma: The 24/7 AI teammate that scales your paid ad performance",
+    "detail": "325 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/maxma-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-10T08:01:00.000Z",
+    "summary": "Maxma is the AI platform that 10Xs your human marketers. It does the end-to-end work of paid advertising, from analyzing performance, creating ads and landing pages, and launching and optimizing campaigns across channels, to managing tracking and reporting.",
+    "meta": {
+     "votes": 325,
+     "tagline": "The 24/7 AI teammate that scales your paid ad performance"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-12xddjz-aok8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Product Hunt MCP: The community you trust in the assistant you use",
+    "detail": "439 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/producthunt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-09T08:00:00.000Z",
+    "summary": "Ask your AI assistant to find your next favorite product. Explore new launches, compare alternatives, and see what the Product Hunt community thinks. Building something yourself? Turn your README and website into a launch draft, add images, and check what's missing before you submit.",
+    "meta": {
+     "votes": 439,
+     "tagline": "The community you trust in the assistant you use"
+    }
+   },
+   {
+    "id": "NEWS-1h2mlq-aolx",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "United Airlines bans AI agents from booking flights on behalf of travelers",
+    "detail": "215 points · 218 comments on Hacker News.",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50458900",
+    "timestamp": "2026-11-11T21:24:35Z",
+    "meta": {
+     "hnId": "50458900",
+     "points": 215,
+     "numComments": 218,
+     "author": "herpderperator"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1lmrp83-aojk",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "AXL: GTM copilot for AI product founders: 1,200+ actions via MCP",
+    "detail": "295 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/axl-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-08T08:01:00.000Z",
+    "summary": "Capture leads, close sales & onboard customers in one system: pages, quizzes, webinars, courses, video hosting & streaming, email, chat, CRM, telephony & AI calls. No integrations to build & maintain. Every interaction enriches each lead's history.",
+    "meta": {
+     "votes": 295,
+     "tagline": "GTM copilot for AI product founders: 1,200+ actions via MCP"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-lkon9a-aoiw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "ChatGPT Images 2.6: Create, edit, and animate images with AI",
+    "detail": "297 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-07T08:01:00.000Z",
+    "summary": "Images 2.6 brings faster image generation, more precise editing, and native GIF creation to ChatGPT, Codex, and the API. Create looping animations, maintain character and product consistency across edits, export SVGs, and control generation complexity.",
+    "meta": {
+     "votes": 297,
+     "tagline": "Create, edit, and animate images with AI"
+    }
+   },
+   {
+    "id": "RESEARCH-4m8lze-aol6",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
+    "detail": "Emre Kutlusan, Yongmin Li · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.14519v1",
+    "timestamp": "2026-11-10T18:59:54Z",
+    "summary": "Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task.",
+    "meta": {
+     "arxivId": "2611.14519v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-8bupn0-aoiw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "LiveReview: Free, Risk-Aware Code Review: Auto Approve Low-Risk Changes",
+    "detail": "280 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/livereview?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-07T08:01:00.000Z",
+    "summary": "Most AI review tools flag issues. LiveReview promises production results: fewer incidents, fewer rollbacks, less senior reviewer load. Every PR is risk-scored. The lowest-risk 30-50% are safely auto-approved; the risky ones go straight to the engineers who should see them.",
+    "meta": {
+     "votes": 280,
+     "tagline": "Free, Risk-Aware Code Review: Auto Approve Low-Risk Changes"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-19j3z7t-aoi8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Tobira Site Agent: Turn your website into an AI agent that sells to AI agents",
+    "detail": "400 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/tobira-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-06T08:01:00.000Z",
+    "summary": "People already find you through AI. Tobira turns that AI traffic into real leads and customers. Paste your URL and in 10 minutes your website becomes an AI agent. It answers people and their AI, negotiates, books calls and takes orders right in customers' ChatGPT, Claude, Grok and other AI chats.",
+    "meta": {
+     "votes": 400,
+     "tagline": "Turn your website into an AI agent that sells to AI agents"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-aom0",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (197 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-11-12T00:40:42.615Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 197,
+     "country": "US"
+    },
+    "summary": "anthropics/claude-code — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-2v4ipf-aohk",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Glasshand: Give your agent a real iPhone and Mac",
+    "detail": "400 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/glasshand?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-05T08:01:00.000Z",
+    "summary": "Glasshand gives your AI agents real iPhones and Macs to work on. Connect Claude Code, Codex, or any other agent, and it can rent a device with a single prompt.",
+    "meta": {
+     "votes": 400,
+     "tagline": "Give your agent a real iPhone and Mac"
+    }
+   },
+   {
+    "id": "PRESS-1tk6z6c-aolw",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Google DeepMind Releases AlphaGenome 2 for Cell-Type-Specific Variant Effects",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/11/11/google-deepmind-alphagenome-2-cell-type-variant-effects/",
+    "timestamp": "2026-11-11T20:51:56.000Z",
+    "summary": "Google DeepMind released AlphaGenome 2, a conditional DNA sequence model that predicts regulatory activity and variant effects per cell type. It is available via the AlphaGenome API for non-commercial research.",
+    "meta": {
+     "rssId": "673e756d548f80d3",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "PRESS-c338sf-aolw",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Bericht: ByteDance plant eigenen KI-Agenten",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Bericht-ByteDance-plant-eigenen-KI-Agenten-11521573.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-11-11T20:20:00.000Z",
+    "summary": "ByteDance bereitet einen KI-Agenten nach dem Vorbild von Metas Muse vor und will so den Rückstand im KI-Wettrennen gegenüber US-Unternehmen aufholen.",
+    "meta": {
+     "rssId": "8c955c9a579fa6e0",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/8c955c9a579fa6e0"
+    }
+   },
+   {
+    "id": "NEWS-15gqbv2-aolv",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "US and China \"may\" collaborate on AI. The jokes write themselves",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xtqsuu/us_and_china_may_collaborate_on_ai_the_jokes/",
+    "timestamp": "2026-11-11T19:15:33.000Z",
+    "meta": {
+     "redditId": "33631294660bf5c0",
+     "subreddit": "reddit-localllama"
+    }
+   },
+   {
+    "id": "PRESS-ofa3kn-aols",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Agent Siri AI: Wo Apples holprige KI-Reise hingeht | Mac & i-Podcast",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Agent-Siri-AI-Wo-Apples-holprige-KI-Reise-hingeht-Mac-i-Podcast-11521459.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-11-11T16:55:00.000Z",
+    "summary": "Lange eine Lachnummer, nun auf dem Sprung zum agentischen KI-System für iPhones. Wir analysieren, wo Siri AI aktuell steht und was Apple als Nächstes plant.",
+    "meta": {
+     "rssId": "2379a6be1c6c3eae",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/2379a6be1c6c3eae"
+    }
+   },
+   {
+    "id": "NEWS-d2107o-aolu",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "New Paper -> Unless Told Otherwise, an Open Language Model Says OpenAI Made It",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xtpqxm/new_paper_unless_told_otherwise_an_open_language/",
+    "timestamp": "2026-11-11T18:36:37.000Z",
+    "meta": {
+     "redditId": "822cc8c7c1e40655",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "Hi all I've just started r/LLMPsychology as I want to pursue research in this area with my own local hardware, and work with other people also exploring how AI minds think and behave."
+   },
+   {
+    "id": "NEWS-okrllw-aolu",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "I'm releasing a Local World Model Ive been building that turns images into interactive videos you control in real time. It works on RTX 3060, 4060 and anything above, linking huggingface",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xtpc2v/im_releasing_a_local_world_model_ive_been/",
+    "timestamp": "2026-11-11T18:20:57.000Z",
+    "meta": {
+     "redditId": "403abe86f640915c",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "Hi Everyone, I'm releasing my world model, been on this sub for a few months https://huggingface.co/lucidml/gta I know it says gta but it's more stable than the general model. It can take any image and turn it into an interactive video."
+   },
+   {
+    "id": "RESEARCH-12vcd8p-aol6",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR",
+    "detail": "Sheethal Bhat, Bogdan Georgescu, Awais Mansoor et al. · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.14518v1",
+    "timestamp": "2026-11-10T18:59:17Z",
+    "summary": "DeepLearning (DL)-based Computer-Aided Diagnostic (CAD) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated datasets. In medical lesion detection, the scarcity of comprehensive, stan dardized annotations and the heterogeneity of existing datasets limit the development of robust foundation models.",
+    "meta": {
+     "arxivId": "2611.14518v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 6,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1amhy7-aol6",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "TorchCurves: Differentiable Parametric Curves",
+    "detail": "Alex Shtoff · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.14516v1",
+    "timestamp": "2026-11-10T18:58:52Z",
+    "summary": "We present TorchCurves, a PyTorch library that treats vector-valued parametric curves as learnable primitives. Its central operation maps batches of scalar inputs to points on curves represented in B-spline or Legendre polynomial bases, with differentiation through both inputs and coefficients. Curve coefficients can be optimized jointly with the surrounding model or produced by another network.",
+    "meta": {
+     "arxivId": "2611.14516v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 1,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-14dkx3a-aol6",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "AutoScaffold: AI-Guided Scaffolding for Reinforcement Learning of Language Models",
+    "detail": "Zijian Zhang, Rizhen Hu, Jiangweizhi Peng et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.14515v1",
+    "timestamp": "2026-11-10T18:58:46Z",
+    "summary": "Reinforcement learning with verifiable rewards (RLVR) produces rich training experience, yet outcome rewards reduce each attempt to a single number and leave most of this information unused.",
+    "meta": {
+     "arxivId": "2611.14515v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 7,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1bzqtr9-aol6",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
+    "detail": "Ziang Liu, James J. Kim, Yijia Dai et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.14514v1",
+    "timestamp": "2026-11-10T18:58:43Z",
+    "summary": "LLM agents are increasingly used for open-ended, data-driven scientific discovery, yet most of them evaluate hypotheses pointwise, testing an empirical claim $h$ only against its complement $\\neg h$. When evidence rejects $h$, the agent learns that one explanation is unlikely but not which alternative the evidence supports.",
+    "meta": {
+     "arxivId": "2611.14514v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017"
+   },
+   "toolHealth": {
+    "operational": 5,
+    "degraded": 1,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
+    "sourceUrl": "https://arxiv.org/abs/2611.14519v1"
+   }
+  },
+  "lastComputed": "2026-11-12T00:40:42.608Z"
+ }
+}
