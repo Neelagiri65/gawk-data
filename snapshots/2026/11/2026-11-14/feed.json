@@ -1,0 +1,533 @@
+{
+ "v": 1,
+ "capturedAt": "2026-11-14T00:26:05.034Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-f5v07h-aonc",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "OpenAI API is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "OpenAI Status (summary)",
+    "sourceUrl": "https://status.openai.com",
+    "timestamp": "2026-11-14T00:26:08.820Z",
+    "meta": {
+     "toolId": "openai-api",
+     "status": "degraded",
+     "statusSourceId": "openai-status",
+     "activeIncidents": 1,
+     "incidentName": "Delayed Costs Data in the Compliance API"
+    },
+    "summary": "We’ve applied a mitigation and are monitoring the affected services to confirm recovery. Delays in cost data are still expected."
+   },
+   {
+    "id": "MODEL_MOVER-mad5z4-aon8",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3.5 Super VL down 21 ranks on OpenRouter weekly",
+    "detail": "Now #37, was #16.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl",
+    "timestamp": "2026-11-13T20:01:05.902Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3.5-super-vl",
+     "name": "NVIDIA: Nemotron 3.5 Super VL",
+     "currentRank": 37,
+     "previousRank": 16,
+     "delta": 21
+    },
+    "summary": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total."
+   },
+   {
+    "id": "MODEL_MOVER-wdxvpy-aon8",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemini 3.1 Flash Lite down 4 ranks on OpenRouter weekly",
+    "detail": "Now #47, was #43.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemini-3.1-flash-lite",
+    "timestamp": "2026-11-13T20:01:05.902Z",
+    "meta": {
+     "slug": "google/gemini-3.1-flash-lite",
+     "name": "Google: Gemini 3.1 Flash Lite",
+     "currentRank": 47,
+     "previousRank": 43,
+     "delta": 4
+    },
+    "summary": "Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-sghsoj-aom8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Plurai Simulation: A simulated world that makes your agent improve on every run",
+    "detail": "409 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/plurai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-12T08:01:00.000Z",
+    "summary": "Find your agent’s worst bugs before your users do. One command in Claude Code, Codex or GitHub Copilot builds a digital twin of your agent’s world: synthetic personas and documents, plus mocked tools, APIs and databases, in sandboxes that never touch production.",
+    "meta": {
+     "votes": 409,
+     "tagline": "A simulated world that makes your agent improve on every run"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1twaeit-aon8",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Anthropic: Claude Sonnet 5 down 5 ranks on OpenRouter weekly",
+    "detail": "Now #49, was #44.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/anthropic/claude-sonnet-5",
+    "timestamp": "2026-11-13T20:01:05.902Z",
+    "meta": {
+     "slug": "anthropic/claude-sonnet-5",
+     "name": "Anthropic: Claude Sonnet 5",
+     "currentRank": 49,
+     "previousRank": 44,
+     "delta": 5
+    },
+    "summary": "Sonnet 5 is Anthropic's most capable Sonnet-class model, with frontier performance across coding, agents, and professional work. It supports adaptive thinking with selectable reasoning effort levels (low, medium, high, max, and x-high), a 1M-token context window, and text, image, and file inputs."
+   },
+   {
+    "id": "MODEL_MOVER-164jtp5-aon8",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemma 4 31B down 4 ranks on OpenRouter weekly",
+    "detail": "Now #50, was #46.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemma-4-31b-it",
+    "timestamp": "2026-11-13T20:01:05.902Z",
+    "meta": {
+     "slug": "google/gemma-4-31b-it",
+     "name": "Google: Gemma 4 31B",
+     "currentRank": 50,
+     "previousRank": 46,
+     "delta": 4
+    },
+    "summary": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function calling, and multilingual support across 140+ languages."
+   },
+   {
+    "id": "PRESS-vlhxd1-aon4",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Perplexity Releases Decider v1.3: Open-Weight Decision Models Add Locate",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/11/13/perplexity-decider-v1-3-open-weight-decision-models-locate/",
+    "timestamp": "2026-11-13T16:10:02.000Z",
+    "summary": "Perplexity Decider v1.3 and Flash v1.3 are open-weight decision models that return probabilities, not text. Version 1.3 adds Locate for span extraction and reports 91.6% mean accuracy on 63 query-classification tasks.",
+    "meta": {
+     "rssId": "65a33ab42fee093a",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    },
+    "story": {
+     "sources": [],
+     "discussion": [
+      {
+       "site": "r/LocalLLaMA",
+       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xv7fku/perplexity_releases_decider_v13_26b_and_decider/",
+       "points": null,
+       "timestamp": "2026-11-13T13:08:10.000Z"
+      }
+     ]
+    }
+   },
+   {
+    "id": "MODEL_MOVER-iywjae-aon8",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Qwen: Qwen3.7 Flash down 4 ranks on OpenRouter weekly",
+    "detail": "Now #51, was #47.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/qwen/qwen3.7-flash",
+    "timestamp": "2026-11-13T20:01:05.902Z",
+    "meta": {
+     "slug": "qwen/qwen3.7-flash",
+     "name": "Qwen: Qwen3.7 Flash",
+     "currentRank": 51,
+     "previousRank": 47,
+     "delta": 4
+    },
+    "summary": "Qwen3.7 Flash is a vision-language reasoning model from Alibaba. It is suited for multimodal agents, visual coding, search, and computer interaction, with strengths in object recognition, spatial understanding, and real-world visual perception."
+   },
+   {
+    "id": "MODEL_MOVER-1h2uq4x-aon8",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Upstage: Solar Pro 4 down 6 ranks on OpenRouter weekly",
+    "detail": "Now #54, was #48.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/upstage/solar-pro4",
+    "timestamp": "2026-11-13T20:01:05.902Z",
+    "meta": {
+     "slug": "upstage/solar-pro4",
+     "name": "Upstage: Solar Pro 4",
+     "currentRank": 54,
+     "previousRank": 48,
+     "delta": 6
+    },
+    "summary": "Solar Pro 4 is Upstage's cost-efficient large language model, featuring a 524K context window. It is built for long-horizon tasks and agentic workflows, with strong capabilities in office productivity, document-intensive work, and coding."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1vpc8gy-aom8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "YouArt Desktop App: Codex for creative team",
+    "detail": "349 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/youart?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-12T08:01:00.000Z",
+    "summary": "Meet YouArt Desktop App: AI creative teammate that lives on your computer. Agent-first video production is here. Pull your local files and context from Slack, Gmail and GitHub onto one canvas, and with computer use it operates After Effects, CapCut and Blender directly.",
+    "meta": {
+     "votes": 349,
+     "tagline": "Codex for creative team"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-zs0he4-aolk",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "ScroogeFrog AI : AI ad fraud detection that protects your marketing budget ",
+    "detail": "307 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/scroogefrog-ai-antifraud?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-11T08:01:00.000Z",
+    "summary": "ScroogeFrog AI helps advertisers find out where their ad budget is going to waste. It audits website traffic and Google Ads campaigns to uncover suspicious clicks, bot activity, and underperforming spend, then turns complex data into clear recommendations on what to fix.",
+    "meta": {
+     "votes": 307,
+     "tagline": "AI ad fraud detection that protects your marketing budget "
+    }
+   },
+   {
+    "id": "NEWS-13i43md-aon7",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "DeepSeek v4.1 Flash vs Qwen 3.8 Flash Next Performance",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xvhzq9/deepseek_v41_flash_vs_qwen_38_flash_next/",
+    "timestamp": "2026-11-13T19:57:57.000Z",
+    "meta": {
+     "redditId": "7143a5616f747433",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "While waiting for Qwen 4, I installed and benchmarked DeepSeek v4.1 Flash to see if I was missing out. Based on the type of work I do, DeepSeek is not better but is definitely much slower. Turns out Strata with Qwen 3.8 Flash-Next is best bang for buck on my machine."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-adf7qb-aolk",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Nod by n8n: Open source personal agent with its own computer",
+    "detail": "298 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/n8n-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-11T08:01:00.000Z",
+    "summary": "Nod does the work around your work, in your apps and on real websites, using a private computer of its own on your Mac or PC. It takes orders only from you, asks before anything you didn't ask for, and runs on the AI provider you choose. Free, Apache 2.0.",
+    "meta": {
+     "votes": 298,
+     "tagline": "Open source personal agent with its own computer"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1y9uv5p-aokw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Alsona: AI agents that turn buying signals into booked sales calls",
+    "detail": "504 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/alsona?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-10T08:01:00.000Z",
+    "summary": "95% of prospects aren't ready to buy when you reach out. Alsona finds the ones showing buying intent right now. It tracks 32+ signals across hiring, funding, tech changes, reviews, ad spend, and more, then scores companies against your ICP and explains why they're worth contacting.",
+    "meta": {
+     "votes": 504,
+     "tagline": "AI agents that turn buying signals into booked sales calls"
+    }
+   },
+   {
+    "id": "RESEARCH-sp0s6e-aomi",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Unbundling Multimodal Vision Encoding",
+    "detail": "Ellis Brown, Chris Hoang, Shengyi Qian et al. · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.17334v1",
+    "timestamp": "2026-11-12T18:59:54Z",
+    "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely.",
+    "meta": {
+     "arxivId": "2611.17334v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 12,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1rire72-aokw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Maxma: The 24/7 AI teammate that scales your paid ad performance",
+    "detail": "329 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/maxma-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-10T08:01:00.000Z",
+    "summary": "Maxma is the AI platform that 10Xs your human marketers. It does the end-to-end work of paid advertising, from analyzing performance, creating ads and landing pages, and launching and optimizing campaigns across channels, to managing tracking and reporting.",
+    "meta": {
+     "votes": 329,
+     "tagline": "The 24/7 AI teammate that scales your paid ad performance"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-12xddjz-aok8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Product Hunt MCP: The community you trust in the assistant you use",
+    "detail": "443 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/producthunt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-09T08:00:00.000Z",
+    "summary": "Ask your AI assistant to find your next favorite product. Explore new launches, compare alternatives, and see what the Product Hunt community thinks. Building something yourself? Turn your README and website into a launch draft, add images, and check what's missing before you submit.",
+    "meta": {
+     "votes": 443,
+     "tagline": "The community you trust in the assistant you use"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-1h5c4rj-aonc",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "OpenAI leads 7-day GitHub activity (198 events)",
+    "detail": "San Francisco, US · openai",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://openai.com",
+    "timestamp": "2026-11-14T00:26:08.827Z",
+    "meta": {
+     "labId": "openai-sf",
+     "total": 198,
+     "country": "US"
+    },
+    "summary": "openai/whisper — Robust Speech Recognition via Large-Scale Weak Supervision. openai/openai-cookbook — Examples and guides for using the OpenAI API."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-lkon9a-aoiw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "ChatGPT Images 2.6: Create, edit, and animate images with AI",
+    "detail": "301 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-07T08:01:00.000Z",
+    "summary": "Images 2.6 brings faster image generation, more precise editing, and native GIF creation to ChatGPT, Codex, and the API. Create looping animations, maintain character and product consistency across edits, export SVGs, and control generation complexity.",
+    "meta": {
+     "votes": 301,
+     "tagline": "Create, edit, and animate images with AI"
+    }
+   },
+   {
+    "id": "PRESS-195ywei-aon5",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Best AI Video Generation Models in 2026: Elo, Price per Second, Open Weights",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/11/13/best-ai-video-generation-models-2026/",
+    "timestamp": "2026-11-13T17:23:51.000Z",
+    "summary": "The AI video leaderboard looks very different from 12 months ago. Native audio is now table stakes. Clips run 15–30 seconds. And an open-weights model sits in the top 3. This ranking (as of Nov 13, 2026) uses one quality signal: blind human-preference Elo from the Artificial Analysis Video Arena.",
+    "meta": {
+     "rssId": "a5236b0e1df0c30b",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "PRESS-1digmln-aon5",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Generative KI stiftet Chaos in Brüssel und Straßburg",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/KI-ueberflutet-EU-Institutionen-mit-Antraegen-und-Halluzinationen-11525079.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-11-13T17:21:00.000Z",
+    "summary": "Chatbots sorgen in Brüssel und Straßburg für eine Flut an Änderungsanträgen und Anfragen. Beamte und Abgeordnete schlagen Alarm wegen demokratischer Risiken.",
+    "meta": {
+     "rssId": "b0cf2c435acaf036",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/b0cf2c435acaf036"
+    }
+   },
+   {
+    "id": "NEWS-1bw6qzo-aon7",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Weight Space Programming for Quantization: Nace quants achieve up to 2x better KL divergence for Qwen 9B, 27B, 35B & Flash Next [GGUF]",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xvh4ag/weight_space_programming_for_quantization_nace/",
+    "timestamp": "2026-11-13T19:23:54.000Z",
+    "meta": {
+     "redditId": "0ecfd135d02c2186",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "hey llamas, its Alish from nace.ai (open source ai lab behind #1 decision model on latest Artificial Analysis decision index v2.1) & Kapitsa (optimized inference for apple silicon)."
+   },
+   {
+    "id": "PRESS-lfs8jp-aon3",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Siri AI: Dann kommt Apples KI-System auf ältere Apple-TV-4K-Geräte",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Siri-AI-Dann-kommt-Apples-KI-System-auf-aeltere-Apple-TV-4K-Geraete-11524528.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-11-13T15:24:00.000Z",
+    "summary": "Apple hat Details genannt, wann sein verbessertes KI-System auf die Multimediaboxen früherer Bauart kommt. Ein Problem bleibt allerdings die EU-Thematik.",
+    "meta": {
+     "rssId": "f3dbb5b4f05855be",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/f3dbb5b4f05855be"
+    }
+   },
+   {
+    "id": "PRESS-1nkagpr-aon1",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "How to Evaluate AI Agents For Enterprise",
+    "detail": "Reported by Analytics Vidhya (Gurgaon, IN).",
+    "sourceName": "Analytics Vidhya",
+    "sourceUrl": "https://www.analyticsvidhya.com/blog/2026/11/how-to-evaluate-ai-agents-for-enterprise/",
+    "timestamp": "2026-11-13T13:42:09.000Z",
+    "summary": "Most agents demo look great. You type a request, the agent calls a few tools, and a clean answer comes back. Then real users show up with a real data, and things break in ways you never tested.",
+    "meta": {
+     "rssId": "620734b63e630a59",
+     "publisher": "analytics-vidhya",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "RESEARCH-13x51zw-aomi",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
+    "detail": "Jie Wang, Tong Zhu, JiaHao Kuang et al. · cs.CL",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.17332v1",
+    "timestamp": "2026-11-12T18:59:52Z",
+    "summary": "Model architecture shapes the scaling behavior, training efficiency, and inference cost of LLMs, making it a central focus of both industry and academia. In industry, teams such as those behind DeepSeek, Qwen, and Kimi routinely introduce architectural innovations, yet public reports rarely document which ideas succeeded, which were abandoned, and why.",
+    "meta": {
+     "arxivId": "2611.17332v1",
+     "primaryCategory": "cs.CL",
+     "authorCount": 11,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRESS-1opfxlg-aon1",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Gemini 4 Hydrogen: Hands-On Review",
+    "detail": "Reported by Analytics Vidhya (Gurgaon, IN).",
+    "sourceName": "Analytics Vidhya",
+    "sourceUrl": "https://www.analyticsvidhya.com/blog/2026/11/gemini-4-hydrogen-review/",
+    "timestamp": "2026-11-13T13:17:14.000Z",
+    "summary": "Google has introduced Gemini 4 Hydrogen, its latest AI model designed for faster execution, coding, and agentic workflows. Released on November 12, 2026, the model is rolling out across Google Search, the Gemini app, and developer tools.",
+    "meta": {
+     "rssId": "fd5b3d030670ad6b",
+     "publisher": "analytics-vidhya",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "NEWS-2i0aa7-aon6",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Computer use programs/Pi extensions",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xvfg2n/computer_use_programspi_extensions/",
+    "timestamp": "2026-11-13T18:21:09.000Z",
+    "meta": {
+     "redditId": "922fc55a27db23f5",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "I've eard much stuff about Codex and CC computer use, is there any decent program/Pi Agent extension that I can install and use to let my local models control my pc. I am using Qwen3.6-35BA3B on PolyStrata and Pi Agent, I need the model to do basic tasks on my PC, maybe by using its vision."
+   },
+   {
+    "id": "RESEARCH-s1obkg-aomi",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
+    "detail": "Zeynep Yıldız, Satchit Chatterji, Ercan Atam et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.17329v1",
+    "timestamp": "2026-11-12T18:59:37Z",
+    "summary": "Institutional portfolios operate under investment policy statements that specify asset allocation constraints, often conditioned on market regime information. Deep reinforcement learning has been shown to optimize financial performance but typically does not enforce rule compliance, making it unsuitable for real-world deployment.",
+    "meta": {
+     "arxivId": "2611.17329v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-fw1qn2-aomi",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+    "detail": "Ethan Lin, Akanksha Sarkar, Ziang Liu et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.17323v1",
+    "timestamp": "2026-11-12T18:59:06Z",
+    "summary": "Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering. While recent MLE agents show promise in automating pipeline design, they have been studied almost exclusively in fully supervised settings, leaving them untested in realistic regimes where labeled data is scarce but unlabeled data is abundant.",
+    "meta": {
+     "arxivId": "2611.17323v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1u4wfke-aomi",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+    "detail": "Peiwen Li, Harshit Verma, Sophia Zhou et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.17316v1",
+    "timestamp": "2026-11-12T18:58:22Z",
+    "summary": "Coding agents tackle successive tasks on an evolving repository, carrying forward edits and writing memory before the next task is known. Selecting memory for unknown next tasks requires balancing future usefulness against the costs of writing and reading it. The actor must also decide when acting on available memory saves effort as the task unfolds.",
+    "meta": {
+     "arxivId": "2611.17316v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 9,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017"
+   },
+   "toolHealth": {
+    "operational": 5,
+    "degraded": 1,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "Unbundling Multimodal Vision Encoding",
+    "sourceUrl": "https://arxiv.org/abs/2611.17334v1"
+   }
+  },
+  "lastComputed": "2026-11-14T00:26:08.819Z"
+ }
+}
