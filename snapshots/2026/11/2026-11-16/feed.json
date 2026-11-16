@@ -1,0 +1,453 @@
+{
+ "v": 1,
+ "capturedAt": "2026-11-16T00:38:24.083Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-nnnbm6-aooo",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Claude Code is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "Anthropic Status (Claude Code + API)",
+    "sourceUrl": "https://status.claude.com",
+    "timestamp": "2026-11-16T00:38:26.942Z",
+    "meta": {
+     "toolId": "claude-code",
+     "status": "degraded",
+     "statusSourceId": "anthropic-status",
+     "activeIncidents": 1,
+     "incidentName": "Some users unable to sign up with Apple on the Claude iOS app"
+    },
+    "summary": "We are continuing to investigate an issue with Sign in with Apple on the Claude iOS app, which is mainly affecting new accounts. New users can sign up with Google or email instead. We will provide another update as soon as possible."
+   },
+   {
+    "id": "MODEL_MOVER-hwdry-aooj",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Baidu: ERNIE-5.5-Flash-Preview (free) up 6 ranks on OpenRouter weekly",
+    "detail": "Now #25, was #31.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/baidu/ernie-5.5-flash-preview",
+    "timestamp": "2026-11-15T19:05:38.806Z",
+    "meta": {
+     "slug": "baidu/ernie-5.5-flash-preview",
+     "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
+     "currentRank": 25,
+     "previousRank": 31,
+     "delta": -6
+    },
+    "summary": "ERNIE 5.5 Flash Preview is the latest foundation model in the ERNIE family, with comprehensive improvements in coding, agentic capabilities, knowledge work, and deep research."
+   },
+   {
+    "id": "MODEL_MOVER-mad5z4-aooj",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3.5 Super VL down 26 ranks on OpenRouter weekly",
+    "detail": "Now #42, was #16.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl",
+    "timestamp": "2026-11-15T19:05:38.806Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3.5-super-vl",
+     "name": "NVIDIA: Nemotron 3.5 Super VL",
+     "currentRank": 42,
+     "previousRank": 16,
+     "delta": 26
+    },
+    "summary": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-x3lhqg-aoo8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Rakazo: The open source Grok Bot alternative you actually own",
+    "detail": "304 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/rakazo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-15T08:01:00.000Z",
+    "summary": "Rakazo gives you AI teammates that keep working after you close the chat. Each bot has its own memory, routines and computer, with a browser you can watch and take over. Open source and self-hosted: any model, your keys, your machine. Web, desktop and mobile.",
+    "meta": {
+     "votes": 304,
+     "tagline": "The open source Grok Bot alternative you actually own"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-bkb64o-aooj",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-6 Luna Pro down 4 ranks on OpenRouter weekly",
+    "detail": "Now #46, was #42.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-6-luna-pro",
+    "timestamp": "2026-11-15T19:05:38.806Z",
+    "meta": {
+     "slug": "openai/gpt-6-luna-pro",
+     "name": "OpenAI: GPT-6 Luna Pro",
+     "currentRank": 46,
+     "previousRank": 42,
+     "delta": 4
+    },
+    "summary": "GPT-6 Luna Pro is the same underlying model as GPT-6 Luna, served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks."
+   },
+   {
+    "id": "MODEL_MOVER-whujn-aooj",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "DeepSeek: DeepSeek V4 Flash Latest down 4 ranks on OpenRouter weekly",
+    "detail": "Now #47, was #43.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/~deepseek/deepseek-v4-flash-latest",
+    "timestamp": "2026-11-15T19:05:38.806Z",
+    "meta": {
+     "slug": "~deepseek/deepseek-v4-flash-latest",
+     "name": "DeepSeek: DeepSeek V4 Flash Latest",
+     "currentRank": 47,
+     "previousRank": 43,
+     "delta": 4
+    },
+    "summary": "This model always redirects to the latest model in the DeepSeek V4 Flash family."
+   },
+   {
+    "id": "PRESS-nbcjp6-aoof",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Top 10 GitHub Repositories Trending in October 2026",
+    "detail": "Reported by Analytics Vidhya (Gurgaon, IN).",
+    "sourceName": "Analytics Vidhya",
+    "sourceUrl": "https://www.analyticsvidhya.com/blog/2026/11/top-github-repositories-october-2026/",
+    "timestamp": "2026-11-15T15:03:20.000Z",
+    "summary": "If you spent any time on GitHub Trending in October, you will have noticed that models were barely the story at all. People starred the layers wrapped around them. These include agent runtimes, skills, gateways, inference engines, and auditing attempts.",
+    "meta": {
+     "rssId": "fa5fcc8a1668ad42",
+     "publisher": "analytics-vidhya",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-iywjae-aooj",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Qwen: Qwen3.7 Flash down 5 ranks on OpenRouter weekly",
+    "detail": "Now #53, was #48.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/qwen/qwen3.7-flash",
+    "timestamp": "2026-11-15T19:05:38.806Z",
+    "meta": {
+     "slug": "qwen/qwen3.7-flash",
+     "name": "Qwen: Qwen3.7 Flash",
+     "currentRank": 53,
+     "previousRank": 48,
+     "delta": 5
+    },
+    "summary": "Qwen3.7 Flash is a vision-language reasoning model from Alibaba. It is suited for multimodal agents, visual coding, search, and computer interaction, with strengths in object recognition, spatial understanding, and real-world visual perception."
+   },
+   {
+    "id": "MODEL_MOVER-mr7ul2-aooj",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Thinking Machines: Inkling 2 Small down 49 ranks on OpenRouter weekly",
+    "detail": "Now #85, was #36.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/thinkingmachines/inkling-2-small",
+    "timestamp": "2026-11-15T19:05:38.806Z",
+    "meta": {
+     "slug": "thinkingmachines/inkling-2-small",
+     "name": "Thinking Machines: Inkling 2 Small",
+     "currentRank": 85,
+     "previousRank": 36,
+     "delta": 49
+    },
+    "summary": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second Inkling generation."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-sghsoj-aom8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Plurai Simulation: A simulated world that makes your agent improve on every run",
+    "detail": "418 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/plurai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-12T08:01:00.000Z",
+    "summary": "Find your agent’s worst bugs before your users do. One command in Claude Code, Codex or GitHub Copilot builds a digital twin of your agent’s world: synthetic personas and documents, plus mocked tools, APIs and databases, in sandboxes that never touch production.",
+    "meta": {
+     "votes": 418,
+     "tagline": "A simulated world that makes your agent improve on every run"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1vpc8gy-aom8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "YouArt Desktop App: Codex for creative team",
+    "detail": "351 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/youart?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-12T08:01:00.000Z",
+    "summary": "Meet YouArt Desktop App: AI creative teammate that lives on your computer. Agent-first video production is here. Pull your local files and context from Slack, Gmail and GitHub onto one canvas, and with computer use it operates After Effects, CapCut and Blender directly.",
+    "meta": {
+     "votes": 351,
+     "tagline": "Codex for creative team"
+    }
+   },
+   {
+    "id": "NEWS-of7xg6-aoon",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Big labs keep using ideas from r/LocalLLaMA and promoting them as their own",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xxao34/big_labs_keep_using_ideas_from_rlocalllama_and/",
+    "timestamp": "2026-11-15T23:57:24.000Z",
+    "meta": {
+     "redditId": "a4011e8cace712fe",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "Four months ago, u/Extraaltodeus posted about their weight-editing project. About a month ago, OpenAI released their new \"innovative\" weight editing mechanism, and that caused a lot of rage. I saw zero mentions of the community or u/Extraaltodeus anywhere, despite their independent work."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-zs0he4-aolk",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "ScroogeFrog AI : AI ad fraud detection that protects your marketing budget ",
+    "detail": "308 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/scroogefrog-ai-antifraud?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-11T08:01:00.000Z",
+    "summary": "ScroogeFrog AI helps advertisers find out where their ad budget is going to waste. It audits website traffic and Google Ads campaigns to uncover suspicious clicks, bot activity, and underperforming spend, then turns complex data into clear recommendations on what to fix.",
+    "meta": {
+     "votes": 308,
+     "tagline": "AI ad fraud detection that protects your marketing budget "
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-adf7qb-aolk",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Nod by n8n: Open source personal agent with its own computer",
+    "detail": "304 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/n8n-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-11T08:01:00.000Z",
+    "summary": "Nod does the work around your work, in your apps and on real websites, using a private computer of its own on your Mac or PC. It takes orders only from you, asks before anything you didn't ask for, and runs on the AI provider you choose. Free, Apache 2.0.",
+    "meta": {
+     "votes": 304,
+     "tagline": "Open source personal agent with its own computer"
+    }
+   },
+   {
+    "id": "RESEARCH-sp0s6e-aomi",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Unbundling Multimodal Vision Encoding",
+    "detail": "Ellis Brown, Chris Hoang, Shengyi Qian et al. · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.17334v1",
+    "timestamp": "2026-11-12T18:59:54Z",
+    "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely.",
+    "meta": {
+     "arxivId": "2611.17334v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 12,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1y9uv5p-aokw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Alsona: AI agents that turn buying signals into booked sales calls",
+    "detail": "519 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/alsona?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-10T08:01:00.000Z",
+    "summary": "95% of prospects aren't ready to buy when you reach out. Alsona finds the ones showing buying intent right now. It tracks 32+ signals across hiring, funding, tech changes, reviews, ad spend, and more, then scores companies against your ICP and explains why they're worth contacting.",
+    "meta": {
+     "votes": 519,
+     "tagline": "AI agents that turn buying signals into booked sales calls"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1rire72-aokw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Maxma: The 24/7 AI teammate that scales your paid ad performance",
+    "detail": "330 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/maxma-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-10T08:01:00.000Z",
+    "summary": "Maxma is the AI platform that 10Xs your human marketers. It does the end-to-end work of paid advertising, from analyzing performance, creating ads and landing pages, and launching and optimizing campaigns across channels, to managing tracking and reporting.",
+    "meta": {
+     "votes": 330,
+     "tagline": "The 24/7 AI teammate that scales your paid ad performance"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-aooo",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (199 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-11-16T00:38:26.946Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 199,
+     "country": "US"
+    },
+    "summary": "anthropics/anthropic-cookbook — A collection of notebooks/recipes showcasing some fun and effective ways of using Claude."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-12xddjz-aok8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Product Hunt MCP: The community you trust in the assistant you use",
+    "detail": "444 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/producthunt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-09T08:00:00.000Z",
+    "summary": "Ask your AI assistant to find your next favorite product. Explore new launches, compare alternatives, and see what the Product Hunt community thinks. Building something yourself? Turn your README and website into a launch draft, add images, and check what's missing before you submit.",
+    "meta": {
+     "votes": 444,
+     "tagline": "The community you trust in the assistant you use"
+    }
+   },
+   {
+    "id": "PRESS-1h6pid2-aooe",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "OpenAI startet ChatGPT Wallet: KI-Agenten kaufen für Nutzer ein",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/OpenAI-startet-ChatGPT-Wallet-KI-Agenten-kaufen-fuer-Nutzer-ein-11525597.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-11-15T14:56:00.000Z",
+    "summary": "Die neue Bezahlmethode von OpenAI befähigt KI-Agenten eigenständig einzukaufen. Das Feature ist zunächst nur für Pro-Abonnenten in den USA verfügbar.",
+    "meta": {
+     "rssId": "891e500ca1ff1074",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/891e500ca1ff1074"
+    }
+   },
+   {
+    "id": "NEWS-8wcb9p-aoom",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Someone should do an analysis on the rate of Self-promo here.",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xx85mw/someone_should_do_an_analysis_on_the_rate_of/",
+    "timestamp": "2026-11-15T22:05:21.000Z",
+    "meta": {
+     "redditId": "8a4fadc180da237a",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "I think the last 3 posts from here that showed up on my feed were barely veiled self-promos. I was here when huggingface first started getting popular, and the level of support for running local models here was incredible. Now I am debating whether or not to leave the sub."
+   },
+   {
+    "id": "NEWS-8zddjd-aool",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "I have created a tool to observe what happens inside an LLM. Also allows for the comparison of two quantizations of the same model to see at what point they diverge, token by token",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xx7qbf/i_have_created_a_tool_to_observe_what_happens/",
+    "timestamp": "2026-11-15T21:46:56.000Z",
+    "meta": {
+     "redditId": "604aa9abaef36f29",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "What changes between different quantizations of the same model? And what if you could SEE what actually sets them apart?"
+   },
+   {
+    "id": "RESEARCH-13x51zw-aomi",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
+    "detail": "Jie Wang, Tong Zhu, JiaHao Kuang et al. · cs.CL",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.17332v1",
+    "timestamp": "2026-11-12T18:59:52Z",
+    "summary": "Model architecture shapes the scaling behavior, training efficiency, and inference cost of LLMs, making it a central focus of both industry and academia. In industry, teams such as those behind DeepSeek, Qwen, and Kimi routinely introduce architectural innovations, yet public reports rarely document which ideas succeeded, which were abandoned, and why.",
+    "meta": {
+     "arxivId": "2611.17332v1",
+     "primaryCategory": "cs.CL",
+     "authorCount": 11,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-s1obkg-aomi",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
+    "detail": "Zeynep Yıldız, Satchit Chatterji, Ercan Atam et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.17329v1",
+    "timestamp": "2026-11-12T18:59:37Z",
+    "summary": "Institutional portfolios operate under investment policy statements that specify asset allocation constraints, often conditioned on market regime information. Deep reinforcement learning has been shown to optimize financial performance but typically does not enforce rule compliance, making it unsuitable for real-world deployment.",
+    "meta": {
+     "arxivId": "2611.17329v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-fw1qn2-aomi",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+    "detail": "Ethan Lin, Akanksha Sarkar, Ziang Liu et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.17323v1",
+    "timestamp": "2026-11-12T18:59:06Z",
+    "summary": "Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering. While recent MLE agents show promise in automating pipeline design, they have been studied almost exclusively in fully supervised settings, leaving them untested in realistic regimes where labeled data is scarce but unlabeled data is abundant.",
+    "meta": {
+     "arxivId": "2611.17323v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1u4wfke-aomi",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+    "detail": "Peiwen Li, Harshit Verma, Sophia Zhou et al. · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.17316v1",
+    "timestamp": "2026-11-12T18:58:22Z",
+    "summary": "Coding agents tackle successive tasks on an evolving repository, carrying forward edits and writing memory before the next task is known. Selecting memory for unknown next tasks requires balancing future usefulness against the costs of writing and reading it. The actor must also decide when acting on available memory saves effort as the task unfolds.",
+    "meta": {
+     "arxivId": "2611.17316v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 9,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017"
+   },
+   "toolHealth": {
+    "operational": 5,
+    "degraded": 1,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "Unbundling Multimodal Vision Encoding",
+    "sourceUrl": "https://arxiv.org/abs/2611.17334v1"
+   }
+  },
+  "lastComputed": "2026-11-16T00:38:26.941Z"
+ }
+}
