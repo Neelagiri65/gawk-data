@@ -1,0 +1,540 @@
+{
+ "v": 1,
+ "capturedAt": "2026-11-17T03:48:55.465Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-nnnbm6-aopf",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Claude Code is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "Anthropic Status (Claude Code + API)",
+    "sourceUrl": "https://status.claude.com",
+    "timestamp": "2026-11-17T03:48:58.537Z",
+    "meta": {
+     "toolId": "claude-code",
+     "status": "degraded",
+     "statusSourceId": "anthropic-status",
+     "activeIncidents": 1,
+     "incidentName": "Claude unable to join meetings"
+    },
+    "summary": "Claude Meetings (beta) saw higher than expected demand today, and Claude was unable to join many calls. We have put mitigations in place and are continuing to monitor and improve join reliability."
+   },
+   {
+    "id": "MODEL_MOVER-hwdry-aopa",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Baidu: ERNIE-5.5-Flash-Preview (free) up 6 ranks on OpenRouter weekly",
+    "detail": "Now #20, was #26.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/baidu/ernie-5.5-flash-preview",
+    "timestamp": "2026-11-16T22:29:54.001Z",
+    "meta": {
+     "slug": "baidu/ernie-5.5-flash-preview",
+     "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
+     "currentRank": 20,
+     "previousRank": 26,
+     "delta": -6
+    },
+    "summary": "ERNIE 5.5 Flash Preview is the latest foundation model in the ERNIE family, with comprehensive improvements in coding, agentic capabilities, knowledge work, and deep research."
+   },
+   {
+    "id": "MODEL_MOVER-1w90hxa-aopa",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemini 4 Carbon up 10 ranks on OpenRouter weekly",
+    "detail": "Now #37, was #47.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemini-4-carbon",
+    "timestamp": "2026-11-16T22:29:54.001Z",
+    "meta": {
+     "slug": "google/gemini-4-carbon",
+     "name": "Google: Gemini 4 Carbon",
+     "currentRank": 37,
+     "previousRank": 47,
+     "delta": -10
+    },
+    "summary": "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode of up to 1M output tokens through continuation, and controls thinking depth with low, medium and high reasoning effort."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-x3lhqg-aoo8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Rakazo: The open source Grok Bot alternative you actually own",
+    "detail": "401 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/rakazo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-15T08:01:00.000Z",
+    "summary": "Rakazo gives you AI teammates that keep working after you close the chat. Each bot has its own memory, routines and computer, with a browser you can watch and take over. Open source and self-hosted: any model, your keys, your machine. Web, desktop and mobile.",
+    "meta": {
+     "votes": 401,
+     "tagline": "The open source Grok Bot alternative you actually own"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-qe9c4s-aopa",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "MiniMax: MiniMax M3 down 4 ranks on OpenRouter weekly",
+    "detail": "Now #45, was #41.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/minimax/minimax-m3",
+    "timestamp": "2026-11-16T22:29:54.001Z",
+    "meta": {
+     "slug": "minimax/minimax-m3",
+     "name": "MiniMax: MiniMax M3",
+     "currentRank": 45,
+     "previousRank": 41,
+     "delta": 4
+    },
+    "summary": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding, and tool use."
+   },
+   {
+    "id": "MODEL_MOVER-mad5z4-aopa",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3.5 Super VL down 30 ranks on OpenRouter weekly",
+    "detail": "Now #46, was #16.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl",
+    "timestamp": "2026-11-16T22:29:54.001Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3.5-super-vl",
+     "name": "NVIDIA: Nemotron 3.5 Super VL",
+     "currentRank": 46,
+     "previousRank": 16,
+     "delta": 30
+    },
+    "summary": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total."
+   },
+   {
+    "id": "PRESS-sr0a14-aop9",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
+    "detail": "Reported by latent.space (San Francisco, US).",
+    "sourceName": "latent.space",
+    "sourceUrl": "https://latent.space/p/bfl/",
+    "timestamp": "2026-11-16T21:28:46.000Z",
+    "summary": "Black Forest Labs’ case for learning AGI from pixels, motion and sound.",
+    "meta": {
+     "rssId": "321e2247ddbb602c",
+     "publisher": "latent-space",
+     "country": "US",
+     "lang": "en",
+     "imagePath": "/api/rss/image/321e2247ddbb602c"
+    },
+    "story": {
+     "sources": [
+      {
+       "publisher": "latent.space",
+       "country": "US",
+       "lang": "en",
+       "url": "https://latent.space/p/bfl/",
+       "timestamp": "2026-11-16T21:38:03.000Z"
+      }
+     ],
+     "discussion": []
+    }
+   },
+   {
+    "id": "MODEL_MOVER-wdxvpy-aopa",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemini 3.1 Flash Lite down 4 ranks on OpenRouter weekly",
+    "detail": "Now #52, was #48.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemini-3.1-flash-lite",
+    "timestamp": "2026-11-16T22:29:54.001Z",
+    "meta": {
+     "slug": "google/gemini-3.1-flash-lite",
+     "name": "Google: Gemini 3.1 Flash Lite",
+     "currentRank": 52,
+     "previousRank": 48,
+     "delta": 4
+    },
+    "summary": "Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads."
+   },
+   {
+    "id": "MODEL_MOVER-mr7ul2-aopa",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Thinking Machines: Inkling 2 Small down 45 ranks on OpenRouter weekly",
+    "detail": "Now #80, was #35.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/thinkingmachines/inkling-2-small",
+    "timestamp": "2026-11-16T22:29:54.001Z",
+    "meta": {
+     "slug": "thinkingmachines/inkling-2-small",
+     "name": "Thinking Machines: Inkling 2 Small",
+     "currentRank": 80,
+     "previousRank": 35,
+     "delta": 45
+    },
+    "summary": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second Inkling generation."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1fxclz0-aonk",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "HiringNow: AI job agent that finds & apply for jobs before anyone else.",
+    "detail": "333 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/hiringnow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-14T08:01:00.000Z",
+    "summary": "HiringNow checks 247,000+ company career sites every 5 minutes, so you see new jobs before they hit the big boards. It matches each job to your profile, tailors your resume and cover letter, and applies on the employer's own site, only with your approval.",
+    "meta": {
+     "votes": 333,
+     "tagline": "AI job agent that finds & apply for jobs before anyone else."
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-sghsoj-aom8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Plurai Simulation: A simulated world that makes your agent improve on every run",
+    "detail": "421 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/plurai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-12T08:01:00.000Z",
+    "summary": "Find your agent’s worst bugs before your users do. One command in Claude Code, Codex or GitHub Copilot builds a digital twin of your agent’s world: synthetic personas and documents, plus mocked tools, APIs and databases, in sandboxes that never touch production.",
+    "meta": {
+     "votes": 421,
+     "tagline": "A simulated world that makes your agent improve on every run"
+    }
+   },
+   {
+    "id": "NEWS-3ns8r9-aopa",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+    "detail": "171 points · 75 comments on Hacker News.",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50524736",
+    "timestamp": "2026-11-16T22:58:20Z",
+    "meta": {
+     "hnId": "50524736",
+     "points": 171,
+     "numComments": 75,
+     "author": "cwaffles"
+    },
+    "machineSummary": {
+     "text": "Windows 11 collects data on coding agents and developer tools through MissionControlAggregator.dll and reports this information to Microsoft when optional diagnostic data is enabled by default in the US setup tested.",
+     "model": "nvidia/nemotron-3.5-bolt-e4b",
+     "generatedAt": "2026-11-17T00:41:07.272Z"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1vpc8gy-aom8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "YouArt Desktop App: Codex for creative team",
+    "detail": "353 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/youart?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-12T08:01:00.000Z",
+    "summary": "Meet YouArt Desktop App: AI creative teammate that lives on your computer. Agent-first video production is here. Pull your local files and context from Slack, Gmail and GitHub onto one canvas, and with computer use it operates After Effects, CapCut and Blender directly.",
+    "meta": {
+     "votes": 353,
+     "tagline": "Codex for creative team"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-zs0he4-aolk",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "ScroogeFrog AI : AI ad fraud detection that protects your marketing budget ",
+    "detail": "309 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/scroogefrog-ai-antifraud?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-11T08:01:00.000Z",
+    "summary": "ScroogeFrog AI helps advertisers find out where their ad budget is going to waste. It audits website traffic and Google Ads campaigns to uncover suspicious clicks, bot activity, and underperforming spend, then turns complex data into clear recommendations on what to fix.",
+    "meta": {
+     "votes": 309,
+     "tagline": "AI ad fraud detection that protects your marketing budget "
+    }
+   },
+   {
+    "id": "RESEARCH-197hm3h-aoo2",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Found, but Not Fixed : From Software Vulnerability Discovery to Fixes with Iterative LLM Pipelines",
+    "detail": "Youssef Gamal, Mohamad Fakih, Halima Bouzidi et al. · cs.SE",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.19719v1",
+    "timestamp": "2026-11-15T02:02:33Z",
+    "summary": "Software vulnerabilities persist as a critical threat despite the deployment of sophisticated detection tools and AI assistants. While detection has advanced, the subsequent code repair phase remains a primary bottleneck; manual intervention is inherently slow, costly, and prone to introducing secondary regressions and issues.",
+    "meta": {
+     "arxivId": "2611.19719v1",
+     "primaryCategory": "cs.SE",
+     "authorCount": 8,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-adf7qb-aolk",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Nod by n8n: Open source personal agent with its own computer",
+    "detail": "305 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/n8n-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-11T08:01:00.000Z",
+    "summary": "Nod does the work around your work, in your apps and on real websites, using a private computer of its own on your Mac or PC. It takes orders only from you, asks before anything you didn't ask for, and runs on the AI provider you choose. Free, Apache 2.0.",
+    "meta": {
+     "votes": 305,
+     "tagline": "Open source personal agent with its own computer"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1y9uv5p-aokw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Alsona: AI agents that turn buying signals into booked sales calls",
+    "detail": "530 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/alsona?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-10T08:01:00.000Z",
+    "summary": "95% of prospects aren't ready to buy when you reach out. Alsona finds the ones showing buying intent right now. It tracks 32+ signals across hiring, funding, tech changes, reviews, ad spend, and more, then scores companies against your ICP and explains why they're worth contacting.",
+    "meta": {
+     "votes": 530,
+     "tagline": "AI agents that turn buying signals into booked sales calls"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-aopf",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (200 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-11-17T03:48:58.546Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 200,
+     "country": "US"
+    },
+    "summary": "anthropics/claude-code — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1rire72-aokw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Maxma: The 24/7 AI teammate that scales your paid ad performance",
+    "detail": "333 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/maxma-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-10T08:01:00.000Z",
+    "summary": "Maxma is the AI platform that 10Xs your human marketers. It does the end-to-end work of paid advertising, from analyzing performance, creating ads and landing pages, and launching and optimizing campaigns across channels, to managing tracking and reporting.",
+    "meta": {
+     "votes": 333,
+     "tagline": "The 24/7 AI teammate that scales your paid ad performance"
+    }
+   },
+   {
+    "id": "PRESS-1gcgo1n-aop7",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "KI-Regeln: Staaten und Firmen fordern Sicherheit und Transparenz",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/KI-Regeln-Staaten-und-Firmen-fordern-Sicherheit-und-Transparenz-11526847.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-11-16T19:36:00.000Z",
+    "summary": "Achtzehn Länder und zehn KI-Firmen formulieren Rahmenbedingungen für KIs+. Neben den üblichen Floskeln gibt es interessante Details. Deutschland fehlte anfangs.",
+    "meta": {
+     "rssId": "2fd0fd2a17844cf0",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/2fd0fd2a17844cf0"
+    }
+   },
+   {
+    "id": "PRESS-b6e69d-aop6",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "The open-source movement wants Jensen Huang back",
+    "detail": "Reported by MIT Technology Review — AI (Cambridge, US).",
+    "sourceName": "MIT Technology Review — AI",
+    "sourceUrl": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+    "timestamp": "2026-11-16T18:38:47.000Z",
+    "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here.",
+    "meta": {
+     "rssId": "e26fdac9da478048",
+     "publisher": "mit-tech-review-ai",
+     "country": "US",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "NEWS-ts8snj-aopb",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "GCMP: same accuracy as LoRA r=32 on Qwen3.8-27B with 55× fewer parameters (11 MB vs 320 MB per adapter)",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xy5eby/gcmp_same_accuracy_as_lora_r32_on_qwen3827b_with/",
+    "timestamp": "2026-11-16T23:56:50.000Z",
+    "meta": {
+     "redditId": "a511080ecf1a8a2e",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "Follow-up to my CQ post from last week. That post covered the 4-bit base model; this one is about the adapter. The LoRA vs GCMP runs on 4-bit bases have now finished. GCMP is a LoRA replacement we built."
+   },
+   {
+    "id": "PRESS-2mce1y-aop4",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "heise+ | Lokale KI in der Softwareentwicklung: Test auf günstigen AMD-Anwendungssystemen",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/tests/Lokale-KI-in-der-Softwareentwicklung-Test-auf-guenstigen-AMD-Anwendungssystemen-11517832.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+    "timestamp": "2026-11-16T16:30:00.000Z",
+    "summary": "Mit einem einzigen Prompt können Frontier-Modelle inzwischen agentisch ganze Anwendungen entwickeln. Doch können das auch kleinere lokale Modelle leisten?",
+    "meta": {
+     "rssId": "bd8bed2804ce40b4",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/bd8bed2804ce40b4"
+    }
+   },
+   {
+    "id": "PRESS-kr2ikc-aop4",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Building trustworthy AI by fencing it in, not predicting it",
+    "detail": "Reported by MIT Technology Review — AI (Cambridge, US).",
+    "sourceName": "MIT Technology Review — AI",
+    "sourceUrl": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+    "timestamp": "2026-11-16T16:04:28.000Z",
+    "summary": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t.",
+    "meta": {
+     "rssId": "23800a3879981875",
+     "publisher": "mit-tech-review-ai",
+     "country": "US",
+     "lang": "en",
+     "imagePath": "/api/rss/image/23800a3879981875"
+    }
+   },
+   {
+    "id": "NEWS-vwj20n-aopb",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Your daily dose of Qwopium:",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xy4xsx/your_daily_dose_of_qwopium/",
+    "timestamp": "2026-11-16T23:36:36.000Z",
+    "meta": {
+     "redditId": "9031a4851b962342",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "No low-effort memes here, just research and straight facts. Can’t argue with facts am I right?"
+   },
+   {
+    "id": "NEWS-1y9p6w6-aopa",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "How did you start, how do you end up now ?",
+    "detail": "Discussion on r/LocalLLaMA.",
+    "sourceName": "r/LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xy34ed/how_did_you_start_how_do_you_end_up_now/",
+    "timestamp": "2026-11-16T22:19:48.000Z",
+    "meta": {
+     "redditId": "dbe848c142563ead",
+     "subreddit": "reddit-localllama"
+    },
+    "summary": "Here is my timeline Text Generation Ollama but quite have bad experience with it. LM studio which still feel half-bake at that time. Msty which easy to use like plug and play but not much I could do custom (or I just don't know at that time)."
+   },
+   {
+    "id": "RESEARCH-36r3l8-aoo1",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Set-based State Estimation for Unknown Dynamical Systems from Noisy Output Data with Probabilistic Guarantees",
+    "detail": "Georgios Pantazis, Michelle S. Chong · math.OC",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.19716v1",
+    "timestamp": "2026-11-15T01:58:15Z",
+    "summary": "We develop a methodology for set-based state estimation from noisy input-output trajectories, without a predefined model structure for the unknown state dynamics or access to training state measurements.",
+    "meta": {
+     "arxivId": "2611.19716v1",
+     "primaryCategory": "math.OC",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-ege8lu-aoo1",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "An Interpretable Acoustic Coordinate System for Japanese Consonant Morae in Dysarthric Speech",
+    "detail": "Yuma Enomoto, Misa Yamaguchi, Hiroki Nishikawa et al. · cs.SD",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.19714v1",
+    "timestamp": "2026-11-15T01:51:55Z",
+    "summary": "Dysarthria reduces speech intelligibility, requiring self-directed rehabilitation based on fine-grained feedback to capture gradual articulatory changes. For Japanese speakers, such feedback is naturally provided in mora units due to its distinct moraic timing and consonant-vowel structure. While recent visualization methods have explored distance-based feedback, most are limited to vowels.",
+    "meta": {
+     "arxivId": "2611.19714v1",
+     "primaryCategory": "cs.SD",
+     "authorCount": 7,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-qsgtrq-aoo1",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Joint Learning of Factual and Counterfactual Worlds for Causal Prior-data Fitted Networks",
+    "detail": "Furkan Danisman, Luke Zhang, Zhijing Jin et al. · stat.ML",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.19710v1",
+    "timestamp": "2026-11-15T01:41:28Z",
+    "summary": "Estimating treatment effects is central to science across many disciplines and requires counterfactual reasoning about alternative worlds. In the real world, however, each unit reveals its outcome only under the factual world. Thus, the factual and counterfactual outcomes can never be jointly learned by any model trained on real data.",
+    "meta": {
+     "arxivId": "2611.19710v1",
+     "primaryCategory": "stat.ML",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-pwaz8k-aoo1",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Cache or Denoise Less? Residual Reuse in a Flow-Matching World Action Model",
+    "detail": "Abhinav Gupta, Nissan Pow · cs.RO",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.19709v1",
+    "timestamp": "2026-11-15T01:40:18Z",
+    "summary": "Flow-matching robot policies generate each action chunk through repeated network evaluations, one per denoising step. Cross-cycle caches such as C$^3$ache reuse computation from earlier replanning calls, but whether they beat simply taking fewer steps is unclear. We compare the two in Fast-WAM, a 6B-parameter world action model, on LIBERO-Goal.",
+    "meta": {
+     "arxivId": "2611.19709v1",
+     "primaryCategory": "cs.RO",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017"
+   },
+   "toolHealth": {
+    "operational": 5,
+    "degraded": 1,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "Found, but Not Fixed : From Software Vulnerability Discovery to Fixes with Iterative LLM Pipelines",
+    "sourceUrl": "https://arxiv.org/abs/2611.19719v1"
+   }
+  },
+  "lastComputed": "2026-11-17T03:48:58.536Z"
+ }
+}
