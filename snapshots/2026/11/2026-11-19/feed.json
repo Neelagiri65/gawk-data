@@ -1,0 +1,503 @@
+{
+ "v": 1,
+ "capturedAt": "2026-11-19T00:41:20.740Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-nnnbm6-aoqo",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Claude Code is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "Anthropic Status (Claude Code + API)",
+    "sourceUrl": "https://status.claude.com",
+    "timestamp": "2026-11-19T00:41:24.086Z",
+    "meta": {
+     "toolId": "claude-code",
+     "status": "degraded",
+     "statusSourceId": "anthropic-status",
+     "activeIncidents": 1,
+     "incidentName": "Claude unable to join meetings"
+    },
+    "summary": "Claude Meetings (beta) is joining calls more reliably, and we are monitoring it. It remains enabled for all Enterprise customers. Team customers can again add Claude to new calls manually, and Auto-join is being restored gradually for Team customers."
+   },
+   {
+    "id": "MODEL_MOVER-18zharm-aoqk",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Tencent: Hy4 flash up 4 ranks on OpenRouter weekly",
+    "detail": "Now #2, was #6.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/tencent/hy4-flash",
+    "timestamp": "2026-11-18T20:53:03.318Z",
+    "meta": {
+     "slug": "tencent/hy4-flash",
+     "name": "Tencent: Hy4 flash",
+     "currentRank": 2,
+     "previousRank": 6,
+     "delta": -4
+    },
+    "summary": "Hy4 flash is a cost-efficient variant of Hy4 from Tencent, served with roughly a quarter of the flagship's parameter count for lower latency and cost."
+   },
+   {
+    "id": "MODEL_MOVER-hwdry-aoqk",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Baidu: ERNIE-5.5-Flash-Preview (free) up 5 ranks on OpenRouter weekly",
+    "detail": "Now #16, was #21.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/baidu/ernie-5.5-flash-preview",
+    "timestamp": "2026-11-18T20:53:03.318Z",
+    "meta": {
+     "slug": "baidu/ernie-5.5-flash-preview",
+     "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
+     "currentRank": 16,
+     "previousRank": 21,
+     "delta": -5
+    },
+    "summary": "ERNIE 5.5 Flash Preview is the latest foundation model in the ERNIE family, with comprehensive improvements in coding, agentic capabilities, knowledge work, and deep research."
+   },
+   {
+    "id": "NEW_RELEASE-ln514c-aoqh",
+    "type": "NEW_RELEASE",
+    "severity": 70,
+    "headline": "microsoft released Aion-1.0-Instruct-2.3B",
+    "detail": "8h ago",
+    "sourceName": "HuggingFace Models API",
+    "sourceUrl": "https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B",
+    "timestamp": "2026-11-18T17:05:50.000Z",
+    "meta": {
+     "hfId": "microsoft/Aion-1.0-Instruct-2.3B",
+     "author": "microsoft",
+     "license": "unspecified",
+     "openWeight": false,
+     "likes": 28,
+     "downloads": 0,
+     "ageHours": 8,
+     "registryUrl": "https://huggingface.co/models?pipeline_tag=text-generation&sort=downloads"
+    },
+    "summary": "Aion Instruct serves as the foundational Small Language Model (SLM) in the Windows ecosystem, specifically optimized for on-device AI, text and operating system use cases."
+   },
+   {
+    "id": "MODEL_MOVER-1w90hxa-aoqk",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemini 4 Carbon up 7 ranks on OpenRouter weekly",
+    "detail": "Now #27, was #34.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemini-4-carbon",
+    "timestamp": "2026-11-18T20:53:03.318Z",
+    "meta": {
+     "slug": "google/gemini-4-carbon",
+     "name": "Google: Gemini 4 Carbon",
+     "currentRank": 27,
+     "previousRank": 34,
+     "delta": -7
+    },
+    "summary": "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode of up to 1M output tokens through continuation, and controls thinking depth with low, medium and high reasoning effort."
+   },
+   {
+    "id": "MODEL_MOVER-283i8w-aoqk",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Tencent: Hy3 down 5 ranks on OpenRouter weekly",
+    "detail": "Now #31, was #26.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/tencent/hy3",
+    "timestamp": "2026-11-18T20:53:03.318Z",
+    "meta": {
+     "slug": "tencent/hy3",
+     "name": "Tencent: Hy3",
+     "currentRank": 31,
+     "previousRank": 26,
+     "delta": 5
+    },
+    "summary": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-z2jy8k-aoq8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "S.Space: Your team and everyone's AI agents, in one workspace",
+    "detail": "300 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/s-space?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-18T08:01:00.000Z",
+    "summary": "Everyone on your team has an AI agent, and none of them work together, so you copy, paste and re-explain all day. S.Space is one workspace for your team and everyone's agents. Bring the ones you already use, like Claude Code and Codex, from any vendor.",
+    "meta": {
+     "votes": 300,
+     "tagline": "Your team and everyone's AI agents, in one workspace"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-mad5z4-aoqk",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3.5 Super VL down 29 ranks on OpenRouter weekly",
+    "detail": "Now #45, was #16.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl",
+    "timestamp": "2026-11-18T20:53:03.318Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3.5-super-vl",
+     "name": "NVIDIA: Nemotron 3.5 Super VL",
+     "currentRank": 45,
+     "previousRank": 16,
+     "delta": 29
+    },
+    "summary": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total."
+   },
+   {
+    "id": "MODEL_MOVER-rn93tp-aoqk",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "SpaceXAI: Grok 4.7 down 4 ranks on OpenRouter weekly",
+    "detail": "Now #48, was #44.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/x-ai/grok-4.7",
+    "timestamp": "2026-11-18T20:53:03.318Z",
+    "meta": {
+     "slug": "x-ai/grok-4.7",
+     "name": "SpaceXAI: Grok 4.7",
+     "currentRank": 48,
+     "previousRank": 44,
+     "delta": 4
+    },
+    "summary": "Grok 4.7 is SpaceXAI's flagship model for coding, agentic tasks, and knowledge work, succeeding Grok 4.6."
+   },
+   {
+    "id": "PRESS-yqiod0-aoqh",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "AI Gigafactory im Norden: Nokia und Partner planen europäische KI-Infrastruktur",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/AI-Gigafactory-im-Norden-Nokia-und-Partner-planen-europaeische-KI-Infrastruktur-11530042.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-11-18T17:14:00.000Z",
+    "summary": "Ein nordisch-baltisches Konsortium will mit einer souveränen Cloud, grünem Strom und schnellen Netzen den EU-Wettbewerb für KI-Gigafactories aufmischen.",
+    "meta": {
+     "rssId": "9278b92984cb0ffb",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/9278b92984cb0ffb"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-mr7ul2-aoqk",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Thinking Machines: Inkling 2 Small down 27 ranks on OpenRouter weekly",
+    "detail": "Now #57, was #30.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/thinkingmachines/inkling-2-small",
+    "timestamp": "2026-11-18T20:53:03.318Z",
+    "meta": {
+     "slug": "thinkingmachines/inkling-2-small",
+     "name": "Thinking Machines: Inkling 2 Small",
+     "currentRank": 57,
+     "previousRank": 30,
+     "delta": 27
+    },
+    "summary": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second Inkling generation."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1m1mnir-aoow",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Zoom Slides: Turn your Zoom meetings into ready-to-present slides",
+    "detail": "302 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/zoom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-16T08:01:00.000Z",
+    "summary": "Zoom Slides is an AI-powered presentation maker that turns your meetings, documents, and ideas into polished, editable decks.",
+    "meta": {
+     "votes": 302,
+     "tagline": "Turn your Zoom meetings into ready-to-present slides"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-x3lhqg-aoo8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Rakazo: The open source Grok Bot alternative you actually own",
+    "detail": "410 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/rakazo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-15T08:01:00.000Z",
+    "summary": "Rakazo gives you AI teammates that keep working after you close the chat. Each bot has its own memory, routines and computer, with a browser you can watch and take over. Open source and self-hosted: any model, your keys, your machine. Web, desktop and mobile.",
+    "meta": {
+     "votes": 410,
+     "tagline": "The open source Grok Bot alternative you actually own"
+    }
+   },
+   {
+    "id": "NEWS-kt9zmk-aoql",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "Gemini 4 Neon",
+    "detail": "295 points · 285 comments on Hacker News.",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50552424",
+    "timestamp": "2026-11-18T21:34:07Z",
+    "meta": {
+     "hnId": "50552424",
+     "points": 295,
+     "numComments": 285,
+     "author": "yigitdemirag"
+    },
+    "machineSummary": {
+     "text": "Gemini 4 Neon ranks #3 overall with a score of 61 on the Artificial Analysis Intelligence Index at its xhigh thinking level. Neon is priced at $3 per million input tokens and $15 per million output tokens with a 1 million-token context window.",
+     "model": "nvidia/nemotron-3.5-bolt-e4b",
+     "generatedAt": "2026-11-18T22:10:37.925Z"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-6oxos0-aoo8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Frevana Multiplayer: AI that grows your business alongside your team",
+    "detail": "310 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/frevana-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-15T08:01:00.000Z",
+    "summary": "Frevana runs AI agent apps that find customers, create content, and automate busywork. Now it's multiplayer: invite your team with a link, share agents and skills, and build on each other's work. Your best workflow becomes everyone's.",
+    "meta": {
+     "votes": 310,
+     "tagline": "AI that grows your business alongside your team"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1fxclz0-aonk",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "HiringNow: AI job agent that finds & apply for jobs before anyone else.",
+    "detail": "344 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/hiringnow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-14T08:01:00.000Z",
+    "summary": "HiringNow checks 247,000+ company career sites every 5 minutes, so you see new jobs before they hit the big boards. It matches each job to your profile, tailors your resume and cover letter, and applies on the employer's own site, only with your approval.",
+    "meta": {
+     "votes": 344,
+     "tagline": "AI job agent that finds & apply for jobs before anyone else."
+    }
+   },
+   {
+    "id": "RESEARCH-3ib6ke-aopu",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching",
+    "detail": "Giannis Daras, Marios Papachristou, Adam Klivans et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.23229v1",
+    "timestamp": "2026-11-17T18:59:37Z",
+    "summary": "Collecting large-scale, diverse, and high-quality post-training datasets for autoregressive language models is challenging. Consequently, Supervised Fine-Tuning (SFT) is typically applied to datasets significantly smaller than those used for pre-training, which leads to overfitting and the catastrophic forgetting of the tails of the data distribution.",
+    "meta": {
+     "arxivId": "2611.23229v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1p3o8a-aomw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Claude Meetings: Add Claude to your call and get work started as you talk",
+    "detail": "308 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-13T08:00:00.000Z",
+    "summary": "Claude Meetings lets you add Claude to a Google Meet call as a visible participant. The team can ask questions out loud or in chat, and Claude writes the notes and action items so no one on the call has to.",
+    "meta": {
+     "votes": 308,
+     "tagline": "Add Claude to your call and get work started as you talk"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-sghsoj-aom8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Plurai Simulation: A simulated world that makes your agent improve on every run",
+    "detail": "428 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/plurai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-12T08:01:00.000Z",
+    "summary": "Find your agent’s worst bugs before your users do. One command in Claude Code, Codex or GitHub Copilot builds a digital twin of your agent’s world: synthetic personas and documents, plus mocked tools, APIs and databases, in sandboxes that never touch production.",
+    "meta": {
+     "votes": 428,
+     "tagline": "A simulated world that makes your agent improve on every run"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-aoqo",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (199 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-11-19T00:41:24.091Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 199,
+     "country": "US"
+    },
+    "summary": "anthropics/claude-code — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1vpc8gy-aom8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "YouArt Desktop App: Codex for creative team",
+    "detail": "355 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/youart?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-12T08:01:00.000Z",
+    "summary": "Meet YouArt Desktop App: AI creative teammate that lives on your computer. Agent-first video production is here. Pull your local files and context from Slack, Gmail and GitHub onto one canvas, and with computer use it operates After Effects, CapCut and Blender directly.",
+    "meta": {
+     "votes": 355,
+     "tagline": "Codex for creative team"
+    }
+   },
+   {
+    "id": "PRESS-1nvq5w2-aoqg",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "BGH: KI-generierte Schriftsätze können unzulässige Rechtsmittel sein",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/BGH-KI-generierte-Schriftsaetze-koennen-unzulaessige-Rechtsmittel-sein-11529938.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-11-18T16:42:00.000Z",
+    "summary": "Wer Revisionsbegründungen ungeprüft von Künstlicher Intelligenz erstellen lässt, riskiert laut Bundesgerichtshof, dass das eingelegte Rechtsmittel ungültig ist.",
+    "meta": {
+     "rssId": "d7c0d63d92761d3f",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/d7c0d63d92761d3f"
+    }
+   },
+   {
+    "id": "PRESS-1g1oc0p-aoqg",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "New LoRA Adapter Lifts Qwen3.8 Coding Success From 39% to 65%",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/11/18/hugging-face-qwen3-8-27b-pi-adapted-lora/",
+    "timestamp": "2026-11-18T16:07:50.000Z",
+    "summary": "Hugging Face released Qwen3.8-27B-pi-adapted, an Apache-2.0 LoRA adapter trained with reinforcement learning for the pi coding agent. It lifts SWE-bench Pro hard-51 pass@1 from 39.2% to 64.7% and Terminal-Bench 2.1 from 39.5% to 55.8%.",
+    "meta": {
+     "rssId": "0de7cfee64363d54",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "RESEARCH-afpyfx-aopu",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models",
+    "detail": "Rui Ning, Om Chabra, Hari Balakrishnan · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.23228v1",
+    "timestamp": "2026-11-17T18:59:27Z",
+    "summary": "Applications such as visual accessibility agents and robotics require answering questions about recent video content promptly, over a bounded window of past frames (e.g., the last two minutes). Hybrid vision-language models (VLMs), which interleave attention with linear recurrent layers such as Gated DeltaNet (GDN), are attractive for this setting, but maintaining a sliding window is expensive.",
+    "meta": {
+     "arxivId": "2611.23228v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRESS-17ekpwj-aoqe",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "The AI Hype Index: AI is everywhere",
+    "detail": "Reported by MIT Technology Review — AI (Cambridge, US).",
+    "sourceName": "MIT Technology Review — AI",
+    "sourceUrl": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+    "timestamp": "2026-11-18T14:42:44.000Z",
+    "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms.",
+    "meta": {
+     "rssId": "768c5ff3c3fec343",
+     "publisher": "mit-tech-review-ai",
+     "country": "US",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "RESEARCH-1epqmxe-aopu",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics",
+    "detail": "Xingyang Yu · hep-th",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.23225v1",
+    "timestamp": "2026-11-17T18:58:40Z",
+    "summary": "We present StringQFT as a textbook collection for string constructions of quantum field theory and as infrastructure for AI-assisted theoretical physics. The collection comprises 18 volumes, 190 chapters and 3,795 pages, covering brane probes, brane webs, geometric engineering, F-theory constructions, wrapped M5-branes and exact worldsheet constructions.",
+    "meta": {
+     "arxivId": "2611.23225v1",
+     "primaryCategory": "hep-th",
+     "authorCount": 1,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1r1t83a-aopu",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "An inexact stochastic variance-reduced gradient method for constrained convex finite-sum optimization",
+    "detail": "Zhaosong Lu, Yifeng Xiao · math.OC",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.23221v1",
+    "timestamp": "2026-11-17T18:57:16Z",
+    "summary": "In this paper, we study a class of constrained convex finite-sum optimization problems. In many practical applications, all or some of the constraints are hard constraints that represent imperative requirements. Consequently, any desirable approximate solution must (nearly) satisfy these constraints.",
+    "meta": {
+     "arxivId": "2611.23221v1",
+     "primaryCategory": "math.OC",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1a4ukyd-aopu",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
+    "detail": "Shobhita Sundaram, Cansu Sancaktar, Phillip Isola · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.23219v1",
+    "timestamp": "2026-11-17T18:57:10Z",
+    "summary": "LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-improve?",
+    "meta": {
+     "arxivId": "2611.23219v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017"
+   },
+   "toolHealth": {
+    "operational": 5,
+    "degraded": 1,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching",
+    "sourceUrl": "https://arxiv.org/abs/2611.23229v1"
+   }
+  },
+  "lastComputed": "2026-11-19T00:41:24.086Z"
+ }
+}
