@@ -1,0 +1,479 @@
+{
+ "v": 1,
+ "capturedAt": "2026-11-20T00:15:02.127Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-1ef0dl0-aorc",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Cursor has an active incident: Degraded Gemini 4 Carbon",
+    "detail": "Status page is green but lists 1 active incident (investigating).",
+    "sourceName": "Cursor Status",
+    "sourceUrl": "https://status.cursor.com",
+    "timestamp": "2026-11-20T00:15:05.987Z",
+    "meta": {
+     "toolId": "cursor",
+     "status": "operational",
+     "statusSourceId": "cursor-status",
+     "activeIncidents": 1,
+     "incidentName": "Degraded Gemini 4 Carbon"
+    },
+    "summary": "We are continuing to work with an upstream provider on intermittent errors affecting the Gemini 4 Carbon model. Some requests may fail while work on a fix continues."
+   },
+   {
+    "id": "MODEL_MOVER-1vxv0i7-aor8",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-6.1 Sol down 4 ranks on OpenRouter weekly",
+    "detail": "Now #15, was #11.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-6.1-sol",
+    "timestamp": "2026-11-19T20:57:51.418Z",
+    "meta": {
+     "slug": "openai/gpt-6.1-sol",
+     "name": "OpenAI: GPT-6.1 Sol",
+     "currentRank": 15,
+     "previousRank": 11,
+     "delta": 4
+    },
+    "summary": "GPT-6.1 Sol is an upgrade to GPT-6 Sol from OpenAI, positioned below the flagship GPT-6 Astra in the GPT-6 series."
+   },
+   {
+    "id": "MODEL_MOVER-1kg9oib-aor8",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "DeepSeek: DeepSeek V4 Flash 0731 down 4 ranks on OpenRouter weekly",
+    "detail": "Now #19, was #15.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4-flash-0731",
+    "timestamp": "2026-11-19T20:57:51.418Z",
+    "meta": {
+     "slug": "deepseek/deepseek-v4-flash-0731",
+     "name": "DeepSeek: DeepSeek V4 Flash 0731",
+     "currentRank": 19,
+     "previousRank": 15,
+     "delta": 4
+    },
+    "summary": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows. This is the GA release of DeepSeek V4 Flash."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-z2jy8k-aoq8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "S.Space: Your team and everyone's AI agents, in one workspace",
+    "detail": "379 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/s-space?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-18T08:01:00.000Z",
+    "summary": "Everyone on your team has an AI agent, and none of them work together, so you copy, paste and re-explain all day. S.Space is one workspace for your team and everyone's agents. Bring the ones you already use, like Claude Code and Codex, from any vendor.",
+    "meta": {
+     "votes": 379,
+     "tagline": "Your team and everyone's AI agents, in one workspace"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1qbeb1o-aor8",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Meta: Muse Ember up 5 ranks on OpenRouter weekly",
+    "detail": "Now #36, was #41.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/meta/muse-ember",
+    "timestamp": "2026-11-19T20:57:51.418Z",
+    "meta": {
+     "slug": "meta/muse-ember",
+     "name": "Meta: Muse Ember",
+     "currentRank": 36,
+     "previousRank": 41,
+     "delta": -5
+    },
+    "summary": "Muse Ember is the smallest and most efficient model from Meta that’s designed for complex reasoning execution and the work agents repeat all day: tool calls, coding agent subtasks, routing, extraction, and long document parsing."
+   },
+   {
+    "id": "MODEL_MOVER-1h6y1qu-aor8",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Particle AI: Particle-1 (free) up 6 ranks on OpenRouter weekly",
+    "detail": "Now #38, was #44.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/particle-ai/particle-1",
+    "timestamp": "2026-11-19T20:57:51.418Z",
+    "meta": {
+     "slug": "particle-ai/particle-1",
+     "name": "Particle AI: Particle-1 (free)",
+     "currentRank": 38,
+     "previousRank": 44,
+     "delta": -6
+    },
+    "summary": "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash."
+   },
+   {
+    "id": "PRESS-f7okq9-aorb",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+    "detail": "Reported by latent.space (San Francisco, US).",
+    "sourceName": "latent.space",
+    "sourceUrl": "https://latent.space/p/scaling_linear_s_gtm_to_100m_arr_cristina_cordova_coo/",
+    "timestamp": "2026-11-19T23:38:57.000Z",
+    "summary": "Linear was founded to build a better issue tracker. Seven years and $134 million in funding later, its CEO Karri Saarinen published a post titled \"Issue tracking is dead.\"",
+    "meta": {
+     "rssId": "b5ecdc909e666737",
+     "publisher": "latent-space",
+     "country": "US",
+     "lang": "en",
+     "imagePath": "/api/rss/image/b5ecdc909e666737"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-mr7ul2-aor8",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Thinking Machines: Inkling 2 Small down 18 ranks on OpenRouter weekly",
+    "detail": "Now #47, was #29.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/thinkingmachines/inkling-2-small",
+    "timestamp": "2026-11-19T20:57:51.418Z",
+    "meta": {
+     "slug": "thinkingmachines/inkling-2-small",
+     "name": "Thinking Machines: Inkling 2 Small",
+     "currentRank": 47,
+     "previousRank": 29,
+     "delta": 18
+    },
+    "summary": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second Inkling generation."
+   },
+   {
+    "id": "MODEL_MOVER-mad5z4-aor8",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3.5 Super VL down 30 ranks on OpenRouter weekly",
+    "detail": "Now #48, was #18.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl",
+    "timestamp": "2026-11-19T20:57:51.418Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3.5-super-vl",
+     "name": "NVIDIA: Nemotron 3.5 Super VL",
+     "currentRank": 48,
+     "previousRank": 18,
+     "delta": 30
+    },
+    "summary": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total."
+   },
+   {
+    "id": "RESEARCH-vq6ml4-aoqi",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
+    "detail": "Priyanka Sinha, Sugam Pandey · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.24932v1",
+    "timestamp": "2026-11-18T18:55:07Z",
+    "summary": "When a capable model and a human reviewer cooperate on the same decision, which human still adds value? We argue this is a question about a single cognitive trait, metacognitive calibration: the alignment between a reviewer's behavioral confidence and the actual correctness of their judgments. We develop a trait theory of reviewer value to make it precise.",
+    "meta": {
+     "arxivId": "2611.24932v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-rn93tp-aor8",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "SpaceXAI: Grok 4.7 down 6 ranks on OpenRouter weekly",
+    "detail": "Now #51, was #45.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/x-ai/grok-4.7",
+    "timestamp": "2026-11-19T20:57:51.418Z",
+    "meta": {
+     "slug": "x-ai/grok-4.7",
+     "name": "SpaceXAI: Grok 4.7",
+     "currentRank": 51,
+     "previousRank": 45,
+     "delta": 6
+    },
+    "summary": "Grok 4.7 is SpaceXAI's flagship model for coding, agentic tasks, and knowledge work, succeeding Grok 4.6."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-o6vcgr-aopk",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Appxiom: Context layer for AI coding agents to detect & fix bugs",
+    "detail": "295 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/appxiom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-17T08:00:00.000Z",
+    "summary": "Appxiom gives your coding agent the production context it lacks: crashes, freezes, memory leaks, failed network calls and broken user journeys in mobile and web applications. Goal Friction Impact lets agents prioritise bugs by the goals they cost you.",
+    "meta": {
+     "votes": 295,
+     "tagline": "Context layer for AI coding agents to detect & fix bugs"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1m1mnir-aoow",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Zoom Slides: Turn your Zoom meetings into ready-to-present slides",
+    "detail": "306 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/zoom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-16T08:01:00.000Z",
+    "summary": "Zoom Slides is an AI-powered presentation maker that turns your meetings, documents, and ideas into polished, editable decks.",
+    "meta": {
+     "votes": 306,
+     "tagline": "Turn your Zoom meetings into ready-to-present slides"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-aorc",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (200 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-11-20T00:15:05.992Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 200,
+     "country": "US"
+    },
+    "summary": "anthropics/claude-code — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-vepw8y-aoow",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Boost.space AgentOS: One operating system for all your AI agents",
+    "detail": "287 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/boost-space?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-16T08:01:00.000Z",
+    "summary": "Build your agent-driven company with specialized agents that share context, skills, and tools. Deploy, control, manage and chat or talk to your agents with access to more than 1,400 AI models and access to more than 1,500 tools you already use.",
+    "meta": {
+     "votes": 287,
+     "tagline": "One operating system for all your AI agents"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-x3lhqg-aoo8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Rakazo: The open source Grok Bot alternative you actually own",
+    "detail": "412 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/rakazo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-15T08:01:00.000Z",
+    "summary": "Rakazo gives you AI teammates that keep working after you close the chat. Each bot has its own memory, routines and computer, with a browser you can watch and take over. Open source and self-hosted: any model, your keys, your machine. Web, desktop and mobile.",
+    "meta": {
+     "votes": 412,
+     "tagline": "The open source Grok Bot alternative you actually own"
+    }
+   },
+   {
+    "id": "PRESS-1d5p47s-aor9",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Meta FAIR Self-Improving Memory Hits 56.0 on Continual Learning Bench",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/11/19/meta-fair-self-improving-memory-harness-distillation/",
+    "timestamp": "2026-11-19T21:46:22.000Z",
+    "summary": "Meta FAIR’s Self-Improving Memory lets Kimi-K2.6 write its own LOAD and OFFLOAD memory prompts, then distills them into its weights. Optimized prompts score 56.0 versus 44.6 for the best hand-written harness on Continual Learning Bench.",
+    "meta": {
+     "rssId": "b91c8c8b901e7c13",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-6oxos0-aoo8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Frevana Multiplayer: AI that grows your business alongside your team",
+    "detail": "309 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/frevana-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-15T08:01:00.000Z",
+    "summary": "Frevana runs AI agent apps that find customers, create content, and automate busywork. Now it's multiplayer: invite your team with a link, share agents and skills, and build on each other's work. Your best workflow becomes everyone's.",
+    "meta": {
+     "votes": 309,
+     "tagline": "AI that grows your business alongside your team"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1fxclz0-aonk",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "HiringNow: AI job agent that finds & apply for jobs before anyone else.",
+    "detail": "347 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/hiringnow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-14T08:01:00.000Z",
+    "summary": "HiringNow checks 247,000+ company career sites every 5 minutes, so you see new jobs before they hit the big boards. It matches each job to your profile, tailors your resume and cover letter, and applies on the employer's own site, only with your approval.",
+    "meta": {
+     "votes": 347,
+     "tagline": "AI job agent that finds & apply for jobs before anyone else."
+    }
+   },
+   {
+    "id": "RESEARCH-1iwirla-aoqi",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem",
+    "detail": "Sarah H. Cen, Lindsey A. Gailmard, Joohan Kim et al. · cs.CY",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.24927v1",
+    "timestamp": "2026-11-18T18:53:58Z",
+    "summary": "AI systems are built across many organizations that contribute models, data, compute, capital, talent, and other assets. While the layers of the AI stack are relatively well understood, the relationships between actors and components across layers remains sparsely documented.",
+    "meta": {
+     "arxivId": "2611.24927v1",
+     "primaryCategory": "cs.CY",
+     "authorCount": 6,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1p3o8a-aomw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Claude Meetings: Add Claude to your call and get work started as you talk",
+    "detail": "311 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-13T08:00:00.000Z",
+    "summary": "Claude Meetings lets you add Claude to a Google Meet call as a visible participant. The team can ask questions out loud or in chat, and Claude writes the notes and action items so no one on the call has to.",
+    "meta": {
+     "votes": 311,
+     "tagline": "Add Claude to your call and get work started as you talk"
+    }
+   },
+   {
+    "id": "PRESS-1gosixt-aor6",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "13 Best Agent Gateways in 2026 for MCP, A2A and LLM Traffic: Kong, Bifrost, AgentCore, Arcade",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/11/19/best-agent-gateways-2026/",
+    "timestamp": "2026-11-19T18:13:21.000Z",
+    "summary": "We ranked the 13 best agent gateways of 2026 by how they govern model, MCP tool and agent-to-agent traffic, with verified pricing, deployment options and the trade-offs each vendor's marketing leaves out.",
+    "meta": {
+     "rssId": "c8b44a8574c8e288",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "PRESS-1r558xy-aor5",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Anthropic-Aktien an der Börse gestartet",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Anthropic-Aktien-an-der-Boerse-gestartet-11528173.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-11-19T17:11:00.000Z",
+    "summary": "Anthropics Aktien sind an der Börse gestartet. Der Kurs bewegt sich wie erwartet über dem Einstiegspreis.",
+    "meta": {
+     "rssId": "c7ccad0f19d930c1",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/c7ccad0f19d930c1"
+    }
+   },
+   {
+    "id": "RESEARCH-1ekaeg7-aoqi",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
+    "detail": "Jiahang Lin, Jiahao Chen, Yiding Wang et al. · cs.SE",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.24924v1",
+    "timestamp": "2026-11-18T18:52:13Z",
+    "summary": "Real-world harness engineering is driven by explicit and implicit user requirements, which guide development and validation. However, existing harness evolution methods often overlook implicit requirements and interaction needs, while using a single evolution agent to modify the harness and benchmark scores to select changes.",
+    "meta": {
+     "arxivId": "2611.24924v1",
+     "primaryCategory": "cs.SE",
+     "authorCount": 14,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRESS-1ybxffq-aor4",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "KI-generierte Präzedenzfälle: Anwältin vom EGMR ausgeschlossen",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/KI-generierte-Praezendenzfaelle-Anwaeltin-vom-EGMR-ausgeschlossen-11531620.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-11-19T16:37:00.000Z",
+    "summary": "Erstmals hat der Europäische Gerichtshof für Menschenrechte in Straßburg eine Anwältin ausgeschlossen, weil ihr Schriftsatz voller KI-Halluzinationen war.",
+    "meta": {
+     "rssId": "f931d30ae5428f0d",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/f931d30ae5428f0d"
+    }
+   },
+   {
+    "id": "RESEARCH-44063h-aoqi",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Decomposing SGD Dynamics in Neural Networks: Teacher-Induced Spikes and Variance Inflation",
+    "detail": "Samet Demir, Zafer Dogan · stat.ML",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.24908v1",
+    "timestamp": "2026-11-18T18:43:40Z",
+    "summary": "We study two-layer neural networks trained by stochastic gradient descent (SGD) on a multi-index teacher model, focusing on how first-layer parameters orthogonal to the teacher subspace affect generalization.",
+    "meta": {
+     "arxivId": "2611.24908v1",
+     "primaryCategory": "stat.ML",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-74299h-aoqi",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Equivariant Modeling with Polynomial Features via Minimal Homogeneous Generators",
+    "detail": "Michael Liaofan Liu, Joe Kileel · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.24896v1",
+    "timestamp": "2026-11-18T18:37:02Z",
+    "summary": "We present a general framework for modeling and learning equivariant functions between finite dimensional semisimple real group representations, unifying constructions developed across many application areas. Our model is a linear combination of equivariant polynomial features whose coefficients are arbitrary learnable functions of invariant polynomial features.",
+    "meta": {
+     "arxivId": "2611.24896v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017"
+   },
+   "toolHealth": {
+    "operational": 6,
+    "degraded": 0,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
+    "sourceUrl": "https://arxiv.org/abs/2611.24932v1"
+   }
+  },
+  "lastComputed": "2026-11-20T00:15:05.986Z"
+ }
+}
