@@ -1,0 +1,390 @@
+{
+ "v": 1,
+ "capturedAt": "2026-11-22T00:05:30.282Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-1ef0dl0-aoso",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Cursor has an active incident: Degraded Gemini 4 Carbon",
+    "detail": "Status page is green but lists 1 active incident (investigating).",
+    "sourceName": "Cursor Status",
+    "sourceUrl": "https://status.cursor.com",
+    "timestamp": "2026-11-22T00:05:33.542Z",
+    "meta": {
+     "toolId": "cursor",
+     "status": "operational",
+     "statusSourceId": "cursor-status",
+     "activeIncidents": 1,
+     "incidentName": "Degraded Gemini 4 Carbon"
+    },
+    "summary": "We are continuing to work with an upstream provider on intermittent errors affecting the Gemini 4 Carbon model. Some requests may fail while work on a fix continues."
+   },
+   {
+    "id": "MODEL_MOVER-1vxv0i7-aosj",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-6.1 Sol down 4 ranks on OpenRouter weekly",
+    "detail": "Now #21, was #17.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-6.1-sol",
+    "timestamp": "2026-11-21T19:46:30.999Z",
+    "meta": {
+     "slug": "openai/gpt-6.1-sol",
+     "name": "OpenAI: GPT-6.1 Sol",
+     "currentRank": 21,
+     "previousRank": 17,
+     "delta": 4
+    },
+    "summary": "GPT-6.1 Sol is an upgrade to GPT-6 Sol from OpenAI, positioned below the flagship GPT-6 Astra in the GPT-6 series."
+   },
+   {
+    "id": "MODEL_MOVER-mad5z4-aosj",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3.5 Super VL down 29 ranks on OpenRouter weekly",
+    "detail": "Now #47, was #18.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl",
+    "timestamp": "2026-11-21T19:46:30.999Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3.5-super-vl",
+     "name": "NVIDIA: Nemotron 3.5 Super VL",
+     "currentRank": 47,
+     "previousRank": 18,
+     "delta": 29
+    },
+    "summary": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-vmzk9h-aork",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Tripmojo: Agentic travel app that helps plan, book and run your trip",
+    "detail": "304 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/tripmojo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-20T08:00:00.000Z",
+    "summary": "Tripmojo syncs your booking emails into one shared trip, then Mojo, your AI travel agent, helps run it. Plan in a group chat where Mojo answers, runs polls and finds places.",
+    "meta": {
+     "votes": 304,
+     "tagline": "Agentic travel app that helps plan, book and run your trip"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-283i8w-aosj",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Tencent: Hy3 down 17 ranks on OpenRouter weekly",
+    "detail": "Now #60, was #43.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/tencent/hy3",
+    "timestamp": "2026-11-21T19:46:30.999Z",
+    "meta": {
+     "slug": "tencent/hy3",
+     "name": "Tencent: Hy3",
+     "currentRank": 60,
+     "previousRank": 43,
+     "delta": 17
+    },
+    "summary": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use."
+   },
+   {
+    "id": "MODEL_MOVER-1h6y1qu-aosj",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Particle AI: Particle-1 down 32 ranks on OpenRouter weekly",
+    "detail": "Now #67, was #35.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/particle-ai/particle-1",
+    "timestamp": "2026-11-21T19:46:30.999Z",
+    "meta": {
+     "slug": "particle-ai/particle-1",
+     "name": "Particle AI: Particle-1",
+     "currentRank": 67,
+     "previousRank": 35,
+     "delta": 32
+    },
+    "summary": "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash."
+   },
+   {
+    "id": "PRESS-xb8a21-aose",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Fünf EU-Staaten wollen Zentrum für KI in der Verteidigung gründen",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Fuenf-EU-Staaten-wollen-Zentrum-fuer-KI-in-der-Verteidigung-gruenden-11533498.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-11-21T14:48:00.000Z",
+    "summary": "Deutschland, Frankreich, Italien, Polen und Schweden wollen gemeinsam ein internationales Zentrum für künstliche Intelligenz in der Verteidigung gründen.",
+    "meta": {
+     "rssId": "2d9b033d8d4188ae",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/2d9b033d8d4188ae"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-cgrvh6-aosj",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-6 Luna (batch) down 92 ranks on OpenRouter weekly",
+    "detail": "Now #98, was #6.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-6-luna",
+    "timestamp": "2026-11-21T19:46:30.999Z",
+    "meta": {
+     "slug": "openai/gpt-6-luna",
+     "name": "OpenAI: GPT-6 Luna (batch)",
+     "currentRank": 98,
+     "previousRank": 6,
+     "delta": 92
+    },
+    "summary": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-605s65-aoqw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "TestSprite 4.0: Fix one thing, break another? This agent checks it all",
+    "detail": "373 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/testsprite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-19T08:01:00.000Z",
+    "summary": "Your coding agent fixes one thing and breaks another. TestSprite 4.0 is a brand-new testing agent that remembers what your app should do and checks all of it, every time. Tell it in plain words what to test.",
+    "meta": {
+     "votes": 373,
+     "tagline": "Fix one thing, break another? This agent checks it all"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1uewnbh-aoqw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Netlify Server: Run WebSockets, multiplayer apps, and long-running agents",
+    "detail": "294 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/netlify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-19T08:01:00.000Z",
+    "summary": "Netlify Server gives your app a backend that stays alive while people are using it. Build realtime experiences, multiplayer games, and AI agents that need time to finish. Describe what you want and an agent builds it, or bring your Express, Fastify, Hono, or Koa code.",
+    "meta": {
+     "votes": 294,
+     "tagline": "Run WebSockets, multiplayer apps, and long-running agents"
+    }
+   },
+   {
+    "id": "RESEARCH-omf005-aor6",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+    "detail": "Tuna Han Salih Meral, Kaan Oktay, Alec Helbling et al. · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.26627v1",
+    "timestamp": "2026-11-19T18:59:53Z",
+    "summary": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that improving them requires learning complex, input-dependent transformations.",
+    "meta": {
+     "arxivId": "2611.26627v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 6,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-z2jy8k-aoq8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "S.Space: Your team and everyone's AI agents, in one workspace",
+    "detail": "387 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/s-space?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-18T08:01:00.000Z",
+    "summary": "Everyone on your team has an AI agent, and none of them work together, so you copy, paste and re-explain all day. S.Space is one workspace for your team and everyone's agents. Bring the ones you already use, like Claude Code and Codex, from any vendor.",
+    "meta": {
+     "votes": 387,
+     "tagline": "Your team and everyone's AI agents, in one workspace"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-o6vcgr-aopk",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Appxiom: Context layer for AI coding agents to detect & fix bugs",
+    "detail": "297 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/appxiom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-17T08:00:00.000Z",
+    "summary": "Appxiom gives your coding agent the production context it lacks: crashes, freezes, memory leaks, failed network calls and broken user journeys in mobile and web applications. Goal Friction Impact lets agents prioritise bugs by the goals they cost you.",
+    "meta": {
+     "votes": 297,
+     "tagline": "Context layer for AI coding agents to detect & fix bugs"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-aoso",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (200 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-11-22T00:05:33.548Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 200,
+     "country": "US"
+    },
+    "summary": "anthropics/claude-code — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1m1mnir-aoow",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Zoom Slides: Turn your Zoom meetings into ready-to-present slides",
+    "detail": "305 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/zoom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-16T08:01:00.000Z",
+    "summary": "Zoom Slides is an AI-powered presentation maker that turns your meetings, documents, and ideas into polished, editable decks.",
+    "meta": {
+     "votes": 305,
+     "tagline": "Turn your Zoom meetings into ready-to-present slides"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-x3lhqg-aoo8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Rakazo: The open source Grok Bot alternative you actually own",
+    "detail": "412 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/rakazo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-15T08:01:00.000Z",
+    "summary": "Rakazo gives you AI teammates that keep working after you close the chat. Each bot has its own memory, routines and computer, with a browser you can watch and take over. Open source and self-hosted: any model, your keys, your machine. Web, desktop and mobile.",
+    "meta": {
+     "votes": 412,
+     "tagline": "The open source Grok Bot alternative you actually own"
+    }
+   },
+   {
+    "id": "PRESS-1rsevn2-aosc",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Meet Thinking Machines Inkling 2 Mini: 26B Looped MoE Runs on a 32GB Mac",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/11/21/thinking-machines-inkling-2-mini-looped-transformer/",
+    "timestamp": "2026-11-21T12:13:50.000Z",
+    "summary": "Thinking Machines released Inkling 2 Mini, a 26.4B-parameter looped MoE transformer with 3.4B active parameters. It runs on a 32GB Mac or one DGX Spark and scores 79.2% on SWE-bench Verified.",
+    "meta": {
+     "rssId": "b92755781b79674f",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-6oxos0-aoo8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Frevana Multiplayer: AI that grows your business alongside your team",
+    "detail": "310 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/frevana-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-15T08:01:00.000Z",
+    "summary": "Frevana runs AI agent apps that find customers, create content, and automate busywork. Now it's multiplayer: invite your team with a link, share agents and skills, and build on each other's work. Your best workflow becomes everyone's.",
+    "meta": {
+     "votes": 310,
+     "tagline": "AI that grows your business alongside your team"
+    }
+   },
+   {
+    "id": "RESEARCH-54yrj4-aor6",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "PlayCraft: Designing Engaging Games from Agent Play Experience",
+    "detail": "Weihao Cheng · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.26624v1",
+    "timestamp": "2026-11-19T18:59:34Z",
+    "summary": "Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an automated framework that uses a vision-based agent to play games and draws on its detailed play experience to revise them for mastery.",
+    "meta": {
+     "arxivId": "2611.26624v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 1,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-145cys8-aor6",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
+    "detail": "Jinbin Luo, Xiaozhe Yao, Shang Yang et al. · cs.DC",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.26619v1",
+    "timestamp": "2026-11-19T18:58:31Z",
+    "summary": "Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We present TideCache, a serving system on CPU--GPU superchips with three components for allocating GPU memory among caches and managing their residency across GPU and host memory.",
+    "meta": {
+     "arxivId": "2611.26619v1",
+     "primaryCategory": "cs.DC",
+     "authorCount": 6,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-sytrrm-aor6",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+    "detail": "Yuxin Jiang, Wenqiang Sun, Jiaqi Li et al. · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.26617v1",
+    "timestamp": "2026-11-19T18:58:14Z",
+    "summary": "Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a pretrained video generator can instead provide the prior for both inverse and forward dynamics.",
+    "meta": {
+     "arxivId": "2611.26617v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 7,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1b1sbmf-aor6",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Bio-PM-Guided Synthetic IMU Generation",
+    "detail": "Deepali Singh, Deepesh Parpani, Aviral Gupta · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.26607v1",
+    "timestamp": "2026-11-19T18:56:25Z",
+    "summary": "Collecting and labeling inertial measurement unit (IMU) data for human activity recognition (HAR) is expensive, and models trained on one group of subjects often fail to generalize to unseen individuals. Even with balanced data, classifiers struggle to distinguish dynamically similar activity classes and benefit from targeted augmentation.",
+    "meta": {
+     "arxivId": "2611.26607v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "Tencent: Hy4 flash",
+    "sourceUrl": "https://openrouter.ai/tencent/hy4-flash"
+   },
+   "toolHealth": {
+    "operational": 6,
+    "degraded": 0,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+    "sourceUrl": "https://arxiv.org/abs/2611.26627v1"
+   }
+  },
+  "lastComputed": "2026-11-22T00:05:33.541Z"
+ }
+}
