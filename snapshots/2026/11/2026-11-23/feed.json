@@ -1,0 +1,358 @@
+{
+ "v": 1,
+ "capturedAt": "2026-11-23T00:31:39.998Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-1ef0dl0-aotc",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Cursor has an active incident: Degraded Gemini 4 Carbon",
+    "detail": "Status page is green but lists 1 active incident (investigating).",
+    "sourceName": "Cursor Status",
+    "sourceUrl": "https://status.cursor.com",
+    "timestamp": "2026-11-23T00:32:12.508Z",
+    "meta": {
+     "toolId": "cursor",
+     "status": "operational",
+     "statusSourceId": "cursor-status",
+     "activeIncidents": 1,
+     "incidentName": "Degraded Gemini 4 Carbon"
+    },
+    "summary": "We are continuing to work with an upstream provider on intermittent errors affecting the Gemini 4 Carbon model. Some requests may fail while work on a fix continues."
+   },
+   {
+    "id": "MODEL_MOVER-153okr3-aot7",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "StepFun: Step 5 Preview down 4 ranks on OpenRouter weekly",
+    "detail": "Now #12, was #8.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/stepfun/step-5-preview",
+    "timestamp": "2026-11-22T19:57:37.241Z",
+    "meta": {
+     "slug": "stepfun/step-5-preview",
+     "name": "StepFun: Step 5 Preview",
+     "currentRank": 12,
+     "previousRank": 8,
+     "delta": 4
+    },
+    "summary": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional knowledge work, with particular strength in finance."
+   },
+   {
+    "id": "MODEL_MOVER-mad5z4-aot7",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3.5 Super VL down 34 ranks on OpenRouter weekly",
+    "detail": "Now #51, was #17.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl",
+    "timestamp": "2026-11-22T19:57:37.241Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3.5-super-vl",
+     "name": "NVIDIA: Nemotron 3.5 Super VL",
+     "currentRank": 51,
+     "previousRank": 17,
+     "delta": 34
+    },
+    "summary": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1qeqowg-aos8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "AlterContacts: AI client relationship assistant that thinks and does ahead",
+    "detail": "305 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/alter-contacts-ai-client-relationships?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-21T08:01:00.000Z",
+    "summary": "AlterContacts is a voice-first AI assistant that helps you remember every client and never miss an important follow-up. Just talk about your meeting, and Alter organizes the details, updates the client's profile, and remembers what you promised.",
+    "meta": {
+     "votes": 305,
+     "tagline": "AI client relationship assistant that thinks and does ahead"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-1h6y1qu-aot7",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Particle AI: Particle-1 down 32 ranks on OpenRouter weekly",
+    "detail": "Now #67, was #35.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/particle-ai/particle-1",
+    "timestamp": "2026-11-22T19:57:37.241Z",
+    "meta": {
+     "slug": "particle-ai/particle-1",
+     "name": "Particle AI: Particle-1",
+     "currentRank": 67,
+     "previousRank": 35,
+     "delta": 32
+    },
+    "summary": "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-vmzk9h-aork",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Tripmojo: Agentic travel app that helps plan, book and run your trip",
+    "detail": "314 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/tripmojo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-20T08:00:00.000Z",
+    "summary": "Tripmojo syncs your booking emails into one shared trip, then Mojo, your AI travel agent, helps run it. Plan in a group chat where Mojo answers, runs polls and finds places.",
+    "meta": {
+     "votes": 314,
+     "tagline": "Agentic travel app that helps plan, book and run your trip"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-605s65-aoqw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "TestSprite 4.0: Fix one thing, break another? This agent checks it all",
+    "detail": "379 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/testsprite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-19T08:01:00.000Z",
+    "summary": "Your coding agent fixes one thing and breaks another. TestSprite 4.0 is a brand-new testing agent that remembers what your app should do and checks all of it, every time. Tell it in plain words what to test.",
+    "meta": {
+     "votes": 379,
+     "tagline": "Fix one thing, break another? This agent checks it all"
+    }
+   },
+   {
+    "id": "PRESS-1qord17-aot6",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "NVIDIA Releases Alpamayo 2 Edge: A 2B Reasoning VLA for DRIVE Thor",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/11/22/nvidia-alpamayo-2-edge-2b-reasoning-vla-drive-thor/",
+    "timestamp": "2026-11-22T18:37:57.000Z",
+    "summary": "NVIDIA released Alpamayo 2 Edge, a 2B-class reasoning vision-language-action model that plans driving trajectories and explains them on DRIVE AGX Thor, at 160 to 190 ms pixel-to-trajectory latency.",
+    "meta": {
+     "rssId": "b7e135ee9f87f71a",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en",
+     "imagePath": "/api/rss/image/b7e135ee9f87f71a"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1uewnbh-aoqw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Netlify Server: Run WebSockets, multiplayer apps, and long-running agents",
+    "detail": "295 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/netlify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-19T08:01:00.000Z",
+    "summary": "Netlify Server gives your app a backend that stays alive while people are using it. Build realtime experiences, multiplayer games, and AI agents that need time to finish. Describe what you want and an agent builds it, or bring your Express, Fastify, Hono, or Koa code.",
+    "meta": {
+     "votes": 295,
+     "tagline": "Run WebSockets, multiplayer apps, and long-running agents"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-z2jy8k-aoq8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "S.Space: Your team and everyone's AI agents, in one workspace",
+    "detail": "387 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/s-space?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-18T08:01:00.000Z",
+    "summary": "Everyone on your team has an AI agent, and none of them work together, so you copy, paste and re-explain all day. S.Space is one workspace for your team and everyone's agents. Bring the ones you already use, like Claude Code and Codex, from any vendor.",
+    "meta": {
+     "votes": 387,
+     "tagline": "Your team and everyone's AI agents, in one workspace"
+    }
+   },
+   {
+    "id": "NEWS-1slur8g-aot9",
+    "type": "NEWS",
+    "severity": 40,
+    "headline": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+    "detail": "116 points · 38 comments on Hacker News.",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50603845",
+    "timestamp": "2026-11-22T21:01:16Z",
+    "meta": {
+     "hnId": "50603845",
+     "points": 116,
+     "numComments": 38,
+     "author": "Retell15"
+    },
+    "machineSummary": {
+     "text": "Unsloth Desktop allows setting up a local AI using models like Qwen3.8-27B or Inkling 2 Mini on a home network. Inkling 2 Mini has 26.4B parameters and was released by Thinking Machines Lab on November 17, 2026.",
+     "model": "nvidia/nemotron-3.5-bolt-e4b",
+     "generatedAt": "2026-11-22T23:24:03.694Z"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-o6vcgr-aopk",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Appxiom: Context layer for AI coding agents to detect & fix bugs",
+    "detail": "298 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/appxiom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-17T08:00:00.000Z",
+    "summary": "Appxiom gives your coding agent the production context it lacks: crashes, freezes, memory leaks, failed network calls and broken user journeys in mobile and web applications. Goal Friction Impact lets agents prioritise bugs by the goals they cost you.",
+    "meta": {
+     "votes": 298,
+     "tagline": "Context layer for AI coding agents to detect & fix bugs"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1m1mnir-aoow",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Zoom Slides: Turn your Zoom meetings into ready-to-present slides",
+    "detail": "305 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/zoom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-16T08:01:00.000Z",
+    "summary": "Zoom Slides is an AI-powered presentation maker that turns your meetings, documents, and ideas into polished, editable decks.",
+    "meta": {
+     "votes": 305,
+     "tagline": "Turn your Zoom meetings into ready-to-present slides"
+    }
+   },
+   {
+    "id": "RESEARCH-omf005-aor6",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+    "detail": "Tuna Han Salih Meral, Kaan Oktay, Alec Helbling et al. · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.26627v1",
+    "timestamp": "2026-11-19T18:59:53Z",
+    "summary": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that improving them requires learning complex, input-dependent transformations.",
+    "meta": {
+     "arxivId": "2611.26627v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 6,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-vepw8y-aoow",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Boost.space AgentOS: One operating system for all your AI agents",
+    "detail": "288 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/boost-space?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-16T08:01:00.000Z",
+    "summary": "Build your agent-driven company with specialized agents that share context, skills, and tools. Deploy, control, manage and chat or talk to your agents with access to more than 1,400 AI models and access to more than 1,500 tools you already use.",
+    "meta": {
+     "votes": 288,
+     "tagline": "One operating system for all your AI agents"
+    }
+   },
+   {
+    "id": "RESEARCH-54yrj4-aor6",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "PlayCraft: Designing Engaging Games from Agent Play Experience",
+    "detail": "Weihao Cheng · cs.AI",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.26624v1",
+    "timestamp": "2026-11-19T18:59:34Z",
+    "summary": "Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an automated framework that uses a vision-based agent to play games and draws on its detailed play experience to revise them for mastery.",
+    "meta": {
+     "arxivId": "2611.26624v1",
+     "primaryCategory": "cs.AI",
+     "authorCount": 1,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-145cys8-aor6",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
+    "detail": "Jinbin Luo, Xiaozhe Yao, Shang Yang et al. · cs.DC",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.26619v1",
+    "timestamp": "2026-11-19T18:58:31Z",
+    "summary": "Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We present TideCache, a serving system on CPU--GPU superchips with three components for allocating GPU memory among caches and managing their residency across GPU and host memory.",
+    "meta": {
+     "arxivId": "2611.26619v1",
+     "primaryCategory": "cs.DC",
+     "authorCount": 6,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-1h5c4rj-aotc",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "OpenAI leads 7-day GitHub activity (200 events)",
+    "detail": "San Francisco, US · openai",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://openai.com",
+    "timestamp": "2026-11-23T00:32:12.512Z",
+    "meta": {
+     "labId": "openai-sf",
+     "total": 200,
+     "country": "US"
+    },
+    "summary": "openai/openai-cookbook — Examples and guides for using the OpenAI API. openai/whisper — Robust Speech Recognition via Large-Scale Weak Supervision."
+   },
+   {
+    "id": "RESEARCH-sytrrm-aor6",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+    "detail": "Yuxin Jiang, Wenqiang Sun, Jiaqi Li et al. · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.26617v1",
+    "timestamp": "2026-11-19T18:58:14Z",
+    "summary": "Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a pretrained video generator can instead provide the prior for both inverse and forward dynamics.",
+    "meta": {
+     "arxivId": "2611.26617v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 7,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-1b1sbmf-aor6",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Bio-PM-Guided Synthetic IMU Generation",
+    "detail": "Deepali Singh, Deepesh Parpani, Aviral Gupta · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.26607v1",
+    "timestamp": "2026-11-19T18:56:25Z",
+    "summary": "Collecting and labeling inertial measurement unit (IMU) data for human activity recognition (HAR) is expensive, and models trained on one group of subjects often fail to generalize to unseen individuals. Even with balanced data, classifiers struggle to distinguish dynamically similar activity classes and benefit from targeted augmentation.",
+    "meta": {
+     "arxivId": "2611.26607v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 3,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "Tencent: Hy4 flash",
+    "sourceUrl": "https://openrouter.ai/tencent/hy4-flash"
+   },
+   "toolHealth": {
+    "operational": 6,
+    "degraded": 0,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+    "sourceUrl": "https://arxiv.org/abs/2611.26627v1"
+   }
+  },
+  "lastComputed": "2026-11-23T00:32:12.508Z"
+ }
+}
