@@ -1,0 +1,490 @@
+{
+ "v": 1,
+ "capturedAt": "2026-11-24T00:49:17.204Z",
+ "endpoint": "/api/feed",
+ "record": {
+  "cards": [
+   {
+    "id": "TOOL_ALERT-nnnbm6-aou0",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Claude Code is reporting degraded performance",
+    "detail": "Upstream status page reports degraded.",
+    "sourceName": "Anthropic Status (Claude Code + API)",
+    "sourceUrl": "https://status.claude.com",
+    "timestamp": "2026-11-24T00:49:21.669Z",
+    "meta": {
+     "toolId": "claude-code",
+     "status": "degraded",
+     "statusSourceId": "anthropic-status",
+     "activeIncidents": 1,
+     "incidentName": "Claude for Microsoft 365 add-in missing for some users"
+    },
+    "summary": "We are investigating an issue causing the Claude add-in to disappear from Excel, Word, and PowerPoint for users signed in to Microsoft Office with a personal Microsoft account. Work and school accounts do not appear affected and core Claude functionality is unaffected."
+   },
+   {
+    "id": "TOOL_ALERT-1ef0dl0-aou0",
+    "type": "TOOL_ALERT",
+    "severity": 100,
+    "headline": "Cursor has an active incident: Degraded Gemini 4 Carbon",
+    "detail": "Status page is green but lists 1 active incident (investigating).",
+    "sourceName": "Cursor Status",
+    "sourceUrl": "https://status.cursor.com",
+    "timestamp": "2026-11-24T00:49:21.669Z",
+    "meta": {
+     "toolId": "cursor",
+     "status": "operational",
+     "statusSourceId": "cursor-status",
+     "activeIncidents": 1,
+     "incidentName": "Degraded Gemini 4 Carbon"
+    },
+    "summary": "We are continuing to work with an upstream provider on intermittent errors affecting the Gemini 4 Carbon model. Some requests may fail while work on a fix continues."
+   },
+   {
+    "id": "MODEL_MOVER-153okr3-aou0",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "StepFun: Step 5 Preview down 6 ranks on OpenRouter weekly",
+    "detail": "Now #18, was #12.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/stepfun/step-5-preview",
+    "timestamp": "2026-11-24T00:20:53.078Z",
+    "meta": {
+     "slug": "stepfun/step-5-preview",
+     "name": "StepFun: Step 5 Preview",
+     "currentRank": 18,
+     "previousRank": 12,
+     "delta": 6
+    },
+    "summary": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional knowledge work, with particular strength in finance."
+   },
+   {
+    "id": "MODEL_MOVER-6dkapa-aou0",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "OpenAI: GPT-6.2 Sol up 6 ranks on OpenRouter weekly",
+    "detail": "Now #35, was #41.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/openai/gpt-6.2-sol",
+    "timestamp": "2026-11-24T00:20:53.078Z",
+    "meta": {
+     "slug": "openai/gpt-6.2-sol",
+     "name": "OpenAI: GPT-6.2 Sol",
+     "currentRank": 35,
+     "previousRank": 41,
+     "delta": -6
+    },
+    "summary": "GPT-6.2 Sol is an upgrade to GPT-6.1 Sol from OpenAI, positioned below the flagship GPT-6.2 Astra in the GPT-6.2 series. It is an efficient, versatile model for everyday work, suited for multistep agentic workflows and clear, natural writing across technical and non-technical tasks."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-punak2-aosw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Yoroll: Build playable stories without a game engine",
+    "detail": "361 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/yoroll?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-22T08:01:00.000Z",
+    "summary": "Yoroll lets anyone turn stories into playable, cinematic games without coding or a game engine. Start with a script, image, or video clip, then direct the scenes, add player choices, and create branching storylines with different outcomes.",
+    "meta": {
+     "votes": 361,
+     "tagline": "Build playable stories without a game engine"
+    }
+   },
+   {
+    "id": "MODEL_MOVER-ulowpb-aou0",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemini 4 Neon up 8 ranks on OpenRouter weekly",
+    "detail": "Now #42, was #50.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemini-4-neon",
+    "timestamp": "2026-11-24T00:20:53.078Z",
+    "meta": {
+     "slug": "google/gemini-4-neon",
+     "name": "Google: Gemini 4 Neon",
+     "currentRank": 42,
+     "previousRank": 50,
+     "delta": -8
+    },
+    "summary": "Gemini 4 Neon is a fast, mid-priced model in the Gemini 4 family from Google, built for coding and agentic work."
+   },
+   {
+    "id": "MODEL_MOVER-k676a4-aou0",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Google: Gemini 4 Argon down 4 ranks on OpenRouter weekly",
+    "detail": "Now #47, was #43.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/google/gemini-4-argon",
+    "timestamp": "2026-11-24T00:20:53.078Z",
+    "meta": {
+     "slug": "google/gemini-4-argon",
+     "name": "Google: Gemini 4 Argon",
+     "currentRank": 47,
+     "previousRank": 43,
+     "delta": 4
+    },
+    "summary": "Gemini 4 Argon is Google's flagship reasoning model, built for complex software engineering, deep mathematical and scientific problem solving, and autonomous multi-step agents."
+   },
+   {
+    "id": "PRESS-182v91z-aotv",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Z AI Releases GLM-5.4: A 750B Loop Transformer That Runs 28 Layers Twice",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/11/23/zai-glm-5-4-loop-transformer/",
+    "timestamp": "2026-11-23T19:11:40.000Z",
+    "summary": "Z.ai released GLM-5.4, its first Loop Transformer flagship. The 750B-scale model runs 28 GLM-5 layers twice for deeper reasoning, with API access and open weights planned after safety work.",
+    "meta": {
+     "rssId": "fe2a330ac79ed623",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    },
+    "story": {
+     "sources": [],
+     "discussion": [
+      {
+       "site": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50609685",
+       "points": 157,
+       "timestamp": "2026-11-23T10:06:43Z"
+      }
+     ]
+    }
+   },
+   {
+    "id": "MODEL_MOVER-mad5z4-aou0",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "NVIDIA: Nemotron 3.5 Super VL down 40 ranks on OpenRouter weekly",
+    "detail": "Now #56, was #16.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl",
+    "timestamp": "2026-11-24T00:20:53.078Z",
+    "meta": {
+     "slug": "nvidia/nemotron-3.5-super-vl",
+     "name": "NVIDIA: Nemotron 3.5 Super VL",
+     "currentRank": 56,
+     "previousRank": 16,
+     "delta": 40
+    },
+    "summary": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total."
+   },
+   {
+    "id": "MODEL_MOVER-1h6y1qu-aou0",
+    "type": "MODEL_MOVER",
+    "severity": 80,
+    "headline": "Particle AI: Particle-1 down 33 ranks on OpenRouter weekly",
+    "detail": "Now #71, was #38.",
+    "sourceName": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/particle-ai/particle-1",
+    "timestamp": "2026-11-24T00:20:53.078Z",
+    "meta": {
+     "slug": "particle-ai/particle-1",
+     "name": "Particle AI: Particle-1",
+     "currentRank": 71,
+     "previousRank": 38,
+     "delta": 33
+    },
+    "summary": "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1jl6r3k-aosw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Rankhog: Get customers from Reddit on autopilot",
+    "detail": "348 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/rankhog?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-22T08:00:00.000Z",
+    "summary": "Rankhog finds people on Reddit asking for what you sell. It reads each subreddit's rules, writes a reply that helps, and posts it from your own account at a human pace. Say yes to each reply, or turn on autopilot. No Reddit account? Rankhog warms up a new one, and you own it.",
+    "meta": {
+     "votes": 348,
+     "tagline": "Get customers from Reddit on autopilot"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-1qeqowg-aos8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "AlterContacts: AI client relationship assistant that thinks and does ahead",
+    "detail": "320 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/alter-contacts-ai-client-relationships?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-21T08:01:00.000Z",
+    "summary": "AlterContacts is a voice-first AI assistant that helps you remember every client and never miss an important follow-up. Just talk about your meeting, and Alter organizes the details, updates the client's profile, and remembers what you promised.",
+    "meta": {
+     "votes": 320,
+     "tagline": "AI client relationship assistant that thinks and does ahead"
+    }
+   },
+   {
+    "id": "RESEARCH-33ng6f-aoru",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Optimal Linear Regression Without a Variance",
+    "detail": "Artin Tajdini, Jasper C. H. Lee, Jonathan Scarlett et al. · stat.ML",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.27983v1",
+    "timestamp": "2026-11-20T18:58:45Z",
+    "summary": "We study high-probability linear regression in the infinite variance regime, wherecthe regression noise has only a finite conditional $α$-moment $ν$ for some unknown $α\\in(1,2)$, and the covariates may only have finite moments up to a given order (e.g., 4th moment). We give a black-box reduction that converts finite-variance regression procedures into weak-moment procedures.",
+    "meta": {
+     "arxivId": "2611.27983v1",
+     "primaryCategory": "stat.ML",
+     "authorCount": 4,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-vmzk9h-aork",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Tripmojo: Agentic travel app that helps plan, book and run your trip",
+    "detail": "316 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/tripmojo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-20T08:00:00.000Z",
+    "summary": "Tripmojo syncs your booking emails into one shared trip, then Mojo, your AI travel agent, helps run it. Plan in a group chat where Mojo answers, runs polls and finds places.",
+    "meta": {
+     "votes": 316,
+     "tagline": "Agentic travel app that helps plan, book and run your trip"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-605s65-aoqw",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "TestSprite 4.0: Fix one thing, break another? This agent checks it all",
+    "detail": "379 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/testsprite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-19T08:01:00.000Z",
+    "summary": "Your coding agent fixes one thing and breaks another. TestSprite 4.0 is a brand-new testing agent that remembers what your app should do and checks all of it, every time. Tell it in plain words what to test.",
+    "meta": {
+     "votes": 379,
+     "tagline": "Fix one thing, break another? This agent checks it all"
+    }
+   },
+   {
+    "id": "LAB_HIGHLIGHT-xhj8rz-aou0",
+    "type": "LAB_HIGHLIGHT",
+    "severity": 10,
+    "headline": "Anthropic leads 7-day GitHub activity (199 events)",
+    "detail": "San Francisco, US · anthropics",
+    "sourceName": "AI Labs registry",
+    "sourceUrl": "https://www.anthropic.com",
+    "timestamp": "2026-11-24T00:49:21.672Z",
+    "meta": {
+     "labId": "anthropic-sf",
+     "total": 199,
+     "country": "US"
+    },
+    "summary": "anthropics/anthropic-cookbook — A collection of notebooks/recipes showcasing some fun and effective ways of using Claude."
+   },
+   {
+    "id": "PRODUCT_LAUNCH-z2jy8k-aoq8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "S.Space: Your team and everyone's AI agents, in one workspace",
+    "detail": "388 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/s-space?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-18T08:01:00.000Z",
+    "summary": "Everyone on your team has an AI agent, and none of them work together, so you copy, paste and re-explain all day. S.Space is one workspace for your team and everyone's agents. Bring the ones you already use, like Claude Code and Codex, from any vendor.",
+    "meta": {
+     "votes": 388,
+     "tagline": "Your team and everyone's AI agents, in one workspace"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-jfrnhk-aoq8",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Toone: Grokbot meets n8n/zapier",
+    "detail": "294 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/toone?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-18T08:01:00.000Z",
+    "summary": "Toone: Grokbot meets n8n/zapier. Build precise agentic workflows and routines in natural language. Each node is an agent's chat thread on the model you pick (ChatGPT or Claude), or an automatic step that runs the same way every time without AI.",
+    "meta": {
+     "votes": 294,
+     "tagline": "Grokbot meets n8n/zapier"
+    }
+   },
+   {
+    "id": "PRESS-1t638xh-aou0",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Anthropic Launches Claude Ship for GitHub Pull Request Review and Fixes",
+    "detail": "Reported by MarkTechPost (New Delhi, IN).",
+    "sourceName": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/11/23/anthropic-claude-ship-pull-request-agents/",
+    "timestamp": "2026-11-24T00:02:39.000Z",
+    "summary": "Anthropic's Claude Ship bundles Code Review, PR Steward and Claude Approvals to review, fix and approve GitHub pull requests. Code Review is GA; the other 2 agents are in public beta for Team and Enterprise.",
+    "meta": {
+     "rssId": "b0bc38edd069b2ca",
+     "publisher": "marktechpost",
+     "country": "IN",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "PRODUCT_LAUNCH-o6vcgr-aopk",
+    "type": "PRODUCT_LAUNCH",
+    "severity": 50,
+    "headline": "Appxiom: Context layer for AI coding agents to detect & fix bugs",
+    "detail": "299 upvotes on Product Hunt",
+    "sourceName": "Product Hunt",
+    "sourceUrl": "https://www.producthunt.com/products/appxiom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Gawk+%28ID%3A+288458%29",
+    "timestamp": "2026-11-17T08:00:00.000Z",
+    "summary": "Appxiom gives your coding agent the production context it lacks: crashes, freezes, memory leaks, failed network calls and broken user journeys in mobile and web applications. Goal Friction Impact lets agents prioritise bugs by the goals they cost you.",
+    "meta": {
+     "votes": 299,
+     "tagline": "Context layer for AI coding agents to detect & fix bugs"
+    }
+   },
+   {
+    "id": "PRESS-fv828f-aotu",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "KI-Migrationsgesetz: Experten fürchten mehr Klagen statt kürzerer Verfahren",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/KI-Migrationsgesetz-Experten-fuerchten-mehr-Klagen-statt-kuerzerer-Verfahren-11535154.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-11-23T18:07:00.000Z",
+    "summary": "Bei der KIMVG-Anhörung forderten Sachverständige klare Einsatzgrenzen und unabhängige Prüfungen. Sonst drohten mehr Fehler, Klagen und längere Verfahren.",
+    "meta": {
+     "rssId": "77c4eb7e36f6f436",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/77c4eb7e36f6f436"
+    }
+   },
+   {
+    "id": "PRESS-1pexku9-aott",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+    "detail": "Reported by MIT Technology Review — AI (Cambridge, US).",
+    "sourceName": "MIT Technology Review — AI",
+    "sourceUrl": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+    "timestamp": "2026-11-23T17:36:08.000Z",
+    "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for anyone investing.",
+    "meta": {
+     "rssId": "be89bc2701c891ae",
+     "publisher": "mit-tech-review-ai",
+     "country": "US",
+     "lang": "en"
+    }
+   },
+   {
+    "id": "RESEARCH-i1v67t-aoru",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "A Methodologically Rigorous Benchmark of Linear Regression,RNN, and LSTM for S&P 500 Forecasting:Identifying Sources of Performance Inflation in Financial DeepLearning",
+    "detail": "Hari Sitaula, Joseph Opitz · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.27978v1",
+    "timestamp": "2026-11-20T18:57:15Z",
+    "summary": "This study examines one-day-ahead forecasting of the S&P 500 closing level using a 2006-2025 dataset that includes fundamental price data, macroeconomic indicators, and engineered technical features.",
+    "meta": {
+     "arxivId": "2611.27978v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "PRESS-18a25u3-aotq",
+    "type": "PRESS",
+    "severity": 45,
+    "headline": "Große KI-Modelle auf mehreren Windows-11-PCs: Microsoft bringt USB4-Vernetzung",
+    "detail": "Reported by Heise Online (Hannover, DE).",
+    "sourceName": "Heise Online",
+    "sourceUrl": "https://www.heise.de/news/Grosse-KI-Modelle-auf-mehreren-Windows-11-PCs-Microsoft-bringt-USB4-Vernetzung-11534674.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "timestamp": "2026-11-23T14:45:00.000Z",
+    "summary": "Eine RDMA-Erweiterung für die USB4-Vernetzungsfunktion P2P ermöglicht es, KI-Modelle auf mehrere Windows-Rechner zu verteilen. Apple-Macs können das per TB5.",
+    "meta": {
+     "rssId": "ba9bb8375ac4985e",
+     "publisher": "heise-ai",
+     "country": "DE",
+     "lang": "de",
+     "imagePath": "/api/rss/image/ba9bb8375ac4985e"
+    }
+   },
+   {
+    "id": "RESEARCH-1f1jb5d-aoru",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "On the Complete Feature Set for ADHD Classification in Children and Adolescents Based on EEG Signals",
+    "detail": "Javier Sanchis, Álvaro Navarro, Jorge García-Carrasco et al. · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.27970v1",
+    "timestamp": "2026-11-20T18:51:08Z",
+    "summary": "Attention-deficit/hyperactivity disorder is a neurodevelopmental condition that can affect attention, activity and impulse control. Electroencephalography (EEG) records brain activity as children and adolescents perform cognitive tasks. However, comparing features derived from these recordings requires consistent signal preparation, shared analysis windows and documented quality decisions.",
+    "meta": {
+     "arxivId": "2611.27970v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-13tlfy9-aoru",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Non-penetrating World Models",
+    "detail": "Yuhang Dai, Yinwei Wu, Ziyue Lin et al. · cs.CV",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.27963v1",
+    "timestamp": "2026-11-20T18:44:57Z",
+    "summary": "We study a new problem of preventing object penetration in interactive video world models. To understand how existing models handle this, we introduce NoPeBench, a benchmark that evaluates how world models respond to physical obstacles. Our evaluation reveals that none of the open-source models can reliably prevent such failures.",
+    "meta": {
+     "arxivId": "2611.27963v1",
+     "primaryCategory": "cs.CV",
+     "authorCount": 5,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   },
+   {
+    "id": "RESEARCH-w7fjaa-aoru",
+    "type": "RESEARCH",
+    "severity": 20,
+    "headline": "Model Carving: Training Transformers That Optimize Their Own Topology",
+    "detail": "Kaden Zheng, Pratyusha Sharma · cs.LG",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2611.27962v1",
+    "timestamp": "2026-11-20T18:41:39Z",
+    "summary": "Machine learning has largely kept separate the choice of architecture and the process of training. A classic Transformer, for instance, trains a fixed set of attention and MLP sublayers at every layer, in the same order, and optimizes the weights within.",
+    "meta": {
+     "arxivId": "2611.27962v1",
+     "primaryCategory": "cs.LG",
+     "authorCount": 2,
+     "registryUrl": "https://arxiv.org/list/cs.AI/recent"
+    }
+   }
+  ],
+  "quietDay": false,
+  "currentState": {
+   "topModel": {
+    "name": "Tencent: Hy4 flash",
+    "sourceUrl": "https://openrouter.ai/tencent/hy4-flash"
+   },
+   "toolHealth": {
+    "operational": 5,
+    "degraded": 1,
+    "total": 6
+   },
+   "latestPaper": {
+    "title": "Optimal Linear Regression Without a Variance",
+    "sourceUrl": "https://arxiv.org/abs/2611.27983v1"
+   }
+  },
+  "lastComputed": "2026-11-24T00:49:21.669Z",
+  "monitoringImpaired": true
+ }
+}
